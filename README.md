@@ -21,5 +21,19 @@ module load Anaconda3/2022.05
 source activate abstract
 ```
 
+You may be asked to login to huggingface before you start using some models like mistral7b or llama3. Then run
+```
+huggingface-cli login
+```
+And enter your token generated here: https://huggingface.co/settings/tokens
+
+## Evaluate models / prompts
+
+Run for example:
+```
+python3 eval.py --task story_analogies --model mistral7b --prompt basic_prompt.txt
+```
+Where prompt is the file with your prompt in directory `prompt_templates/{task}/`
+
 ## Source of Data:
 - Story Analogies: can be downloaded from http://cvl.psych.ucla.edu/resources/AnalogyInventory.zip (file name: Cognitive Psychology.xlsx, sheet name: Rattermann). Based on https://github.com/taylorwwebb/emergent_analogies_LLM/blob/main/story_analogies/README.md.

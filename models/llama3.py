@@ -1,4 +1,5 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
+import transformers
 import torch
 
 from abc import ABC
@@ -23,7 +24,7 @@ class LLama3(EasyInferenceModel):
         self.max_new_tokens = max_new_tokens
 
         self.system_prompt = system_prompt
-        print('Loaded llama with device', sef.pipeline.device)
+        print('Loaded llama with device', self.pipeline.device)
 
     
     def forward(self, text: str):

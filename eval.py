@@ -7,15 +7,17 @@ import numpy as np
 import pandas as pd
 
 from models.llama3 import LLama3
+from models.mistral7b import Mistral7B
 
 SUPPORTED_MODELS = {
-    'llama3': LLama3
+    'llama3': LLama3,
+    'mistral7b': Mistral7B
 }
 
 def parse_option():
     parser = argparse.ArgumentParser("Evaluate Sentence Embedding Models")
     parser.add_argument(
-        "--model", type=str, default="llama3", help="One of the models"
+        "--model", type=str, default="mistral7b", help="One of the models"
     )
     parser.add_argument(
         "--task", type=str, default="story_analogies"
@@ -33,10 +35,10 @@ def evaluate_story_analogies(args):
     # TODO: add passing config to model class init
     model = model_class()
 
-    dataset = pd.read_csv('story_analogies.csv')
+    dataset = pd.read_csv('datasets/story_analogies/story_analogies.csv')
     
     # read prompt_templates/story_analogies/basic_prompt.txt
-    with open('prompt_templates/story_analogies/basic_prompt.txt', 'r', encoding='utf-8') as file:
+    with open(f'prompt_templates/story_analogies/{args.prompt}', 'r', encoding='utf-8') as file:
         prompt_template = file.read()
     print(prompt_template)
 
@@ -50,6 +52,7 @@ def evaluate_story_analogies(args):
 
         print(prompt)
         output = model.forward(prompt)
+        print('')
         print(output)
         # TODO: add verifying the output and calculating the metrics
         print("*************************************************************")
