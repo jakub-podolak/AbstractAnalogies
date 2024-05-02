@@ -11,5 +11,5 @@
 {StoryB}
 
 ## Answer:
-[Give a concise response: "Story A" or "Story B"]
+1/ State a response: "Story A" or "Story B"
 

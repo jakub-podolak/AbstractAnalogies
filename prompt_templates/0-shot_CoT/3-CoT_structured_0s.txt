@@ -10,13 +10,11 @@
 ### Story B:
 {StoryB}
 
-Chain of Thought:
+Answer:
 
 1/ Briefly summarize and compare the themes of Story A and Story B with the Source Story.
 2/ Evaluate how the relationships and development of characters in Story A and Story B align with those in the Source Story.
 3/ Discuss the similarities and differences in the narrative structure between the stories.
 4/ Based on the comparisons, determine which story (A or B) is more closely related to the Source Story.
-
-Answer:
-[Give a response: "Story A" or "Story B"]
+5/ State a response: "Story A" or "Story B"
 

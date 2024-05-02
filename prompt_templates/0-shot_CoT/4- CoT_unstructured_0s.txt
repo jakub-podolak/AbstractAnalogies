@@ -10,7 +10,5 @@
 ### Story B:
 {StoryB}
 
+## Answer:
 Let's think step by step 
-
-Answer:
-[Give a concise response: "Story A" or "Story B"]
