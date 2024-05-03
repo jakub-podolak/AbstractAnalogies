@@ -31,7 +31,7 @@ And enter your token generated here: https://huggingface.co/settings/tokens
 
 Run for example:
 ```
-python3 eval.py --task story_analogies --model mistral7b --prompt basic_prompt.txt
+python3 eval.py --task story_analogies --model mistral7b --prompt 1-basic_prompt.txt
 ```
 Where prompt is the file with your prompt in directory `prompt_templates/{task}/`
 
