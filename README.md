@@ -37,3 +37,5 @@ Where prompt is the file with your prompt in directory `prompt_templates/{task}/
 
 ## Source of Data:
 - Story Analogies: can be downloaded from http://cvl.psych.ucla.edu/resources/AnalogyInventory.zip (file name: Cognitive Psychology.xlsx, sheet name: Rattermann). Based on https://github.com/taylorwwebb/emergent_analogies_LLM/blob/main/story_analogies/README.md.
+
+- Verbal Analogies: can be downloaded from: https://github.com/taylorwwebb/emergent_analogies_LLM/tree/main/UCLA_VAT (file name: UCLA_VAT.xlsx). 
