@@ -58,7 +58,7 @@ def evaluate_story_analogies(args):
 
     # TODO: add some shuffling and make sure it's correct according to the paper
     results = []
-    for _, row in tqdm(dataset.iterrows()):
+    for _, row in tqdm(dataset.iterrows(), total=len(dataset)):
         source_story = row['Base']
         correct_analogy = row['True Analogy Story']
         false_analogy = row['False Analogy Story']
@@ -80,8 +80,7 @@ def evaluate_story_analogies(args):
         })
 
     # Save results to csv
-    pd.DataFrame(results).to_csv('results/story_analogies_result.csv')
-
+    pd.DataFrame(results).to_csv('story_analogies_result.csv')
 
 
 def main():
