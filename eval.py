@@ -5,13 +5,17 @@ import os
 import torch
 import numpy as np
 import pandas as pd
+import json
+import datetime
 
 from models.llama3 import LLama3
 from models.mistral7b import Mistral7B
+from models.starling import Starling7B
 
 SUPPORTED_MODELS = {
     'llama3': LLama3,
-    'mistral7b': Mistral7B
+    'mistral7b': Mistral7B,
+    'starling7b': Starling7B
 }
 
 def parse_option():
@@ -42,6 +46,11 @@ def evaluate_story_analogies(args):
         prompt_template = file.read()
     print(prompt_template)
 
+    # create a json file for the response
+    os.makedirs('responses', exist_ok=True)
+    responses = {'model': args.model, 'prompt': prompt_template, 'results': []}
+
+
     # TODO: add some shuffling and make sure it's correct according to the paper
     for _, row in dataset.iterrows():
         source_story = row['Base']
@@ -54,9 +63,17 @@ def evaluate_story_analogies(args):
         output = model.forward(prompt)
         print('')
         print(output)
+        # add the output to the json file
+        responses['results'].append({'stories': [source_story, correct_analogy, false_analogy], 'response': output})
         # TODO: add verifying the output and calculating the metrics
         print("*************************************************************")
 
+    # Write all responses to the JSON file at once
+    current_time = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    filename = f'responses/{args.model}_{current_time}.json'
+    with open(filename, 'w') as file:
+        json.dump(responses, file)
+        print(f'Created {filename} with all responses')
 
 def main():
     args = parse_option()
