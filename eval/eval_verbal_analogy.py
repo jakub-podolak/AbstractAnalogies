@@ -1,8 +1,31 @@
 import numpy as np
 import pandas as pd
 import builtins
-import time
+import argparse
 from prompt_templates.verbal_analogy import create_prompt
+from models.llama3 import LLama3
+from models.mistral7b import Mistral7B
+
+SUPPORTED_MODELS = {
+    'llama3': LLama3,
+    'mistral7b': Mistral7B
+}
+
+def parse_option():
+    parser = argparse.ArgumentParser("Evaluate Sentence Embedding Models")
+    parser.add_argument(
+        "--model", type=str, default="mistral7b", help="One of the models"
+    )
+    parser.add_argument(
+        "--task", type=str, default="verbal_analogies"
+    )
+    args = parser.parse_args()
+    return args
+
+# pass mistral7b via args
+args = parse_option()
+model_class = SUPPORTED_MODELS[args.model]
+model = model_class()
 
 class VerbalAnalogyEvaluator:
     def __init__(self, data_path, results_path):
@@ -45,11 +68,24 @@ class VerbalAnalogyEvaluator:
 			prompt (str): The prompt to send to the model.
             
 		Returns:
-			response (dict): The model's response to the prompt. I think its a dict
+			response (dict): The model's response to the prompt. I think its a dict of logprobs and text_offset
         """
 
-        # TO DO: Do infernece such that it return a structure that contains choices, logprobs, text_offset, etc.
-        pass
+        # TO DO: Do inference with the model and return the response
+        # Check are these responses same as what authors got from gpt
+        _, log_probs, text_offsets = model.forward_with_details(prompt)
+        
+        response = {
+            'choices': [
+                {
+                    'logprobs': {
+                        'token_logprobs': log_probs,
+                        'text_offset': text_offsets
+                    }
+                }
+            ]
+        }
+        return response
 
     def evaluate_problem(self, p):
         """
@@ -88,6 +124,8 @@ class VerbalAnalogyEvaluator:
 
     def calculate_average_logprob(self, prompt, response):
         """Calculate the average log probability from the model's response."""
+
+        # TO DO: Check if this 'response' return is similar structure to gpt3 for consistency
         first_token_ind = np.where(np.array(response['choices'][0]['logprobs']['text_offset']) <= len(prompt))[0][-1]
         return np.mean(response['choices'][0]['logprobs']['token_logprobs'][first_token_ind:])
 
@@ -104,7 +142,16 @@ class VerbalAnalogyEvaluator:
                      context=self.context,
                      prob_order=self.prob_order,
                      allow_pickle=True)
+            
+
+def main():
+    args = parse_option()
+    print(args)
+
+    if args.task == 'verbal_analogies':
+        evaluator = VerbalAnalogyEvaluator('datasets/verbal_analogy/UCLA_VAT.xlsx', './UCLA_VAT_results.npz')
+        evaluator.evaluate_all()
 
 # Example usage to fix once the model is implemented:
-# evaluator = VerbalAnalogyEvaluator('datasets/verbal_analogy/UCLA_VAT.xlsx', './UCLA_VAT_results.npz')
-# evaluator.evaluate_all()
+if __name__ == "__main__":
+    main()
