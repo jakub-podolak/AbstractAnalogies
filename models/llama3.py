@@ -8,7 +8,7 @@ from models.main import EasyInferenceModel
 
 
 class LLama3(EasyInferenceModel):
-    def __init__(self, system_prompt=None, temperature=0.6, top_p=0.9, max_new_tokens=256):
+    def __init__(self, system_prompt=None, temperature=0.6, top_p=0.9, max_new_tokens=1024):
         model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
 
         self.tokenizer = AutoTokenizer.from_pretrained(model_id)
@@ -51,7 +51,8 @@ class LLama3(EasyInferenceModel):
             eos_token_id=terminators,
             do_sample=True,
             temperature=self.temperature,
-            top_p=self.top_p
+            top_p=self.top_p,
+            pad_token_id = self.pipeline.tokenizer.eos_token_id
         )
 
         response_decoded = outputs[0]["generated_text"][len(prompt):]

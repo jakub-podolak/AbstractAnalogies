@@ -7,7 +7,7 @@ from models.main import EasyInferenceModel
 
 
 class Mistral7B(EasyInferenceModel):
-    def __init__(self, max_new_tokens=256):
+    def __init__(self, max_new_tokens=1024):
         self.device = "cuda" # the device to load the model onto
 
         model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
