@@ -5,6 +5,8 @@ import os
 import torch
 import numpy as np
 import pandas as pd
+from tqdm import tqdm
+import re
 
 from models.llama3 import LLama3
 from models.mistral7b import Mistral7B
@@ -28,6 +30,18 @@ def parse_option():
     args = parser.parse_args()
     return args
 
+def parse_model_generation(generation: str):
+    # 1. Try finding <ans> </ans> tags
+    pattern = r"<ans>(.*?)</ans>"
+
+    # Find all matches
+    matches = re.findall(pattern, generation)
+    if len(matches) == 1 and (matches[0].strip() == 'A' or matches[0].strip() == 'B'):
+        return matches[0].strip()
+    
+    # 2. Default to None if answer not found
+    return None
+
 
 def evaluate_story_analogies(args):
     print('Loading ', args.model)
@@ -43,19 +57,31 @@ def evaluate_story_analogies(args):
     print(prompt_template)
 
     # TODO: add some shuffling and make sure it's correct according to the paper
-    for _, row in dataset.iterrows():
+    results = []
+    for _, row in tqdm(dataset.iterrows()):
         source_story = row['Base']
         correct_analogy = row['True Analogy Story']
         false_analogy = row['False Analogy Story']
 
         prompt = prompt_template.format(SourceStory=source_story, StoryA=correct_analogy, StoryB=false_analogy)
 
-        print(prompt)
         output = model.forward(prompt)
-        print('')
-        print(output)
-        # TODO: add verifying the output and calculating the metrics
-        print("*************************************************************")
+        generation = output[len(prompt):]
+        parsed_answer = parse_model_generation(generation)
+
+        results.append({
+            'source_story': source_story,
+            'correct_analogy': correct_analogy,
+            'false_analogy': false_analogy,
+            'full_prompt': prompt,
+            'raw_generation': generation,
+            'parsed_answer': parsed_answer,
+            'correct_answer': 'A' # TODO: shuffle it randomly,
+        })
+
+    # Save results to csv
+    pd.DataFrame(results).to_csv('results/story_analogies_result.csv')
+
 
 
 def main():
