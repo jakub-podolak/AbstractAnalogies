@@ -1,20 +1,17 @@
-# Instruction:
-"You will be presented with one source story and two comparison stories. Your task is to determine which of the comparison stories, Story A or Story B, is more analogous to the source story."
+Consider the following story:
 
-### Source Story:
-{SourceStory}
+Story 1: {SourceStory} 
 
-### Story A:
-{StoryA}
+Now consider two more stories:
 
-### Story B:
-{StoryB}
+Story A: {StoryA} 
 
-Answer:
+Story B: {StoryB} 
+
+Which of Story A and Story B is a better analogy to Story 1? Is the best answer Story A, Story B, or both are equally analogous?
 
 1/ Briefly summarize and compare the themes of Story A and Story B with the Source Story.
 2/ Evaluate how the relationships and development of characters in Story A and Story B align with those in the Source Story.
 3/ Discuss the similarities and differences in the narrative structure between the stories.
 4/ Based on the comparisons, determine which story (A or B) is more closely related to the Source Story.
 5/ State a response: "Story A" or "Story B"
-

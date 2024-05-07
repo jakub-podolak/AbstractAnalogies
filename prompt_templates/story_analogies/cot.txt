@@ -1,0 +1,13 @@
+Consider the following story:
+
+Story 1: {SourceStory} 
+
+Now consider two more stories:
+
+Story A: {StoryA} 
+
+Story B: {StoryB} 
+
+Which of Story A and Story B is a better analogy to Story 1? Is the best answer Story A, Story B, or both are equally analogous?
+
+Let's think step by step.
