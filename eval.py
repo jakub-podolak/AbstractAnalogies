@@ -65,8 +65,7 @@ def evaluate_story_analogies(args):
 
         prompt = prompt_template.format(SourceStory=source_story, StoryA=correct_analogy, StoryB=false_analogy)
 
-        output = model.forward(prompt)
-        generation = output[len(prompt):]
+        generation = model.forward(prompt)
         parsed_answer = parse_model_generation(generation)
 
         results.append({
