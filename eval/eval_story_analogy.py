@@ -30,7 +30,10 @@ def parse_option():
         "--condition", type=str, default="far", help="Condition setting to use: near or far"
     )
     parser.add_argument(
-        "--prompt", type=str, default="basic_prompt.txt"
+        "--prompt", type=str, default="1-basic_prompt.txt"
+    )
+    parser.add_argument(
+        "--result_file_name", type=str, default="story_analogies_result.csv"
     )
     args = parser.parse_args()
     return args
@@ -77,6 +80,13 @@ def evaluate_story_analogies(args):
         generation = model.forward(prompt)
         parsed_answer = parse_model_generation(generation)
 
+        if parsed_answer == None:
+            ambiguous = True
+            logit_A, logit_B = model.forward_logits(prompt, args.task)
+            parsed_answer = 'A' if logit_A > logit_B else 'B'
+        else:
+            ambiguous = False
+
         results.append({
             'source_story': source_story,
             'correct_analogy': correct_analogy,
@@ -84,11 +94,12 @@ def evaluate_story_analogies(args):
             'full_prompt': prompt,
             'raw_generation': generation,
             'parsed_answer': parsed_answer,
-            'correct_answer': 'A' # TODO: shuffle it randomly,
+            'correct_answer': 'A', # TODO: shuffle it randomly,
+            'ambiguous': ambiguous
         })
 
     # Save results to csv
-    pd.DataFrame(results).to_csv('../results/story_analogies_result.csv')
+    pd.DataFrame(results).to_csv(f'./results/{args.result_file_name}')
 
 
 def main():

@@ -9,12 +9,12 @@ from models.main import EasyInferenceModel
 
 class LLama3(EasyInferenceModel):
     def __init__(self, system_prompt=None, temperature=0.6, top_p=0.9, max_new_tokens=256):
-        model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
+        self.model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
 
-        self.tokenizer = AutoTokenizer.from_pretrained(model_id)
+        self.tokenizer = AutoTokenizer.from_pretrained(self.model_id)
         self.pipeline = transformers.pipeline(
             "text-generation",
-            model=model_id,
+            model=self.model_id,
             model_kwargs={"torch_dtype": torch.bfloat16},
             device_map="auto",
         )
@@ -56,3 +56,22 @@ class LLama3(EasyInferenceModel):
 
         response_decoded = outputs[0]["generated_text"][len(prompt):]
         return response_decoded
+
+    def forward_logits(self, prompt: str, task: str):
+        self.model = AutoModelForCausalLM.from_pretrained(self.model_id, torch_dtype=torch.bfloat16, device_map="auto")
+        inputs = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
+        with torch.no_grad():
+            outputs = self.model(**inputs, return_dict=True)
+        
+        # Get logits for the last token
+        logits = outputs.logits[:, -1, :]  # [batch_size, vocab_size]
+
+        if task == "story_analogies":
+            # Get logits for tokens 'A' and 'B'
+            logit_A = logits[:, self.tokenizer.convert_tokens_to_ids('A')].item()
+            logit_B = logits[:, self.tokenizer.convert_tokens_to_ids('B')].item()
+        
+            return logit_A, logit_B
+        else:
+            # TODO: implement logits for verbal analogy task
+            return None  

@@ -57,3 +57,21 @@ class Mistral7B(EasyInferenceModel):
         text_offsets = [len(self.tokenizer.decode(model_inputs["input_ids"][0, :i])) for i in range(1, model_inputs["input_ids"].size(1) + 1)]
 
         return decoded, token_log_probs, text_offsets
+
+    def forward_logits(self, prompt: str, task: str):
+        inputs = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
+        with torch.no_grad():
+            outputs = self.model(**inputs, return_dict=True)
+        
+        # Get logits for the last token
+        logits = outputs.logits[:, -1, :]  # [batch_size, vocab_size]
+
+        if task == "story_analogies":
+            # Get logits for tokens 'A' and 'B'
+            logit_A = logits[:, self.tokenizer.convert_tokens_to_ids('A')].item()
+            logit_B = logits[:, self.tokenizer.convert_tokens_to_ids('B')].item()
+        
+            return logit_A, logit_B
+        else:
+            # TODO: implement logits for verbal analogy task
+            return None 
