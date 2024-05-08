@@ -81,7 +81,7 @@ def evaluate_story_analogies(args):
 
         if parsed_answer == None:
             ambiguous = True
-            logit_A, logit_B = model.forward_logits(prompt, args.task)
+            logit_A, logit_B = model.forward_logits(prompt + ' So the final answer is <ans> ', args.task)
             parsed_answer = 'A' if logit_A > logit_B else 'B'
         else:
             ambiguous = False
