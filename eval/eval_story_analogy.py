@@ -12,10 +12,12 @@ import sys
 sys.path.append('/home/scur0241/AbstractAnalogies')
 from models.llama3 import LLama3
 from models.mistral7b import Mistral7B
+from models.starling7b_beta import Starling7BBeta
 
 SUPPORTED_MODELS = {
     'llama3': LLama3,
-    'mistral7b': Mistral7B
+    'mistral7b': Mistral7B,
+    'starling7b-beta': Starling7BBeta
 }
 
 def parse_option():
@@ -31,9 +33,6 @@ def parse_option():
     )
     parser.add_argument(
         "--prompt", type=str, default="1-basic_prompt.txt"
-    )
-    parser.add_argument(
-        "--result_file_name", type=str, default="story_analogies_result.csv"
     )
     args = parser.parse_args()
     return args
@@ -99,7 +98,7 @@ def evaluate_story_analogies(args):
         })
 
     # Save results to csv
-    pd.DataFrame(results).to_csv(f'./results/{args.result_file_name}')
+    pd.DataFrame(results).to_csv(f'./results/story_analogies_{args.condition}_logits_{args.model}.csv')
 
 
 def main():
