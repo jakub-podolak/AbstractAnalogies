@@ -8,7 +8,7 @@ from models.main import EasyInferenceModel
 
 
 class Starling7BBeta(EasyInferenceModel):
-    def __init__(self, system_prompt=None, max_new_tokens=256):
+    def __init__(self, system_prompt=None, max_new_tokens=512):
         self.model_id = "Nexusflow/Starling-LM-7B-beta"
 
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_id)
@@ -26,24 +26,25 @@ class Starling7BBeta(EasyInferenceModel):
 
     
     def forward(self, text: str):
-        input_ids = self.tokenizer(text, return_tensors="pt").input_ids
+        single_turn_prompt = f"GPT4 Correct User: {text}<|end_of_turn|>GPT4 Correct Assistant:"
+        input_ids = self.tokenizer(single_turn_prompt, return_tensors="pt").input_ids
         outputs = self.model.generate(
             input_ids,
             max_new_tokens=self.max_new_tokens,
             pad_token_id=self.tokenizer.pad_token_id,
             eos_token_id=self.tokenizer.eos_token_id,
-            num_return_sequences=1, # Generate only one sequence
             do_sample=False, # Disable sampling to reduce repetition
         )
 
         response_ids = outputs[0]
-        response_text = self.tokenizer.decode(response_ids, skip_special_tokens=False)
-
-        print(response_text[len(text):])
-        return response_text[len(text):]
+        response_text = self.tokenizer.decode(response_ids[input_ids.shape[1]:], skip_special_tokens=False)
+        print(response_text)
+        return response_text
+    
 
     def forward_logits(self, prompt: str, task: str):
-        inputs = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
+        single_turn_prompt = f"GPT4 Correct User: {prompt}<|end_of_turn|>GPT4 Correct Assistant:"
+        inputs = self.tokenizer(single_turn_prompt, return_tensors="pt").to(self.model.device)
         with torch.no_grad():
             outputs = self.model(**inputs, return_dict=True)
         

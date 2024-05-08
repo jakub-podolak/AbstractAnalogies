@@ -85,6 +85,8 @@ def evaluate_story_analogies(args):
             parsed_answer = 'A' if logit_A > logit_B else 'B'
         else:
             ambiguous = False
+            logit_A = None
+            logit_B = None
 
         results.append({
             'source_story': source_story,
@@ -94,7 +96,9 @@ def evaluate_story_analogies(args):
             'raw_generation': generation,
             'parsed_answer': parsed_answer,
             'correct_answer': 'A', # TODO: shuffle it randomly,
-            'ambiguous': ambiguous
+            'ambiguous': ambiguous,
+            'logit_A': logit_A,
+            'logit_B': logit_B
         })
 
     # Save results to csv
