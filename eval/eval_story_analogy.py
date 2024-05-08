@@ -8,6 +8,8 @@ import pandas as pd
 from tqdm import tqdm
 import re
 
+import sys
+sys.path.append('/home/scur0241/AbstractAnalogies')
 from models.llama3 import LLama3
 from models.mistral7b import Mistral7B
 
