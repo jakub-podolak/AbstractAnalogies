@@ -27,6 +27,9 @@ def parse_option():
         "--task", type=str, default="story_analogies"
     )
     parser.add_argument(
+        "--condition", type=str, default="far", help="Condition setting to use: near or far"
+    )
+    parser.add_argument(
         "--prompt", type=str, default="basic_prompt.txt"
     )
     args = parser.parse_args()
@@ -62,8 +65,12 @@ def evaluate_story_analogies(args):
     results = []
     for _, row in tqdm(dataset.iterrows(), total=len(dataset)):
         source_story = row['Base']
-        correct_analogy = row['True Analogy Story']
-        false_analogy = row['False Analogy Story']
+        if args.condition == "far":
+            correct_analogy = row['True Analogy Story']
+            false_analogy = row['False Analogy Story']
+        elif args.condition == "near":
+            correct_analogy = row['Literally similar story']
+            false_analogy = row['Mere-Appearance Match']
 
         prompt = prompt_template.format(SourceStory=source_story, StoryA=correct_analogy, StoryB=false_analogy)
 
@@ -81,7 +88,7 @@ def evaluate_story_analogies(args):
         })
 
     # Save results to csv
-    pd.DataFrame(results).to_csv('story_analogies_result.csv')
+    pd.DataFrame(results).to_csv('../results/story_analogies_result.csv')
 
 
 def main():
