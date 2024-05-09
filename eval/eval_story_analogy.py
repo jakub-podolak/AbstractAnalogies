@@ -37,7 +37,7 @@ def parse_option():
         "--condition", type=str, default="far", help="Condition setting to use: near or far"
     )
     parser.add_argument(
-        "--prompt", type=str, default="1-basic_prompt.txt"
+        "--prompt", type=str, default="basic_prompt.txt"
     )
     args = parser.parse_args()
     return args
@@ -119,7 +119,8 @@ def evaluate_story_analogies(args):
     if not os.path.exists(results_directory):
         os.makedirs(results_directory)
     # Save results to csv
-    pd.DataFrame(results).to_csv(f'./results/story_analogies_{args.condition}_logits_{args.model}.csv')
+    prompt_format = args.prompt.split('.')[0]
+    pd.DataFrame(results).to_csv(f'./results/story_analogies_{args.condition}_logits_{args.model}_{prompt_format}.csv')
 
 
 def main():
