@@ -24,9 +24,11 @@ def save_results_to_file(file_path, results):
     with open(file_path, 'w') as file:
         file.write("Model,Accuracy,95% Confidence Interval\n")
         for result in results:
-            # Strip the directory from the model name
             model_name = result['model'].split('/')[-1]
-            file.write(f"{model_name},{result['accuracy']:.2f},{result['confidence_interval']}\n")
+            # Format the confidence interval to avoid CSV format breaking
+            ci_lower, ci_upper = result['confidence_interval']
+            ci_formatted = f"[{ci_lower:.2f} - {ci_upper:.2f}]"
+            file.write(f"{model_name},{result['accuracy']:.2f},{ci_formatted}\n")
 
 results = []
 models = [
