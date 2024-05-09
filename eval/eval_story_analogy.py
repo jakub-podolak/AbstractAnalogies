@@ -8,8 +8,13 @@ import pandas as pd
 from tqdm import tqdm
 import re
 
-import sys
-sys.path.append('/home/scur0241/AbstractAnalogies')
+# Automatically determine the correct path to the AbstractAnalogies directory
+home_directory = os.path.expanduser('~')  # Gets the home directory
+abstract_analogies_path = os.path.join(home_directory, 'AbstractAnalogies')
+sys.path.append(abstract_analogies_path)
+
+print(sys.path)
+
 from models.llama3 import LLama3
 from models.mistral7b import Mistral7B
 from models.starling7b_beta import Starling7BBeta
@@ -49,6 +54,37 @@ def parse_model_generation(generation: str):
     # 2. Default to None if answer not found
     return None
 
+def inference(model, source_story, correct_analogy, false_analogy, prompt_template, results, task, correct_answer= "A"):
+
+    StoryA = correct_analogy if correct_answer == "A" else false_analogy
+    StoryB = false_analogy if correct_answer == "A" else correct_analogy
+
+    prompt = prompt_template.format(SourceStory=source_story, StoryA=StoryA, StoryB=StoryB)
+    generation = model.forward(prompt)
+    parsed_answer = parse_model_generation(generation)
+
+    ambiguous = True
+    if parsed_answer == None:
+        logit_A, logit_B = model.forward_logits(prompt + ' So the final answer is <ans> ', task)
+        parsed_answer = 'A' if logit_A > logit_B else 'B'
+    else:
+        ambiguous = False
+        logit_A = None
+        logit_B = None
+
+    results.append({
+        'source_story': source_story,
+        'story_A': StoryA,
+        'story_B': StoryB,
+        'full_prompt': prompt,
+        'raw_generation': generation,
+        'parsed_answer': parsed_answer,
+        'correct_answer': correct_answer,
+        'ambiguous': ambiguous,
+        'logit_A': logit_A,
+        'logit_B': logit_B
+    })
+
 
 def evaluate_story_analogies(args):
     print('Loading ', args.model)
@@ -63,7 +99,6 @@ def evaluate_story_analogies(args):
         prompt_template = file.read()
     print(prompt_template)
 
-    # TODO: add some shuffling and make sure it's correct according to the paper
     results = []
     for _, row in tqdm(dataset.iterrows(), total=len(dataset)):
         source_story = row['Base']
@@ -74,33 +109,15 @@ def evaluate_story_analogies(args):
             correct_analogy = row['Literally similar story']
             false_analogy = row['Mere-Appearance Match']
 
-        prompt = prompt_template.format(SourceStory=source_story, StoryA=correct_analogy, StoryB=false_analogy)
+        # inference as correct answer A
+        inference(model, source_story, correct_analogy, false_analogy, prompt_template, results, args.task, correct_answer= "A")
+        # inference as correct answer B
+        inference(model, source_story, correct_analogy, false_analogy, prompt_template, results, args.task, correct_answer= "B")
 
-        generation = model.forward(prompt)
-        parsed_answer = parse_model_generation(generation)
-
-        if parsed_answer == None:
-            ambiguous = True
-            logit_A, logit_B = model.forward_logits(prompt + ' So the final answer is <ans> ', args.task)
-            parsed_answer = 'A' if logit_A > logit_B else 'B'
-        else:
-            ambiguous = False
-            logit_A = None
-            logit_B = None
-
-        results.append({
-            'source_story': source_story,
-            'correct_analogy': correct_analogy,
-            'false_analogy': false_analogy,
-            'full_prompt': prompt,
-            'raw_generation': generation,
-            'parsed_answer': parsed_answer,
-            'correct_answer': 'A', # TODO: shuffle it randomly,
-            'ambiguous': ambiguous,
-            'logit_A': logit_A,
-            'logit_B': logit_B
-        })
-
+    # Check if results directory exists, if not, create it
+    results_directory = './results'
+    if not os.path.exists(results_directory):
+        os.makedirs(results_directory)
     # Save results to csv
     pd.DataFrame(results).to_csv(f'./results/story_analogies_{args.condition}_logits_{args.model}.csv')
 
