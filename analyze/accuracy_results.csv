@@ -1,0 +1,7 @@
+Model,Accuracy,95% Confidence Interval
+story_analogies_far_logits_mistral7b_basic_prompt.csv,0.61,ConfidenceInterval(low=0.43463804744842527, high=0.7685755983378589)
+story_analogies_far_logits_mistral7b_cot.csv,0.53,ConfidenceInterval(low=0.35486379853731, high=0.6959494112837424)
+story_analogies_far_logits_mistral7b_cot_structured.csv,0.67,ConfidenceInterval(low=0.4902974533481088, high=0.8144381901741213)
+story_analogies_far_logits_llama3_basic_prompt.csv,0.56,ConfidenceInterval(low=0.3809767940893837, high=0.7206458080331525)
+story_analogies_far_logits_llama3_cot.csv,0.61,ConfidenceInterval(low=0.43463804744842527, high=0.7685755983378589)
+story_analogies_far_logits_llama3_cot_structured.csv,0.67,ConfidenceInterval(low=0.4902974533481088, high=0.8144381901741213)
