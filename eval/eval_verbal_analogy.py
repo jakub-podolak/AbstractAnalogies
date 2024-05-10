@@ -48,6 +48,10 @@ class VerbalAnalogyEvaluator:
         
         """
         df = pd.read_excel(data_path, sheet_name='UCLA_VAT')
+        # print first line
+        print("Printing first line")
+        print(df.iloc[0])
+        print("*"*20)
         self.A = builtins.list(df['A'])
         self.B = builtins.list(df['B'])
         self.C = builtins.list(df['C'])
