@@ -18,4 +18,4 @@ conda activate abstract
 git checkout sy/verbal-analogy
 
 # Running the Python script
-python eval_verbal_analogies.py --model mistral7b --task verbal_analogies
+python eval_verbal_analogy.py --model mistral7b --task verbal_analogies
