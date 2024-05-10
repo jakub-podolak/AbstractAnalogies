@@ -8,17 +8,11 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem=4GB
 
-# Navigate to the script directory
 cd ~/AbstractAnalogies/eval
 
-# Assuming the parent directory AbstractAnalogies needs to be in PYTHONPATH
 export PYTHONPATH=$PYTHONPATH:~/AbstractAnalogies
 
-# Load Python environment
 module load python/3.8
 
-# Change to the correct Git branch
 git checkout sy/verbal-analogy
-
-# Run the Python script
 python verbal_analogy_evaluator.py
