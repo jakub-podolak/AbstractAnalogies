@@ -1,11 +1,12 @@
 #!/bin/bash
+
+#SBATCH --partition=gpu
+#SBATCH --gpus=1
 #SBATCH --job-name=analogy-eval
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --time=04:00:00
 #SBATCH --output=./outfiles/analogy_eval_%j.out
-#SBATCH --time=01:00:00
-#SBATCH --partition=broadwl
-#SBATCH --nodes=1
-#SBATCH --ntasks-per-node=1
-#SBATCH --mem=4GB
 
 cd ~/AbstractAnalogies/eval
 
