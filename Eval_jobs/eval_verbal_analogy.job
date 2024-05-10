@@ -1,5 +1,4 @@
 #!/bin/bash
-
 #SBATCH --partition=gpu
 #SBATCH --gpus=1
 #SBATCH --job-name=analogy-eval
@@ -8,11 +7,15 @@
 #SBATCH --time=04:00:00
 #SBATCH --output=./outfiles/analogy_eval_%j.out
 
-cd ~/AbstractAnalogies/eval
+module purge
+module load 2022
+module load Anaconda3/2022.05
+
+cd $HOME/AbstractAnalogies/eval
 
 export PYTHONPATH=$PYTHONPATH:~/AbstractAnalogies
-
-module load python/3.8
-
+conda activate abstract
 git checkout sy/verbal-analogy
-python eval_verbal_analogy.py
+
+# Running the Python script
+python eval_verbal_analogies.py --model mistral7b --task verbal_analogies
