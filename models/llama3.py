@@ -49,7 +49,7 @@ class LLama3(EasyInferenceModel):
             prompt,
             max_new_tokens=self.max_new_tokens,
             eos_token_id=terminators,
-            do_sample=True,
+            do_sample=False,
             temperature=self.temperature,
             top_p=self.top_p
         )

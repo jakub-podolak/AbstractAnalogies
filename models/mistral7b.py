@@ -29,7 +29,7 @@ class Mistral7B(EasyInferenceModel):
         encodeds = self.tokenizer.apply_chat_template(messages, return_tensors="pt")
 
         model_inputs = encodeds.to(self.device)
-        generated_ids = self.model.generate(model_inputs, max_new_tokens=self.max_new_tokens, do_sample=True)
+        generated_ids = self.model.generate(model_inputs, max_new_tokens=self.max_new_tokens, do_sample=False)
         decoded = self.tokenizer.batch_decode(generated_ids[:, model_inputs.shape[1]:])
         return decoded[0]
     
@@ -41,7 +41,7 @@ class Mistral7B(EasyInferenceModel):
         generation_output = self.model.generate(
             model_inputs["input_ids"], # is this correct?
             max_new_tokens=self.max_new_tokens,
-            do_sample=True,
+            do_sample=False,
             return_dict_in_generate=True,
             output_scores=True
         )

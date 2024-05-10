@@ -1,0 +1,29 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu
+#SBATCH --gpus=1
+#SBATCH --job-name=CheckEnvironment
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --time=00:05:00
+#SBATCH --output=slurm_output_%A.out
+
+module purge
+module load 2022
+module load Anaconda3/2022.05
+module load PyTorch/1.12.0-foss-2022a-CUDA-11.7.0
+
+# Source the Conda initialization script
+source /sw/arch/RHEL8/EB_production/2022/software/Anaconda3/2022.05/etc/profile.d/conda.sh
+conda activate abstract
+
+PYTHON_BIN=$(which python)  # This should point to the Python in the 'abstract' environment
+
+# Check whether the GPU is available using the specific Python executable
+srun $PYTHON_BIN -uc "import torch; print('GPU available?', torch.cuda.is_available())"
+
+# Check for the installation of critical packages using the specific Python executable
+srun $PYTHON_BIN -uc "import pandas; print('pandas:', pandas.__version__)"
+srun $PYTHON_BIN -uc "import numpy; print('numpy:', numpy.__version__)"
+srun $PYTHON_BIN -uc "import openpyxl; print('openpyxl installed')"
+srun $PYTHON_BIN -uc "import transformers; print('transformers:', transformers.__version__)"
