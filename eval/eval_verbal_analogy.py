@@ -1,8 +1,15 @@
 import numpy as np
+import os
 import pandas as pd
 import builtins
 import argparse
-from prompt_templates.verbal_analogy import create_prompt
+import sys
+# append parent directory of base root path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir)))
+
+print(f"Current directory: {os.getcwd()}")
+
+from prompt_templates.verbal_analogy.verbal_analogy import create_prompt
 from models.llama3 import LLama3
 from models.mistral7b import Mistral7B
 
@@ -25,6 +32,7 @@ def parse_option():
 # pass mistral7b via args
 args = parse_option()
 model_class = SUPPORTED_MODELS[args.model]
+print(f"Using model: {model_class}")
 model = model_class()
 
 class VerbalAnalogyEvaluator:

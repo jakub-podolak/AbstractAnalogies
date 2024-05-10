@@ -12,7 +12,7 @@ class Mistral7B(EasyInferenceModel):
 
         model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
 
-        self.model = AutoModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.2")
+        self.model = AutoModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.2", torch_dtype=torch.float16, device_map="auto")
         self.model.to(self.device)
 
         self.tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.2")
