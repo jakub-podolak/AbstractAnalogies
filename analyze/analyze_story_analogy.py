@@ -32,12 +32,16 @@ def save_results_to_file(file_path, results):
 
 results = []
 models = [
-    'results/story_analogies_near_logits_mistral7b_basic_prompt.csv',
-    'results/story_analogies_near_logits_mistral7b_cot.csv',
-    'results/story_analogies_near_logits_mistral7b_cot_structured.csv',
-    'results/story_analogies_near_logits_llama3_basic_prompt.csv',
-    'results/story_analogies_near_logits_llama3_cot.csv',
-    'results/story_analogies_near_logits_llama3_cot_structured.csv'
+    'results/story_analogies_far_logits_mistral7b_basic_prompt.csv',
+    'results/story_analogies_far_logits_mistral7b_cot.csv',
+    'results/story_analogies_far_logits_mistral7b_cot_structured.csv',
+    'results/story_analogies_far_logits_llama3_basic_prompt.csv',
+    'results/story_analogies_far_logits_llama3_cot.csv',
+    'results/story_analogies_far_logits_llama3_cot_structured.csv',
+    'results/story_analogies_far_logits_starling7b-beta_basic_prompt.csv',
+    'results/story_analogies_far_logits_starling7b-beta_cot.csv',
+    'results/story_analogies_far_logits_starling7b-beta_cot_structured.csv',
+
 ]
 
 for model in models:
