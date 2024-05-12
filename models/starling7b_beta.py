@@ -12,7 +12,7 @@ class Starling7BBeta(EasyInferenceModel):
         self.model_id = "Nexusflow/Starling-LM-7B-beta"
 
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_id)
-        self.model = AutoModelForCausalLM.from_pretrained(self.model_id)
+        self.model = AutoModelForCausalLM.from_pretrained(self.model_id, device_map='auto')
 
         self.pipeline = transformers.pipeline(
             "text-generation",
