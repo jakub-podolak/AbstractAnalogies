@@ -1,0 +1,81 @@
+﻿Relation,A,B,C,D,D'
+Synonym,easy,simple,sad,unhappy,happy
+Synonym,hurry,rush,harm,injure,help
+Synonym,rob,steal,cry,weep,laugh
+Synonym,polite,courteous,angry,furious,happy
+Synonym,beginner,novice,doctor,physician,heal
+Synonym,baby,infant,woman,lady,girl
+Synonym,brook,stream,courage,bravery,cowardice
+Synonym,huge,enormous,wealthy,rich,poor
+Synonym,cheerful,happy,awful,horrible,wonderful
+Synonym,remain,stay,begin,start,continue
+Synonym,unusual,strange,famous,renowned,unknown
+Synonym,sick,ill,little,small,big
+Synonym,legal,lawful,usual,normal,strange
+Synonym,collect,gather,leave,abandon,stay
+Synonym,clean,neat,fortunate,lucky,miserable
+Synonym,immense,colossal,precise,exact,approximate
+Synonym,stone,rock,garbage,trash,bag
+Synonym,help,aid,raise,lift,lower
+Synonym,rug,carpet,bucket,pail,milk
+Synonym,shout,yell,leap,jump,fall
+Opposite,artificial,natural,friend,enemy,relative
+Opposite,love,hate,rich,poor,wealthy
+Opposite,alive,dead,succeed,fail,conquer
+Opposite,ugliness,beauty,joy,sorrow,emotion
+Opposite,huge,tiny,arrive,depart,come
+Opposite,somber,cheerful,lawyer,client,doctor
+Opposite,late,early,win,lose,capture
+Opposite,quick,slow,grow,wither,plant
+Opposite,antonym,synonym,selfish,generous,egocentric
+Opposite,quiet,noisy,last,first,final
+Opposite,start,stop,trivial,important,famous
+Opposite,laugh,cry,cheap,expensive,inexpensive
+Opposite,accept,reject,dark,bright,dim
+Opposite,abundant,scarce,agree,disagree,concur
+Opposite,hero,coward,strong,weak,muscular
+Opposite,teacher,student,calm,stormy,serene
+Opposite,give,take,allow,forbid,permit
+Opposite,clean,dirty,awake,asleep,alert
+Opposite,remember,forget,increase,decrease,lengthen
+Opposite,crazy,sane,bent,straight,crooked
+Function,fly,bird,hop,rabbit,leg
+Function,build,house,dig,hole,shovel
+Function,sing,song,ride,horse,rider
+Function,hear,ear,wear,clothes,woman
+Function,drive,car,burn,wood,fire
+Function,open,door,touch,hands,doctor
+Function,squeeze,juice,shoot,gun,miss
+Function,cut,knife,hit,hammer,nail
+Function,throw,ball,open,envelope,close
+Function,read,magazine,play,football,kids
+Function,carry,suitcase,sit,chair,job
+Function,drink,glass,cook,pan,chef
+Function,burn,fire,blow,wind,down
+Function,ski,snow,swim,water,swimmer
+Function,tell,story,fight,battle,soldier
+Function,run,horse,pull,tractor,muscle
+Function,write,poem,carve,statue,knife
+Function,ride,bicycle,drink,cup,water
+Function,throw,ball,jump,parachute,walk
+Function,ride,elevator,sail,boat,wind
+Category Members,vegetable,cabbage,insect,beetle,frog
+Category Members,insect,bee,fish,halibut,water
+Category Members,flower,rose,bird,pigeon,nest
+Category Members,bird,wren,insect,mosquito,sting
+Category Members,vegetable,lettuce,bird,sparrow,cat
+Category Members,sport,soccer,vehicle,bus,engine
+Category Members,weapon,pistol,clothing,shoes,cotton
+Category Members,sport,tennis,weapon,gun,murder
+Category Members,furniture,sofa,sport,golf,coat
+Category Members,tool,pliers,vehicle,van,fuel
+Category Members,clothing,trousers,fish,cod,net
+Category Members,fruit,banana,furniture,dresser,house
+Category Members,fish,shark,sport,baseball,team
+Category Members,fruit,plum,clothing,coat,silk
+Category Members,flower,carnation,tool,hacksaw,carpenter
+Category Members,bird,crow,sport,football,stadium
+Category Members,weapon,sword,flower,daffodil,vase
+Category Members,clothing,jacket,bird,pigeon,dog
+Category Members,furniture,table,fruit,pear,tree
+Category Members,clothing,jeans,vegetable,potato,apple
