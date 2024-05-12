@@ -72,6 +72,12 @@ class LLama3(EasyInferenceModel):
             logit_B = logits[:, self.tokenizer.convert_tokens_to_ids('B')].item()
         
             return logit_A, logit_B
-        else:
+        elif task == "verbal_analogy":
             # TODO: implement logits for verbal analogy task
-            return None  
+            # Get logits for tokens D and E (E replaces D' so that we have one token only)
+            logit_D = logits[:, self.tokenizer.convert_tokens_to_ids("D")].item()
+            logit_D_prime = logits[:, self.tokenizer.convert_tokens_to_ids("E")].item()
+        
+            return logit_D, logit_D_prime
+        else:
+            return None
