@@ -4,6 +4,10 @@ from scipy.stats import binomtest
 def calculate_accuracy(results_file):
     # Load the results from CSV
     results_df = pd.read_csv(results_file)
+
+    # Drop the ambigous ones
+    results_df = results_df[results_df['ambiguous'] == False]
+    print(results_file, len(results_df))
     
     # Calculate the number of correct predictions
     correct_predictions = (results_df['parsed_answer'] == results_df['correct_answer']).sum()

@@ -11,6 +11,7 @@ This is story B:
 {StoryB}
 
 Which of the stories A/B are analogous to the source story?
-Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
 
-Let's think step by step.
+Let's think step by step. Provide the final answer in tags: <ans> A </ans> or <ans> B </ans> at the end.
+
+Only one answer is correct.
