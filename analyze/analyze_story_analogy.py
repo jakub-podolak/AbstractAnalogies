@@ -4,9 +4,13 @@ from scipy.stats import binomtest
 def calculate_accuracy(results_file):
     # Load the results from CSV
     results_df = pd.read_csv(results_file)
-    
+
+    print(results_file, 'numer of ambiguous', (results_df['ambiguous'] == True).sum())
+
+    # Treat the ambigous ones as wrong ones
     # Calculate the number of correct predictions
-    correct_predictions = (results_df['parsed_answer'] == results_df['correct_answer']).sum()
+    correct_predictions = ((results_df['parsed_answer'] == results_df['correct_answer']) &\
+                           (results_df['ambiguous'] == False)).sum()
     
     # Calculate the total number of predictions
     total_predictions = len(results_df)
@@ -52,5 +56,5 @@ for model in models:
         'confidence_interval': confidence_interval
     })
 
-save_results_to_file('analyze/near_accuracy_results.csv', results)
+save_results_to_file('analyze/accuracy_results_updated_1405.csv', results)
 

@@ -8,7 +8,7 @@ from models.main import EasyInferenceModel
 
 
 class Starling7BBeta(EasyInferenceModel):
-    def __init__(self, system_prompt=None, max_new_tokens=512):
+    def __init__(self, system_prompt=None, max_new_tokens=2048):
         self.model_id = "Nexusflow/Starling-LM-7B-beta"
 
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_id)
