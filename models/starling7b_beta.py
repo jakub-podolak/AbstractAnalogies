@@ -27,7 +27,7 @@ class Starling7BBeta(EasyInferenceModel):
     
     def forward(self, text: str):
         single_turn_prompt = f"GPT4 Correct User: {text}<|end_of_turn|>GPT4 Correct Assistant:"
-        input_ids = self.tokenizer(single_turn_prompt, return_tensors="pt").input_ids
+        input_ids = self.tokenizer(single_turn_prompt, return_tensors="pt").input_ids.to(self.model.device)
         outputs = self.model.generate(
             input_ids,
             max_new_tokens=self.max_new_tokens,
