@@ -1,0 +1,2007 @@
+,relation,A,B,C,D,D',full_prompt,raw_generation,parsed_answer,ambiguous,logit_D,logit_D'
+0,Synonym,easy,simple,sad,unhappy,happy,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+easy : simple :: sad : ?
+
+Replace the question mark with the correct analogy:
+
+D: unhappy
+
+or
+
+E: happy
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is: ""A is a more complex version of B, like C is a more complex version of D"".
+
+* easy is a more complex version of simple
+* sad is a more complex version of unhappy
+
+So, the correct answer is: <ans> D </ans>",D,False,,
+1,Synonym,hurry,rush,harm,injure,help,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+hurry : rush :: harm : ?
+
+Replace the question mark with the correct analogy:
+
+D: injure
+
+or
+
+E: help
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is: ""verb : verb :: verb : verb""
+
+* hurry is to rush as harm is to injure
+
+So, the correct answer is:
+
+<ans> D </ans>",D,False,,
+2,Synonym,rob,steal,cry,weep,laugh,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+rob : steal :: cry : ?
+
+Replace the question mark with the correct analogy:
+
+D: weep
+
+or
+
+E: laugh
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""rob"" is to ""steal"" as ""cry"" is to ""weep""
+* Both ""rob"" and ""cry"" are actions that are associated with a specific outcome: ""steal"" and ""weep"", respectively.
+
+So, the correct analogy is: rob : steal :: cry : weep",D,False,,
+3,Synonym,polite,courteous,angry,furious,happy,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+polite : courteous :: angry : ?
+
+Replace the question mark with the correct analogy:
+
+D: furious
+
+or
+
+E: happy
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is: ""A is a synonym of B"" :: ""C is a synonym of D""
+
+In this case, ""polite"" is a synonym of ""courteous"", so we need to find a synonym of ""angry"" that matches ""furious"".
+
+The answer is: <ans> D </ans>",D,False,,
+4,Synonym,beginner,novice,doctor,physician,heal,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+beginner : novice :: doctor : ?
+
+Replace the question mark with the correct analogy:
+
+D: physician
+
+or
+
+E: heal
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""beginner"" is to ""novice"" as ""doctor"" is to ""physician""
+* Both ""beginner"" and ""novice"" are related to a field or activity, and both ""doctor"" and ""physician"" are related to medicine.
+* A ""beginner"" is a novice in a particular field, and a ""doctor"" is a physician in the field of medicine.
+
+So, the correct analogy is: ""beginner : novice :: doctor : physician""",D,False,,
+5,Synonym,baby,infant,woman,lady,girl,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+baby : infant :: woman : ?
+
+Replace the question mark with the correct analogy:
+
+D: lady
+
+or
+
+E: girl
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""baby"" is to ""infant"" as ""woman"" is to ""lady""
+* Both ""baby"" and ""woman"" are adult forms, while ""infant"" and ""lady"" are more general terms that encompass those adult forms.
+
+So, the correct analogy is: baby (adult form) : infant (more general term) :: woman (adult form) : lady (more general term)",D,False,,
+6,Synonym,brook,stream,courage,bravery,cowardice,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+brook : stream :: courage : ?
+
+Replace the question mark with the correct analogy:
+
+D: bravery
+
+or
+
+E: cowardice
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is: ""A is a type of B"" :: ""C is a type of D""
+
+In this case, ""brook"" is a type of ""stream"", so ""courage"" is a type of ""bravery"".
+
+Therefore, the correct answer is: <ans> D </ans>",D,False,,
+7,Synonym,huge,enormous,wealthy,rich,poor,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+huge : enormous :: wealthy : ?
+
+Replace the question mark with the correct analogy:
+
+D: rich
+
+or
+
+E: poor
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* huge is to enormous as wealthy is to?
+* huge is a smaller version of enormous, so wealthy is a smaller version of?
+* rich is a smaller version of wealthy, so the correct answer is D: rich.",D,False,,
+8,Synonym,cheerful,happy,awful,horrible,wonderful,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+cheerful : happy :: awful : ?
+
+Replace the question mark with the correct analogy:
+
+D: horrible
+
+or
+
+E: wonderful
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is: ""A is a positive adjective for B, and C is a negative adjective for D"".
+
+* Cheerful is a positive adjective for Happy.
+* Awful is a negative adjective for Horrible.
+
+So, the correct answer is:
+
+<ans> D </ans>",D,False,,
+9,Synonym,remain,stay,begin,start,continue,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+remain : stay :: begin : ?
+
+Replace the question mark with the correct analogy:
+
+D: start
+
+or
+
+E: continue
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""remain"" and ""stay"" are related in the sense that ""to remain"" means ""to stay"" or ""to continue to be in a place or state"".
+* Similarly, ""begin"" and ""start"" are related in the sense that ""to begin"" means ""to start"" or ""to initiate an action or process"".
+* Therefore, the analogy suggests that ""begin"" is to ""start"" like ""remain"" is to ""stay"", which means the correct answer is ""start"".",D,False,,
+10,Synonym,unusual,strange,famous,renowned,unknown,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+unusual : strange :: famous : ?
+
+Replace the question mark with the correct analogy:
+
+D: renowned
+
+or
+
+E: unknown
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* Unusual is to strange as famous is to renowned
+* Both pairs have a similar relationship: unusual is a type of strange, and famous is a type of renowned.
+
+So, the correct answer is D: renowned.",D,False,,
+11,Synonym,sick,ill,little,small,big,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+sick : ill :: little : ?
+
+Replace the question mark with the correct analogy:
+
+D: small
+
+or
+
+E: big
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""sick"" is to ""ill"" as ""little"" is to... ""small""
+
+In both cases, the word on the left is an adjective modifying a noun, and the word on the right is a noun that is related to the adjective.",D,False,,
+12,Synonym,legal,lawful,usual,normal,strange,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+legal : lawful :: usual : ?
+
+Replace the question mark with the correct analogy:
+
+D: normal
+
+or
+
+E: strange
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""Legal"" and ""lawful"" are synonyms, both meaning ""in accordance with the law"".
+* ""Usual"" and ""normal"" are also synonyms, both meaning ""typical"" or ""standard"".
+* Therefore, the analogy is: ""A (legal) is to B (lawful) like C (usual) is to D (normal)"".
+
+So, the correct answer is D: normal.",D,False,,
+13,Synonym,collect,gather,leave,abandon,stay,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+collect : gather :: leave : ?
+
+Replace the question mark with the correct analogy:
+
+D: abandon
+
+or
+
+E: stay
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's the explanation:
+
+* ""Collect"" and ""gather"" are both actions that involve bringing things together.
+* ""Leave"" and ""abandon"" are both actions that involve departing or giving up something.
+* Therefore, the correct analogy is: ""collect : gather :: leave : abandon""
+
+So, the answer is D: abandon.",D,False,,
+14,Synonym,clean,neat,fortunate,lucky,miserable,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+clean : neat :: fortunate : ?
+
+Replace the question mark with the correct analogy:
+
+D: lucky
+
+or
+
+E: miserable
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is: ""A is a quality of B"" :: ""C is a quality of D""
+
+In this case:
+
+* ""clean"" is a quality of ""neat""
+* ""fortunate"" is a quality of ""lucky""
+
+So, the correct answer is:
+
+<ans> D </ans>",D,False,,
+15,Synonym,immense,colossal,precise,exact,approximate,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+immense : colossal :: precise : ?
+
+Replace the question mark with the correct analogy:
+
+D: exact
+
+or
+
+E: approximate
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is that the first word is an adjective that means ""very large"", and the second word is an adjective that means ""very small"" or ""extremely accurate"".
+
+* ""immense"" is a very large size, and ""colossal"" is also a very large size.
+* ""precise"" is an extremely accurate or exact measurement.
+
+So, the correct analogy is:
+
+precise : exact ::
+
+Therefore, the answer is:
+
+<ans> D </ans>",D,False,,
+16,Synonym,stone,rock,garbage,trash,bag,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+stone : rock :: garbage : ?
+
+Replace the question mark with the correct analogy:
+
+D: trash
+
+or
+
+E: bag
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""stone"" is a type of ""rock""
+* ""garbage"" is a type of ""trash""
+* Therefore, ""garbage"" is to ""trash"" like ""stone"" is to ""rock""
+
+So, the correct analogy is: stone : rock :: garbage : trash",D,False,,
+17,Synonym,help,aid,raise,lift,lower,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+help : aid :: raise : ?
+
+Replace the question mark with the correct analogy:
+
+D: lift
+
+or
+
+E: lower
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is: ""verb : verb's opposite :: verb : verb's opposite""
+
+So, ""help"" is to ""aid"" (a verb and its opposite) like ""raise"" is to... ""lower"".
+
+Therefore, the correct answer is:
+
+<ans> E </ans>",E,False,,
+18,Synonym,rug,carpet,bucket,pail,milk,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+rug : carpet :: bucket : ?
+
+Replace the question mark with the correct analogy:
+
+D: pail
+
+or
+
+E: milk
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* rug is a type of carpet
+* bucket is a type of pail
+
+So, the analogy is: rug : carpet :: bucket : pail",D,False,,
+19,Synonym,shout,yell,leap,jump,fall,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+shout : yell :: leap : ?
+
+Replace the question mark with the correct analogy:
+
+D: jump
+
+or
+
+E: fall
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* Shout is a louder form of Yell, so the relationship is ""more intense"".
+* Leap is a more intense form of Jump, so the analogy is ""more intense"".
+
+Therefore, the correct answer is D: jump.",D,False,,
+20,Opposite,artificial,natural,friend,enemy,relative,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+artificial : natural :: friend : ?
+
+Replace the question mark with the correct analogy:
+
+D: enemy
+
+or
+
+E: relative
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""Artificial"" is to ""natural"" as ""friend"" is to ""enemy"".
+
+In other words, just as ""artificial"" is the opposite of ""natural"", ""friend"" is the opposite of ""enemy"".",D,False,,
+21,Opposite,love,hate,rich,poor,wealthy,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+love : hate :: rich : ?
+
+Replace the question mark with the correct analogy:
+
+D: poor
+
+or
+
+E: wealthy
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""love"" is the opposite of ""hate""
+* ""rich"" is the opposite of ""poor""
+
+So, the analogy is: ""love : hate :: rich : poor""
+
+Well done on trying!",D,False,,
+22,Opposite,alive,dead,succeed,fail,conquer,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+alive : dead :: succeed : ?
+
+Replace the question mark with the correct analogy:
+
+D: fail
+
+or
+
+E: conquer
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""alive"" is the opposite of ""dead"", so we're looking for a word that is the opposite of ""succeed"".
+* ""succeed"" is often the opposite of ""fail"", so the correct answer is ""fail"".
+
+Therefore, the analogy is: alive : dead :: succeed : fail",D,False,,
+23,Opposite,ugliness,beauty,joy,sorrow,emotion,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+ugliness : beauty :: joy : ?
+
+Replace the question mark with the correct analogy:
+
+D: sorrow
+
+or
+
+E: emotion
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ugliness is the opposite of beauty
+* joy is the opposite of sorrow
+
+So, the analogy is: ugliness : beauty :: joy : sorrow",D,False,,
+24,Opposite,huge,tiny,arrive,depart,come,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+huge : tiny :: arrive : ?
+
+Replace the question mark with the correct analogy:
+
+D: depart
+
+or
+
+E: come
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+huge : tiny :: arrive : depart
+
+The relationship between ""huge"" and ""tiny"" is one of magnitude, with ""huge"" being the opposite of ""tiny"".
+
+Similarly, the relationship between ""arrive"" and ""depart"" is one of direction, with ""arrive"" being the opposite of ""depart"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",D,False,,
+25,Opposite,somber,cheerful,lawyer,client,doctor,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+somber : cheerful :: lawyer : ?
+
+Replace the question mark with the correct analogy:
+
+D: client
+
+or
+
+E: doctor
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* Somber is to Cheerful as Lawyer is to Client
+* Both pairs have a relationship where one is the opposite or contrasting emotion/ profession.
+
+So, the correct analogy is: Lawyer : Client :: Somber : Cheerful",D,False,,
+26,Opposite,late,early,win,lose,capture,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+late : early :: win : ?
+
+Replace the question mark with the correct analogy:
+
+D: lose
+
+or
+
+E: capture
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is: ""A is to B like C is to D"", where A and C are antonyms, and B and D are also antonyms.
+
+In this case, ""late"" is to ""early"" like ""win"" is to... ""lose"".
+
+So, the correct answer is: <ans> D </ans>",D,False,,
+27,Opposite,quick,slow,grow,wither,plant,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+quick : slow :: grow : ?
+
+Replace the question mark with the correct analogy:
+
+D: wither
+
+or
+
+E: plant
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is: ""A is to B like C is to D"", where A and C are related in the same way as B and D.
+
+In this case, ""quick"" is to ""slow"" as ""grow"" is to... ""wither"".
+
+So, the correct answer is: <ans> D </ans>",D,False,,
+28,Opposite,antonym,synonym,selfish,generous,egocentric,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+antonym : synonym :: selfish : ?
+
+Replace the question mark with the correct analogy:
+
+D: generous
+
+or
+
+E: egocentric
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* Antonym and synonym are related concepts in linguistics.
+* Selfish is an antonym of generous.
+* Therefore, the analogy suggests that selfish is to generous like? is to generous.
+* The correct answer is generous, which is a synonym of generous.
+
+So, the completed analogy is:
+
+antonym : synonym :: selfish : generous",D,False,,
+29,Opposite,quiet,noisy,last,first,final,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+quiet : noisy :: last : ?
+
+Replace the question mark with the correct analogy:
+
+D: first
+
+or
+
+E: final
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is: <ans> E </ans>
+
+Here's why:
+
+* ""quiet"" is to ""noisy"" as ""last"" is to ""final""
+* Both ""noisy"" and ""final"" are antonyms of ""quiet"" and ""last"", respectively.
+
+So, the correct analogy is: quiet : noisy :: last : final",E,False,,
+30,Opposite,start,stop,trivial,important,famous,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+start : stop :: trivial : ?
+
+Replace the question mark with the correct analogy:
+
+D: important
+
+or
+
+E: famous
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""start"" and ""stop"" are related to a range or a period of time, and ""trivial"" and ""important"" are related to a level of significance.
+* Just as ""start"" is the beginning of a period of time and ""stop"" is the end, ""trivial"" is a low level of significance and ""important"" is a high level.
+* Therefore, the correct analogy is: ""start : stop :: trivial : important"".",D,False,,
+31,Opposite,laugh,cry,cheap,expensive,inexpensive,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+laugh : cry :: cheap : ?
+
+Replace the question mark with the correct analogy:
+
+D: expensive
+
+or
+
+E: inexpensive
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is: <ans> E </ans>
+
+Here's why:
+
+* ""laugh"" and ""cry"" are both emotions, but ""laugh"" is a more positive one, while ""cry"" is a more negative one.
+* Similarly, ""cheap"" and ""expensive"" are both adjectives describing something, but ""cheap"" implies a lower price, while ""expensive"" implies a higher price.
+* Therefore, the analogy suggests that ""cheap"" is to ""inexpensive"" like ""laugh"" is to ""cry"", i.e., a more positive or favorable term.",E,False,,
+32,Opposite,accept,reject,dark,bright,dim,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+accept : reject :: dark : ?
+
+Replace the question mark with the correct analogy:
+
+D: bright
+
+or
+
+E: dim
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""accept"" is to ""reject"" as ""dark"" is to ""bright"" (opposite pairs)
+* So, ""dark"" is to ""bright"" like ""reject"" is to ""accept"", which means ""dark"" is to ""bright"" like ""C"" is to ""D"", and the correct answer is ""D: bright"".",D,False,,
+33,Opposite,abundant,scarce,agree,disagree,concur,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+abundant : scarce :: agree : ?
+
+Replace the question mark with the correct analogy:
+
+D: disagree
+
+or
+
+E: concur
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""abundant"" is to ""scarce"" as ""agree"" is to ""disagree""
+* Both ""abundant"" and ""agree"" are positive/negative pairs, respectively
+* ""scarce"" and ""disagree"" are the corresponding negative/positive pairs
+
+So, the correct analogy is: abundant : scarce :: agree : disagree",D,False,,
+34,Opposite,hero,coward,strong,weak,muscular,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+hero : coward :: strong : ?
+
+Replace the question mark with the correct analogy:
+
+D: weak
+
+or
+
+E: muscular
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""hero"" is to ""coward"" as ""strong"" is to ""weak""
+* A hero is the opposite of a coward, and similarly, strong is the opposite of weak.
+
+So, the correct analogy is: hero : coward :: strong : weak",D,False,,
+35,Opposite,teacher,student,calm,stormy,serene,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+teacher : student :: calm : ?
+
+Replace the question mark with the correct analogy:
+
+D: stormy
+
+or
+
+E: serene
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> E </ans>
+
+Here's why:
+
+* Teacher is to Student as Calm is to Serene
+* Just as a teacher is a calm and composed authority figure, a serene person is calm and peaceful.
+
+So, the correct analogy is: calm : serene :: teacher : student",E,False,,
+36,Opposite,give,take,allow,forbid,permit,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+give : take :: allow : ?
+
+Replace the question mark with the correct analogy:
+
+D: forbid
+
+or
+
+E: permit
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""give"" and ""take"" are antonyms, just like ""allow"" and ""forbid"" are antonyms.
+* ""give"" is to ""take"" as ""allow"" is to ""forbid"", so the correct analogy is:
+
+give : take :: allow : forbid
+
+Well done on trying!",D,False,,
+37,Opposite,clean,dirty,awake,asleep,alert,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+clean : dirty :: awake : ?
+
+Replace the question mark with the correct analogy:
+
+D: asleep
+
+or
+
+E: alert
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""clean"" is to ""dirty"" as ""awake"" is to ""asleep""
+* Both ""clean"" and ""awake"" are opposite of ""dirty"" and ""asleep"", respectively.
+
+So, the correct analogy is: awake : asleep :: clean : dirty",D,False,,
+38,Opposite,remember,forget,increase,decrease,lengthen,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+remember : forget :: increase : ?
+
+Replace the question mark with the correct analogy:
+
+D: decrease
+
+or
+
+E: lengthen
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""remember"" is the opposite of ""forget"", just like ""increase"" is the opposite of?
+* The correct opposite of ""increase"" is indeed ""decrease"".
+
+So, the analogy is: remember : forget :: increase : decrease",D,False,,
+39,Opposite,crazy,sane,bent,straight,crooked,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+crazy : sane :: bent : ?
+
+Replace the question mark with the correct analogy:
+
+D: straight
+
+or
+
+E: crooked
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is: <ans> E </ans>
+
+Here's why:
+
+* ""crazy"" is to ""sane"" as ""bent"" is to ""crooked""
+* Both ""crazy"" and ""bent"" are abnormal or irregular states, while ""sane"" and ""straight"" are normal or regular states.
+* Similarly, ""crooked"" is an irregular or abnormal state of being bent, just like ""crazy"" is an irregular or abnormal state of being sane.
+
+So, the correct analogy is: bent : crooked :: crazy : sane",E,False,,
+40,Function,fly,bird,hop,rabbit,leg,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+fly : bird :: hop : ?
+
+Replace the question mark with the correct analogy:
+
+D: rabbit
+
+or
+
+E: leg
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is: <ans> E </ans>
+
+Here's why:
+
+* ""fly"" is a verb that rabbits do (hop), just like ""hop"" is a verb that birds do (fly).
+* So, the correct analogy is: hop : leg :: fly : bird
+
+Therefore, the answer is E: leg.",E,False,,
+41,Function,build,house,dig,hole,shovel,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+build : house :: dig : ?
+
+Replace the question mark with the correct analogy:
+
+D: hole
+
+or
+
+E: shovel
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""build"" is to ""house"" as ""dig"" is to ""hole""
+* Both ""build"" and ""dig"" are actions that create something
+* Both ""house"" and ""hole"" are the resulting structures or objects
+
+So, the correct analogy is: build : house :: dig : hole",D,False,,
+42,Function,sing,song,ride,horse,rider,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+sing : song :: ride : ?
+
+Replace the question mark with the correct analogy:
+
+D: horse
+
+or
+
+E: rider
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* Sing is to song like ride is to... (something that you ride)
+* Sing is a verb, and song is its object (the thing produced by singing)
+* Ride is a verb, and horse is its object (the thing you ride)
+* Therefore, ride is to horse.
+
+So, the correct answer is D: horse.",D,False,,
+43,Function,hear,ear,wear,clothes,woman,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+hear : ear :: wear : ?
+
+Replace the question mark with the correct analogy:
+
+D: clothes
+
+or
+
+E: woman
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""hear"" is related to ""ear"" (you hear with your ear)
+* ""wear"" is related to ""clothes"" (you wear clothes)
+
+So, the analogy is: ""hear : ear :: wear : clothes""",D,False,,
+44,Function,drive,car,burn,wood,fire,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+drive : car :: burn : ?
+
+Replace the question mark with the correct analogy:
+
+D: wood
+
+or
+
+E: fire
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> E </ans>
+
+Here's why:
+
+* ""drive"" is a verb that is often associated with ""car"", implying that one drives a car.
+* Similarly, ""burn"" is a verb that is often associated with ""wood"", implying that one burns wood.
+* Therefore, the analogy suggests that ""burn"" is to ""wood"" like ""drive"" is to ""car"", which means that the correct answer is ""fire"", as one burns with fire.
+
+So, the correct analogy is: drive : car :: burn : fire",E,False,,
+45,Function,open,door,touch,hands,doctor,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+open : door :: touch : ?
+
+Replace the question mark with the correct analogy:
+
+D: hands
+
+or
+
+E: doctor
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""open"" is a verb that is often performed on a ""door"".
+* Similarly, ""touch"" is a verb that is often performed on ""hands"" (or other body parts).
+* Therefore, the correct analogy is: ""open : door :: touch : hands"".",D,False,,
+46,Function,squeeze,juice,shoot,gun,miss,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+squeeze : juice :: shoot : ?
+
+Replace the question mark with the correct analogy:
+
+D: gun
+
+or
+
+E: miss
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> E </ans>
+
+Here's why:
+
+* Squeeze : juice :: shoot :? (action : result)
+* Squeezing an orange produces juice, so shooting a gun might produce a miss (a missed shot).
+
+So, the correct analogy is: shoot : miss :: squeeze : juice.",E,False,,
+47,Function,cut,knife,hit,hammer,nail,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+cut : knife :: hit : ?
+
+Replace the question mark with the correct analogy:
+
+D: hammer
+
+or
+
+E: nail
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""cut"" is an action performed by a ""knife""
+* Similarly, ""hit"" is an action performed by a ""hammer""
+
+So, the correct analogy is: cut : knife :: hit : hammer",D,False,,
+48,Function,throw,ball,open,envelope,close,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+throw : ball :: open : ?
+
+Replace the question mark with the correct analogy:
+
+D: envelope
+
+or
+
+E: close
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> E </ans>
+
+Here's why:
+
+* ""throw"" is a verb that is often associated with ""ball"" (e.g., ""throw a ball"")
+* Similarly, ""open"" is a verb that is often associated with ""envelope"" (e.g., ""open an envelope"")
+* Therefore, the correct completion is ""close"" (as in ""close an envelope""), which is the verb that is often associated with ""envelope"".
+
+So, the analogy is: ""throw : ball :: open : close""",E,False,,
+49,Function,read,magazine,play,football,kids,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+read : magazine :: play : ?
+
+Replace the question mark with the correct analogy:
+
+D: football
+
+or
+
+E: kids
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""Read"" is to ""magazine"" as ""play"" is to... (something that is played)
+* ""Read"" is a common activity done with a ""magazine""
+* Similarly, ""play"" is a common activity done with ""football""
+
+So, the correct answer is ""D: football"".",D,False,,
+50,Function,carry,suitcase,sit,chair,job,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+carry : suitcase :: sit : ?
+
+Replace the question mark with the correct analogy:
+
+D: chair
+
+or
+
+E: job
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""carry"" is a verb that is often associated with a ""suitcase"" (e.g., carrying a suitcase)
+* Similarly, ""sit"" is a verb that is often associated with a ""chair"" (e.g., sitting in a chair)
+* Therefore, the analogy suggests that ""sit"" is to ""chair"" like ""carry"" is to ""suitcase"", so the correct answer is ""D: chair"".",D,False,,
+51,Function,drink,glass,cook,pan,chef,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+drink : glass :: cook : ?
+
+Replace the question mark with the correct analogy:
+
+D: pan
+
+or
+
+E: chef
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""drink"" is to ""glass"" as ""cook"" is to ""pan""
+* Just as you drink from a glass, you cook in a pan.
+
+So, the correct analogy is: cook : pan.",D,False,,
+52,Function,burn,fire,blow,wind,down,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+burn : fire :: blow : ?
+
+Replace the question mark with the correct analogy:
+
+D: wind
+
+or
+
+E: down
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""burn"" is related to ""fire"" as a way of producing or causing it.
+* Similarly, ""blow"" is related to ""wind"" as a way of producing or causing it.
+
+So, the analogy is: ""burn : fire :: blow : wind"".",D,False,,
+53,Function,ski,snow,swim,water,swimmer,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+ski : snow :: swim : ?
+
+Replace the question mark with the correct analogy:
+
+D: water
+
+or
+
+E: swimmer
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* Ski is related to snow (you ski on snow)
+* Swim is related to water (you swim in water)
+* Therefore, swim is related to water, just like ski is related to snow.
+
+So, the correct answer is D: water.",D,False,,
+54,Function,tell,story,fight,battle,soldier,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+tell : story :: fight : ?
+
+Replace the question mark with the correct analogy:
+
+D: battle
+
+or
+
+E: soldier
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+The analogy is: ""tell : story :: fight : battle""
+
+In this analogy, ""tell"" is to ""story"" as ""fight"" is to ""battle"".",D,False,,
+55,Function,run,horse,pull,tractor,muscle,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+run : horse :: pull : ?
+
+Replace the question mark with the correct analogy:
+
+D: tractor
+
+or
+
+E: muscle
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> E </ans>
+
+Here's why:
+
+* ""run"" is a verb that a ""horse"" can do (e.g., a horse can run).
+* Similarly, ""pull"" is a verb that a ""muscle"" can do (e.g., a muscle can pull).
+
+So, the analogy is: ""run : horse :: pull : muscle"".",E,False,,
+56,Function,write,poem,carve,statue,knife,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+write : poem :: carve : ?
+
+Replace the question mark with the correct analogy:
+
+D: statue
+
+or
+
+E: knife
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is: <ans> E </ans>
+
+Here's why:
+
+* ""write"" is to ""poem"" like ""carve"" is to ""statue""
+* ""write"" creates a ""poem"", so ""carve"" should create a ""statue""
+* The tool used to create a ""poem"" is a ""pen"" or ""keyboard"", but the tool used to create a ""statue"" is a ""knife"" (or a chisel, or a sculpting tool, but ""knife"" is a common association)
+
+So, the correct analogy is: carve : statue :: write : E (knife)",E,False,,
+57,Function,ride,bicycle,drink,cup,water,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+ride : bicycle :: drink : ?
+
+Replace the question mark with the correct analogy:
+
+D: cup
+
+or
+
+E: water
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""Ride"" is a verb that you do on a ""bicycle"".
+* Similarly, ""drink"" is a verb that you do with a ""cup"".
+* So, just like ""bicycle"" is the object you ride, ""cup"" is the object you drink from.
+
+Therefore, the correct analogy is: ride : bicycle :: drink : cup.",D,False,,
+58,Function,throw,ball,jump,parachute,walk,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+throw : ball :: jump : ?
+
+Replace the question mark with the correct analogy:
+
+D: parachute
+
+or
+
+E: walk
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""throw"" is a verb that involves a ball, so ""ball"" is the object being thrown.
+* Similarly, ""jump"" is a verb that involves a parachute, so ""parachute"" is the object being jumped with (i.e., using as a means of slowing down one's descent).
+
+Therefore, the correct analogy is:
+
+throw : ball :: jump : parachute",D,False,,
+59,Function,ride,elevator,sail,boat,wind,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+ride : elevator :: sail : ?
+
+Replace the question mark with the correct analogy:
+
+D: boat
+
+or
+
+E: wind
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""Ride"" is a way to travel using an ""elevator"" (a vehicle).
+* Similarly, ""sail"" is a way to travel using a ""boat"" (a vehicle).
+* Therefore, the correct analogy is: ""ride : elevator :: sail : boat"".",D,False,,
+60,Category Members,vegetable,cabbage,insect,beetle,frog,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+vegetable : cabbage :: insect : ?
+
+Replace the question mark with the correct analogy:
+
+D: beetle
+
+or
+
+E: frog
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is: ""A is a type of B"" :: ""C is a type of D""
+
+In this case, ""vegetable"" is a type of ""cabbage"", so ""insect"" should be a type of ""beetle"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",D,False,,
+61,Category Members,insect,bee,fish,halibut,water,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+insect : bee :: fish : ?
+
+Replace the question mark with the correct analogy:
+
+D: halibut
+
+or
+
+E: water
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is: ""insect : bee :: fish :?""
+
+Insects are bees, so fish are... halibut!
+
+So, the correct answer is: <ans> D </ans>",D,False,,
+62,Category Members,flower,rose,bird,pigeon,nest,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+flower : rose :: bird : ?
+
+Replace the question mark with the correct analogy:
+
+D: pigeon
+
+or
+
+E: nest
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* flower : rose :: bird :?
+* In the first pair, ""flower"" is a type of ""rose"", so we're looking for a type of ""bird"".
+* Pigeon is a type of bird, so the correct analogy is: bird : pigeon.
+
+The other option, ""nest"", is not a type of bird, but rather a place where birds live.",D,False,,
+63,Category Members,bird,wren,insect,mosquito,sting,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+bird : wren :: insect : ?
+
+Replace the question mark with the correct analogy:
+
+D: mosquito
+
+or
+
+E: sting
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is: ""A is a type of B"" :: ""C is a type of D""
+
+In this case, ""bird"" is a type of ""wren"", so ""insect"" should be a type of ""mosquito"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",D,False,,
+64,Category Members,vegetable,lettuce,bird,sparrow,cat,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+vegetable : lettuce :: bird : ?
+
+Replace the question mark with the correct analogy:
+
+D: sparrow
+
+or
+
+E: cat
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is: ""A is a type of B"" :: ""C is a type of D""
+
+In this case, ""vegetable"" is a type of ""lettuce"", so ""bird"" should be a type of ""sparrow"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",D,False,,
+65,Category Members,sport,soccer,vehicle,bus,engine,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+sport : soccer :: vehicle : ?
+
+Replace the question mark with the correct analogy:
+
+D: bus
+
+or
+
+E: engine
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* sport : soccer :: vehicle :?
+* In the first pair, ""sport"" is a category and ""soccer"" is a specific example of that category.
+* In the second pair, ""vehicle"" is a category and we're looking for a specific example of that category.
+* Just like ""soccer"" is a type of ""sport"", ""bus"" is a type of ""vehicle"".
+* Therefore, the correct answer is ""bus"", which is represented by the tag: <ans> D </ans>",D,True,8.625,5.5
+66,Category Members,weapon,pistol,clothing,shoes,cotton,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+weapon : pistol :: clothing : ?
+
+Replace the question mark with the correct analogy:
+
+D: shoes
+
+or
+
+E: cotton
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* weapon : pistol :: clothing :?
+* In the first pair, a weapon is a specific type of weapon (a pistol).
+* In the second pair, clothing is a general category, and shoes is a specific type of clothing.
+
+So, the correct analogy is: clothing : shoes.",D,False,,
+67,Category Members,sport,tennis,weapon,gun,murder,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+sport : tennis :: weapon : ?
+
+Replace the question mark with the correct analogy:
+
+D: gun
+
+or
+
+E: murder
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* Sport : tennis :: weapon :?
+* In the first pair, ""sport"" is a category and ""tennis"" is a specific example of that category.
+* In the second pair, ""weapon"" is a category and we're looking for a specific example of that category.
+* A common example of a weapon is a ""gun"", so the analogy is: sport : tennis :: weapon : gun.
+
+The other option, ""murder"", doesn't fit the analogy as it's not a type of weapon.",D,False,,
+68,Category Members,furniture,sofa,sport,golf,coat,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+furniture : sofa :: sport : ?
+
+Replace the question mark with the correct analogy:
+
+D: golf
+
+or
+
+E: coat
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""Furniture"" is a category, and ""sofa"" is a type of furniture.
+* Similarly, ""sport"" is a category, and ""golf"" is a type of sport.
+* Therefore, the analogy is: ""Furniture : sofa :: Sport : golf""
+
+So, the correct answer is ""D: golf"".",D,False,,
+69,Category Members,tool,pliers,vehicle,van,fuel,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+tool : pliers :: vehicle : ?
+
+Replace the question mark with the correct analogy:
+
+D: van
+
+or
+
+E: fuel
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* tool : pliers :: vehicle :?
+* In the first pair, ""tool"" is a type of object that ""pliers"" is a type of.
+* Similarly, in the second pair, ""vehicle"" is a type of object that ""van"" is a type of.
+
+So, the correct analogy is: vehicle : van.",D,False,,
+70,Category Members,clothing,trousers,fish,cod,net,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+clothing : trousers :: fish : ?
+
+Replace the question mark with the correct analogy:
+
+D: cod
+
+or
+
+E: net
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is: ""A is a type of B"" :: ""C is a type of D""
+
+In this case, ""clothing"" is a type of ""trousers"", so ""fish"" is a type of ""cod"".
+
+Therefore, the correct answer is: <ans> D </ans>",D,False,,
+71,Category Members,fruit,banana,furniture,dresser,house,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+fruit : banana :: furniture : ?
+
+Replace the question mark with the correct analogy:
+
+D: dresser
+
+or
+
+E: house
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is: ""fruit"" is a type of ""banana"", so ""furniture"" is a type of ""dresser"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",D,False,,
+72,Category Members,fish,shark,sport,baseball,team,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+fish : shark :: sport : ?
+
+Replace the question mark with the correct analogy:
+
+D: baseball
+
+or
+
+E: team
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* Fish is to Shark as Sport is to Baseball
+* In both cases, the first term is a type of animal/organism, and the second term is a type of predator that preys on it.
+
+So, the correct analogy is: fish (prey) : shark (predator) :: sport (activity) : baseball (game)",D,False,,
+73,Category Members,fruit,plum,clothing,coat,silk,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+fruit : plum :: clothing : ?
+
+Replace the question mark with the correct analogy:
+
+D: coat
+
+or
+
+E: silk
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is: ""fruit : type of fruit :: clothing : type of clothing""
+
+So, ""clothing :?"" is asking for a type of clothing, just like ""plum"" is a type of fruit.
+
+The answer is: <ans> D </ans>",D,False,,
+74,Category Members,flower,carnation,tool,hacksaw,carpenter,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+flower : carnation :: tool : ?
+
+Replace the question mark with the correct analogy:
+
+D: hacksaw
+
+or
+
+E: carpenter
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is: ""A is a type of B"" :: ""C is a type of D""
+
+In this case, ""flower"" is a type of ""carnation"", so ""tool"" should be a type of ""hacksaw"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",D,False,,
+75,Category Members,bird,crow,sport,football,stadium,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+bird : crow :: sport : ?
+
+Replace the question mark with the correct analogy:
+
+D: football
+
+or
+
+E: stadium
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""bird"" is a type of ""crow"", so the relationship is ""is a type of""
+* Similarly, ""sport"" is a type of ""football"", so the relationship is also ""is a type of""
+
+Therefore, the correct answer is ""D: football"".",D,False,,
+76,Category Members,weapon,sword,flower,daffodil,vase,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+weapon : sword :: flower : ?
+
+Replace the question mark with the correct analogy:
+
+D: daffodil
+
+or
+
+E: vase
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is: ""A is a type of B"" :: ""C is a type of D""
+
+In this case, ""weapon"" is a type of ""sword"", so ""flower"" is a type of ""daffodil"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",D,False,,
+77,Category Members,clothing,jacket,bird,pigeon,dog,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+clothing : jacket :: bird : ?
+
+Replace the question mark with the correct analogy:
+
+D: pigeon
+
+or
+
+E: dog
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* Clothing is to jacket as bird is to pigeon
+* Both jacket is a type of clothing and pigeon is a type of bird
+
+So, the correct analogy is: clothing : jacket :: bird : pigeon",D,False,,
+78,Category Members,furniture,table,fruit,pear,tree,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+furniture : table :: fruit : ?
+
+Replace the question mark with the correct analogy:
+
+D: pear
+
+or
+
+E: tree
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""furniture"" is a category of things, and ""table"" is a specific type of furniture.
+* Similarly, ""fruit"" is a category of things, and ""pear"" is a specific type of fruit.
+* Therefore, the analogy suggests that ""fruit"" is to ""pear"" like ""furniture"" is to ""table"".
+
+So, the correct answer is ""D: pear"".",D,False,,
+79,Category Members,clothing,jeans,vegetable,potato,apple,"The notation ""A : B :: C : D"" should be read as ""A is to B like C is to D"".
+
+In the following example:
+
+clothing : jeans :: vegetable : ?
+
+Replace the question mark with the correct analogy:
+
+D: potato
+
+or
+
+E: apple
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>","A classic analogy!
+
+The pattern is: ""category : specific example :: category : specific example""
+
+In this case, ""clothing : jeans"" means ""clothing is a category and jeans is a specific example of clothing"".
+
+So, ""vegetable :?"" means ""vegetable is a category and? is a specific example of vegetable"".
+
+The correct answer is: potato
+
+So, the final answer is: <ans> D </ans>",D,False,,

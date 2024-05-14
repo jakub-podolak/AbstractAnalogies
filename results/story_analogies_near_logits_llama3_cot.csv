@@ -1,0 +1,1740 @@
+,source_story,story_A,story_B,full_prompt,raw_generation,parsed_answer,correct_answer,ambiguous,logit_A,logit_B
+0,"William was a patient in a psychiatric hospital who was confined indoors almost all the time. He could never pass the monthly room inspections so he hated them. He spent most of his time daydreaming about food.
+A few day before the April inspection William's room was still a mess since he had done nothing but daydream. To provide William with an incentive, the nurse promised him some gingerbread from the cookie shop if he scrubbed his room and put it in order once and for all.
+William was overjoyed. But there was no longer enough time for him to put it in order. As a result, he did not pass the inspection and did not get any gingerbread.
+William sulked all day and slammed his door so hard the plaster cracked, but he still didn't get any gingerbread.","Kevin was a shut-in at a mental institution. He always did poorly at the weekly bedroom checks so he disliked them. About the only thing Kevin liked to do was eat.
+Not long before the last check of the year, Kevin's bedroom was still a disaster because he had spent all his time daydreaming. To motivate him, the matron promised Kevin a cake from the bakery if he cleaned and organized his bedroom.
+This made Kevin extremely happy. But he was too far behind in his cleaning to get his bedroom ready in time. Consequently, he didn't get a cake after all.","Kevin was a shut-in at a mental institution. He disliked cleaning his room so he always failed the weekly bedroom checks. About the only thing Kevin liked to do was eat.
+Not long before the last check of the year, Kevin's bedroom was still a disaster because he despised cleaning. To motivate him, the matron promised Kevin a cake from the bakery if he cleaned and organized his bedroom.
+This made Kevin extremely happy. During the next few days he spent most of his time dreaming about the bakery and deciding what kind of cake to get. Consequently, he didn't clean his bedroom and did not get a cake after all.","This is a source story:
+
+William was a patient in a psychiatric hospital who was confined indoors almost all the time. He could never pass the monthly room inspections so he hated them. He spent most of his time daydreaming about food.
+A few day before the April inspection William's room was still a mess since he had done nothing but daydream. To provide William with an incentive, the nurse promised him some gingerbread from the cookie shop if he scrubbed his room and put it in order once and for all.
+William was overjoyed. But there was no longer enough time for him to put it in order. As a result, he did not pass the inspection and did not get any gingerbread.
+William sulked all day and slammed his door so hard the plaster cracked, but he still didn't get any gingerbread.
+
+This is story A:
+
+Kevin was a shut-in at a mental institution. He always did poorly at the weekly bedroom checks so he disliked them. About the only thing Kevin liked to do was eat.
+Not long before the last check of the year, Kevin's bedroom was still a disaster because he had spent all his time daydreaming. To motivate him, the matron promised Kevin a cake from the bakery if he cleaned and organized his bedroom.
+This made Kevin extremely happy. But he was too far behind in his cleaning to get his bedroom ready in time. Consequently, he didn't get a cake after all.
+
+This is story B:
+
+Kevin was a shut-in at a mental institution. He disliked cleaning his room so he always failed the weekly bedroom checks. About the only thing Kevin liked to do was eat.
+Not long before the last check of the year, Kevin's bedroom was still a disaster because he despised cleaning. To motivate him, the matron promised Kevin a cake from the bakery if he cleaned and organized his bedroom.
+This made Kevin extremely happy. During the next few days he spent most of his time dreaming about the bakery and deciding what kind of cake to get. Consequently, he didn't clean his bedroom and did not get a cake after all.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two given stories:
+
+Source story:
+
+* William is a patient in a psychiatric hospital who is confined indoors.
+* He hates the monthly room inspections because he can never pass them.
+* He spends most of his time daydreaming about food.
+* A nurse promises him gingerbread if he cleans his room, but he doesn't have time to do so and doesn't pass the inspection.
+* He sulks and doesn't get the gingerbread.
+
+Story A:
+
+* Kevin is a shut-in at a mental institution.
+* He always does poorly at the weekly bedroom checks.
+* He likes to eat.
+* A matron promises him a cake from the bakery if he cleans his room, but he doesn't have time to do so and doesn't pass the inspection.
+* He sulks and doesn't get the cake.
+
+Story B:
+
+* Kevin is a shut-in at a mental institution.
+* He dislikes cleaning his room and always fails the weekly bedroom checks.
+* He likes to eat.
+* A matron promises him a cake from the bakery if he cleans his room, but he spends most of his time dreaming about the bakery and deciding what kind of cake to get instead of cleaning.
+* He doesn't clean his room and doesn",B,A,True,5.125,5.34375
+1,"William was a patient in a psychiatric hospital who was confined indoors almost all the time. He could never pass the monthly room inspections so he hated them. He spent most of his time daydreaming about food.
+A few day before the April inspection William's room was still a mess since he had done nothing but daydream. To provide William with an incentive, the nurse promised him some gingerbread from the cookie shop if he scrubbed his room and put it in order once and for all.
+William was overjoyed. But there was no longer enough time for him to put it in order. As a result, he did not pass the inspection and did not get any gingerbread.
+William sulked all day and slammed his door so hard the plaster cracked, but he still didn't get any gingerbread.","Kevin was a shut-in at a mental institution. He disliked cleaning his room so he always failed the weekly bedroom checks. About the only thing Kevin liked to do was eat.
+Not long before the last check of the year, Kevin's bedroom was still a disaster because he despised cleaning. To motivate him, the matron promised Kevin a cake from the bakery if he cleaned and organized his bedroom.
+This made Kevin extremely happy. During the next few days he spent most of his time dreaming about the bakery and deciding what kind of cake to get. Consequently, he didn't clean his bedroom and did not get a cake after all.","Kevin was a shut-in at a mental institution. He always did poorly at the weekly bedroom checks so he disliked them. About the only thing Kevin liked to do was eat.
+Not long before the last check of the year, Kevin's bedroom was still a disaster because he had spent all his time daydreaming. To motivate him, the matron promised Kevin a cake from the bakery if he cleaned and organized his bedroom.
+This made Kevin extremely happy. But he was too far behind in his cleaning to get his bedroom ready in time. Consequently, he didn't get a cake after all.","This is a source story:
+
+William was a patient in a psychiatric hospital who was confined indoors almost all the time. He could never pass the monthly room inspections so he hated them. He spent most of his time daydreaming about food.
+A few day before the April inspection William's room was still a mess since he had done nothing but daydream. To provide William with an incentive, the nurse promised him some gingerbread from the cookie shop if he scrubbed his room and put it in order once and for all.
+William was overjoyed. But there was no longer enough time for him to put it in order. As a result, he did not pass the inspection and did not get any gingerbread.
+William sulked all day and slammed his door so hard the plaster cracked, but he still didn't get any gingerbread.
+
+This is story A:
+
+Kevin was a shut-in at a mental institution. He disliked cleaning his room so he always failed the weekly bedroom checks. About the only thing Kevin liked to do was eat.
+Not long before the last check of the year, Kevin's bedroom was still a disaster because he despised cleaning. To motivate him, the matron promised Kevin a cake from the bakery if he cleaned and organized his bedroom.
+This made Kevin extremely happy. During the next few days he spent most of his time dreaming about the bakery and deciding what kind of cake to get. Consequently, he didn't clean his bedroom and did not get a cake after all.
+
+This is story B:
+
+Kevin was a shut-in at a mental institution. He always did poorly at the weekly bedroom checks so he disliked them. About the only thing Kevin liked to do was eat.
+Not long before the last check of the year, Kevin's bedroom was still a disaster because he had spent all his time daydreaming. To motivate him, the matron promised Kevin a cake from the bakery if he cleaned and organized his bedroom.
+This made Kevin extremely happy. But he was too far behind in his cleaning to get his bedroom ready in time. Consequently, he didn't get a cake after all.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two given stories:
+
+Source story:
+
+* William is a patient in a psychiatric hospital who is confined indoors.
+* He hates the monthly room inspections and spends most of his time daydreaming about food.
+* A nurse promises him gingerbread from the cookie shop if he cleans his room, but he doesn't pass the inspection and doesn't get the gingerbread.
+
+Story A:
+
+* Kevin is a shut-in at a mental institution who dislikes cleaning his room.
+* He always fails the weekly bedroom checks and likes to eat.
+* A matron promises him a cake from the bakery if he cleans and organizes his bedroom, but he doesn't clean and doesn't get the cake.
+
+Story B:
+
+* Kevin is a shut-in at a mental institution who always does poorly at the weekly bedroom checks.
+* He likes to eat and spends all his time daydreaming.
+* A matron promises him a cake from the bakery if he cleans and organizes his bedroom, but he doesn't get the cake.
+
+Now, let's identify the similarities and differences between the source story and the two given stories:
+
+* Both the source story and Story A have a character who dislikes cleaning and is motivated by a promise of food (gingerbread vs",B,B,True,4.40625,5.53125
+2,"Mr. Newton was the manager of a company that made razors. One year, an inventor in his company perfected a metal that would stay sharper than any previous razor.
+However, not long after that, Mr. Newton was using one of these new razors and he cut his neck rather severely. As a result of this incident the inventor recommended a safety feature that would protect people from injuring themselves.
+After what had happened, Mr. Newton considered the safety feature absolutely necessary. The incident had alarmed him so much that he began to produce the safety razor right away. Luckily, his neck did not get infected so everything was alright.","Mr. Boyce was director of manufacturing shaving knives for Gilette Company. In 1980 an engineer in his company perfected a steel alloy that would keep a finer edge than any previous blade. But later, when Mr. Boyce was using one of these new knives he slashed his throat pretty seriously. Because of this accident, the engineer recommended a new protective part that would prevent people from hurting themselves with the blade.
+After this, Mr. Boyce considered the protective part absolutely necessary. The accident frightened him so much that he had the protective part developed immediately.","Mr. Boyce was director of manufacturing shaving knives for Gilette Company. In 1980, an engineer in his company perfected a steel alloy that would keep a finer edge than any previous blade. Because it was so sharp, the engineer also recommended a new protective part that would prevent people from hurting themselves with the blade.
+But Mr. Boyce considered the protective part unnecessary. It would be too expensive to incorporate.
+But later, when he was using one of these new blades, he slashed his own throat pretty seriously. After this accident he was so frightened that he had the protective part developed immediately","This is a source story:
+
+Mr. Newton was the manager of a company that made razors. One year, an inventor in his company perfected a metal that would stay sharper than any previous razor.
+However, not long after that, Mr. Newton was using one of these new razors and he cut his neck rather severely. As a result of this incident the inventor recommended a safety feature that would protect people from injuring themselves.
+After what had happened, Mr. Newton considered the safety feature absolutely necessary. The incident had alarmed him so much that he began to produce the safety razor right away. Luckily, his neck did not get infected so everything was alright.
+
+This is story A:
+
+Mr. Boyce was director of manufacturing shaving knives for Gilette Company. In 1980 an engineer in his company perfected a steel alloy that would keep a finer edge than any previous blade. But later, when Mr. Boyce was using one of these new knives he slashed his throat pretty seriously. Because of this accident, the engineer recommended a new protective part that would prevent people from hurting themselves with the blade.
+After this, Mr. Boyce considered the protective part absolutely necessary. The accident frightened him so much that he had the protective part developed immediately.
+
+This is story B:
+
+Mr. Boyce was director of manufacturing shaving knives for Gilette Company. In 1980, an engineer in his company perfected a steel alloy that would keep a finer edge than any previous blade. Because it was so sharp, the engineer also recommended a new protective part that would prevent people from hurting themselves with the blade.
+But Mr. Boyce considered the protective part unnecessary. It would be too expensive to incorporate.
+But later, when he was using one of these new blades, he slashed his own throat pretty seriously. After this accident he was so frightened that he had the protective part developed immediately
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two alternative stories:
+
+Source story:
+
+* Mr. Newton, a manager, uses a new razor that is sharper than usual and cuts his neck.
+* The inventor recommends a safety feature to prevent similar accidents.
+* Mr. Newton agrees that the safety feature is necessary and has it developed.
+
+Story A:
+
+* Mr. Boyce, a director, uses a new knife that is sharper than usual and cuts his throat.
+* The engineer recommends a protective part to prevent similar accidents.
+* Mr. Boyce agrees that the protective part is necessary and has it developed.
+
+Story B:
+
+* An engineer in Mr. Boyce's company perfects a new steel alloy that is sharper than usual.
+* The engineer recommends a protective part to prevent accidents.
+* Mr. Boyce initially rejects the idea, but later has a serious accident and agrees to develop the protective part.
+
+Now, let's compare the three stories:
+
+* In the source story and Story A, the manager/director uses the new razor/knife and has an accident, leading to the recommendation and development of a safety feature/protective part.
+* In Story B, the engineer recommends a protective part, but the director doesn't agree initially. The accident happens later, and",A,A,True,6.0,4.15625
+3,"Mr. Newton was the manager of a company that made razors. One year, an inventor in his company perfected a metal that would stay sharper than any previous razor.
+However, not long after that, Mr. Newton was using one of these new razors and he cut his neck rather severely. As a result of this incident the inventor recommended a safety feature that would protect people from injuring themselves.
+After what had happened, Mr. Newton considered the safety feature absolutely necessary. The incident had alarmed him so much that he began to produce the safety razor right away. Luckily, his neck did not get infected so everything was alright.","Mr. Boyce was director of manufacturing shaving knives for Gilette Company. In 1980, an engineer in his company perfected a steel alloy that would keep a finer edge than any previous blade. Because it was so sharp, the engineer also recommended a new protective part that would prevent people from hurting themselves with the blade.
+But Mr. Boyce considered the protective part unnecessary. It would be too expensive to incorporate.
+But later, when he was using one of these new blades, he slashed his own throat pretty seriously. After this accident he was so frightened that he had the protective part developed immediately","Mr. Boyce was director of manufacturing shaving knives for Gilette Company. In 1980 an engineer in his company perfected a steel alloy that would keep a finer edge than any previous blade. But later, when Mr. Boyce was using one of these new knives he slashed his throat pretty seriously. Because of this accident, the engineer recommended a new protective part that would prevent people from hurting themselves with the blade.
+After this, Mr. Boyce considered the protective part absolutely necessary. The accident frightened him so much that he had the protective part developed immediately.","This is a source story:
+
+Mr. Newton was the manager of a company that made razors. One year, an inventor in his company perfected a metal that would stay sharper than any previous razor.
+However, not long after that, Mr. Newton was using one of these new razors and he cut his neck rather severely. As a result of this incident the inventor recommended a safety feature that would protect people from injuring themselves.
+After what had happened, Mr. Newton considered the safety feature absolutely necessary. The incident had alarmed him so much that he began to produce the safety razor right away. Luckily, his neck did not get infected so everything was alright.
+
+This is story A:
+
+Mr. Boyce was director of manufacturing shaving knives for Gilette Company. In 1980, an engineer in his company perfected a steel alloy that would keep a finer edge than any previous blade. Because it was so sharp, the engineer also recommended a new protective part that would prevent people from hurting themselves with the blade.
+But Mr. Boyce considered the protective part unnecessary. It would be too expensive to incorporate.
+But later, when he was using one of these new blades, he slashed his own throat pretty seriously. After this accident he was so frightened that he had the protective part developed immediately
+
+This is story B:
+
+Mr. Boyce was director of manufacturing shaving knives for Gilette Company. In 1980 an engineer in his company perfected a steel alloy that would keep a finer edge than any previous blade. But later, when Mr. Boyce was using one of these new knives he slashed his throat pretty seriously. Because of this accident, the engineer recommended a new protective part that would prevent people from hurting themselves with the blade.
+After this, Mr. Boyce considered the protective part absolutely necessary. The accident frightened him so much that he had the protective part developed immediately.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two alternative stories:
+
+Source story:
+
+* Mr. Newton, a manager, uses a new razor and cuts his neck severely.
+* The inventor recommends a safety feature to prevent similar accidents.
+* Mr. Newton agrees that the safety feature is necessary and starts producing the safety razor.
+
+Story A:
+
+* Mr. Boyce, a director, uses a new blade and cuts his throat seriously.
+* The engineer recommends a protective part to prevent accidents.
+* Mr. Boyce initially thinks the protective part is unnecessary, but later agrees it's necessary after his own accident.
+
+Story B:
+
+* Mr. Boyce, a director, uses a new blade and cuts his throat seriously.
+* The engineer recommends a protective part to prevent accidents.
+* Mr. Boyce agrees that the protective part is necessary after his accident.
+
+Now, let's compare the stories:
+
+* Both Story A and Story B have a similar plot to the source story: a manager/director uses a new product and gets injured, leading to the recommendation of a safety feature.
+* In both stories, the manager/director initially disagrees with the safety feature, but later agrees it's necessary after their own accident.
+
+Therefore, both Story A and Story B are analogous to the source story",B,B,True,4.875,4.96875
+4,"Joseph was a millionaire who hired a chauffeur to drive his Rolls-Royce. He used to brag. to his wife that he would never be late for his conferences since he had hired a chauffeur.
+One morning when he was in a great hurry, he went to find the chauffeur. But he was asleep. He thought his services would not be needed that day.
+Thus Joseph was very late for his conference after all. To make sure this would not happen again, Joseph hired a second chauffeur. This turned out to be very expensive because the second chauffeur wanted a fancy uniform as well as a high salary.","Alexander was a wealthy man who employed a driver for his limousine. He liked to boast to his spouse that with his driver he would always be on time for his meetings.
+One day when he was in a rush, he went to find the driver. But he was taking a nap. The driver thought it was his day off. Thus Alexander ended up missing his meeting. But to make sure he would not be late again, Alexander hired a second driver.","Alexander was a wealthy man who employed two drivers for his two limousines. He liked to boast to his spouse that with his two drivers he would always be on time for his meetings.
+One day, when he was in a rush, Alexander went to the first driver. But he was taking a nap. The driver thought it was his day off.
+Then Alexander called for the other driver, but he had already left. He had seen Alexander with the first driver so he thought he had the day off.
+Thus, Alexander ended up missing his meeting.","This is a source story:
+
+Joseph was a millionaire who hired a chauffeur to drive his Rolls-Royce. He used to brag. to his wife that he would never be late for his conferences since he had hired a chauffeur.
+One morning when he was in a great hurry, he went to find the chauffeur. But he was asleep. He thought his services would not be needed that day.
+Thus Joseph was very late for his conference after all. To make sure this would not happen again, Joseph hired a second chauffeur. This turned out to be very expensive because the second chauffeur wanted a fancy uniform as well as a high salary.
+
+This is story A:
+
+Alexander was a wealthy man who employed a driver for his limousine. He liked to boast to his spouse that with his driver he would always be on time for his meetings.
+One day when he was in a rush, he went to find the driver. But he was taking a nap. The driver thought it was his day off. Thus Alexander ended up missing his meeting. But to make sure he would not be late again, Alexander hired a second driver.
+
+This is story B:
+
+Alexander was a wealthy man who employed two drivers for his two limousines. He liked to boast to his spouse that with his two drivers he would always be on time for his meetings.
+One day, when he was in a rush, Alexander went to the first driver. But he was taking a nap. The driver thought it was his day off.
+Then Alexander called for the other driver, but he had already left. He had seen Alexander with the first driver so he thought he had the day off.
+Thus, Alexander ended up missing his meeting.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the stories and identify the similarities.
+
+**Source story:**
+
+* Joseph hires a chauffeur to drive his Rolls-Royce.
+* Joseph thinks he won't be late for his conferences with the chauffeur.
+* However, the chauffeur is asleep, and Joseph is late for his conference.
+* To avoid this, Joseph hires a second chauffeur, but it becomes expensive.
+
+**Story A:**
+
+* Alexander employs a driver for his limousine.
+* Alexander thinks he'll always be on time for his meetings with the driver.
+* However, the driver is taking a nap, and Alexander misses his meeting.
+* To avoid this, Alexander hires a second driver.
+
+**Story B:**
+
+* Alexander employs two drivers for his two limousines.
+* Alexander thinks he'll always be on time for his meetings with the drivers.
+* However, the first driver is taking a nap, and Alexander misses his meeting.
+* Then, Alexander calls the second driver, but he's already left, thinking it's his day off.
+
+Now, let's identify the similarities:
+
+* Both stories A and B involve Alexander (or Joseph) hiring a driver (or drivers) to ensure they're on time for their meetings.
+* Both stories involve the driver (or",B,A,True,3.765625,4.59375
+5,"Joseph was a millionaire who hired a chauffeur to drive his Rolls-Royce. He used to brag. to his wife that he would never be late for his conferences since he had hired a chauffeur.
+One morning when he was in a great hurry, he went to find the chauffeur. But he was asleep. He thought his services would not be needed that day.
+Thus Joseph was very late for his conference after all. To make sure this would not happen again, Joseph hired a second chauffeur. This turned out to be very expensive because the second chauffeur wanted a fancy uniform as well as a high salary.","Alexander was a wealthy man who employed two drivers for his two limousines. He liked to boast to his spouse that with his two drivers he would always be on time for his meetings.
+One day, when he was in a rush, Alexander went to the first driver. But he was taking a nap. The driver thought it was his day off.
+Then Alexander called for the other driver, but he had already left. He had seen Alexander with the first driver so he thought he had the day off.
+Thus, Alexander ended up missing his meeting.","Alexander was a wealthy man who employed a driver for his limousine. He liked to boast to his spouse that with his driver he would always be on time for his meetings.
+One day when he was in a rush, he went to find the driver. But he was taking a nap. The driver thought it was his day off. Thus Alexander ended up missing his meeting. But to make sure he would not be late again, Alexander hired a second driver.","This is a source story:
+
+Joseph was a millionaire who hired a chauffeur to drive his Rolls-Royce. He used to brag. to his wife that he would never be late for his conferences since he had hired a chauffeur.
+One morning when he was in a great hurry, he went to find the chauffeur. But he was asleep. He thought his services would not be needed that day.
+Thus Joseph was very late for his conference after all. To make sure this would not happen again, Joseph hired a second chauffeur. This turned out to be very expensive because the second chauffeur wanted a fancy uniform as well as a high salary.
+
+This is story A:
+
+Alexander was a wealthy man who employed two drivers for his two limousines. He liked to boast to his spouse that with his two drivers he would always be on time for his meetings.
+One day, when he was in a rush, Alexander went to the first driver. But he was taking a nap. The driver thought it was his day off.
+Then Alexander called for the other driver, but he had already left. He had seen Alexander with the first driver so he thought he had the day off.
+Thus, Alexander ended up missing his meeting.
+
+This is story B:
+
+Alexander was a wealthy man who employed a driver for his limousine. He liked to boast to his spouse that with his driver he would always be on time for his meetings.
+One day when he was in a rush, he went to find the driver. But he was taking a nap. The driver thought it was his day off. Thus Alexander ended up missing his meeting. But to make sure he would not be late again, Alexander hired a second driver.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the stories and identify the similarities.
+
+**Source story:**
+
+* Joseph hires a chauffeur to drive his Rolls-Royce.
+* He brags to his wife that he'll never be late for conferences with a chauffeur.
+* He's late for a conference because the chauffeur is asleep.
+* To avoid this, Joseph hires a second chauffeur, but it's expensive.
+
+**Story A:**
+
+* Alexander employs two drivers for his two limousines.
+* He boasts to his spouse that he'll always be on time with two drivers.
+* He's late for a meeting because the first driver is asleep, and the second driver has already left.
+* (Note: This story doesn't mention hiring a second driver to avoid being late again.)
+
+**Story B:**
+
+* Alexander employs a driver for his limousine.
+* He boasts to his spouse that he'll always be on time with a driver.
+* He's late for a meeting because the driver is asleep.
+* Alexander hires a second driver to avoid being late again.
+
+Now, let's identify the analogous stories:
+
+* Both stories A and B have a character who hires a driver to avoid being late for a meeting.
+* Both stories have the driver being asleep or unavailable, causing",A,B,True,4.875,4.375
+6,"Karla, an old hawk, lived at the top of a tall oak tree. One afternoon, she saw a hunter on the ground with a bow and some crude arrows that had no feathers. The hunter took aim and shot at the hawk but missed. Karla knew the hunter wanted her feathers so she glided down to the hunter and offered to give him a few. The hunter was so grateful that he pledged never to shoot at a hawk again. He went off and shot deer instead.",Once there was an eagle named Zerdia who nested on a rocky cliff. One day she saw a sportsman coming with a crossbow and some bolts that had no feathers. The sportsman attacked but the bolts missed. Zerdia realized that the sportsman wanted her tailfeathers so she flew down and donated a few of her tailfeathers to the sportsman. The sportsman was pleased. He promised never to attack eagles again.,"Once there was an eagle named Zerdia who donated a few of her tailfeathers to a sportsman so he would promise never to attack eagles. One day Zerdia was nesting high on a rocky cliff when she saw the sportsman coming with a crossbow. Zerdia flew down to meet the man, but he attacked and felled her with a single bolt. As she fluttered to the ground Zerdia realized that the bolt had her own tailfeathers on it.","This is a source story:
+
+Karla, an old hawk, lived at the top of a tall oak tree. One afternoon, she saw a hunter on the ground with a bow and some crude arrows that had no feathers. The hunter took aim and shot at the hawk but missed. Karla knew the hunter wanted her feathers so she glided down to the hunter and offered to give him a few. The hunter was so grateful that he pledged never to shoot at a hawk again. He went off and shot deer instead.
+
+This is story A:
+
+Once there was an eagle named Zerdia who nested on a rocky cliff. One day she saw a sportsman coming with a crossbow and some bolts that had no feathers. The sportsman attacked but the bolts missed. Zerdia realized that the sportsman wanted her tailfeathers so she flew down and donated a few of her tailfeathers to the sportsman. The sportsman was pleased. He promised never to attack eagles again.
+
+This is story B:
+
+Once there was an eagle named Zerdia who donated a few of her tailfeathers to a sportsman so he would promise never to attack eagles. One day Zerdia was nesting high on a rocky cliff when she saw the sportsman coming with a crossbow. Zerdia flew down to meet the man, but he attacked and felled her with a single bolt. As she fluttered to the ground Zerdia realized that the bolt had her own tailfeathers on it.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the stories and identify the similarities and differences.
+
+**Source Story:**
+
+* Karla, an old hawk, lives at the top of a tall oak tree.
+* A hunter tries to shoot her with a bow and arrows, but misses.
+* Karla glides down to the hunter, offers to give him a few feathers, and the hunter pledges to never shoot at a hawk again.
+
+**Story A:**
+
+* Zerdia, an eagle, nests on a rocky cliff.
+* A sportsman comes with a crossbow and bolts, but misses.
+* Zerdia flies down, donates a few tailfeathers, and the sportsman promises to never attack eagles again.
+
+**Story B:**
+
+* Zerdia, an eagle, donates a few tailfeathers to a sportsman, who promises to never attack eagles.
+* The sportsman comes back with a crossbow, attacks Zerdia, and kills her with a bolt that has her own tailfeathers on it.
+
+Now, let's identify the similarities and differences:
+
+* Both Story A and the Source Story have a similar plot: a bird (hawk/eagle) and a hunter/sportsman interact, and the bird offers to give the hunter/sports",A,A,True,5.0,2.953125
+7,"Karla, an old hawk, lived at the top of a tall oak tree. One afternoon, she saw a hunter on the ground with a bow and some crude arrows that had no feathers. The hunter took aim and shot at the hawk but missed. Karla knew the hunter wanted her feathers so she glided down to the hunter and offered to give him a few. The hunter was so grateful that he pledged never to shoot at a hawk again. He went off and shot deer instead.","Once there was an eagle named Zerdia who donated a few of her tailfeathers to a sportsman so he would promise never to attack eagles. One day Zerdia was nesting high on a rocky cliff when she saw the sportsman coming with a crossbow. Zerdia flew down to meet the man, but he attacked and felled her with a single bolt. As she fluttered to the ground Zerdia realized that the bolt had her own tailfeathers on it.",Once there was an eagle named Zerdia who nested on a rocky cliff. One day she saw a sportsman coming with a crossbow and some bolts that had no feathers. The sportsman attacked but the bolts missed. Zerdia realized that the sportsman wanted her tailfeathers so she flew down and donated a few of her tailfeathers to the sportsman. The sportsman was pleased. He promised never to attack eagles again.,"This is a source story:
+
+Karla, an old hawk, lived at the top of a tall oak tree. One afternoon, she saw a hunter on the ground with a bow and some crude arrows that had no feathers. The hunter took aim and shot at the hawk but missed. Karla knew the hunter wanted her feathers so she glided down to the hunter and offered to give him a few. The hunter was so grateful that he pledged never to shoot at a hawk again. He went off and shot deer instead.
+
+This is story A:
+
+Once there was an eagle named Zerdia who donated a few of her tailfeathers to a sportsman so he would promise never to attack eagles. One day Zerdia was nesting high on a rocky cliff when she saw the sportsman coming with a crossbow. Zerdia flew down to meet the man, but he attacked and felled her with a single bolt. As she fluttered to the ground Zerdia realized that the bolt had her own tailfeathers on it.
+
+This is story B:
+
+Once there was an eagle named Zerdia who nested on a rocky cliff. One day she saw a sportsman coming with a crossbow and some bolts that had no feathers. The sportsman attacked but the bolts missed. Zerdia realized that the sportsman wanted her tailfeathers so she flew down and donated a few of her tailfeathers to the sportsman. The sportsman was pleased. He promised never to attack eagles again.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's analyze the stories:
+
+**Source story:**
+
+* Karla, an old hawk, lives at the top of a tall oak tree.
+* A hunter tries to shoot her with a bow and arrows, but misses.
+* Karla glides down to the hunter, offers to give him a few feathers, and the hunter pledges to never shoot at a hawk again.
+
+**Story A:**
+
+* Zerdia, an eagle, donates a few tailfeathers to a sportsman.
+* The sportsman promises to never attack eagles.
+* However, the sportsman later attacks Zerdia with a crossbow, killing her.
+
+**Story B:**
+
+* Zerdia, an eagle, sees a sportsman with a crossbow and no feathers.
+* The sportsman attacks, but misses.
+* Zerdia flies down, donates a few tailfeathers, and the sportsman promises to never attack eagles again.
+
+Now, let's identify the analogous elements:
+
+* In both the source story and Story B, the eagle/hawk offers to give the hunter/sportsman a few feathers, and the hunter/sportsman pledges to never attack again.
+* In both stories, the hunter/sportsman is motivated by a desire for the eagle",B,B,True,3.5625,4.0
+8,"Peter was a young man from Iceland who moved to Florida one summer. He was very self-conscious about his fair skin. Peter thought that people would not accept him unless he tanned himself golden-brown like every one else.
+So Peter spent a whole day in the sun, trying to get a tan. He didn't understand how dangerous the sun could be. Consequently, by evening he had second degree burns over most of his body and he had to go to the hospital. Peter decided that Florida was not for him and booked the next ocean liner back to Iceland. He spent the whole trip under a large umbrella keeping cool.","Alfred was a young man from Sweden who was vacationing in Hawaii. He was annoyed at having to remain pale. He wanted to impress people with his dark tan.
+So one day, Alfred spent the whole afternoon in the sun. He didn't realize what a risk being in the sun could be. As a result, by nightfall he had a terrible sunburn and needed medication. Alfred decided that Hawaii was not his style and decided to fly back to Sweden.","Alfred was a man from Sweden who was vacationing in Hawaii. He wanted to impress his friends with a dark tan, so one day he went out to spend the. afternoon in the sun. But a doctor acquaintance chanced to pass by and gave Alfred a stern warning. If Alfred stayed in the sun, by nightfall he would have a terrible sunburn and would need medication.
+Alfred was so annoyed at having to remain so pale when everyone else was tan that he decided to go back to Sweden.","This is a source story:
+
+Peter was a young man from Iceland who moved to Florida one summer. He was very self-conscious about his fair skin. Peter thought that people would not accept him unless he tanned himself golden-brown like every one else.
+So Peter spent a whole day in the sun, trying to get a tan. He didn't understand how dangerous the sun could be. Consequently, by evening he had second degree burns over most of his body and he had to go to the hospital. Peter decided that Florida was not for him and booked the next ocean liner back to Iceland. He spent the whole trip under a large umbrella keeping cool.
+
+This is story A:
+
+Alfred was a young man from Sweden who was vacationing in Hawaii. He was annoyed at having to remain pale. He wanted to impress people with his dark tan.
+So one day, Alfred spent the whole afternoon in the sun. He didn't realize what a risk being in the sun could be. As a result, by nightfall he had a terrible sunburn and needed medication. Alfred decided that Hawaii was not his style and decided to fly back to Sweden.
+
+This is story B:
+
+Alfred was a man from Sweden who was vacationing in Hawaii. He wanted to impress his friends with a dark tan, so one day he went out to spend the. afternoon in the sun. But a doctor acquaintance chanced to pass by and gave Alfred a stern warning. If Alfred stayed in the sun, by nightfall he would have a terrible sunburn and would need medication.
+Alfred was so annoyed at having to remain so pale when everyone else was tan that he decided to go back to Sweden.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the stories and identify the similarities.
+
+**Source story:**
+
+* Peter, a young man from Iceland, moves to Florida and wants to get a tan to fit in.
+* He spends a day in the sun, gets second-degree burns, and ends up in the hospital.
+* He decides Florida is not for him and returns to Iceland.
+
+**Story A:**
+
+* Alfred, a young man from Sweden, is vacationing in Hawaii and wants to impress people with his dark tan.
+* He spends the afternoon in the sun, gets a sunburn, and needs medication.
+* He decides Hawaii is not his style and returns to Sweden.
+
+**Story B:**
+
+* Alfred, a man from Sweden, is vacationing in Hawaii and wants to impress his friends with a dark tan.
+* A doctor acquaintance warns him about the dangers of staying in the sun.
+* Alfred is annoyed and decides to return to Sweden.
+
+Now, let's identify the similarities:
+
+* Both stories A and B feature a character named Alfred who wants to get a tan to impress others.
+* Both stories involve Alfred spending time in the sun, getting a sunburn, and needing medical attention.
+* Both stories end with Alfred deciding to return to his home country (Sweden).
+
+The only difference",A,A,True,4.25,3.46875
+9,"Peter was a young man from Iceland who moved to Florida one summer. He was very self-conscious about his fair skin. Peter thought that people would not accept him unless he tanned himself golden-brown like every one else.
+So Peter spent a whole day in the sun, trying to get a tan. He didn't understand how dangerous the sun could be. Consequently, by evening he had second degree burns over most of his body and he had to go to the hospital. Peter decided that Florida was not for him and booked the next ocean liner back to Iceland. He spent the whole trip under a large umbrella keeping cool.","Alfred was a man from Sweden who was vacationing in Hawaii. He wanted to impress his friends with a dark tan, so one day he went out to spend the. afternoon in the sun. But a doctor acquaintance chanced to pass by and gave Alfred a stern warning. If Alfred stayed in the sun, by nightfall he would have a terrible sunburn and would need medication.
+Alfred was so annoyed at having to remain so pale when everyone else was tan that he decided to go back to Sweden.","Alfred was a young man from Sweden who was vacationing in Hawaii. He was annoyed at having to remain pale. He wanted to impress people with his dark tan.
+So one day, Alfred spent the whole afternoon in the sun. He didn't realize what a risk being in the sun could be. As a result, by nightfall he had a terrible sunburn and needed medication. Alfred decided that Hawaii was not his style and decided to fly back to Sweden.","This is a source story:
+
+Peter was a young man from Iceland who moved to Florida one summer. He was very self-conscious about his fair skin. Peter thought that people would not accept him unless he tanned himself golden-brown like every one else.
+So Peter spent a whole day in the sun, trying to get a tan. He didn't understand how dangerous the sun could be. Consequently, by evening he had second degree burns over most of his body and he had to go to the hospital. Peter decided that Florida was not for him and booked the next ocean liner back to Iceland. He spent the whole trip under a large umbrella keeping cool.
+
+This is story A:
+
+Alfred was a man from Sweden who was vacationing in Hawaii. He wanted to impress his friends with a dark tan, so one day he went out to spend the. afternoon in the sun. But a doctor acquaintance chanced to pass by and gave Alfred a stern warning. If Alfred stayed in the sun, by nightfall he would have a terrible sunburn and would need medication.
+Alfred was so annoyed at having to remain so pale when everyone else was tan that he decided to go back to Sweden.
+
+This is story B:
+
+Alfred was a young man from Sweden who was vacationing in Hawaii. He was annoyed at having to remain pale. He wanted to impress people with his dark tan.
+So one day, Alfred spent the whole afternoon in the sun. He didn't realize what a risk being in the sun could be. As a result, by nightfall he had a terrible sunburn and needed medication. Alfred decided that Hawaii was not his style and decided to fly back to Sweden.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two alternative stories:
+
+Source story:
+
+* Peter, a young man from Iceland, moves to Florida and wants to get a tan to fit in.
+* He spends a day in the sun, gets second-degree burns, and has to go to the hospital.
+* He decides Florida is not for him and returns to Iceland.
+
+Now, let's compare this to the two alternative stories:
+
+Story A:
+
+* Alfred, a man from Sweden, is vacationing in Hawaii and wants to impress his friends with a dark tan.
+* A doctor acquaintance warns him about the dangers of staying in the sun, but Alfred decides to go back to Sweden anyway.
+
+Story B:
+
+* Alfred, a young man from Sweden, is vacationing in Hawaii and wants to impress people with his dark tan.
+* He spends the whole afternoon in the sun, gets a terrible sunburn, and needs medication.
+* He decides Hawaii is not his style and returns to Sweden.
+
+Now, let's identify the analogous elements between the source story and the two alternative stories:
+
+* Both Peter and Alfred want to get a tan to fit in or impress others.
+* Both Peter and Alfred spend time in the sun, which leads to negative consequences (second-degree burns for Peter, sun",B,B,True,3.34375,4.875
+10,"Julius was a mule who discovered several pears sitting in a window sill. He thought to himself, ""These pears seem to be rotten. Perhaps I'll get some and find out if my prediction is correct.""
+ However, the pears were too high for Julius. And because he was hungry he felt too weak to jump up to them. Naturally, this was rather disappointing. He closed his eyes and went to sleep, dreaming about mountains of pears.","A pony named Sidney found some apples resting on a beam in the barn. ""Those apples really look wormy,"" Sidney thought to himself. ""I think I'll try to get some so I can see if my hunch is right.""`
+ But the apples were out of reach. Needless to say, he could not climb up the ladder to get them. Naturally Sidney became somewhat disappointed.","A pony named Sidney found some apples resting on a beam in the barn. He was starving, but they were out of reach. Needless to say, he could not climb up the ladder to get them.
+ After brooding for awhile, Sidney got over his disappointment. 
+ ""These apples are probably all wormy,"" he thought. ""So even if I could get one I would not want to eat it.""","This is a source story:
+
+Julius was a mule who discovered several pears sitting in a window sill. He thought to himself, ""These pears seem to be rotten. Perhaps I'll get some and find out if my prediction is correct.""
+ However, the pears were too high for Julius. And because he was hungry he felt too weak to jump up to them. Naturally, this was rather disappointing. He closed his eyes and went to sleep, dreaming about mountains of pears.
+
+This is story A:
+
+A pony named Sidney found some apples resting on a beam in the barn. ""Those apples really look wormy,"" Sidney thought to himself. ""I think I'll try to get some so I can see if my hunch is right.""`
+ But the apples were out of reach. Needless to say, he could not climb up the ladder to get them. Naturally Sidney became somewhat disappointed.
+
+This is story B:
+
+A pony named Sidney found some apples resting on a beam in the barn. He was starving, but they were out of reach. Needless to say, he could not climb up the ladder to get them.
+ After brooding for awhile, Sidney got over his disappointment. 
+ ""These apples are probably all wormy,"" he thought. ""So even if I could get one I would not want to eat it.""
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the stories and identify the similarities and differences.
+
+**Source story:**
+
+* Julius, a mule, finds pears in a window sill.
+* He thinks they're rotten and wants to try one.
+* However, they're out of reach, and he's too weak to jump up to get them.
+* He becomes disappointed and goes to sleep.
+
+**Story A:**
+
+* Sidney, a pony, finds apples on a beam in the barn.
+* He thinks they're wormy and wants to try one.
+* However, they're out of reach, and he can't climb up the ladder to get them.
+* He becomes somewhat disappointed.
+
+**Story B:**
+
+* Sidney, a pony, finds apples on a beam in the barn.
+* He's starving, but they're out of reach.
+* He can't climb up the ladder to get them.
+* After brooding, he gets over his disappointment and concludes that the apples are probably wormy anyway.
+
+Now, let's identify the analogous elements:
+
+* Both stories A and B feature a pony named Sidney finding apples on a beam in the barn.
+* Both stories have Sidney wanting to try the apples, but they're out of reach.
+* Both stories have Sidney becoming disappointed (although",B,A,True,4.03125,4.4375
+11,"Julius was a mule who discovered several pears sitting in a window sill. He thought to himself, ""These pears seem to be rotten. Perhaps I'll get some and find out if my prediction is correct.""
+ However, the pears were too high for Julius. And because he was hungry he felt too weak to jump up to them. Naturally, this was rather disappointing. He closed his eyes and went to sleep, dreaming about mountains of pears.","A pony named Sidney found some apples resting on a beam in the barn. He was starving, but they were out of reach. Needless to say, he could not climb up the ladder to get them.
+ After brooding for awhile, Sidney got over his disappointment. 
+ ""These apples are probably all wormy,"" he thought. ""So even if I could get one I would not want to eat it.""","A pony named Sidney found some apples resting on a beam in the barn. ""Those apples really look wormy,"" Sidney thought to himself. ""I think I'll try to get some so I can see if my hunch is right.""`
+ But the apples were out of reach. Needless to say, he could not climb up the ladder to get them. Naturally Sidney became somewhat disappointed.","This is a source story:
+
+Julius was a mule who discovered several pears sitting in a window sill. He thought to himself, ""These pears seem to be rotten. Perhaps I'll get some and find out if my prediction is correct.""
+ However, the pears were too high for Julius. And because he was hungry he felt too weak to jump up to them. Naturally, this was rather disappointing. He closed his eyes and went to sleep, dreaming about mountains of pears.
+
+This is story A:
+
+A pony named Sidney found some apples resting on a beam in the barn. He was starving, but they were out of reach. Needless to say, he could not climb up the ladder to get them.
+ After brooding for awhile, Sidney got over his disappointment. 
+ ""These apples are probably all wormy,"" he thought. ""So even if I could get one I would not want to eat it.""
+
+This is story B:
+
+A pony named Sidney found some apples resting on a beam in the barn. ""Those apples really look wormy,"" Sidney thought to himself. ""I think I'll try to get some so I can see if my hunch is right.""`
+ But the apples were out of reach. Needless to say, he could not climb up the ladder to get them. Naturally Sidney became somewhat disappointed.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the stories and identify the similarities.
+
+**Source story:**
+
+* Julius, a mule, finds pears in a window sill.
+* He thinks they're rotten and wants to verify his prediction.
+* However, they're out of reach, and he's too weak to jump up to get them.
+* He's disappointed and goes to sleep.
+
+**Story A:**
+
+* Sidney, a pony, finds apples on a beam in the barn.
+* He's starving, but they're out of reach.
+* He can't climb up the ladder to get them.
+* He becomes disappointed, but then gets over it and thinks the apples might be wormy anyway.
+
+**Story B:**
+
+* Sidney, a pony, finds apples on a beam in the barn.
+* He thinks the apples look wormy and wants to verify his hunch.
+* However, they're out of reach, and he can't climb up the ladder to get them.
+* He becomes somewhat disappointed.
+
+Now, let's identify the analogous elements:
+
+* Both stories A and B feature a pony named Sidney finding apples on a beam in the barn.
+* In both stories, the apples are out of reach, and Sidney can't climb up to get them.
+* Both stories feature",B,B,True,4.21875,4.46875
+12,"Percy the mockingbird spent the whole warm season chirping and twittering. When it began to get colder Percy visited a squirrel and sang a song for her, expecting to get some of the squirrel's sunflower seeds in return. However, the squirrel was very disappointed in him.
+ ""You are a terrible singer!"" she yelled. ""I'm not giving you any of my wheat.""
+ A tear rolled down Percy's cheek, and he vowed to give up singing for good.","A magpie named Sam sang all summer. When winter came he paid a visit to a chipmunk and performed a ballad for her hoping she would give him some nuts in return. However the chipmunk was not at all pleased.
+ ""You don't deserve any nuts of mine!"" she exclaimed. ""Your song was terrible.""","A magpie named Sam sang all summer. When winter came he paid a visit to a chipmunk. However, the chipmunk ws not at all pleased with Sam.
+ ""You have wasted the summer while I have been hard at work!"" she said. Sam performed a ballad for her hoping she would give him some nuts in return. But she was still not pleased. ""I will not give you any of my nuts!"" she exclaimed.","This is a source story:
+
+Percy the mockingbird spent the whole warm season chirping and twittering. When it began to get colder Percy visited a squirrel and sang a song for her, expecting to get some of the squirrel's sunflower seeds in return. However, the squirrel was very disappointed in him.
+ ""You are a terrible singer!"" she yelled. ""I'm not giving you any of my wheat.""
+ A tear rolled down Percy's cheek, and he vowed to give up singing for good.
+
+This is story A:
+
+A magpie named Sam sang all summer. When winter came he paid a visit to a chipmunk and performed a ballad for her hoping she would give him some nuts in return. However the chipmunk was not at all pleased.
+ ""You don't deserve any nuts of mine!"" she exclaimed. ""Your song was terrible.""
+
+This is story B:
+
+A magpie named Sam sang all summer. When winter came he paid a visit to a chipmunk. However, the chipmunk ws not at all pleased with Sam.
+ ""You have wasted the summer while I have been hard at work!"" she said. Sam performed a ballad for her hoping she would give him some nuts in return. But she was still not pleased. ""I will not give you any of my nuts!"" she exclaimed.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break it down step by step.
+
+1. Both stories A and B feature a magpie named Sam who sings a ballad for a chipmunk in the winter.
+2. In both stories, the chipmunk is not pleased with Sam.
+3. In the source story, Percy the mockingbird visits a squirrel and sings a song, expecting to get sunflower seeds in return. However, the squirrel is disappointed and doesn't give him any seeds.
+4. In story A, Sam sings a ballad for the chipmunk, hoping to get nuts in return. However, the chipmunk is not pleased and doesn't give him any nuts.
+5. In story B, Sam sings a ballad for the chipmunk, hoping to get nuts in return. However, the chipmunk is not pleased and doesn't give him any nuts.
+
+Comparing the two stories, we can see that both stories A and B have similar plot elements to the source story. Both feature a bird singing for food, expecting a reward, but getting rejected instead.
+
+However, there is one key difference between the source story and story B. In the source story, Percy's singing is the reason for the squirrel's disappointment. In story B, the chipm",B,A,True,3.859375,3.890625
+13,"Percy the mockingbird spent the whole warm season chirping and twittering. When it began to get colder Percy visited a squirrel and sang a song for her, expecting to get some of the squirrel's sunflower seeds in return. However, the squirrel was very disappointed in him.
+ ""You are a terrible singer!"" she yelled. ""I'm not giving you any of my wheat.""
+ A tear rolled down Percy's cheek, and he vowed to give up singing for good.","A magpie named Sam sang all summer. When winter came he paid a visit to a chipmunk. However, the chipmunk ws not at all pleased with Sam.
+ ""You have wasted the summer while I have been hard at work!"" she said. Sam performed a ballad for her hoping she would give him some nuts in return. But she was still not pleased. ""I will not give you any of my nuts!"" she exclaimed.","A magpie named Sam sang all summer. When winter came he paid a visit to a chipmunk and performed a ballad for her hoping she would give him some nuts in return. However the chipmunk was not at all pleased.
+ ""You don't deserve any nuts of mine!"" she exclaimed. ""Your song was terrible.""","This is a source story:
+
+Percy the mockingbird spent the whole warm season chirping and twittering. When it began to get colder Percy visited a squirrel and sang a song for her, expecting to get some of the squirrel's sunflower seeds in return. However, the squirrel was very disappointed in him.
+ ""You are a terrible singer!"" she yelled. ""I'm not giving you any of my wheat.""
+ A tear rolled down Percy's cheek, and he vowed to give up singing for good.
+
+This is story A:
+
+A magpie named Sam sang all summer. When winter came he paid a visit to a chipmunk. However, the chipmunk ws not at all pleased with Sam.
+ ""You have wasted the summer while I have been hard at work!"" she said. Sam performed a ballad for her hoping she would give him some nuts in return. But she was still not pleased. ""I will not give you any of my nuts!"" she exclaimed.
+
+This is story B:
+
+A magpie named Sam sang all summer. When winter came he paid a visit to a chipmunk and performed a ballad for her hoping she would give him some nuts in return. However the chipmunk was not at all pleased.
+ ""You don't deserve any nuts of mine!"" she exclaimed. ""Your song was terrible.""
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break it down step by step.
+
+**Common elements:**
+
+* Both stories A and B feature a magpie named Sam who sings all summer.
+* Both stories feature a visit to a chipmunk in winter.
+* Both stories involve Sam singing a ballad for the chipmunk in exchange for nuts.
+
+**Differences:**
+
+* Story A mentions that the chipmunk was not at all pleased with Sam, but doesn't specify why. Story B provides a reason, saying the song was ""terrible"".
+* Story A doesn't mention Sam's reaction to the chipmunk's response, while Story B mentions that the chipmunk's response makes Sam feel unworthy of nuts.
+
+**Comparison to the source story:**
+
+* The source story features a mockingbird named Percy who sings all summer and visits a squirrel in winter, expecting sunflower seeds in return. The squirrel is disappointed and tells Percy his singing is terrible, leading Percy to give up singing.
+* Both stories A and B feature a bird (magpie) who sings all summer and visits a small mammal (chipmunk) in winter, expecting food in return. The chipmunk is disappointed and tells the magpie their singing is terrible, leading to a negative outcome.
+
+**",B,B,True,3.625,4.75
+14,"A dog named Leonard was trotting along a dock holding a steak in his teeth. However, as he trotted he dropped it inadvertently and it disappeared into the lake. Thus, he was left without his dinner.
+Then Leonard saw another dog with a steak. Because he had lost his own steak he tried to take it. Unluckily, the other dog was much bigger than he was. Leonard ended up losing a tooth in the scuffle.","Charlie the puppy was running out on a pier with a pork chop in his mouth. As he ran he
+accidently dropped it and it vanished into the bay. Thus, he was left with nothing to eat. Then Charlie saw another puppy with a pork chop in his mouth. Since he had lost his own
+pork chop he reached out to take it. Unfortunately, the other puppy was much larger than he was.","Charlie the puppy was running out on a pier with a pork chop in his mouth. Then he looked down and saw another puppy with a pork chop in his mouth.
+Not realizing it was just his reflection, and since he was also quite hungry, Charlie reached down to take it. Unfortunately, as he opened his mouth he dropped his piece and both pieces vanished into the bay. Consequently he was left with no meat at all.","This is a source story:
+
+A dog named Leonard was trotting along a dock holding a steak in his teeth. However, as he trotted he dropped it inadvertently and it disappeared into the lake. Thus, he was left without his dinner.
+Then Leonard saw another dog with a steak. Because he had lost his own steak he tried to take it. Unluckily, the other dog was much bigger than he was. Leonard ended up losing a tooth in the scuffle.
+
+This is story A:
+
+Charlie the puppy was running out on a pier with a pork chop in his mouth. As he ran he
+accidently dropped it and it vanished into the bay. Thus, he was left with nothing to eat. Then Charlie saw another puppy with a pork chop in his mouth. Since he had lost his own
+pork chop he reached out to take it. Unfortunately, the other puppy was much larger than he was.
+
+This is story B:
+
+Charlie the puppy was running out on a pier with a pork chop in his mouth. Then he looked down and saw another puppy with a pork chop in his mouth.
+Not realizing it was just his reflection, and since he was also quite hungry, Charlie reached down to take it. Unfortunately, as he opened his mouth he dropped his piece and both pieces vanished into the bay. Consequently he was left with no meat at all.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two given stories:
+
+Source story:
+
+* A dog named Leonard loses a steak while walking along a dock.
+* He tries to take a steak from another dog, but ends up losing a tooth in the process.
+
+Story A:
+
+* A puppy named Charlie loses a pork chop while running on a pier.
+* He tries to take a pork chop from another puppy, but is unsuccessful.
+
+Story B:
+
+* A puppy named Charlie sees his own reflection on a pier and tries to take it, thinking it's another puppy with a pork chop.
+* He ends up dropping his own pork chop and both pieces (his and the reflection's) disappear into the bay.
+
+Now, let's identify the analogous elements between the source story and the two given stories:
+
+* Loss of food (steak/pork chop) due to accidental dropping or mishandling.
+* Attempt to take food from another entity (dog/puppy).
+* Unsuccessful outcome, resulting in the loss of food and/or other consequences (losing a tooth).
+
+Based on these similarities, I would say that:
+
+<ans> B </ans>
+
+Story B is analogous to the source story, as it shares the same themes of losing food, attempting to take food from another entity, and",B,A,False,,
+15,"A dog named Leonard was trotting along a dock holding a steak in his teeth. However, as he trotted he dropped it inadvertently and it disappeared into the lake. Thus, he was left without his dinner.
+Then Leonard saw another dog with a steak. Because he had lost his own steak he tried to take it. Unluckily, the other dog was much bigger than he was. Leonard ended up losing a tooth in the scuffle.","Charlie the puppy was running out on a pier with a pork chop in his mouth. Then he looked down and saw another puppy with a pork chop in his mouth.
+Not realizing it was just his reflection, and since he was also quite hungry, Charlie reached down to take it. Unfortunately, as he opened his mouth he dropped his piece and both pieces vanished into the bay. Consequently he was left with no meat at all.","Charlie the puppy was running out on a pier with a pork chop in his mouth. As he ran he
+accidently dropped it and it vanished into the bay. Thus, he was left with nothing to eat. Then Charlie saw another puppy with a pork chop in his mouth. Since he had lost his own
+pork chop he reached out to take it. Unfortunately, the other puppy was much larger than he was.","This is a source story:
+
+A dog named Leonard was trotting along a dock holding a steak in his teeth. However, as he trotted he dropped it inadvertently and it disappeared into the lake. Thus, he was left without his dinner.
+Then Leonard saw another dog with a steak. Because he had lost his own steak he tried to take it. Unluckily, the other dog was much bigger than he was. Leonard ended up losing a tooth in the scuffle.
+
+This is story A:
+
+Charlie the puppy was running out on a pier with a pork chop in his mouth. Then he looked down and saw another puppy with a pork chop in his mouth.
+Not realizing it was just his reflection, and since he was also quite hungry, Charlie reached down to take it. Unfortunately, as he opened his mouth he dropped his piece and both pieces vanished into the bay. Consequently he was left with no meat at all.
+
+This is story B:
+
+Charlie the puppy was running out on a pier with a pork chop in his mouth. As he ran he
+accidently dropped it and it vanished into the bay. Thus, he was left with nothing to eat. Then Charlie saw another puppy with a pork chop in his mouth. Since he had lost his own
+pork chop he reached out to take it. Unfortunately, the other puppy was much larger than he was.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two given stories:
+
+Source story:
+
+* A dog named Leonard loses a steak while walking along a dock.
+* He tries to take a steak from another dog, but ends up losing a tooth in the process.
+
+Story A:
+
+* A puppy named Charlie loses a pork chop while running on a pier.
+* He tries to take a pork chop from another puppy, but it's unclear what happens next.
+
+Story B:
+
+* A puppy named Charlie loses a pork chop while running on a pier.
+* He tries to take a pork chop from another puppy, but the other puppy is larger than him.
+
+Now, let's look for similarities between the source story and the two given stories:
+
+* Both stories A and B involve a character (Charlie) losing a food item (pork chop) and then trying to take a food item from another character.
+* In both stories, the character's attempt to take the food item from the other character ends in failure or loss (in story A, it's unclear what happens, but in story B, Charlie is outmatched by the larger puppy).
+
+The key difference between the source story and the two given stories is the outcome of the second attempt to take the food item. In the source story,",A,B,True,4.71875,4.28125
+16,"Boris and Ivan thought well of one anothers' skill in business and resolved to open up a store together. As ill luck would have it, Ivan was quite absent-minded and he threw out a large amount of cash. This annoyed Boris who therefore demanded that Ivan have nothing to do with the monetary matters of their new store. Later, however, Ivan redeemed himself by selling his fancy new stereo set to replace the lost cash.","John and Christian respected each others' technical judgment and decided to form a company. Unfortunately Christian was so forgetful that he put all their money in the trash. This upset John, so he insisted that Christian never deal with the proposed company's finances.","John and Christian respected each others' technical judgment and decided to form a company. Unfortunately, John learned that Christian was notoriously forgetful, so he insisted that Christian never deal with the proposed company's finances. This upset Christian so much that he put all their money in the trash to get back at John.","This is a source story:
+
+Boris and Ivan thought well of one anothers' skill in business and resolved to open up a store together. As ill luck would have it, Ivan was quite absent-minded and he threw out a large amount of cash. This annoyed Boris who therefore demanded that Ivan have nothing to do with the monetary matters of their new store. Later, however, Ivan redeemed himself by selling his fancy new stereo set to replace the lost cash.
+
+This is story A:
+
+John and Christian respected each others' technical judgment and decided to form a company. Unfortunately Christian was so forgetful that he put all their money in the trash. This upset John, so he insisted that Christian never deal with the proposed company's finances.
+
+This is story B:
+
+John and Christian respected each others' technical judgment and decided to form a company. Unfortunately, John learned that Christian was notoriously forgetful, so he insisted that Christian never deal with the proposed company's finances. This upset Christian so much that he put all their money in the trash to get back at John.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two alternative stories:
+
+Source story:
+
+* Boris and Ivan have a good opinion of each other's business skills.
+* Ivan is absent-minded and throws away a large amount of cash.
+* Boris is annoyed and demands that Ivan not be involved in the store's financial matters.
+* Ivan redeems himself by selling his stereo set to replace the lost cash.
+
+Story A:
+
+* John and Christian respect each other's technical judgment.
+* Christian is forgetful and puts all their money in the trash.
+* John is upset and insists that Christian not deal with the company's finances.
+
+Story B:
+
+* John and Christian respect each other's technical judgment.
+* John learns that Christian is forgetful and insists that Christian not deal with the company's finances.
+* Christian is upset and puts all their money in the trash to get back at John.
+
+Now, let's compare the source story with the two alternative stories:
+
+* Both Story A and Story B have a similar plot structure to the source story, with a character being forgetful and causing financial trouble.
+* However, the motivations and reactions of the characters differ between the source story and the two alternative stories.
+* In the source story, Ivan redeems himself by selling his stereo set to replace the",A,A,True,5.15625,4.5625
+17,"Boris and Ivan thought well of one anothers' skill in business and resolved to open up a store together. As ill luck would have it, Ivan was quite absent-minded and he threw out a large amount of cash. This annoyed Boris who therefore demanded that Ivan have nothing to do with the monetary matters of their new store. Later, however, Ivan redeemed himself by selling his fancy new stereo set to replace the lost cash.","John and Christian respected each others' technical judgment and decided to form a company. Unfortunately, John learned that Christian was notoriously forgetful, so he insisted that Christian never deal with the proposed company's finances. This upset Christian so much that he put all their money in the trash to get back at John.","John and Christian respected each others' technical judgment and decided to form a company. Unfortunately Christian was so forgetful that he put all their money in the trash. This upset John, so he insisted that Christian never deal with the proposed company's finances.","This is a source story:
+
+Boris and Ivan thought well of one anothers' skill in business and resolved to open up a store together. As ill luck would have it, Ivan was quite absent-minded and he threw out a large amount of cash. This annoyed Boris who therefore demanded that Ivan have nothing to do with the monetary matters of their new store. Later, however, Ivan redeemed himself by selling his fancy new stereo set to replace the lost cash.
+
+This is story A:
+
+John and Christian respected each others' technical judgment and decided to form a company. Unfortunately, John learned that Christian was notoriously forgetful, so he insisted that Christian never deal with the proposed company's finances. This upset Christian so much that he put all their money in the trash to get back at John.
+
+This is story B:
+
+John and Christian respected each others' technical judgment and decided to form a company. Unfortunately Christian was so forgetful that he put all their money in the trash. This upset John, so he insisted that Christian never deal with the proposed company's finances.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two new stories:
+
+Source story:
+
+* Boris and Ivan open a store together
+* Ivan is absent-minded and throws away a large amount of cash
+* Boris is annoyed and demands that Ivan not be involved in monetary matters
+* Ivan redeems himself by selling his stereo set to replace the lost cash
+
+Story A:
+
+* John and Christian form a company
+* Christian is forgetful and puts all their money in the trash (similar to Ivan throwing away cash)
+* John is upset and insists that Christian not deal with the company's finances
+
+Story B:
+
+* John and Christian form a company
+* Christian is forgetful and puts all their money in the trash (similar to Ivan throwing away cash)
+* John is upset and insists that Christian not deal with the company's finances
+
+Comparing the three stories, we can see that both Story A and Story B have a similar plot point where Christian/Ivan is forgetful and makes a mistake with the company's money. This is analogous to the source story where Ivan is absent-minded and throws away cash.
+
+However, there is a key difference between Story A and Story B. In Story A, Christian's forgetfulness is a response to John's demand that he not deal with finances",B,B,True,3.890625,4.75
+18,"Two small countries, Bolon and Salam, were adjacent to a large, warlike country called Mayonia.
+Bolon decided to make the best of the situation by taking over Salam. Salam started looking for aid from other strong countries but soon Bolon succeeded in taking it over.
+Then victorious Bolon proposed to make a treaty with its warlike neighbor Mayonia. Bolon proposed to give Mayonia control over Salam in exchange for a guarantee that Bolon would remain independent.
+Mayonia responded by overrunning both Bolon and Salam. Bolon was so busy maintaining control of Salam, it could do nothing to stop Mayonia. Therupon, Mayonia installed puppet governments in both Bolon and Salam, and took over the newspapers and radio stations.","Two weak nations, Lincoln and Moreland, bordered a third nation known as Chad. Chad was aggressive and very powerful.Moreland decided to make the best of the situation by overpowering Lincoln. Lincoln started to seek protection from other powerful nations but Moreland eventually succeeded in conquering it.
+Then triumphant Moreland offered to make a pact with its aggressive neighbor Chad. Moreland offered to give Chad control over Lincoln in exchange for being left alone itself.
+When Chad got into the action it invaded both Lincoln and Moreland. And Moreland was so drained from battle, it could do nothing to prevent it.","Two weak nations, Lincoln and Moreland, bordered a third nation known as Chad. Chad was aggressive and very powerful.
+Moreland decided to make the best of the situatuion by offering to help conquer Lincoln in exchange for being left alone itself.
+But Lincoln somehow received word of the agreement and began to seek protection from other powerful nations. Immediately, Moreland invaded Lincloln and eventually succeeded in conquering it.
+When Chad got into the action it invaded both Lincoln and Moreland. And Moreland was so drained from battle, it could do nothing to prevent it.","This is a source story:
+
+Two small countries, Bolon and Salam, were adjacent to a large, warlike country called Mayonia.
+Bolon decided to make the best of the situation by taking over Salam. Salam started looking for aid from other strong countries but soon Bolon succeeded in taking it over.
+Then victorious Bolon proposed to make a treaty with its warlike neighbor Mayonia. Bolon proposed to give Mayonia control over Salam in exchange for a guarantee that Bolon would remain independent.
+Mayonia responded by overrunning both Bolon and Salam. Bolon was so busy maintaining control of Salam, it could do nothing to stop Mayonia. Therupon, Mayonia installed puppet governments in both Bolon and Salam, and took over the newspapers and radio stations.
+
+This is story A:
+
+Two weak nations, Lincoln and Moreland, bordered a third nation known as Chad. Chad was aggressive and very powerful.Moreland decided to make the best of the situation by overpowering Lincoln. Lincoln started to seek protection from other powerful nations but Moreland eventually succeeded in conquering it.
+Then triumphant Moreland offered to make a pact with its aggressive neighbor Chad. Moreland offered to give Chad control over Lincoln in exchange for being left alone itself.
+When Chad got into the action it invaded both Lincoln and Moreland. And Moreland was so drained from battle, it could do nothing to prevent it.
+
+This is story B:
+
+Two weak nations, Lincoln and Moreland, bordered a third nation known as Chad. Chad was aggressive and very powerful.
+Moreland decided to make the best of the situatuion by offering to help conquer Lincoln in exchange for being left alone itself.
+But Lincoln somehow received word of the agreement and began to seek protection from other powerful nations. Immediately, Moreland invaded Lincloln and eventually succeeded in conquering it.
+When Chad got into the action it invaded both Lincoln and Moreland. And Moreland was so drained from battle, it could do nothing to prevent it.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two alternative stories:
+
+Source story:
+
+* Bolon takes over Salam
+* Bolon proposes a treaty with Mayonia, offering to give Mayonia control over Salam in exchange for a guarantee of independence
+* Mayonia responds by invading both Bolon and Salam, installing puppet governments and taking over the media
+
+Story A:
+
+* Moreland takes over Lincoln
+* Moreland proposes a treaty with Chad, offering to give Chad control over Lincoln in exchange for being left alone
+* Chad responds by invading both Lincoln and Moreland
+
+Story B:
+
+* Moreland offers to help Chad conquer Lincoln in exchange for being left alone
+* Lincoln seeks protection from other powerful nations and Moreland invades Lincoln
+* Chad invades both Lincoln and Moreland
+
+Now, let's identify the analogous elements between the source story and the two alternative stories:
+
+* In the source story, Bolon takes over Salam and then proposes a treaty with Mayonia. In both Story A and Story B, Moreland takes over Lincoln.
+* In the source story, Mayonia responds to Bolon's proposal by invading both Bolon and Salam. In both Story A and Story B, Chad responds to Moreland's proposal by invading both Lincoln",A,A,True,4.34375,3.875
+19,"Two small countries, Bolon and Salam, were adjacent to a large, warlike country called Mayonia.
+Bolon decided to make the best of the situation by taking over Salam. Salam started looking for aid from other strong countries but soon Bolon succeeded in taking it over.
+Then victorious Bolon proposed to make a treaty with its warlike neighbor Mayonia. Bolon proposed to give Mayonia control over Salam in exchange for a guarantee that Bolon would remain independent.
+Mayonia responded by overrunning both Bolon and Salam. Bolon was so busy maintaining control of Salam, it could do nothing to stop Mayonia. Therupon, Mayonia installed puppet governments in both Bolon and Salam, and took over the newspapers and radio stations.","Two weak nations, Lincoln and Moreland, bordered a third nation known as Chad. Chad was aggressive and very powerful.
+Moreland decided to make the best of the situatuion by offering to help conquer Lincoln in exchange for being left alone itself.
+But Lincoln somehow received word of the agreement and began to seek protection from other powerful nations. Immediately, Moreland invaded Lincloln and eventually succeeded in conquering it.
+When Chad got into the action it invaded both Lincoln and Moreland. And Moreland was so drained from battle, it could do nothing to prevent it.","Two weak nations, Lincoln and Moreland, bordered a third nation known as Chad. Chad was aggressive and very powerful.Moreland decided to make the best of the situation by overpowering Lincoln. Lincoln started to seek protection from other powerful nations but Moreland eventually succeeded in conquering it.
+Then triumphant Moreland offered to make a pact with its aggressive neighbor Chad. Moreland offered to give Chad control over Lincoln in exchange for being left alone itself.
+When Chad got into the action it invaded both Lincoln and Moreland. And Moreland was so drained from battle, it could do nothing to prevent it.","This is a source story:
+
+Two small countries, Bolon and Salam, were adjacent to a large, warlike country called Mayonia.
+Bolon decided to make the best of the situation by taking over Salam. Salam started looking for aid from other strong countries but soon Bolon succeeded in taking it over.
+Then victorious Bolon proposed to make a treaty with its warlike neighbor Mayonia. Bolon proposed to give Mayonia control over Salam in exchange for a guarantee that Bolon would remain independent.
+Mayonia responded by overrunning both Bolon and Salam. Bolon was so busy maintaining control of Salam, it could do nothing to stop Mayonia. Therupon, Mayonia installed puppet governments in both Bolon and Salam, and took over the newspapers and radio stations.
+
+This is story A:
+
+Two weak nations, Lincoln and Moreland, bordered a third nation known as Chad. Chad was aggressive and very powerful.
+Moreland decided to make the best of the situatuion by offering to help conquer Lincoln in exchange for being left alone itself.
+But Lincoln somehow received word of the agreement and began to seek protection from other powerful nations. Immediately, Moreland invaded Lincloln and eventually succeeded in conquering it.
+When Chad got into the action it invaded both Lincoln and Moreland. And Moreland was so drained from battle, it could do nothing to prevent it.
+
+This is story B:
+
+Two weak nations, Lincoln and Moreland, bordered a third nation known as Chad. Chad was aggressive and very powerful.Moreland decided to make the best of the situation by overpowering Lincoln. Lincoln started to seek protection from other powerful nations but Moreland eventually succeeded in conquering it.
+Then triumphant Moreland offered to make a pact with its aggressive neighbor Chad. Moreland offered to give Chad control over Lincoln in exchange for being left alone itself.
+When Chad got into the action it invaded both Lincoln and Moreland. And Moreland was so drained from battle, it could do nothing to prevent it.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two story options:
+
+Source story:
+
+* Bolon takes over Salam
+* Bolon proposes a treaty with Mayonia, offering to give Mayonia control over Salam in exchange for a guarantee of independence
+* Mayonia responds by invading both Bolon and Salam, installing puppet governments and taking over the media
+
+Story A:
+
+* Moreland offers to help conquer Lincoln in exchange for being left alone
+* Lincoln seeks protection from other powerful nations and is eventually conquered by Moreland
+* Chad invades both Lincoln and Moreland, and Moreland is unable to resist
+
+Story B:
+
+* Moreland conquers Lincoln
+* Moreland offers a pact to Chad, offering to give Chad control over Lincoln in exchange for being left alone
+* Chad invades both Lincoln and Moreland, and Moreland is unable to resist
+
+Now, let's look for similarities between the source story and the two story options:
+
+* In the source story, Bolon takes over Salam, and in both story options, Moreland takes over Lincoln.
+* In the source story, Bolon proposes a treaty with Mayonia, and in both story options, Moreland offers a pact to Chad.
+* In the source story, Mayonia inv",B,B,True,3.375,3.984375
+20,"A farmer named Beedle had a choice apricot tree that he valued above all the rest in his garden. Every year Beedle gave presents of fruit from this tree to everyone he knew.
+ But one year the tree began to wither and there was no moreof the wonderful fruit. Everyone was very unhappy.
+ The judge had enjoyed the apricots from the tree very much -so much so that he resolved to take the tree to his own garden to take care of it. He paid Beedle very well and had the tree moved to his own grounds. Fortunately, as soon as it was transplanted, the tree bore delicious apricots again. That very year, the fruit won first prize in the county fair.","A grower, Mr. Gerson, had many grapevines in his vineyard but there was one that he valued above the rest. Occasionally, Mr. Gerson presented grapes form this vine as gifts to his friends.
+ However, one autumn the vine began to dry up and there were no more of the marvelous grapes. Everyone was extremely disappointed.
+ The mayor liked the grapes from this vine so much that he decided he would buy the vine and put it in his own yard where he could look after it. He paid Mr. Gerson very well and had the vine moved to his estate. Upon being moved, the vine produced marvelous grapes again.","A grower, Mr. Gerson, had many grapevines in his vineyard but there was one that he valued above all the rest. Occassionally, Mr. Gerson presented grapes from this vine as gifts to his friends.
+ The mayor liked the grapes from this vine so well that one autumn he decided he wanted the vine in his own yard where he could enjoy them every day. He paid Mr. Gerson very well and had the vine moved to his estate.
+ However, upon being moved, the vine dried up and there were no more of the marvelous grapes. Everyone was extremely disappointed.","This is a source story:
+
+A farmer named Beedle had a choice apricot tree that he valued above all the rest in his garden. Every year Beedle gave presents of fruit from this tree to everyone he knew.
+ But one year the tree began to wither and there was no moreof the wonderful fruit. Everyone was very unhappy.
+ The judge had enjoyed the apricots from the tree very much -so much so that he resolved to take the tree to his own garden to take care of it. He paid Beedle very well and had the tree moved to his own grounds. Fortunately, as soon as it was transplanted, the tree bore delicious apricots again. That very year, the fruit won first prize in the county fair.
+
+This is story A:
+
+A grower, Mr. Gerson, had many grapevines in his vineyard but there was one that he valued above the rest. Occasionally, Mr. Gerson presented grapes form this vine as gifts to his friends.
+ However, one autumn the vine began to dry up and there were no more of the marvelous grapes. Everyone was extremely disappointed.
+ The mayor liked the grapes from this vine so much that he decided he would buy the vine and put it in his own yard where he could look after it. He paid Mr. Gerson very well and had the vine moved to his estate. Upon being moved, the vine produced marvelous grapes again.
+
+This is story B:
+
+A grower, Mr. Gerson, had many grapevines in his vineyard but there was one that he valued above all the rest. Occassionally, Mr. Gerson presented grapes from this vine as gifts to his friends.
+ The mayor liked the grapes from this vine so well that one autumn he decided he wanted the vine in his own yard where he could enjoy them every day. He paid Mr. Gerson very well and had the vine moved to his estate.
+ However, upon being moved, the vine dried up and there were no more of the marvelous grapes. Everyone was extremely disappointed.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two given stories:
+
+Source story:
+
+* A farmer, Beedle, has a special apricot tree that he values and gives presents of fruit to everyone he knows.
+* The tree withers and there's no more fruit, making everyone unhappy.
+* The judge takes the tree to his own garden, pays Beedle well, and the tree produces delicious apricots again, winning first prize in the county fair.
+
+Story A:
+
+* A grower, Mr. Gerson, has a special grapevine that he values and gives grapes as gifts to his friends.
+* The vine dries up and there's no more grapes, making everyone disappointed.
+* The mayor buys the vine, pays Mr. Gerson well, and moves it to his estate, where it produces marvelous grapes again.
+
+Story B:
+
+* A grower, Mr. Gerson, has a special grapevine that he values and gives grapes as gifts to his friends.
+* The mayor buys the vine, pays Mr. Gerson well, and moves it to his estate.
+* However, the vine dries up and there's no more grapes, making everyone extremely disappointed.
+
+Now, let's compare the source story with the two given stories:
+
+* Both",A,A,True,6.0625,2.0625
+21,"A farmer named Beedle had a choice apricot tree that he valued above all the rest in his garden. Every year Beedle gave presents of fruit from this tree to everyone he knew.
+ But one year the tree began to wither and there was no moreof the wonderful fruit. Everyone was very unhappy.
+ The judge had enjoyed the apricots from the tree very much -so much so that he resolved to take the tree to his own garden to take care of it. He paid Beedle very well and had the tree moved to his own grounds. Fortunately, as soon as it was transplanted, the tree bore delicious apricots again. That very year, the fruit won first prize in the county fair.","A grower, Mr. Gerson, had many grapevines in his vineyard but there was one that he valued above all the rest. Occassionally, Mr. Gerson presented grapes from this vine as gifts to his friends.
+ The mayor liked the grapes from this vine so well that one autumn he decided he wanted the vine in his own yard where he could enjoy them every day. He paid Mr. Gerson very well and had the vine moved to his estate.
+ However, upon being moved, the vine dried up and there were no more of the marvelous grapes. Everyone was extremely disappointed.","A grower, Mr. Gerson, had many grapevines in his vineyard but there was one that he valued above the rest. Occasionally, Mr. Gerson presented grapes form this vine as gifts to his friends.
+ However, one autumn the vine began to dry up and there were no more of the marvelous grapes. Everyone was extremely disappointed.
+ The mayor liked the grapes from this vine so much that he decided he would buy the vine and put it in his own yard where he could look after it. He paid Mr. Gerson very well and had the vine moved to his estate. Upon being moved, the vine produced marvelous grapes again.","This is a source story:
+
+A farmer named Beedle had a choice apricot tree that he valued above all the rest in his garden. Every year Beedle gave presents of fruit from this tree to everyone he knew.
+ But one year the tree began to wither and there was no moreof the wonderful fruit. Everyone was very unhappy.
+ The judge had enjoyed the apricots from the tree very much -so much so that he resolved to take the tree to his own garden to take care of it. He paid Beedle very well and had the tree moved to his own grounds. Fortunately, as soon as it was transplanted, the tree bore delicious apricots again. That very year, the fruit won first prize in the county fair.
+
+This is story A:
+
+A grower, Mr. Gerson, had many grapevines in his vineyard but there was one that he valued above all the rest. Occassionally, Mr. Gerson presented grapes from this vine as gifts to his friends.
+ The mayor liked the grapes from this vine so well that one autumn he decided he wanted the vine in his own yard where he could enjoy them every day. He paid Mr. Gerson very well and had the vine moved to his estate.
+ However, upon being moved, the vine dried up and there were no more of the marvelous grapes. Everyone was extremely disappointed.
+
+This is story B:
+
+A grower, Mr. Gerson, had many grapevines in his vineyard but there was one that he valued above the rest. Occasionally, Mr. Gerson presented grapes form this vine as gifts to his friends.
+ However, one autumn the vine began to dry up and there were no more of the marvelous grapes. Everyone was extremely disappointed.
+ The mayor liked the grapes from this vine so much that he decided he would buy the vine and put it in his own yard where he could look after it. He paid Mr. Gerson very well and had the vine moved to his estate. Upon being moved, the vine produced marvelous grapes again.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the stories and identify the similarities and differences with the source story.
+
+**Source story:**
+
+* A farmer, Beedle, has a special apricot tree that he values and gives presents of fruit to everyone he knows.
+* The tree withers and loses its fruit, causing everyone to be unhappy.
+* A judge takes the tree to his own garden, and it starts bearing delicious apricots again, winning first prize in the county fair.
+
+**Story A:**
+
+* A grower, Mr. Gerson, has a special grapevine that he values and gives grapes as gifts to his friends.
+* The mayor likes the grapes so much that he wants the vine in his own yard and pays Mr. Gerson to move it.
+* However, the vine dries up and there are no more grapes, causing everyone to be disappointed.
+
+**Story B:**
+
+* A grower, Mr. Gerson, has a special grapevine that he values and gives grapes as gifts to his friends.
+* The vine begins to dry up and there are no more grapes, causing everyone to be disappointed.
+* The mayor likes the grapes so much that he buys the vine and moves it to his estate, where it starts producing grapes again.
+
+Now, let",B,B,True,2.046875,4.125
+22,"Morris was a simple-minded prisoner who loved to play the harmonica at night. Finally, his cellmate got tired of this and demanded that he shut up. He should always play during the day, the cellmate insisted.
+ The next night, Morris escaped from prison and hid in a boxcar. But then Morris remembered that his cellmate said he should play harmonica every day, so he started playing. Immediately, Morris was nabbed by the cops. Poor, simple-minded Morris wished he hadn't paid any attention to his cellmate. Back in his cell, he devoted himself to covering the walls with obscenites.","A convict named Denny loved to play the kazoo, but he would only play it long after dark. Eventually the convict in the next cell got fed-up and told him he should always play during the day time.
+ A few days later, Denny snuck out of jail and hid in a railroad car. But after awhile he began to play the kazoo because be thought the convict in the next cell had said he should play every day. Right away the police caught him and Denny wished he hadn't listened to the convict in the next cell.","A convict named Denny wished he could break out of jail. He loved to play the kazoo in jail every day but he would only play it long after dark. Eventually, the convict in the next cell got fed-up and told him to stop and always play during the daytime.
+ But Denny refused to listen because he thought it was bad luck to play during the day. The last time he had done that guards had caught him right away and thrown him into solitary confinement.","This is a source story:
+
+Morris was a simple-minded prisoner who loved to play the harmonica at night. Finally, his cellmate got tired of this and demanded that he shut up. He should always play during the day, the cellmate insisted.
+ The next night, Morris escaped from prison and hid in a boxcar. But then Morris remembered that his cellmate said he should play harmonica every day, so he started playing. Immediately, Morris was nabbed by the cops. Poor, simple-minded Morris wished he hadn't paid any attention to his cellmate. Back in his cell, he devoted himself to covering the walls with obscenites.
+
+This is story A:
+
+A convict named Denny loved to play the kazoo, but he would only play it long after dark. Eventually the convict in the next cell got fed-up and told him he should always play during the day time.
+ A few days later, Denny snuck out of jail and hid in a railroad car. But after awhile he began to play the kazoo because be thought the convict in the next cell had said he should play every day. Right away the police caught him and Denny wished he hadn't listened to the convict in the next cell.
+
+This is story B:
+
+A convict named Denny wished he could break out of jail. He loved to play the kazoo in jail every day but he would only play it long after dark. Eventually, the convict in the next cell got fed-up and told him to stop and always play during the daytime.
+ But Denny refused to listen because he thought it was bad luck to play during the day. The last time he had done that guards had caught him right away and thrown him into solitary confinement.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the stories and identify the similarities.
+
+**Source story:**
+
+* Morris, a simple-minded prisoner, loves to play the harmonica at night.
+* His cellmate tells him to play during the day instead.
+* Morris escapes and hides in a boxcar, but starts playing the harmonica again because he remembers his cellmate's advice.
+* He gets caught by the police.
+
+**Story A:**
+
+* Denny, a convict, loves to play the kazoo, but only plays it long after dark.
+* His cellmate tells him to play during the day instead.
+* Denny escapes and hides in a railroad car, but starts playing the kazoo again because he remembers his cellmate's advice.
+* He gets caught by the police.
+
+**Story B:**
+
+* Denny, a convict, wants to break out of jail and play the kazoo during the day, but his cellmate tells him to stop playing at night and play during the day instead.
+* Denny refuses to listen because he thinks it's bad luck to play during the day.
+* There is no escape or getting caught by the police in this story.
+
+Comparing the stories, we can see that **Story A** is analogous to the source story. Both stories",A,A,True,5.75,3.328125
+23,"Morris was a simple-minded prisoner who loved to play the harmonica at night. Finally, his cellmate got tired of this and demanded that he shut up. He should always play during the day, the cellmate insisted.
+ The next night, Morris escaped from prison and hid in a boxcar. But then Morris remembered that his cellmate said he should play harmonica every day, so he started playing. Immediately, Morris was nabbed by the cops. Poor, simple-minded Morris wished he hadn't paid any attention to his cellmate. Back in his cell, he devoted himself to covering the walls with obscenites.","A convict named Denny wished he could break out of jail. He loved to play the kazoo in jail every day but he would only play it long after dark. Eventually, the convict in the next cell got fed-up and told him to stop and always play during the daytime.
+ But Denny refused to listen because he thought it was bad luck to play during the day. The last time he had done that guards had caught him right away and thrown him into solitary confinement.","A convict named Denny loved to play the kazoo, but he would only play it long after dark. Eventually the convict in the next cell got fed-up and told him he should always play during the day time.
+ A few days later, Denny snuck out of jail and hid in a railroad car. But after awhile he began to play the kazoo because be thought the convict in the next cell had said he should play every day. Right away the police caught him and Denny wished he hadn't listened to the convict in the next cell.","This is a source story:
+
+Morris was a simple-minded prisoner who loved to play the harmonica at night. Finally, his cellmate got tired of this and demanded that he shut up. He should always play during the day, the cellmate insisted.
+ The next night, Morris escaped from prison and hid in a boxcar. But then Morris remembered that his cellmate said he should play harmonica every day, so he started playing. Immediately, Morris was nabbed by the cops. Poor, simple-minded Morris wished he hadn't paid any attention to his cellmate. Back in his cell, he devoted himself to covering the walls with obscenites.
+
+This is story A:
+
+A convict named Denny wished he could break out of jail. He loved to play the kazoo in jail every day but he would only play it long after dark. Eventually, the convict in the next cell got fed-up and told him to stop and always play during the daytime.
+ But Denny refused to listen because he thought it was bad luck to play during the day. The last time he had done that guards had caught him right away and thrown him into solitary confinement.
+
+This is story B:
+
+A convict named Denny loved to play the kazoo, but he would only play it long after dark. Eventually the convict in the next cell got fed-up and told him he should always play during the day time.
+ A few days later, Denny snuck out of jail and hid in a railroad car. But after awhile he began to play the kazoo because be thought the convict in the next cell had said he should play every day. Right away the police caught him and Denny wished he hadn't listened to the convict in the next cell.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the stories and identify the similarities.
+
+**Source story:**
+
+* Morris, a simple-minded prisoner, plays the harmonica at night.
+* His cellmate tells him to play during the day instead.
+* Morris escapes and hides in a boxcar, but then starts playing the harmonica again because he remembers his cellmate's advice.
+* He gets caught by the police.
+
+**Story A:**
+
+* Denny, a convict, plays the kazoo at night.
+* The convict in the next cell tells him to play during the daytime.
+* Denny refuses to listen because he thinks it's bad luck to play during the day.
+* (No escape or hiding in a boxcar in this story)
+
+**Story B:**
+
+* Denny, a convict, plays the kazoo at night.
+* The convict in the next cell tells him to play during the daytime.
+* Denny escapes and hides in a railroad car, then starts playing the kazoo again because he remembers the advice.
+* He gets caught by the police.
+
+Now, let's identify the analogous elements:
+
+* Both Morris and Denny (in both stories A and B) play a musical instrument at night.
+* Both are told by their cellmates to play during the day instead",B,B,True,3.953125,4.71875
+24,"King Otto was a warmonger who was obsessed with conquest and riches. One year he decided to rebuild all the bridges of the kingdom to make them strong enough for all his armies.
+Otto's counselor, the chamberlain, complained that he was spending too much money on the. bridges and not enough on actual military campaigns. Because of all the construction too many of the bridges were out of commission being worked on. Otto decided that the chamberlain was right and he abandoned the bridge project to mount a full-scale invasion of a neighboring country.
+Then one day when King Otto was travelling through his kingdom his carriage crashed through an unfinished bridge. He was severely injured but the mishap made it clear to him that he needed to balance his military and domestic expenditures. Also, he ordered the chamberlain to get him a new crown because the old one had gotten smashed in the crash.","Emperor Cornelius thought about nothing but war. He was obsessed with victory and treasure. One year he decided to renovate all the roads of the empire to make them safe enough for his armed forces.
+But before the roads were finished, the emperor's closest advisor, the prime minister, complained that he was spending too much of the royal treasury on the roads and not enough on actual warfare. As a result, the roads were constantly under construction and were seldom usable. Cornelius decided that the prime minister was right and he went back to thinking about nothing but war.
+ Then one evening when Cornelius was riding in the countryside, an unmaintained overpass collapsed under his horse-drawn coach. He was severely injured but the accident showed him that he should try to balance his spending between war and maintaining his empire.","Emperor Cornelius thought about nothing but war. He was obsessed with victory and treasure.
+The emperor's closest advisor, the prime minister, complained that he was spending too much of the royal treasury on war and not enough on maintaining his own empire. As a result, the roads of the empire were being neglected and they were gradually beginning to deteriorate. But Emperor Cornelius didn't listen.
+Then, one evening when Cornelius was riding in the countryside, an unmaintained overpass collapsed under his horse-drawn coach. He was severely injured but the accident showed him that the prime minister had been right all along.- Cornelius decided to try to balance his spending between war and maintaining his empire.","This is a source story:
+
+King Otto was a warmonger who was obsessed with conquest and riches. One year he decided to rebuild all the bridges of the kingdom to make them strong enough for all his armies.
+Otto's counselor, the chamberlain, complained that he was spending too much money on the. bridges and not enough on actual military campaigns. Because of all the construction too many of the bridges were out of commission being worked on. Otto decided that the chamberlain was right and he abandoned the bridge project to mount a full-scale invasion of a neighboring country.
+Then one day when King Otto was travelling through his kingdom his carriage crashed through an unfinished bridge. He was severely injured but the mishap made it clear to him that he needed to balance his military and domestic expenditures. Also, he ordered the chamberlain to get him a new crown because the old one had gotten smashed in the crash.
+
+This is story A:
+
+Emperor Cornelius thought about nothing but war. He was obsessed with victory and treasure. One year he decided to renovate all the roads of the empire to make them safe enough for his armed forces.
+But before the roads were finished, the emperor's closest advisor, the prime minister, complained that he was spending too much of the royal treasury on the roads and not enough on actual warfare. As a result, the roads were constantly under construction and were seldom usable. Cornelius decided that the prime minister was right and he went back to thinking about nothing but war.
+ Then one evening when Cornelius was riding in the countryside, an unmaintained overpass collapsed under his horse-drawn coach. He was severely injured but the accident showed him that he should try to balance his spending between war and maintaining his empire.
+
+This is story B:
+
+Emperor Cornelius thought about nothing but war. He was obsessed with victory and treasure.
+The emperor's closest advisor, the prime minister, complained that he was spending too much of the royal treasury on war and not enough on maintaining his own empire. As a result, the roads of the empire were being neglected and they were gradually beginning to deteriorate. But Emperor Cornelius didn't listen.
+Then, one evening when Cornelius was riding in the countryside, an unmaintained overpass collapsed under his horse-drawn coach. He was severely injured but the accident showed him that the prime minister had been right all along.- Cornelius decided to try to balance his spending between war and maintaining his empire.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two alternative stories:
+
+Source story:
+
+* King Otto is obsessed with conquest and riches.
+* He decides to rebuild all the bridges in the kingdom to make them strong enough for his armies.
+* His counselor, the chamberlain, complains that he's spending too much money on the bridges and not enough on actual military campaigns.
+* Otto abandons the bridge project and decides to mount a full-scale invasion of a neighboring country.
+* However, his carriage crashes through an unfinished bridge, and he's severely injured.
+* This accident makes him realize that he needs to balance his military and domestic expenditures.
+
+Now, let's compare this to the two alternative stories:
+
+Story A:
+
+* Emperor Cornelius is obsessed with war and victory.
+* He decides to renovate all the roads in the empire to make them safe enough for his armed forces.
+* His closest advisor, the prime minister, complains that he's spending too much on the roads and not enough on actual warfare.
+* Cornelius decides that the prime minister is right and goes back to thinking about war.
+* However, an unmaintained overpass collapses under his horse-drawn coach, and he's severely injured.
+* This accident shows him that he should try to balance his spending",B,A,True,3.09375,4.59375
+25,"King Otto was a warmonger who was obsessed with conquest and riches. One year he decided to rebuild all the bridges of the kingdom to make them strong enough for all his armies.
+Otto's counselor, the chamberlain, complained that he was spending too much money on the. bridges and not enough on actual military campaigns. Because of all the construction too many of the bridges were out of commission being worked on. Otto decided that the chamberlain was right and he abandoned the bridge project to mount a full-scale invasion of a neighboring country.
+Then one day when King Otto was travelling through his kingdom his carriage crashed through an unfinished bridge. He was severely injured but the mishap made it clear to him that he needed to balance his military and domestic expenditures. Also, he ordered the chamberlain to get him a new crown because the old one had gotten smashed in the crash.","Emperor Cornelius thought about nothing but war. He was obsessed with victory and treasure.
+The emperor's closest advisor, the prime minister, complained that he was spending too much of the royal treasury on war and not enough on maintaining his own empire. As a result, the roads of the empire were being neglected and they were gradually beginning to deteriorate. But Emperor Cornelius didn't listen.
+Then, one evening when Cornelius was riding in the countryside, an unmaintained overpass collapsed under his horse-drawn coach. He was severely injured but the accident showed him that the prime minister had been right all along.- Cornelius decided to try to balance his spending between war and maintaining his empire.","Emperor Cornelius thought about nothing but war. He was obsessed with victory and treasure. One year he decided to renovate all the roads of the empire to make them safe enough for his armed forces.
+But before the roads were finished, the emperor's closest advisor, the prime minister, complained that he was spending too much of the royal treasury on the roads and not enough on actual warfare. As a result, the roads were constantly under construction and were seldom usable. Cornelius decided that the prime minister was right and he went back to thinking about nothing but war.
+ Then one evening when Cornelius was riding in the countryside, an unmaintained overpass collapsed under his horse-drawn coach. He was severely injured but the accident showed him that he should try to balance his spending between war and maintaining his empire.","This is a source story:
+
+King Otto was a warmonger who was obsessed with conquest and riches. One year he decided to rebuild all the bridges of the kingdom to make them strong enough for all his armies.
+Otto's counselor, the chamberlain, complained that he was spending too much money on the. bridges and not enough on actual military campaigns. Because of all the construction too many of the bridges were out of commission being worked on. Otto decided that the chamberlain was right and he abandoned the bridge project to mount a full-scale invasion of a neighboring country.
+Then one day when King Otto was travelling through his kingdom his carriage crashed through an unfinished bridge. He was severely injured but the mishap made it clear to him that he needed to balance his military and domestic expenditures. Also, he ordered the chamberlain to get him a new crown because the old one had gotten smashed in the crash.
+
+This is story A:
+
+Emperor Cornelius thought about nothing but war. He was obsessed with victory and treasure.
+The emperor's closest advisor, the prime minister, complained that he was spending too much of the royal treasury on war and not enough on maintaining his own empire. As a result, the roads of the empire were being neglected and they were gradually beginning to deteriorate. But Emperor Cornelius didn't listen.
+Then, one evening when Cornelius was riding in the countryside, an unmaintained overpass collapsed under his horse-drawn coach. He was severely injured but the accident showed him that the prime minister had been right all along.- Cornelius decided to try to balance his spending between war and maintaining his empire.
+
+This is story B:
+
+Emperor Cornelius thought about nothing but war. He was obsessed with victory and treasure. One year he decided to renovate all the roads of the empire to make them safe enough for his armed forces.
+But before the roads were finished, the emperor's closest advisor, the prime minister, complained that he was spending too much of the royal treasury on the roads and not enough on actual warfare. As a result, the roads were constantly under construction and were seldom usable. Cornelius decided that the prime minister was right and he went back to thinking about nothing but war.
+ Then one evening when Cornelius was riding in the countryside, an unmaintained overpass collapsed under his horse-drawn coach. He was severely injured but the accident showed him that he should try to balance his spending between war and maintaining his empire.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two given stories:
+
+Source story:
+
+* King Otto is obsessed with conquest and riches.
+* He decides to rebuild all the bridges in the kingdom, but his counselor, the chamberlain, complains that he's spending too much money on bridges and not enough on military campaigns.
+* King Otto abandons the bridge project and decides to mount a full-scale invasion of a neighboring country.
+* However, his carriage crashes through an unfinished bridge, and he's severely injured. This accident makes him realize the importance of balancing his military and domestic expenditures.
+
+Story A:
+
+* Emperor Cornelius is obsessed with victory and treasure.
+* His closest advisor, the prime minister, complains that he's spending too much on war and not enough on maintaining the empire.
+* Emperor Cornelius doesn't listen and continues to prioritize war.
+* Later, an unmaintained overpass collapses under his horse-drawn coach, and he's severely injured. This accident shows him that he needs to balance his spending between war and maintaining the empire.
+
+Story B:
+
+* Emperor Cornelius is obsessed with victory and treasure.
+* He decides to renovate all the roads of the empire to make them safe for his armed forces.
+* The prime minister complains that he's spending too",A,B,True,4.75,4.15625
+26,"Frederick the shepherd was tending his flock at the edge of a forest. Suddenly, a lion appeared out of the forest. Frederick was really scared so he started shouting to scare the lion away. But the shouting did nothing but attract the lion's attention and it began walking towards him. He then realized he should have left it alone. 
+ To escape, Frederick gave the lion a lamb. While the lion was occupied, he led the rest of the flock away. Eventually, he guessed they were far enough away to be safe from the lion. So he took a nap on the grass.
+ However, when he awoke he notice another lamb was missing and he could not find it anywhere! At the next opportunity, Frederick bought a blunderbuss so he could better defend his flock in the future.","Zebediah the cowherder was watching over his herd at the edge of the woods. Suddenly, a monstrous tiger came out of the woods. Zebediah was very frightened so he started yelling for the tiger to go away. The yelling only caught the tiger's attention and it began walking toward the cowherd. He wished he had left the tiger alone. 
+ To escape, Zebediah gave the tiger a calf. While the tiger was occupied, Zebediah took the remainder of the herd to a safe place. He figured he was safe and dozed off. When woke he was surprised to dicover another calf missing. He could not find it anywhere!","Zebediah the cowherd was watching over his herd and he dozed off. When he awoke he discovered that one calf was missing. He could not find it anywhere. Zebediah figured that the thief was still nearby so he started yelling for whoever stole the calf to show his face.
+ Suddenly a monstrous tiger came out of the woods and started walking towards him. Zebediah was surprised and very frightened. He wished he had left the tiger alone.
+ To escape, he gave the tiger a second calf. While the tiger was occupied, Zebediah took the remainder of the herd to a safer place!","This is a source story:
+
+Frederick the shepherd was tending his flock at the edge of a forest. Suddenly, a lion appeared out of the forest. Frederick was really scared so he started shouting to scare the lion away. But the shouting did nothing but attract the lion's attention and it began walking towards him. He then realized he should have left it alone. 
+ To escape, Frederick gave the lion a lamb. While the lion was occupied, he led the rest of the flock away. Eventually, he guessed they were far enough away to be safe from the lion. So he took a nap on the grass.
+ However, when he awoke he notice another lamb was missing and he could not find it anywhere! At the next opportunity, Frederick bought a blunderbuss so he could better defend his flock in the future.
+
+This is story A:
+
+Zebediah the cowherder was watching over his herd at the edge of the woods. Suddenly, a monstrous tiger came out of the woods. Zebediah was very frightened so he started yelling for the tiger to go away. The yelling only caught the tiger's attention and it began walking toward the cowherd. He wished he had left the tiger alone. 
+ To escape, Zebediah gave the tiger a calf. While the tiger was occupied, Zebediah took the remainder of the herd to a safe place. He figured he was safe and dozed off. When woke he was surprised to dicover another calf missing. He could not find it anywhere!
+
+This is story B:
+
+Zebediah the cowherd was watching over his herd and he dozed off. When he awoke he discovered that one calf was missing. He could not find it anywhere. Zebediah figured that the thief was still nearby so he started yelling for whoever stole the calf to show his face.
+ Suddenly a monstrous tiger came out of the woods and started walking towards him. Zebediah was surprised and very frightened. He wished he had left the tiger alone.
+ To escape, he gave the tiger a second calf. While the tiger was occupied, Zebediah took the remainder of the herd to a safer place!
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two given stories:
+
+Source story:
+
+* A shepherd (Frederick) is tending his flock at the edge of a forest.
+* A lion appears, and Frederick tries to scare it away by shouting.
+* The shouting attracts the lion's attention, and it starts walking towards him.
+* Frederick gives the lion a lamb to distract it and escapes with the rest of the flock.
+* He takes a nap, but when he wakes up, he realizes another lamb is missing.
+
+Story A:
+
+* A cowherd (Zebediah) is watching over his herd at the edge of the woods.
+* A monstrous tiger appears, and Zebediah tries to scare it away by yelling.
+* The yelling attracts the tiger's attention, and it starts walking towards him.
+* Zebediah gives the tiger a calf to distract it and escapes with the rest of the herd.
+* He takes a nap, but when he wakes up, he realizes another calf is missing.
+
+Story B:
+
+* A cowherd (Zebediah) is watching over his herd and dozes off.
+* When he wakes up, he discovers a calf is missing.
+* He starts yelling for the thief to show his face, and a monstrous tiger",B,A,True,3.28125,4.25
+27,"Frederick the shepherd was tending his flock at the edge of a forest. Suddenly, a lion appeared out of the forest. Frederick was really scared so he started shouting to scare the lion away. But the shouting did nothing but attract the lion's attention and it began walking towards him. He then realized he should have left it alone. 
+ To escape, Frederick gave the lion a lamb. While the lion was occupied, he led the rest of the flock away. Eventually, he guessed they were far enough away to be safe from the lion. So he took a nap on the grass.
+ However, when he awoke he notice another lamb was missing and he could not find it anywhere! At the next opportunity, Frederick bought a blunderbuss so he could better defend his flock in the future.","Zebediah the cowherd was watching over his herd and he dozed off. When he awoke he discovered that one calf was missing. He could not find it anywhere. Zebediah figured that the thief was still nearby so he started yelling for whoever stole the calf to show his face.
+ Suddenly a monstrous tiger came out of the woods and started walking towards him. Zebediah was surprised and very frightened. He wished he had left the tiger alone.
+ To escape, he gave the tiger a second calf. While the tiger was occupied, Zebediah took the remainder of the herd to a safer place!","Zebediah the cowherder was watching over his herd at the edge of the woods. Suddenly, a monstrous tiger came out of the woods. Zebediah was very frightened so he started yelling for the tiger to go away. The yelling only caught the tiger's attention and it began walking toward the cowherd. He wished he had left the tiger alone. 
+ To escape, Zebediah gave the tiger a calf. While the tiger was occupied, Zebediah took the remainder of the herd to a safe place. He figured he was safe and dozed off. When woke he was surprised to dicover another calf missing. He could not find it anywhere!","This is a source story:
+
+Frederick the shepherd was tending his flock at the edge of a forest. Suddenly, a lion appeared out of the forest. Frederick was really scared so he started shouting to scare the lion away. But the shouting did nothing but attract the lion's attention and it began walking towards him. He then realized he should have left it alone. 
+ To escape, Frederick gave the lion a lamb. While the lion was occupied, he led the rest of the flock away. Eventually, he guessed they were far enough away to be safe from the lion. So he took a nap on the grass.
+ However, when he awoke he notice another lamb was missing and he could not find it anywhere! At the next opportunity, Frederick bought a blunderbuss so he could better defend his flock in the future.
+
+This is story A:
+
+Zebediah the cowherd was watching over his herd and he dozed off. When he awoke he discovered that one calf was missing. He could not find it anywhere. Zebediah figured that the thief was still nearby so he started yelling for whoever stole the calf to show his face.
+ Suddenly a monstrous tiger came out of the woods and started walking towards him. Zebediah was surprised and very frightened. He wished he had left the tiger alone.
+ To escape, he gave the tiger a second calf. While the tiger was occupied, Zebediah took the remainder of the herd to a safer place!
+
+This is story B:
+
+Zebediah the cowherder was watching over his herd at the edge of the woods. Suddenly, a monstrous tiger came out of the woods. Zebediah was very frightened so he started yelling for the tiger to go away. The yelling only caught the tiger's attention and it began walking toward the cowherd. He wished he had left the tiger alone. 
+ To escape, Zebediah gave the tiger a calf. While the tiger was occupied, Zebediah took the remainder of the herd to a safe place. He figured he was safe and dozed off. When woke he was surprised to dicover another calf missing. He could not find it anywhere!
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two given stories (A and B) to identify the analogous story.
+
+**Source Story:**
+
+1. Frederick, a shepherd, tends to his flock at the edge of a forest.
+2. A lion appears, and Frederick is scared, so he starts shouting to scare it away.
+3. The shouting attracts the lion's attention, and it begins walking towards him.
+4. Frederick gives the lion a lamb to distract it while he leads the rest of the flock away.
+5. He takes a nap, but when he wakes up, he realizes another lamb is missing.
+
+**Story A:**
+
+1. Zebediah, a cowherd, watches over his herd and dozes off.
+2. He wakes up to find a calf missing.
+3. He yells for the thief to show their face, and a monstrous tiger appears.
+4. Zebediah gives the tiger a second calf to distract it while he takes the rest of the herd to a safer place.
+
+**Story B:**
+
+1. Zebediah, a cowherder, watches over his herd at the edge of the woods.
+2. A monstrous tiger appears, and Zebediah is frightened, so he starts yelling for it to go away",B,B,True,2.859375,4.625
+28,"Mark the chicken farmer was standing in the henhouse collecting eggs while his chickens were out in the yard. When his chickens returned, they all began to attack him, for some unknown reason.
+""You ungrateful beasts!"" Mark screamed. The chickens chased him out of the henhouse and into the woods.
+While they were gone, a thief slipped into the yard and made off with the unguarded eggs. After he got out of the hospital, Mark quit chicken farming and went on a vacation in Africa.","Lyle the poultry raiser was thinking about his nests while his poultry were out in the field. While he was thinking the poultry returned and they all started to peck him, for some unknown reason.
+""You thankless monsters!"" Lyle screamed. The poultry chased him down the road and into the forest.
+A burglar came into the garden while they were away and stole all of the nests.","A burglar came into the barn of Lyle the poultry raiser while Lyle was away and stole all the
+nests. A short time later, Lyle came home and discovered what had happened.
+He stood in the barn thinking about what to do. While he was thinking, the poultry returned
+from the field. Since they could not find their nests they began to peck Lyle.
+""Why do you attack me when I am racking my brains to think how I am going to get your
+nests back?"" Lyle screamed as he ran into the forest. ""You thankless monsters!""","This is a source story:
+
+Mark the chicken farmer was standing in the henhouse collecting eggs while his chickens were out in the yard. When his chickens returned, they all began to attack him, for some unknown reason.
+""You ungrateful beasts!"" Mark screamed. The chickens chased him out of the henhouse and into the woods.
+While they were gone, a thief slipped into the yard and made off with the unguarded eggs. After he got out of the hospital, Mark quit chicken farming and went on a vacation in Africa.
+
+This is story A:
+
+Lyle the poultry raiser was thinking about his nests while his poultry were out in the field. While he was thinking the poultry returned and they all started to peck him, for some unknown reason.
+""You thankless monsters!"" Lyle screamed. The poultry chased him down the road and into the forest.
+A burglar came into the garden while they were away and stole all of the nests.
+
+This is story B:
+
+A burglar came into the barn of Lyle the poultry raiser while Lyle was away and stole all the
+nests. A short time later, Lyle came home and discovered what had happened.
+He stood in the barn thinking about what to do. While he was thinking, the poultry returned
+from the field. Since they could not find their nests they began to peck Lyle.
+""Why do you attack me when I am racking my brains to think how I am going to get your
+nests back?"" Lyle screamed as he ran into the forest. ""You thankless monsters!""
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two alternative stories:
+
+Source story:
+
+* Mark, a chicken farmer, is collecting eggs in the henhouse when his chickens return and attack him for no apparent reason.
+* The chickens chase him out of the henhouse and into the woods.
+* A thief steals the unguarded eggs while Mark is away.
+* Mark quits chicken farming and goes on a vacation in Africa after recovering from the attack.
+
+Now, let's compare this to the two alternative stories:
+
+Story A:
+
+* Lyle, a poultry raiser, is thinking about his nests while his poultry are out in the field.
+* The poultry return and start pecking him for no apparent reason.
+* The poultry chase him down the road and into the forest.
+* A burglar steals the nests while they are away.
+
+Story B:
+
+* A burglar steals all the nests in Lyle's barn while Lyle is away.
+* Lyle returns home, discovers the theft, and stands in the barn thinking about what to do.
+* The poultry return from the field, unable to find their nests, and start pecking Lyle.
+* Lyle runs into the forest, screaming at the poultry.
+
+Now, let's identify the analogous elements between the source story",B,A,True,3.796875,4.1875
+29,"Mark the chicken farmer was standing in the henhouse collecting eggs while his chickens were out in the yard. When his chickens returned, they all began to attack him, for some unknown reason.
+""You ungrateful beasts!"" Mark screamed. The chickens chased him out of the henhouse and into the woods.
+While they were gone, a thief slipped into the yard and made off with the unguarded eggs. After he got out of the hospital, Mark quit chicken farming and went on a vacation in Africa.","A burglar came into the barn of Lyle the poultry raiser while Lyle was away and stole all the
+nests. A short time later, Lyle came home and discovered what had happened.
+He stood in the barn thinking about what to do. While he was thinking, the poultry returned
+from the field. Since they could not find their nests they began to peck Lyle.
+""Why do you attack me when I am racking my brains to think how I am going to get your
+nests back?"" Lyle screamed as he ran into the forest. ""You thankless monsters!""","Lyle the poultry raiser was thinking about his nests while his poultry were out in the field. While he was thinking the poultry returned and they all started to peck him, for some unknown reason.
+""You thankless monsters!"" Lyle screamed. The poultry chased him down the road and into the forest.
+A burglar came into the garden while they were away and stole all of the nests.","This is a source story:
+
+Mark the chicken farmer was standing in the henhouse collecting eggs while his chickens were out in the yard. When his chickens returned, they all began to attack him, for some unknown reason.
+""You ungrateful beasts!"" Mark screamed. The chickens chased him out of the henhouse and into the woods.
+While they were gone, a thief slipped into the yard and made off with the unguarded eggs. After he got out of the hospital, Mark quit chicken farming and went on a vacation in Africa.
+
+This is story A:
+
+A burglar came into the barn of Lyle the poultry raiser while Lyle was away and stole all the
+nests. A short time later, Lyle came home and discovered what had happened.
+He stood in the barn thinking about what to do. While he was thinking, the poultry returned
+from the field. Since they could not find their nests they began to peck Lyle.
+""Why do you attack me when I am racking my brains to think how I am going to get your
+nests back?"" Lyle screamed as he ran into the forest. ""You thankless monsters!""
+
+This is story B:
+
+Lyle the poultry raiser was thinking about his nests while his poultry were out in the field. While he was thinking the poultry returned and they all started to peck him, for some unknown reason.
+""You thankless monsters!"" Lyle screamed. The poultry chased him down the road and into the forest.
+A burglar came into the garden while they were away and stole all of the nests.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two given stories:
+
+Source story:
+
+* Mark the chicken farmer is collecting eggs in the henhouse.
+* The chickens suddenly attack him for unknown reasons.
+* Mark is chased out of the henhouse and into the woods.
+* A thief steals the unguarded eggs.
+* Mark quits chicken farming and goes on a vacation.
+
+Story A:
+
+* Lyle the poultry raiser's barn is burgled, and all the nests are stolen.
+* Lyle returns home and finds the theft.
+* The poultry returns from the field and pecks Lyle.
+* Lyle is chased into the forest.
+
+Story B:
+
+* Lyle the poultry raiser is thinking about his nests while the poultry is out in the field.
+* The poultry returns and starts pecking Lyle for unknown reasons.
+* Lyle is chased down the road and into the forest.
+* A burglar steals the nests while they are away.
+
+Now, let's identify the analogous elements between the source story and the two given stories:
+
+* In the source story, Mark is attacked by his chickens, and in both Story A and Story B, Lyle is pecked by his poultry.
+* In the source story, Mark is chased out of the henhouse",A,B,True,3.703125,3.359375
+30,"Two pioneers, Smith and Johnson, discovered a gorgeous little valley that was as yet unclaimed in Oregon Territory. Each of them wanted the land for himself, so soon they were fighting over who saw it first.
+ While they were fighting over it, Sheriff Jones came along and divided the land evenly between them. In the end, Smith and Johnson realized that they should have done that on their own. From that day forward they were the best of friends, and they helped build each others' houses.","Baggle and Norton were settlers who discovered a beautiful canyon out west, which no one had settled yet. Both of them wanted the canyon, so soon they were arguing desperately over who saw it first. 
+ While they were busy arguing over the canyon, Constable Leigh came along and divided it between them. Then Baggle and Norton realized the they should have done that themselves.","Baggle and Norton were settlers who discovered a beautiful canyon out west, which no one had settled yet. Both of them wanted the canyon, so soon they were arguing desperately over who saw it first.
+ While they were busy arguing over the canyon Constable Leigh came along and took it himself. By the time Baggle and Norton realized they should just divide it up, it was too late.","This is a source story:
+
+Two pioneers, Smith and Johnson, discovered a gorgeous little valley that was as yet unclaimed in Oregon Territory. Each of them wanted the land for himself, so soon they were fighting over who saw it first.
+ While they were fighting over it, Sheriff Jones came along and divided the land evenly between them. In the end, Smith and Johnson realized that they should have done that on their own. From that day forward they were the best of friends, and they helped build each others' houses.
+
+This is story A:
+
+Baggle and Norton were settlers who discovered a beautiful canyon out west, which no one had settled yet. Both of them wanted the canyon, so soon they were arguing desperately over who saw it first. 
+ While they were busy arguing over the canyon, Constable Leigh came along and divided it between them. Then Baggle and Norton realized the they should have done that themselves.
+
+This is story B:
+
+Baggle and Norton were settlers who discovered a beautiful canyon out west, which no one had settled yet. Both of them wanted the canyon, so soon they were arguing desperately over who saw it first.
+ While they were busy arguing over the canyon Constable Leigh came along and took it himself. By the time Baggle and Norton realized they should just divide it up, it was too late.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two given stories:
+
+Source story:
+
+* Two pioneers, Smith and Johnson, discover a valley.
+* They fight over who saw it first.
+* Sheriff Jones divides the land evenly between them.
+* Smith and Johnson realize they should have done it themselves and become friends.
+
+Story A:
+
+* Baggle and Norton discover a canyon.
+* They argue over who saw it first.
+* Constable Leigh divides the canyon between them.
+* Baggle and Norton realize they should have done it themselves.
+
+Story B:
+
+* Baggle and Norton discover a canyon.
+* They argue over who saw it first.
+* Constable Leigh takes the canyon for himself.
+* Baggle and Norton realize they should have divided it up, but it's too late.
+
+Now, let's compare the stories:
+
+* In the source story and Story A, the land is divided evenly between the two pioneers/settlers.
+* In the source story and Story A, the pioneers/settlers become friends after the division.
+* In Story B, the land is taken by Constable Leigh, and the pioneers/settlers don't get to divide it themselves.
+
+The key difference is that in Story B, the land is taken by someone else, whereas in the source story",A,A,True,6.25,3.03125
+31,"Two pioneers, Smith and Johnson, discovered a gorgeous little valley that was as yet unclaimed in Oregon Territory. Each of them wanted the land for himself, so soon they were fighting over who saw it first.
+ While they were fighting over it, Sheriff Jones came along and divided the land evenly between them. In the end, Smith and Johnson realized that they should have done that on their own. From that day forward they were the best of friends, and they helped build each others' houses.","Baggle and Norton were settlers who discovered a beautiful canyon out west, which no one had settled yet. Both of them wanted the canyon, so soon they were arguing desperately over who saw it first.
+ While they were busy arguing over the canyon Constable Leigh came along and took it himself. By the time Baggle and Norton realized they should just divide it up, it was too late.","Baggle and Norton were settlers who discovered a beautiful canyon out west, which no one had settled yet. Both of them wanted the canyon, so soon they were arguing desperately over who saw it first. 
+ While they were busy arguing over the canyon, Constable Leigh came along and divided it between them. Then Baggle and Norton realized the they should have done that themselves.","This is a source story:
+
+Two pioneers, Smith and Johnson, discovered a gorgeous little valley that was as yet unclaimed in Oregon Territory. Each of them wanted the land for himself, so soon they were fighting over who saw it first.
+ While they were fighting over it, Sheriff Jones came along and divided the land evenly between them. In the end, Smith and Johnson realized that they should have done that on their own. From that day forward they were the best of friends, and they helped build each others' houses.
+
+This is story A:
+
+Baggle and Norton were settlers who discovered a beautiful canyon out west, which no one had settled yet. Both of them wanted the canyon, so soon they were arguing desperately over who saw it first.
+ While they were busy arguing over the canyon Constable Leigh came along and took it himself. By the time Baggle and Norton realized they should just divide it up, it was too late.
+
+This is story B:
+
+Baggle and Norton were settlers who discovered a beautiful canyon out west, which no one had settled yet. Both of them wanted the canyon, so soon they were arguing desperately over who saw it first. 
+ While they were busy arguing over the canyon, Constable Leigh came along and divided it between them. Then Baggle and Norton realized the they should have done that themselves.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the stories and identify the similarities and differences with the source story.
+
+**Source story:**
+
+* Two pioneers, Smith and Johnson, discover a valley in Oregon Territory.
+* They fight over who saw it first, but then Sheriff Jones divides the land evenly between them.
+* As a result, they become best friends and help each other build their houses.
+
+**Story A:**
+
+* Baggle and Norton are settlers who discover a canyon out west.
+* They argue over who saw it first, but Constable Leigh takes the canyon for himself.
+* Baggle and Norton realize too late that they should have divided it up.
+
+**Story B:**
+
+* Baggle and Norton are settlers who discover a canyon out west.
+* They argue over who saw it first, but Constable Leigh divides the canyon between them.
+* Baggle and Norton then realize they should have divided it up themselves.
+
+Now, let's identify the similarities and differences:
+
+* Both stories have two settlers, Baggle and Norton, who discover a new territory (canyon) and argue over ownership.
+* In both stories, a third party (Constable Leigh) intervenes and takes action regarding the territory.
+* However, in Story A, Constable Leigh takes the canyon for himself,",B,B,True,1.734375,4.21875
+32,"Once there was a teacher named Mrs. Jackson who wanted a salary increase. One day, the principal said that he was increasing his own salary by 20 percent. However, he said, there was not enough money to give the teachers a salary increase.
+When Mrs. Jackson heard this she became so angry that she decided to take revenge. The next day, Mrs. Jackson used gasoline to set fire to the principal's office. Then she went to a bar and got drunk.","Professor Rosie McGhee very much wanted a raise. One day the provost announced that he was giving himself a raise. However, he said that since money was short, no one else would get a raise this year.
+After Professor McGhee heard this she became so upset that she decided to get even. One hour later, Professor McGhee blew up the administration building with dynamite.","Professor McGhee very much wanted a raise. One day she became so impatient that she used kerosene to burn down the administration building.
+After the fire, the provost announced that he was giving himself a raise. However, he said that due to the fire, there was not enough money to give one to anyone else.","This is a source story:
+
+Once there was a teacher named Mrs. Jackson who wanted a salary increase. One day, the principal said that he was increasing his own salary by 20 percent. However, he said, there was not enough money to give the teachers a salary increase.
+When Mrs. Jackson heard this she became so angry that she decided to take revenge. The next day, Mrs. Jackson used gasoline to set fire to the principal's office. Then she went to a bar and got drunk.
+
+This is story A:
+
+Professor Rosie McGhee very much wanted a raise. One day the provost announced that he was giving himself a raise. However, he said that since money was short, no one else would get a raise this year.
+After Professor McGhee heard this she became so upset that she decided to get even. One hour later, Professor McGhee blew up the administration building with dynamite.
+
+This is story B:
+
+Professor McGhee very much wanted a raise. One day she became so impatient that she used kerosene to burn down the administration building.
+After the fire, the provost announced that he was giving himself a raise. However, he said that due to the fire, there was not enough money to give one to anyone else.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the stories and identify the similarities.
+
+**Source story:**
+
+* Mrs. Jackson wants a salary increase.
+* The principal increases his own salary by 20%.
+* The principal says there's no money for teacher salary increases.
+* Mrs. Jackson becomes angry and takes revenge by setting fire to the principal's office.
+
+**Story A:**
+
+* Professor McGhee wants a raise.
+* The provost gives himself a raise.
+* The provost says there's no money for anyone else's raises.
+* Professor McGhee becomes upset and decides to get even.
+
+**Story B:**
+
+* Professor McGhee wants a raise.
+* She becomes impatient and burns down the administration building.
+* After the fire, the provost gives himself a raise, but says there's no money for anyone else's raises.
+
+Now, let's identify the analogous elements:
+
+* In all three stories, the main character (Mrs. Jackson/Professor McGhee) wants a salary increase.
+* In all three stories, the person in charge (principal/provost) increases their own salary.
+* In all three stories, the person in charge says there's no money for the main character's salary increase.
+* In all three stories, the main character takes revenge or takes drastic action",B,A,True,4.21875,4.875
+33,"Once there was a teacher named Mrs. Jackson who wanted a salary increase. One day, the principal said that he was increasing his own salary by 20 percent. However, he said, there was not enough money to give the teachers a salary increase.
+When Mrs. Jackson heard this she became so angry that she decided to take revenge. The next day, Mrs. Jackson used gasoline to set fire to the principal's office. Then she went to a bar and got drunk.","Professor McGhee very much wanted a raise. One day she became so impatient that she used kerosene to burn down the administration building.
+After the fire, the provost announced that he was giving himself a raise. However, he said that due to the fire, there was not enough money to give one to anyone else.","Professor Rosie McGhee very much wanted a raise. One day the provost announced that he was giving himself a raise. However, he said that since money was short, no one else would get a raise this year.
+After Professor McGhee heard this she became so upset that she decided to get even. One hour later, Professor McGhee blew up the administration building with dynamite.","This is a source story:
+
+Once there was a teacher named Mrs. Jackson who wanted a salary increase. One day, the principal said that he was increasing his own salary by 20 percent. However, he said, there was not enough money to give the teachers a salary increase.
+When Mrs. Jackson heard this she became so angry that she decided to take revenge. The next day, Mrs. Jackson used gasoline to set fire to the principal's office. Then she went to a bar and got drunk.
+
+This is story A:
+
+Professor McGhee very much wanted a raise. One day she became so impatient that she used kerosene to burn down the administration building.
+After the fire, the provost announced that he was giving himself a raise. However, he said that due to the fire, there was not enough money to give one to anyone else.
+
+This is story B:
+
+Professor Rosie McGhee very much wanted a raise. One day the provost announced that he was giving himself a raise. However, he said that since money was short, no one else would get a raise this year.
+After Professor McGhee heard this she became so upset that she decided to get even. One hour later, Professor McGhee blew up the administration building with dynamite.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two given stories:
+
+Source story:
+
+* Mrs. Jackson wants a salary increase
+* The principal increases his own salary by 20%
+* The principal says there's no money for teacher salary increases
+* Mrs. Jackson gets angry and takes revenge by setting fire to the principal's office
+
+Story A:
+
+* Professor McGhee wants a raise
+* The provost gives himself a raise
+* The provost says there's no money for anyone else's raises
+* Professor McGhee becomes impatient and burns down the administration building
+
+Story B:
+
+* Professor Rosie McGhee wants a raise
+* The provost gives himself a raise
+* The provost says there's no money for anyone else's raises
+* Professor McGhee gets upset and blows up the administration building with dynamite
+
+Now, let's compare the stories:
+
+* All three stories have a character who wants a salary increase
+* In all three stories, the person in charge (principal/provost) gives themselves a raise
+* In all three stories, the person in charge says there's no money for the original character's salary increase
+* In all three stories, the original character takes revenge on the person in charge
+
+Based on these similarities, I would",A,B,True,6.59375,5.09375
+34,"A cobra called Pierre was slithering through the brush when a falcon came towards it. Pierre became frightened and struck, wounding the falcon in the abdomen. To teach him a lesson, the falcon grabbed the cobra and flew away with it.
+ Unfortunately for both of them, after they were high above the earth the wounded falcon became too weak to fly. Consequently, they plummeted straight down to the earth and perished. They landed, strangely enough, in the middle of an outdoor wedding ceremony.","Gene the rattlesnake was going across a field when it met a raven. Gene panicked and bit the raven in the stomach. The raven wanted to set the rattlesnake straight, so it grabbed the snake and took to the air with it.
+ Unfortunately, once they were in the air, the bleeding raven became too faint to continue. Consequently, they both fell from the sky and died when they hit the rocky ground below.","Gene the rattlesnake was going across a field when it met a raven. Suddenly, the raven grabbed the snake and took to the air with it. 
+ Once they were in the air, Gene panicked and bit the raven in the stomach, Unfortunately, the bleeding raven became too faint to continue. Consequently, they both fell from the sky and died when they hit the rocky ground below.","This is a source story:
+
+A cobra called Pierre was slithering through the brush when a falcon came towards it. Pierre became frightened and struck, wounding the falcon in the abdomen. To teach him a lesson, the falcon grabbed the cobra and flew away with it.
+ Unfortunately for both of them, after they were high above the earth the wounded falcon became too weak to fly. Consequently, they plummeted straight down to the earth and perished. They landed, strangely enough, in the middle of an outdoor wedding ceremony.
+
+This is story A:
+
+Gene the rattlesnake was going across a field when it met a raven. Gene panicked and bit the raven in the stomach. The raven wanted to set the rattlesnake straight, so it grabbed the snake and took to the air with it.
+ Unfortunately, once they were in the air, the bleeding raven became too faint to continue. Consequently, they both fell from the sky and died when they hit the rocky ground below.
+
+This is story B:
+
+Gene the rattlesnake was going across a field when it met a raven. Suddenly, the raven grabbed the snake and took to the air with it. 
+ Once they were in the air, Gene panicked and bit the raven in the stomach, Unfortunately, the bleeding raven became too faint to continue. Consequently, they both fell from the sky and died when they hit the rocky ground below.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two alternative stories:
+
+Source story:
+
+* A cobra (Pierre) and a falcon have an encounter.
+* The cobra becomes frightened and strikes the falcon, wounding it.
+* The falcon grabs the cobra and flies away with it.
+* The wounded falcon becomes too weak to fly and they plummet to the ground, perishing.
+* They land in the middle of an outdoor wedding ceremony.
+
+Story A:
+
+* A rattlesnake (Gene) and a raven have an encounter.
+* The rattlesnake panics and bites the raven in the stomach.
+* The raven grabs the snake and takes to the air with it.
+* The bleeding raven becomes too faint to continue and they both fall from the sky, dying on the rocky ground.
+
+Story B:
+
+* A rattlesnake (Gene) and a raven have an encounter.
+* The raven grabs the snake and takes to the air with it.
+* The snake panics and bites the raven in the stomach.
+* The bleeding raven becomes too faint to continue and they both fall from the sky, dying on the rocky ground.
+
+Now, let's identify the analogous elements between the source story and",B,A,True,3.765625,4.46875
+35,"A cobra called Pierre was slithering through the brush when a falcon came towards it. Pierre became frightened and struck, wounding the falcon in the abdomen. To teach him a lesson, the falcon grabbed the cobra and flew away with it.
+ Unfortunately for both of them, after they were high above the earth the wounded falcon became too weak to fly. Consequently, they plummeted straight down to the earth and perished. They landed, strangely enough, in the middle of an outdoor wedding ceremony.","Gene the rattlesnake was going across a field when it met a raven. Suddenly, the raven grabbed the snake and took to the air with it. 
+ Once they were in the air, Gene panicked and bit the raven in the stomach, Unfortunately, the bleeding raven became too faint to continue. Consequently, they both fell from the sky and died when they hit the rocky ground below.","Gene the rattlesnake was going across a field when it met a raven. Gene panicked and bit the raven in the stomach. The raven wanted to set the rattlesnake straight, so it grabbed the snake and took to the air with it.
+ Unfortunately, once they were in the air, the bleeding raven became too faint to continue. Consequently, they both fell from the sky and died when they hit the rocky ground below.","This is a source story:
+
+A cobra called Pierre was slithering through the brush when a falcon came towards it. Pierre became frightened and struck, wounding the falcon in the abdomen. To teach him a lesson, the falcon grabbed the cobra and flew away with it.
+ Unfortunately for both of them, after they were high above the earth the wounded falcon became too weak to fly. Consequently, they plummeted straight down to the earth and perished. They landed, strangely enough, in the middle of an outdoor wedding ceremony.
+
+This is story A:
+
+Gene the rattlesnake was going across a field when it met a raven. Suddenly, the raven grabbed the snake and took to the air with it. 
+ Once they were in the air, Gene panicked and bit the raven in the stomach, Unfortunately, the bleeding raven became too faint to continue. Consequently, they both fell from the sky and died when they hit the rocky ground below.
+
+This is story B:
+
+Gene the rattlesnake was going across a field when it met a raven. Gene panicked and bit the raven in the stomach. The raven wanted to set the rattlesnake straight, so it grabbed the snake and took to the air with it.
+ Unfortunately, once they were in the air, the bleeding raven became too faint to continue. Consequently, they both fell from the sky and died when they hit the rocky ground below.
+
+Which of the stories A/B are analogous to the source story?
+Provide final answer in tags: <ans> A </ans> or <ans> B </ans>
+
+Let's think step by step.","Let's break down the source story and the two given stories:
+
+Source story:
+
+* A cobra (Pierre) and a falcon have an encounter.
+* The cobra strikes the falcon, wounding it.
+* The falcon grabs the cobra and flies away, but the wounded falcon becomes too weak to fly and they both plummet to the ground, dying in the process.
+
+Story A:
+
+* A rattlesnake (Gene) and a raven have an encounter.
+* The raven grabs the snake, and Gene panics and bites the raven in the stomach.
+* The bleeding raven becomes too faint to continue flying, and they both fall to the ground, dying.
+
+Story B:
+
+* A rattlesnake (Gene) and a raven have an encounter.
+* Gene panics and bites the raven in the stomach.
+* The raven grabs the snake and takes to the air with it, but the bleeding raven becomes too faint to continue flying, and they both fall to the ground, dying.
+
+Now, let's identify the analogous elements between the source story and the two given stories:
+
+* Both stories involve a predator (raven/snake) and a prey (snake/falcon) having an encounter.
+*",B,B,True,2.875,4.4375
