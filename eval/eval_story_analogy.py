@@ -54,7 +54,7 @@ def parse_model_generation(generation: str):
     # 2. Default to None if answer not found
     return None
 
-def inference(model, source_story, correct_analogy, false_analogy, prompt_template, results, task, correct_answer= "A"):
+def inference(model, source_story, correct_analogy, false_analogy, prompt_template, results, task, correct_answer="A"):
 
     StoryA = correct_analogy if correct_answer == "A" else false_analogy
     StoryB = false_analogy if correct_answer == "A" else correct_analogy
@@ -63,14 +63,20 @@ def inference(model, source_story, correct_analogy, false_analogy, prompt_templa
     generation = model.forward(prompt)
     parsed_answer = parse_model_generation(generation)
 
-    ambiguous = True
-    if parsed_answer == None:
-        logit_A, logit_B = model.forward_logits(prompt + ' So the final answer is <ans> ', task)
-        parsed_answer = 'A' if logit_A > logit_B else 'B'
-    else:
-        ambiguous = False
-        logit_A = None
-        logit_B = None
+    if parsed_answer is None:
+        # Second-stage extraction
+        extended_prompt = prompt + "\n" + generation + "\n So the final answer is <ans> "
+        new_generation = model.forward(extended_prompt)
+        parsed_answer = parse_model_generation(new_generation)
+
+    # ambiguous = True
+    # if parsed_answer == None:
+    #     logit_A, logit_B = model.forward_logits(prompt + ' So the final answer is <ans> ', task)
+    #     parsed_answer = 'A' if logit_A > logit_B else 'B'
+    # else:
+    #     ambiguous = False
+    #     logit_A = None
+    #     logit_B = None
 
     results.append({
         'source_story': source_story,
@@ -78,11 +84,12 @@ def inference(model, source_story, correct_analogy, false_analogy, prompt_templa
         'story_B': StoryB,
         'full_prompt': prompt,
         'raw_generation': generation,
+        'new_generation': new_generation,
         'parsed_answer': parsed_answer,
         'correct_answer': correct_answer,
-        'ambiguous': ambiguous,
-        'logit_A': logit_A,
-        'logit_B': logit_B
+        #'ambiguous': ambiguous,
+        #'logit_A': logit_A,
+        #'logit_B': logit_B
     })
 
 
@@ -120,7 +127,7 @@ def evaluate_story_analogies(args):
         os.makedirs(results_directory)
     # Save results to csv
     prompt_format = args.prompt.split('.')[0]
-    pd.DataFrame(results).to_csv(f'./results/story_analogies_{args.condition}_logits_{args.model}_{prompt_format}.csv')
+    pd.DataFrame(results).to_csv(f'./results/two_stage_extraction/story_analogies_{args.condition}_logits_{args.model}_{prompt_format}.csv')
 
 
 def main():
