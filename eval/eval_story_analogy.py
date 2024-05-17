@@ -63,7 +63,9 @@ def inference(model, source_story, correct_analogy, false_analogy, prompt_templa
     generation = model.forward(prompt)
     parsed_answer = parse_model_generation(generation)
 
+    ambiguous = False
     if parsed_answer is None:
+        ambiguous = True
         # Second-stage extraction
         extended_prompt = prompt + "\n" + generation + "\n So the final answer is <ans> "
         new_generation = model.forward(extended_prompt)
@@ -84,7 +86,7 @@ def inference(model, source_story, correct_analogy, false_analogy, prompt_templa
         'story_B': StoryB,
         'full_prompt': prompt,
         'raw_generation': generation,
-        'new_generation': new_generation,
+        'new_generation': new_generation if ambiguous else None,
         'parsed_answer': parsed_answer,
         'correct_answer': correct_answer,
         #'ambiguous': ambiguous,
