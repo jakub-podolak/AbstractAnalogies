@@ -15,4 +15,4 @@ Only one answer is correct.
 # Answer:
 Final answer should be in tags: <ans> A </ans> or <ans> B </ans>
 
-Think step by step.
+Let's think step by step.
