@@ -1,0 +1,18 @@
+# Instruction:
+You will be presented with one source story and two comparison stories.
+Your task is to determine which of the comparison stories, Story A or Story B, is more analogous to the source story.
+Only one answer is correct.
+
+# Source Story:
+{SourceStory}
+
+# Story A:
+{StoryA}
+
+# Story B:
+{StoryB}
+
+# Answer:
+Final answer should be in tags: <ans> A </ans> or <ans> B </ans>
+
+Think step by step.

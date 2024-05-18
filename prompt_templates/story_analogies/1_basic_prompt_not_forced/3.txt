@@ -1,0 +1,17 @@
+---
+You are a social and humanities science expert, analyzing different stories and their similarity.
+You will be provided a reference story (Ref) and two other stories (A/B). You know that exactly one of the other two stories
+is analogous to the reference story. You are asked to select which of the other stories is analogous.
+---
+
+---
+Ref: {SourceStory}
+
+---
+Story A: {StoryA}
+
+---
+Story B: {StoryB}
+
+---
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
