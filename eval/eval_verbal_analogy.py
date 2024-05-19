@@ -5,10 +5,13 @@ import argparse
 from prompt_templates.verbal_analogy import create_prompt
 from models.llama3 import LLama3
 from models.mistral7b import Mistral7B
+from models.starling7b_beta import Starling7BBeta
+
 
 SUPPORTED_MODELS = {
     'llama3': LLama3,
-    'mistral7b': Mistral7B
+    'mistral7b': Mistral7B,
+    'starling7b-beta': Starling7BBeta
 }
 
 def parse_option():
