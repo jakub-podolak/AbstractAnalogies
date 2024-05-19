@@ -6,7 +6,7 @@ models=("mistral7b")  # Add your models to this list
 
 
 # Define the directory to search for text files
-directory="prompt_templates/story_analogies"  # Change this to your target directory
+directory="prompt_templates/verbal_analogy"  # Change this to your target directory
 
 # Iterate over each model
 for model in "${models[@]}"; do 
