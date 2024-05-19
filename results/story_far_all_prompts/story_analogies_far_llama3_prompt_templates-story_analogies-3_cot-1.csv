@@ -1,0 +1,1849 @@
+,source_story,story_A,story_B,full_prompt,raw_generation,new_generation,parsed_answer,correct_answer
+0,"William was a patient in a psychiatric hospital who was confined indoors almost all the time. He could never pass the monthly room inspections so he hated them. He spent most of his time daydreaming about food.
+A few day before the April inspection William's room was still a mess since he had done nothing but daydream. To provide William with an incentive, the nurse promised him some gingerbread from the cookie shop if he scrubbed his room and put it in order once and for all.
+William was overjoyed. But there was no longer enough time for him to put it in order. As a result, he did not pass the inspection and did not get any gingerbread.
+William sulked all day and slammed his door so hard the plaster cracked, but he still didn't get any gingerbread.","Karen always did poorly in high school so she despised it. But she loved vacations. She spent most of her time dreaming about going to Hawaii.
+Not long before the end of her fourth year Karen was not doing at all well in her classes because she had spent all her time daydreaming. To motivate her, Karen's father promised her that if she did well enough during the next few weeks to graduate from high school he would pay for her trip to Hawaii.
+This made Karen extremely happy. But she was too far behind in her classes. Consequently she failed too many and did not go to Hawaii.","Karen disliked high school so she always had trouble getting passing grades in her classes. Vacations were her favorite part of the school year.
+Not long before the end of her fourth year of school, Karen was not doing well at all because she despised school. To motivate her, Karen's father promised her a trip to Hawaii if she would just pass enough of her classes to graduate.
+This made Karen extremely happy. During the last few weeks of school she spent most of her time dreaming about Hawaii and preparing for her trip there. Consequently, she failed to graduate and she did not get to go.","This is a source story:
+
+William was a patient in a psychiatric hospital who was confined indoors almost all the time. He could never pass the monthly room inspections so he hated them. He spent most of his time daydreaming about food.
+A few day before the April inspection William's room was still a mess since he had done nothing but daydream. To provide William with an incentive, the nurse promised him some gingerbread from the cookie shop if he scrubbed his room and put it in order once and for all.
+William was overjoyed. But there was no longer enough time for him to put it in order. As a result, he did not pass the inspection and did not get any gingerbread.
+William sulked all day and slammed his door so hard the plaster cracked, but he still didn't get any gingerbread.
+
+This is story A:
+
+Karen always did poorly in high school so she despised it. But she loved vacations. She spent most of her time dreaming about going to Hawaii.
+Not long before the end of her fourth year Karen was not doing at all well in her classes because she had spent all her time daydreaming. To motivate her, Karen's father promised her that if she did well enough during the next few weeks to graduate from high school he would pay for her trip to Hawaii.
+This made Karen extremely happy. But she was too far behind in her classes. Consequently she failed too many and did not go to Hawaii.
+
+This is story B:
+
+Karen disliked high school so she always had trouble getting passing grades in her classes. Vacations were her favorite part of the school year.
+Not long before the end of her fourth year of school, Karen was not doing well at all because she despised school. To motivate her, Karen's father promised her a trip to Hawaii if she would just pass enough of her classes to graduate.
+This made Karen extremely happy. During the last few weeks of school she spent most of her time dreaming about Hawaii and preparing for her trip there. Consequently, she failed to graduate and she did not get to go.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the source story and the two given stories.
+
+The source story is about William, a patient in a psychiatric hospital who is motivated by the promise of gingerbread to clean his room, but ultimately fails to do so and doesn't get the gingerbread.
+
+Story A is about Karen, who is motivated by the promise of a trip to Hawaii to do well in her classes, but ultimately fails to do so and doesn't get the trip.
+
+Story B is also about Karen, who is motivated by the promise of a trip to Hawaii to pass her classes, and she spends most of her time dreaming about Hawaii and preparing for the trip, but ultimately fails to graduate and doesn't get to go.
+
+Now, let's identify the common elements between the source story and the two given stories:
+
+* In all three stories, the main character is motivated by a promise (gingerbread, trip to Hawaii) to achieve a specific goal (cleaning the room, doing well in classes).
+* In all three stories, the main character fails to achieve the goal despite being motivated.
+* In all three stories, the main character is disappointed and unhappy as a result of not achieving the goal.
+
+Based on these common elements, I would say that Story A is analogous to the source story. Both stories feature a character who is motivated by a promise to achieve a specific goal, but ultimately fails to do so and is disappointed as a result.
+
+Therefore, the correct answer is:
+
+<ans> A </ans>",,A,A
+1,"William was a patient in a psychiatric hospital who was confined indoors almost all the time. He could never pass the monthly room inspections so he hated them. He spent most of his time daydreaming about food.
+A few day before the April inspection William's room was still a mess since he had done nothing but daydream. To provide William with an incentive, the nurse promised him some gingerbread from the cookie shop if he scrubbed his room and put it in order once and for all.
+William was overjoyed. But there was no longer enough time for him to put it in order. As a result, he did not pass the inspection and did not get any gingerbread.
+William sulked all day and slammed his door so hard the plaster cracked, but he still didn't get any gingerbread.","Karen disliked high school so she always had trouble getting passing grades in her classes. Vacations were her favorite part of the school year.
+Not long before the end of her fourth year of school, Karen was not doing well at all because she despised school. To motivate her, Karen's father promised her a trip to Hawaii if she would just pass enough of her classes to graduate.
+This made Karen extremely happy. During the last few weeks of school she spent most of her time dreaming about Hawaii and preparing for her trip there. Consequently, she failed to graduate and she did not get to go.","Karen always did poorly in high school so she despised it. But she loved vacations. She spent most of her time dreaming about going to Hawaii.
+Not long before the end of her fourth year Karen was not doing at all well in her classes because she had spent all her time daydreaming. To motivate her, Karen's father promised her that if she did well enough during the next few weeks to graduate from high school he would pay for her trip to Hawaii.
+This made Karen extremely happy. But she was too far behind in her classes. Consequently she failed too many and did not go to Hawaii.","This is a source story:
+
+William was a patient in a psychiatric hospital who was confined indoors almost all the time. He could never pass the monthly room inspections so he hated them. He spent most of his time daydreaming about food.
+A few day before the April inspection William's room was still a mess since he had done nothing but daydream. To provide William with an incentive, the nurse promised him some gingerbread from the cookie shop if he scrubbed his room and put it in order once and for all.
+William was overjoyed. But there was no longer enough time for him to put it in order. As a result, he did not pass the inspection and did not get any gingerbread.
+William sulked all day and slammed his door so hard the plaster cracked, but he still didn't get any gingerbread.
+
+This is story A:
+
+Karen disliked high school so she always had trouble getting passing grades in her classes. Vacations were her favorite part of the school year.
+Not long before the end of her fourth year of school, Karen was not doing well at all because she despised school. To motivate her, Karen's father promised her a trip to Hawaii if she would just pass enough of her classes to graduate.
+This made Karen extremely happy. During the last few weeks of school she spent most of her time dreaming about Hawaii and preparing for her trip there. Consequently, she failed to graduate and she did not get to go.
+
+This is story B:
+
+Karen always did poorly in high school so she despised it. But she loved vacations. She spent most of her time dreaming about going to Hawaii.
+Not long before the end of her fourth year Karen was not doing at all well in her classes because she had spent all her time daydreaming. To motivate her, Karen's father promised her that if she did well enough during the next few weeks to graduate from high school he would pay for her trip to Hawaii.
+This made Karen extremely happy. But she was too far behind in her classes. Consequently she failed too many and did not go to Hawaii.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the source story and the two given stories.
+
+The source story is about William, a patient in a psychiatric hospital who is motivated by the promise of gingerbread to clean his room, but ultimately fails to do so and doesn't get the gingerbread.
+
+Story A is about Karen, a high school student who is motivated by the promise of a trip to Hawaii to pass her classes, but ultimately fails to do so and doesn't get to go.
+
+Story B is also about Karen, a high school student who loves vacations and is motivated by the promise of a trip to Hawaii to do well in her classes, but ultimately fails to do so and doesn't get to go.
+
+Now, let's compare the source story with the two given stories:
+
+* In the source story, William is motivated by the promise of gingerbread to clean his room, but ultimately fails to do so.
+* In Story A, Karen is motivated by the promise of a trip to Hawaii to pass her classes, but ultimately fails to do so.
+* In Story B, Karen is motivated by the promise of a trip to Hawaii to do well in her classes, but ultimately fails to do so.
+
+All three stories have a similar pattern: a character is motivated by a promise to achieve a goal, but ultimately fails to do so and doesn't get the reward.
+
+Therefore, the correct answer is:
+
+<ans> A </ans>
+
+Story A is analogous to the source story.",,A,B
+2,"Mr. Newton was the manager of a company that made razors. One year, an inventor in his company perfected a metal that would stay sharper than any previous razor.
+However, not long after that, Mr. Newton was using one of these new razors and he cut his neck rather severely. As a result of this incident the inventor recommended a safety feature that would protect people from injuring themselves.
+After what had happened, Mr. Newton considered the safety feature absolutely necessary. The incident had alarmed him so much that he began to produce the safety razor right away. Luckily, his neck did not get infected so everything was alright.","Ms. Boyce was in charge of installing heat lamps sold by the Smith Tan Company. In 1980, a supplier for the company perfected a filament that could produce more intense heat than any previous filament.
+But later, when Ms. Boyce was using one of these new heat lamps herself she was seriously burned. Because of this accident the supplier recommended a warning label that would protect people from hurting themselves with the new lamp.
+After this, Ms. Boyce considered the labels absolutely necessary. The accident frightened her so much that she had the labels printed immediately.","Ms. Boyce was in charge of installing sun lamps sold by Smith Tan Company. In 1980, a supplier for the company perfected a filament that could produce more intense heat than any previous filament. Because it was so hot, the supplier recommended a warning label that would protect people from hurting themselves with the new lamp.
+But Mrs. Boyce considered the labels unnecessary. It would be too much trouble to make them.
+But later, when she was using one of these new heat lamps herself, she was seriously burned. After this accident she was so frightened that she had the warning labels printed immediately.","This is a source story:
+
+Mr. Newton was the manager of a company that made razors. One year, an inventor in his company perfected a metal that would stay sharper than any previous razor.
+However, not long after that, Mr. Newton was using one of these new razors and he cut his neck rather severely. As a result of this incident the inventor recommended a safety feature that would protect people from injuring themselves.
+After what had happened, Mr. Newton considered the safety feature absolutely necessary. The incident had alarmed him so much that he began to produce the safety razor right away. Luckily, his neck did not get infected so everything was alright.
+
+This is story A:
+
+Ms. Boyce was in charge of installing heat lamps sold by the Smith Tan Company. In 1980, a supplier for the company perfected a filament that could produce more intense heat than any previous filament.
+But later, when Ms. Boyce was using one of these new heat lamps herself she was seriously burned. Because of this accident the supplier recommended a warning label that would protect people from hurting themselves with the new lamp.
+After this, Ms. Boyce considered the labels absolutely necessary. The accident frightened her so much that she had the labels printed immediately.
+
+This is story B:
+
+Ms. Boyce was in charge of installing sun lamps sold by Smith Tan Company. In 1980, a supplier for the company perfected a filament that could produce more intense heat than any previous filament. Because it was so hot, the supplier recommended a warning label that would protect people from hurting themselves with the new lamp.
+But Mrs. Boyce considered the labels unnecessary. It would be too much trouble to make them.
+But later, when she was using one of these new heat lamps herself, she was seriously burned. After this accident she was so frightened that she had the warning labels printed immediately.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's break down the source story and the two alternative stories:
+
+Source story:
+
+* Mr. Newton, a manager, uses a new razor and cuts his neck severely.
+* The inventor recommends a safety feature to prevent similar accidents.
+* Mr. Newton agrees and starts producing the safety razor.
+
+Story A:
+
+* Ms. Boyce, in charge of installing heat lamps, uses a new lamp and gets seriously burned.
+* The supplier recommends a warning label to prevent similar accidents.
+* Ms. Boyce agrees and has the labels printed immediately.
+
+Story B:
+
+* Ms. Boyce, in charge of installing sun lamps, uses a new lamp and gets seriously burned.
+* The supplier recommends a warning label, but Ms. Boyce initially thinks it's unnecessary.
+* After the accident, Ms. Boyce has the labels printed immediately.
+
+Now, let's identify the analogous elements:
+
+* In the source story, Mr. Newton uses a new product (razor) and gets injured.
+* In both Story A and Story B, Ms. Boyce uses a new product (heat lamp) and gets injured.
+* In the source story, the inventor recommends a safety feature, and Mr. Newton agrees.
+* In both Story A and Story B, the supplier recommends a safety feature (warning label), and the person in charge (Ms. Boyce) agrees.
+
+The key difference is that in Story B, Ms. Boyce initially disagrees with the recommendation, whereas in the source story and Story A, the person in charge agrees with the recommendation immediately.
+
+Based on this analysis, I would say that:
+
+<ans> A </ans>
+
+Story A is analogous to the source story, as both involve a person in charge using a new product, getting injured, and subsequently agreeing to implement a safety feature to prevent similar accidents.",,A,A
+3,"Mr. Newton was the manager of a company that made razors. One year, an inventor in his company perfected a metal that would stay sharper than any previous razor.
+However, not long after that, Mr. Newton was using one of these new razors and he cut his neck rather severely. As a result of this incident the inventor recommended a safety feature that would protect people from injuring themselves.
+After what had happened, Mr. Newton considered the safety feature absolutely necessary. The incident had alarmed him so much that he began to produce the safety razor right away. Luckily, his neck did not get infected so everything was alright.","Ms. Boyce was in charge of installing sun lamps sold by Smith Tan Company. In 1980, a supplier for the company perfected a filament that could produce more intense heat than any previous filament. Because it was so hot, the supplier recommended a warning label that would protect people from hurting themselves with the new lamp.
+But Mrs. Boyce considered the labels unnecessary. It would be too much trouble to make them.
+But later, when she was using one of these new heat lamps herself, she was seriously burned. After this accident she was so frightened that she had the warning labels printed immediately.","Ms. Boyce was in charge of installing heat lamps sold by the Smith Tan Company. In 1980, a supplier for the company perfected a filament that could produce more intense heat than any previous filament.
+But later, when Ms. Boyce was using one of these new heat lamps herself she was seriously burned. Because of this accident the supplier recommended a warning label that would protect people from hurting themselves with the new lamp.
+After this, Ms. Boyce considered the labels absolutely necessary. The accident frightened her so much that she had the labels printed immediately.","This is a source story:
+
+Mr. Newton was the manager of a company that made razors. One year, an inventor in his company perfected a metal that would stay sharper than any previous razor.
+However, not long after that, Mr. Newton was using one of these new razors and he cut his neck rather severely. As a result of this incident the inventor recommended a safety feature that would protect people from injuring themselves.
+After what had happened, Mr. Newton considered the safety feature absolutely necessary. The incident had alarmed him so much that he began to produce the safety razor right away. Luckily, his neck did not get infected so everything was alright.
+
+This is story A:
+
+Ms. Boyce was in charge of installing sun lamps sold by Smith Tan Company. In 1980, a supplier for the company perfected a filament that could produce more intense heat than any previous filament. Because it was so hot, the supplier recommended a warning label that would protect people from hurting themselves with the new lamp.
+But Mrs. Boyce considered the labels unnecessary. It would be too much trouble to make them.
+But later, when she was using one of these new heat lamps herself, she was seriously burned. After this accident she was so frightened that she had the warning labels printed immediately.
+
+This is story B:
+
+Ms. Boyce was in charge of installing heat lamps sold by the Smith Tan Company. In 1980, a supplier for the company perfected a filament that could produce more intense heat than any previous filament.
+But later, when Ms. Boyce was using one of these new heat lamps herself she was seriously burned. Because of this accident the supplier recommended a warning label that would protect people from hurting themselves with the new lamp.
+After this, Ms. Boyce considered the labels absolutely necessary. The accident frightened her so much that she had the labels printed immediately.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's break down the source story and the two given stories:
+
+Source story:
+
+* Mr. Newton, a manager, uses a new razor and cuts himself severely.
+* The inventor recommends a safety feature to prevent similar accidents.
+* Mr. Newton agrees and starts producing the safety razor.
+
+Story A:
+
+* Mrs. Boyce, in charge of installing sun lamps, uses a new heat lamp and gets seriously burned.
+* The supplier recommends a warning label to prevent similar accidents.
+* Mrs. Boyce initially doesn't consider the labels necessary, but after her accident, she has them printed.
+
+Story B:
+
+* Mrs. Boyce, in charge of installing heat lamps, uses a new heat lamp and gets seriously burned.
+* The supplier recommends a warning label to prevent similar accidents.
+* Mrs. Boyce considers the labels necessary after her accident and has them printed.
+
+Now, let's identify the analogous elements:
+
+* In the source story, Mr. Newton uses a new product (razor) and gets injured.
+* In both Story A and Story B, Mrs. Boyce uses a new product (heat lamp) and gets injured.
+* In the source story, the inventor recommends a safety feature to prevent similar accidents.
+* In both Story A and Story B, the supplier recommends a warning label to prevent similar accidents.
+
+The key difference is that in the source story, Mr. Newton is initially unaware of the potential danger and only becomes aware of it after his accident. In both Story A and Story B, Mrs. Boyce is initially unaware of the potential danger, but after her accident, she becomes aware of it and takes action.
+
+Based on this analysis, I would say that:
+
+<ans> B </ans>
+
+is the analogous story, as it follows a similar pattern of events and character development as the source story.",,B,B
+4,"Joseph was a millionaire who hired a chauffeur to drive his Rolls-Royce. He used to brag. to his wife that he would never be late for his conferences since he had hired a chauffeur.
+One morning when he was in a great hurry, he went to find the chauffeur. But he was asleep. He thought his services would not be needed that day.
+Thus Joseph was very late for his conference after all. To make sure this would not happen again, Joseph hired a second chauffeur. This turned out to be very expensive because the second chauffeur wanted a fancy uniform as well as a high salary.","Alexander was a man who lived with his wife in his house a long time ago. He liked to boast to a friend that with his wife at home he would always eat well.
+One day, when he was very hungry, Alexander went home to his wife. But she thought Alexander would be eating someplace else so she had only prepared enough for herself and their baby.
+Thus Alexander went without dinner. But to make sure he would not go hungry again, Alexander married a second wife.","Many years ago there was man named Alexander who had two wives living in two houses: He liked to boast to a friend that with his two wives he would always eat well.
+One day when he was very hungry, Alexander went to his first wife. But she had only prepared enough for herself and their baby. She thought Alexander would eat with his other wife that day.
+Alexander then went to his second wife, but found she had already finished. She saw him go to the other house so she thought he was eating there.
+Thus Alexander went without any dinner at all.","This is a source story:
+
+Joseph was a millionaire who hired a chauffeur to drive his Rolls-Royce. He used to brag. to his wife that he would never be late for his conferences since he had hired a chauffeur.
+One morning when he was in a great hurry, he went to find the chauffeur. But he was asleep. He thought his services would not be needed that day.
+Thus Joseph was very late for his conference after all. To make sure this would not happen again, Joseph hired a second chauffeur. This turned out to be very expensive because the second chauffeur wanted a fancy uniform as well as a high salary.
+
+This is story A:
+
+Alexander was a man who lived with his wife in his house a long time ago. He liked to boast to a friend that with his wife at home he would always eat well.
+One day, when he was very hungry, Alexander went home to his wife. But she thought Alexander would be eating someplace else so she had only prepared enough for herself and their baby.
+Thus Alexander went without dinner. But to make sure he would not go hungry again, Alexander married a second wife.
+
+This is story B:
+
+Many years ago there was man named Alexander who had two wives living in two houses: He liked to boast to a friend that with his two wives he would always eat well.
+One day when he was very hungry, Alexander went to his first wife. But she had only prepared enough for herself and their baby. She thought Alexander would eat with his other wife that day.
+Alexander then went to his second wife, but found she had already finished. She saw him go to the other house so she thought he was eating there.
+Thus Alexander went without any dinner at all.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's break down the stories and identify the common elements.
+
+**Source story:**
+
+* Joseph, a millionaire, hires a chauffeur to drive his Rolls-Royce.
+* He brags to his wife that he'll never be late for conferences with a chauffeur.
+* However, the chauffeur is asleep, and Joseph is late for a conference.
+* To avoid this, Joseph hires a second chauffeur, which becomes expensive.
+
+**Story A:**
+
+* Alexander, a man, lives with his wife and boasts that he'll always eat well with her at home.
+* One day, Alexander is hungry and goes home, but his wife has only prepared food for herself and their baby, thinking Alexander will eat elsewhere.
+* Alexander goes without dinner.
+* To avoid this, Alexander marries a second wife.
+
+**Story B:**
+
+* Alexander, a man, has two wives living in two houses and boasts that he'll always eat well with both of them.
+* One day, Alexander is hungry and goes to his first wife, but she has only prepared food for herself and their baby, thinking Alexander will eat with his second wife.
+* Alexander then goes to his second wife, but she has already finished eating, thinking Alexander is eating with his first wife.
+* Alexander goes without dinner.
+
+Now, let's identify the analogous elements:
+
+* Both stories (A and B) feature a character (Alexander) who boasts about having a solution to a problem (eating well or being on time).
+* Both stories have the character experiencing the opposite of what they expected (going without dinner or being late).
+* Both stories have the character trying to solve the problem by adding another element (a second wife).
+
+Based on these similarities, I conclude that:
+
+<ans> A </ans>",,A,A
+5,"Joseph was a millionaire who hired a chauffeur to drive his Rolls-Royce. He used to brag. to his wife that he would never be late for his conferences since he had hired a chauffeur.
+One morning when he was in a great hurry, he went to find the chauffeur. But he was asleep. He thought his services would not be needed that day.
+Thus Joseph was very late for his conference after all. To make sure this would not happen again, Joseph hired a second chauffeur. This turned out to be very expensive because the second chauffeur wanted a fancy uniform as well as a high salary.","Many years ago there was man named Alexander who had two wives living in two houses: He liked to boast to a friend that with his two wives he would always eat well.
+One day when he was very hungry, Alexander went to his first wife. But she had only prepared enough for herself and their baby. She thought Alexander would eat with his other wife that day.
+Alexander then went to his second wife, but found she had already finished. She saw him go to the other house so she thought he was eating there.
+Thus Alexander went without any dinner at all.","Alexander was a man who lived with his wife in his house a long time ago. He liked to boast to a friend that with his wife at home he would always eat well.
+One day, when he was very hungry, Alexander went home to his wife. But she thought Alexander would be eating someplace else so she had only prepared enough for herself and their baby.
+Thus Alexander went without dinner. But to make sure he would not go hungry again, Alexander married a second wife.","This is a source story:
+
+Joseph was a millionaire who hired a chauffeur to drive his Rolls-Royce. He used to brag. to his wife that he would never be late for his conferences since he had hired a chauffeur.
+One morning when he was in a great hurry, he went to find the chauffeur. But he was asleep. He thought his services would not be needed that day.
+Thus Joseph was very late for his conference after all. To make sure this would not happen again, Joseph hired a second chauffeur. This turned out to be very expensive because the second chauffeur wanted a fancy uniform as well as a high salary.
+
+This is story A:
+
+Many years ago there was man named Alexander who had two wives living in two houses: He liked to boast to a friend that with his two wives he would always eat well.
+One day when he was very hungry, Alexander went to his first wife. But she had only prepared enough for herself and their baby. She thought Alexander would eat with his other wife that day.
+Alexander then went to his second wife, but found she had already finished. She saw him go to the other house so she thought he was eating there.
+Thus Alexander went without any dinner at all.
+
+This is story B:
+
+Alexander was a man who lived with his wife in his house a long time ago. He liked to boast to a friend that with his wife at home he would always eat well.
+One day, when he was very hungry, Alexander went home to his wife. But she thought Alexander would be eating someplace else so she had only prepared enough for herself and their baby.
+Thus Alexander went without dinner. But to make sure he would not go hungry again, Alexander married a second wife.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the stories step by step.
+
+**Common theme:** Both stories A and B have a theme of boasting and then facing the consequences of being late or going hungry.
+
+**Similarity to the source story:** In the source story, Joseph boasts about having a chauffeur to ensure he's never late, but ends up being late due to the chauffeur's absence. Similarly, in both stories A and B, the protagonists boast about having multiple wives or a chauffeur, but ultimately face the consequences of their boasts.
+
+**Key differences:** Story A has two wives, while the source story has a chauffeur. Story B has a single wife, but the protagonist marries a second wife to ensure he won't go hungry again.
+
+**Conclusion:** Based on the analysis, I believe that **Story A** is analogous to the source story. Both stories feature a protagonist who boasts about having multiple resources (wives or a chauffeur) to ensure they won't face a particular problem (lateness or hunger), but ultimately face the consequences of their boasts.
+
+Therefore, the correct answer is:
+
+<ans> A </ans>",,A,B
+6,"Karla, an old hawk, lived at the top of a tall oak tree. One afternoon, she saw a hunter on the ground with a bow and some crude arrows that had no feathers. The hunter took aim and shot at the hawk but missed. Karla knew the hunter wanted her feathers so she glided down to the hunter and offered to give him a few. The hunter was so grateful that he pledged never to shoot at a hawk again. He went off and shot deer instead.","Once there was a small country called Zerdia that learned to make the world's smartest computer. One day Zerdia was attacked by its warlike neighbor, Gagrach. But the missiles were badly aimed and the attack failed. The Zerdian government realized that Gagrach wanted Zerdian computers so it offered to sell some of its computers to the country. The government of Gagrach was very pleased. It promised never to attack Zerdia again.","Once there was a small country called Zerdia that learned to make the world's smartest computer. Zerdia sold one of itssupercomputers to its neighbor, Gagrach, so Gagrach would promise never to attack Zerdia. But one day Zerdia was overwhelmed by a surprise attack from Gagrach. As it capitulated the crippled government of Zerdia realized that the attacker's missiles had been guided by Zerdian supercomputers.","This is a source story:
+
+Karla, an old hawk, lived at the top of a tall oak tree. One afternoon, she saw a hunter on the ground with a bow and some crude arrows that had no feathers. The hunter took aim and shot at the hawk but missed. Karla knew the hunter wanted her feathers so she glided down to the hunter and offered to give him a few. The hunter was so grateful that he pledged never to shoot at a hawk again. He went off and shot deer instead.
+
+This is story A:
+
+Once there was a small country called Zerdia that learned to make the world's smartest computer. One day Zerdia was attacked by its warlike neighbor, Gagrach. But the missiles were badly aimed and the attack failed. The Zerdian government realized that Gagrach wanted Zerdian computers so it offered to sell some of its computers to the country. The government of Gagrach was very pleased. It promised never to attack Zerdia again.
+
+This is story B:
+
+Once there was a small country called Zerdia that learned to make the world's smartest computer. Zerdia sold one of itssupercomputers to its neighbor, Gagrach, so Gagrach would promise never to attack Zerdia. But one day Zerdia was overwhelmed by a surprise attack from Gagrach. As it capitulated the crippled government of Zerdia realized that the attacker's missiles had been guided by Zerdian supercomputers.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the source story and the two given stories.
+
+In the source story, a hunter is trying to shoot a hawk to get its feathers. The hawk, Karla, offers to give the hunter some feathers, and the hunter is so grateful that he pledges never to shoot at a hawk again.
+
+Now, let's look at story A:
+
+In story A, Zerdia is attacked by Gagrach, but the attack fails. Zerdia then offers to sell some of its computers to Gagrach, and Gagrach promises never to attack Zerdia again.
+
+The analogy between the source story and story A is that in both cases, the attacker (hunter/hacker) is trying to get something from the target (hawk/computer), and the target offers to give them what they want, leading to a peaceful resolution.
+
+In story B, Zerdia sells a supercomputer to Gagrach, but Gagrach then uses it to launch a surprise attack on Zerdia. This is not analogous to the source story, as the target (Zerdia) is not offering to give the attacker (Gagrach) what they want, but rather is being deceived.
+
+Therefore, the correct answer is:
+
+<ans> A </ans>",,A,A
+7,"Karla, an old hawk, lived at the top of a tall oak tree. One afternoon, she saw a hunter on the ground with a bow and some crude arrows that had no feathers. The hunter took aim and shot at the hawk but missed. Karla knew the hunter wanted her feathers so she glided down to the hunter and offered to give him a few. The hunter was so grateful that he pledged never to shoot at a hawk again. He went off and shot deer instead.","Once there was a small country called Zerdia that learned to make the world's smartest computer. Zerdia sold one of itssupercomputers to its neighbor, Gagrach, so Gagrach would promise never to attack Zerdia. But one day Zerdia was overwhelmed by a surprise attack from Gagrach. As it capitulated the crippled government of Zerdia realized that the attacker's missiles had been guided by Zerdian supercomputers.","Once there was a small country called Zerdia that learned to make the world's smartest computer. One day Zerdia was attacked by its warlike neighbor, Gagrach. But the missiles were badly aimed and the attack failed. The Zerdian government realized that Gagrach wanted Zerdian computers so it offered to sell some of its computers to the country. The government of Gagrach was very pleased. It promised never to attack Zerdia again.","This is a source story:
+
+Karla, an old hawk, lived at the top of a tall oak tree. One afternoon, she saw a hunter on the ground with a bow and some crude arrows that had no feathers. The hunter took aim and shot at the hawk but missed. Karla knew the hunter wanted her feathers so she glided down to the hunter and offered to give him a few. The hunter was so grateful that he pledged never to shoot at a hawk again. He went off and shot deer instead.
+
+This is story A:
+
+Once there was a small country called Zerdia that learned to make the world's smartest computer. Zerdia sold one of itssupercomputers to its neighbor, Gagrach, so Gagrach would promise never to attack Zerdia. But one day Zerdia was overwhelmed by a surprise attack from Gagrach. As it capitulated the crippled government of Zerdia realized that the attacker's missiles had been guided by Zerdian supercomputers.
+
+This is story B:
+
+Once there was a small country called Zerdia that learned to make the world's smartest computer. One day Zerdia was attacked by its warlike neighbor, Gagrach. But the missiles were badly aimed and the attack failed. The Zerdian government realized that Gagrach wanted Zerdian computers so it offered to sell some of its computers to the country. The government of Gagrach was very pleased. It promised never to attack Zerdia again.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the source story and the two alternative stories.
+
+In the source story, a hunter is trying to shoot a hawk to get its feathers. The hawk, Karla, offers to give the hunter some feathers, and the hunter is so grateful that he pledges never to shoot at a hawk again.
+
+Now, let's look at story A:
+
+In story A, Zerdia sells a supercomputer to Gagrach, and Gagrach promises not to attack Zerdia. However, Gagrach later attacks Zerdia, and it's revealed that the missiles were guided by Zerdian supercomputers. This doesn't seem analogous to the source story, as there's no offer of a ""feather"" equivalent in this story.
+
+Now, let's look at story B:
+
+In story B, Zerdia is attacked by Gagrach, but the attack fails because the missiles are badly aimed. Zerdia then offers to sell some of its computers to Gagrach, and Gagrach promises never to attack Zerdia again. This story seems more analogous to the source story, as Zerdia is offering something of value (computers) to Gagrach, and Gagrach is grateful and promises not to attack Zerdia again.
+
+Therefore, the correct answer is:
+
+<ans> B </ans>",,B,B
+8,"Peter was a young man from Iceland who moved to Florida one summer. He was very self-conscious about his fair skin. Peter thought that people would not accept him unless he tanned himself golden-brown like every one else.
+So Peter spent a whole day in the sun, trying to get a tan. He didn't understand how dangerous the sun could be. Consequently, by evening he had second degree burns over most of his body and he had to go to the hospital. Peter decided that Florida was not for him and booked the next ocean liner back to Iceland. He spent the whole trip under a large umbrella keeping cool.","Quiggly Company was as small company that manufactured electrical components. One, year, Quiggly Co. began to get into the integrated circuit market. However, Quiggly Company felt that to be competitive it would have to have really sophisticated space factories, as did all the other manufacturers of integrated circuits. Thus, Quiggly put all its assets into having a space factory. The company just didn't realize what a financial risk space manufacturing was. As a result, within six months, Quiggly Company had spent much more than they could afford and their stocks plunged to an all time low. .Quiggly Co. decided to pull out of integrated circuits altogether and went back to making conventional electrical components.","Quiggly Company was a small company that manufactured conventional electrical components. They had just started producing integrated circuits and decided that the real action in the integrated circuit market was in space manufacturing. But the market analysts gave them a stern warning. They said that space factories were too expensive and that the market was too competitive. If Quiggly went into space manufacturing, the analysts predicted they would lose everything and their stock would plunge.
+Quiggly Company was so annoyed at having to play it safe when everyone else had a chance to make a killing that they decided to go back to manufacturing conventional electric components.","This is a source story:
+
+Peter was a young man from Iceland who moved to Florida one summer. He was very self-conscious about his fair skin. Peter thought that people would not accept him unless he tanned himself golden-brown like every one else.
+So Peter spent a whole day in the sun, trying to get a tan. He didn't understand how dangerous the sun could be. Consequently, by evening he had second degree burns over most of his body and he had to go to the hospital. Peter decided that Florida was not for him and booked the next ocean liner back to Iceland. He spent the whole trip under a large umbrella keeping cool.
+
+This is story A:
+
+Quiggly Company was as small company that manufactured electrical components. One, year, Quiggly Co. began to get into the integrated circuit market. However, Quiggly Company felt that to be competitive it would have to have really sophisticated space factories, as did all the other manufacturers of integrated circuits. Thus, Quiggly put all its assets into having a space factory. The company just didn't realize what a financial risk space manufacturing was. As a result, within six months, Quiggly Company had spent much more than they could afford and their stocks plunged to an all time low. .Quiggly Co. decided to pull out of integrated circuits altogether and went back to making conventional electrical components.
+
+This is story B:
+
+Quiggly Company was a small company that manufactured conventional electrical components. They had just started producing integrated circuits and decided that the real action in the integrated circuit market was in space manufacturing. But the market analysts gave them a stern warning. They said that space factories were too expensive and that the market was too competitive. If Quiggly went into space manufacturing, the analysts predicted they would lose everything and their stock would plunge.
+Quiggly Company was so annoyed at having to play it safe when everyone else had a chance to make a killing that they decided to go back to manufacturing conventional electric components.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the source story and the two alternative stories.
+
+The source story is about Peter, a young man who moves to Florida and tries to get a tan to fit in, but ends up getting severely burned and decides to leave Florida.
+
+Story A is about Quiggly Company, which tries to get into the integrated circuit market by building a space factory, but ends up losing money and decides to go back to making conventional electrical components.
+
+Story B is about Quiggly Company, which also tries to get into the integrated circuit market, but decides not to build a space factory after receiving warnings from market analysts and instead goes back to making conventional electrical components.
+
+Now, let's look for similarities between the source story and the two alternative stories.
+
+* In the source story, Peter tries to fit in by getting a tan, but ends up getting hurt. In both Story A and Story B, Quiggly Company tries to fit in with the integrated circuit market by building a space factory, but ends up losing money.
+* In the source story, Peter's decision to get a tan is driven by his desire to fit in with the locals. Similarly, in both Story A and Story B, Quiggly Company's decision to build a space factory is driven by its desire to fit in with the other manufacturers of integrated circuits.
+
+Based on these similarities, I would say that both Story A and Story B are analogous to the source story.
+
+However, upon closer inspection, I notice that Story B is more analogous to the source story. In both stories, the protagonist (Peter/Quiggly Company) tries to fit in with the crowd, but ends up getting hurt or losing money. In Story A, Quiggly Company's decision to build a space factory is more driven by a desire to be competitive, rather than a desire to fit in.
+
+Therefore, I would say that the correct answer is:
+
+<ans> B </ans>",,B,A
+9,"Peter was a young man from Iceland who moved to Florida one summer. He was very self-conscious about his fair skin. Peter thought that people would not accept him unless he tanned himself golden-brown like every one else.
+So Peter spent a whole day in the sun, trying to get a tan. He didn't understand how dangerous the sun could be. Consequently, by evening he had second degree burns over most of his body and he had to go to the hospital. Peter decided that Florida was not for him and booked the next ocean liner back to Iceland. He spent the whole trip under a large umbrella keeping cool.","Quiggly Company was a small company that manufactured conventional electrical components. They had just started producing integrated circuits and decided that the real action in the integrated circuit market was in space manufacturing. But the market analysts gave them a stern warning. They said that space factories were too expensive and that the market was too competitive. If Quiggly went into space manufacturing, the analysts predicted they would lose everything and their stock would plunge.
+Quiggly Company was so annoyed at having to play it safe when everyone else had a chance to make a killing that they decided to go back to manufacturing conventional electric components.","Quiggly Company was as small company that manufactured electrical components. One, year, Quiggly Co. began to get into the integrated circuit market. However, Quiggly Company felt that to be competitive it would have to have really sophisticated space factories, as did all the other manufacturers of integrated circuits. Thus, Quiggly put all its assets into having a space factory. The company just didn't realize what a financial risk space manufacturing was. As a result, within six months, Quiggly Company had spent much more than they could afford and their stocks plunged to an all time low. .Quiggly Co. decided to pull out of integrated circuits altogether and went back to making conventional electrical components.","This is a source story:
+
+Peter was a young man from Iceland who moved to Florida one summer. He was very self-conscious about his fair skin. Peter thought that people would not accept him unless he tanned himself golden-brown like every one else.
+So Peter spent a whole day in the sun, trying to get a tan. He didn't understand how dangerous the sun could be. Consequently, by evening he had second degree burns over most of his body and he had to go to the hospital. Peter decided that Florida was not for him and booked the next ocean liner back to Iceland. He spent the whole trip under a large umbrella keeping cool.
+
+This is story A:
+
+Quiggly Company was a small company that manufactured conventional electrical components. They had just started producing integrated circuits and decided that the real action in the integrated circuit market was in space manufacturing. But the market analysts gave them a stern warning. They said that space factories were too expensive and that the market was too competitive. If Quiggly went into space manufacturing, the analysts predicted they would lose everything and their stock would plunge.
+Quiggly Company was so annoyed at having to play it safe when everyone else had a chance to make a killing that they decided to go back to manufacturing conventional electric components.
+
+This is story B:
+
+Quiggly Company was as small company that manufactured electrical components. One, year, Quiggly Co. began to get into the integrated circuit market. However, Quiggly Company felt that to be competitive it would have to have really sophisticated space factories, as did all the other manufacturers of integrated circuits. Thus, Quiggly put all its assets into having a space factory. The company just didn't realize what a financial risk space manufacturing was. As a result, within six months, Quiggly Company had spent much more than they could afford and their stocks plunged to an all time low. .Quiggly Co. decided to pull out of integrated circuits altogether and went back to making conventional electrical components.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the source story and the two alternative stories.
+
+The source story is about Peter, a young man who moves to Florida and tries to get a tan to fit in, but ends up getting severely burned and decides to leave Florida.
+
+Story A is about Quiggly Company, which decides to enter the space manufacturing market despite warnings from analysts, but ultimately decides to abandon the plan and go back to manufacturing conventional electrical components.
+
+Story B is about Quiggly Company, which also enters the integrated circuit market, but decides to invest heavily in space factories, which leads to financial ruin and the company's decision to abandon the integrated circuit market altogether.
+
+Now, let's look for similarities between the source story and the two alternative stories.
+
+* In the source story, Peter tries to fit in by getting a tan, but ends up getting hurt. In both Story A and Story B, Quiggly Company tries to fit in with the competition by entering the space manufacturing market, but ends up getting hurt financially.
+* In the source story, Peter decides to leave Florida after getting hurt. In both Story A and Story B, Quiggly Company decides to abandon its plans to enter the space manufacturing market and goes back to manufacturing conventional electrical components.
+
+Based on these similarities, I would say that both Story A and Story B are analogous to the source story. However, since you're asking for a single answer, I would choose:
+
+<ans> B </ans>
+
+The reason is that Story B has a more direct parallel with the source story. In both stories, the protagonist (Peter/Quiggly Company) tries to fit in with the crowd, but ends up getting hurt and decides to retreat. Story A is more about Quiggly Company's decision-making process, whereas Story B has a more direct parallel with the source story's theme of trying to fit in and getting hurt.",,B,B
+10,"Julius was a mule who discovered several pears sitting in a window sill. He thought to himself, ""These pears seem to be rotten. Perhaps I'll get some and find out if my prediction is correct.""
+ However, the pears were too high for Julius. And because he was hungry he felt too weak to jump up to them. Naturally, this was rather disappointing. He closed his eyes and went to sleep, dreaming about mountains of pears.","A girl named Cindy found some records she was curious about at a record store. ""These records look really bad,"" Cindy thought to herself. ""I think I'll buy them so I can see if my hunch is right.""
+ But, the records were too expensive for her. After thinking it over, she saw there was no way she could afford them. Needless to say, she became somewhat disappointed.","A girl named Cindy found some records she wanted at a record store. She really wanted them but, needless to say, they were too expensive for her.
+ After brooding for awhile, Cindy got over her dissapointment.
+ ""These records are probably boring,"" she thought. ""So even if I could afford them I wouldn't listen to them.""","This is a source story:
+
+Julius was a mule who discovered several pears sitting in a window sill. He thought to himself, ""These pears seem to be rotten. Perhaps I'll get some and find out if my prediction is correct.""
+ However, the pears were too high for Julius. And because he was hungry he felt too weak to jump up to them. Naturally, this was rather disappointing. He closed his eyes and went to sleep, dreaming about mountains of pears.
+
+This is story A:
+
+A girl named Cindy found some records she was curious about at a record store. ""These records look really bad,"" Cindy thought to herself. ""I think I'll buy them so I can see if my hunch is right.""
+ But, the records were too expensive for her. After thinking it over, she saw there was no way she could afford them. Needless to say, she became somewhat disappointed.
+
+This is story B:
+
+A girl named Cindy found some records she wanted at a record store. She really wanted them but, needless to say, they were too expensive for her.
+ After brooding for awhile, Cindy got over her dissapointment.
+ ""These records are probably boring,"" she thought. ""So even if I could afford them I wouldn't listen to them.""
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the stories:
+
+**Source story:**
+
+* Julius finds pears, thinks they're rotten, wants to try them, but can't reach them due to being too weak.
+* He becomes disappointed and goes to sleep.
+
+**Story A:**
+
+* Cindy finds records, thinks they're bad, wants to buy them to prove her hunch, but can't afford them.
+* She becomes disappointed.
+
+**Story B:**
+
+* Cindy finds records, wants them, but can't afford them.
+* She gets over her disappointment and thinks the records might be boring anyway.
+
+Now, let's identify the analogous elements:
+
+* Both stories A and B involve Cindy finding something she's interested in (records), but can't have due to being too expensive.
+* In both stories, Cindy becomes disappointed, but in Story B, she gets over her disappointment and finds a way to rationalize not wanting the records.
+
+The key difference is that in Story A, Cindy's disappointment is due to her initial expectation that the records are bad, while in Story B, her disappointment is due to not being able to afford the records.
+
+The analogous story to the source story is **Story A**, as both involve a character finding something they're interested in, but can't have due to a limitation (Julius can't reach the pears, Cindy can't afford the records), leading to disappointment.
+
+Therefore, the correct answer is:
+
+<ans> A </ans>",,A,A
+11,"Julius was a mule who discovered several pears sitting in a window sill. He thought to himself, ""These pears seem to be rotten. Perhaps I'll get some and find out if my prediction is correct.""
+ However, the pears were too high for Julius. And because he was hungry he felt too weak to jump up to them. Naturally, this was rather disappointing. He closed his eyes and went to sleep, dreaming about mountains of pears.","A girl named Cindy found some records she wanted at a record store. She really wanted them but, needless to say, they were too expensive for her.
+ After brooding for awhile, Cindy got over her dissapointment.
+ ""These records are probably boring,"" she thought. ""So even if I could afford them I wouldn't listen to them.""","A girl named Cindy found some records she was curious about at a record store. ""These records look really bad,"" Cindy thought to herself. ""I think I'll buy them so I can see if my hunch is right.""
+ But, the records were too expensive for her. After thinking it over, she saw there was no way she could afford them. Needless to say, she became somewhat disappointed.","This is a source story:
+
+Julius was a mule who discovered several pears sitting in a window sill. He thought to himself, ""These pears seem to be rotten. Perhaps I'll get some and find out if my prediction is correct.""
+ However, the pears were too high for Julius. And because he was hungry he felt too weak to jump up to them. Naturally, this was rather disappointing. He closed his eyes and went to sleep, dreaming about mountains of pears.
+
+This is story A:
+
+A girl named Cindy found some records she wanted at a record store. She really wanted them but, needless to say, they were too expensive for her.
+ After brooding for awhile, Cindy got over her dissapointment.
+ ""These records are probably boring,"" she thought. ""So even if I could afford them I wouldn't listen to them.""
+
+This is story B:
+
+A girl named Cindy found some records she was curious about at a record store. ""These records look really bad,"" Cindy thought to herself. ""I think I'll buy them so I can see if my hunch is right.""
+ But, the records were too expensive for her. After thinking it over, she saw there was no way she could afford them. Needless to say, she became somewhat disappointed.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the stories:
+
+**Source story:**
+
+* Julius finds pears, thinks they're rotten, wants to try them, but can't reach them due to being too weak.
+* He's disappointed, closes his eyes, and goes to sleep.
+
+**Story A:**
+
+* Cindy finds records, wants them, but can't afford them.
+* She becomes disappointed, but then thinks the records might be boring anyway, so it's not a big loss.
+* She gets over her disappointment.
+
+**Story B:**
+
+* Cindy finds records, thinks they look bad, wants to buy them to prove her hunch, but can't afford them.
+* She becomes disappointed.
+
+Now, let's look for similarities:
+
+* Both stories A and B have a character who finds something they want, but can't have it due to being too expensive.
+* Both stories have the character experiencing disappointment.
+* However, the source story has Julius wanting to try the pears to prove his prediction, while stories A and B have Cindy wanting to buy the records for different reasons.
+
+The key similarity is the disappointment and the inability to get what they want. Therefore, I think the analogous story is:
+
+<ans> B </ans>
+
+In story B, Cindy's disappointment is similar to Julius's disappointment in the source story. Both characters want something, can't get it, and become disappointed.",,B,B
+12,"Percy the mockingbird spent the whole warm season chirping and twittering. When it began to get colder Percy visited a squirrel and sang a song for her, expecting to get some of the squirrel's sunflower seeds in return. However, the squirrel was very disappointed in him.
+ ""You are a terrible singer!"" she yelled. ""I'm not giving you any of my wheat.""
+ A tear rolled down Percy's cheek, and he vowed to give up singing for good.","Sam travelled all over the world buying beautiful things. When he ran out of money he paid a visit to his mother and gave her a gift he bought while in Tibet, hoping she would give him a loan in return. However, his mother was not at all pleased. 
+ ""You don't deserve any money of mine!"" she exclaimed. ""This is a piece of junk!""","Sam travelled all over the world buying beautiful things. When he ran out of money he paid a visit to his mother. However, she was not at all pleased with him.
+ ""While I have been hard at work you have been wasting your time,"" she said. Sam gave her a gift he bought in Tibet, hoping she would give him a loan in return. But she was still not pleased. ""I will not give you any of my hard-earned money!"" she exclaimed.","This is a source story:
+
+Percy the mockingbird spent the whole warm season chirping and twittering. When it began to get colder Percy visited a squirrel and sang a song for her, expecting to get some of the squirrel's sunflower seeds in return. However, the squirrel was very disappointed in him.
+ ""You are a terrible singer!"" she yelled. ""I'm not giving you any of my wheat.""
+ A tear rolled down Percy's cheek, and he vowed to give up singing for good.
+
+This is story A:
+
+Sam travelled all over the world buying beautiful things. When he ran out of money he paid a visit to his mother and gave her a gift he bought while in Tibet, hoping she would give him a loan in return. However, his mother was not at all pleased. 
+ ""You don't deserve any money of mine!"" she exclaimed. ""This is a piece of junk!""
+
+This is story B:
+
+Sam travelled all over the world buying beautiful things. When he ran out of money he paid a visit to his mother. However, she was not at all pleased with him.
+ ""While I have been hard at work you have been wasting your time,"" she said. Sam gave her a gift he bought in Tibet, hoping she would give him a loan in return. But she was still not pleased. ""I will not give you any of my hard-earned money!"" she exclaimed.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's break down the source story and the two given stories:
+
+Source story:
+
+* Percy, a mockingbird, does something (singing) to get something from a squirrel (sunflower seeds).
+* The squirrel is disappointed and rejects Percy's request.
+* Percy is affected by this and decides to give up singing.
+
+Story A:
+
+* Sam gives his mother a gift (a piece of junk) in exchange for a loan.
+* The mother is not pleased and rejects Sam's request.
+* The story doesn't explicitly state how Sam feels about this, but it's implied that he might be disappointed or affected.
+
+Story B:
+
+* Sam visits his mother and is scolded for wasting his time.
+* Sam tries to make up for it by giving his mother a gift, but she's still not pleased and rejects his request.
+* The story doesn't explicitly state how Sam feels about this, but it's implied that he might be disappointed or affected.
+
+Now, let's look for similarities between the source story and the two given stories:
+
+* In all three stories, someone (Percy, Sam) does something (singing, giving a gift) to get something from someone else (squirrel, mother).
+* In all three stories, the other person (squirrel, mother) is disappointed or unhappy with what they receive.
+* In all three stories, the person who did something (Percy, Sam) is affected by the other person's reaction and might change their behavior as a result.
+
+Based on these similarities, I would say that:
+
+<ans> B </ans>
+
+Story B is analogous to the source story, as it also involves someone doing something to get something from someone else, being rejected, and being affected by the rejection.",,B,A
+13,"Percy the mockingbird spent the whole warm season chirping and twittering. When it began to get colder Percy visited a squirrel and sang a song for her, expecting to get some of the squirrel's sunflower seeds in return. However, the squirrel was very disappointed in him.
+ ""You are a terrible singer!"" she yelled. ""I'm not giving you any of my wheat.""
+ A tear rolled down Percy's cheek, and he vowed to give up singing for good.","Sam travelled all over the world buying beautiful things. When he ran out of money he paid a visit to his mother. However, she was not at all pleased with him.
+ ""While I have been hard at work you have been wasting your time,"" she said. Sam gave her a gift he bought in Tibet, hoping she would give him a loan in return. But she was still not pleased. ""I will not give you any of my hard-earned money!"" she exclaimed.","Sam travelled all over the world buying beautiful things. When he ran out of money he paid a visit to his mother and gave her a gift he bought while in Tibet, hoping she would give him a loan in return. However, his mother was not at all pleased. 
+ ""You don't deserve any money of mine!"" she exclaimed. ""This is a piece of junk!""","This is a source story:
+
+Percy the mockingbird spent the whole warm season chirping and twittering. When it began to get colder Percy visited a squirrel and sang a song for her, expecting to get some of the squirrel's sunflower seeds in return. However, the squirrel was very disappointed in him.
+ ""You are a terrible singer!"" she yelled. ""I'm not giving you any of my wheat.""
+ A tear rolled down Percy's cheek, and he vowed to give up singing for good.
+
+This is story A:
+
+Sam travelled all over the world buying beautiful things. When he ran out of money he paid a visit to his mother. However, she was not at all pleased with him.
+ ""While I have been hard at work you have been wasting your time,"" she said. Sam gave her a gift he bought in Tibet, hoping she would give him a loan in return. But she was still not pleased. ""I will not give you any of my hard-earned money!"" she exclaimed.
+
+This is story B:
+
+Sam travelled all over the world buying beautiful things. When he ran out of money he paid a visit to his mother and gave her a gift he bought while in Tibet, hoping she would give him a loan in return. However, his mother was not at all pleased. 
+ ""You don't deserve any money of mine!"" she exclaimed. ""This is a piece of junk!""
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the source story and the two given stories.
+
+In the source story, Percy the mockingbird is disappointed by the squirrel's reaction to his singing. He expects to get sunflower seeds in return, but the squirrel is unimpressed and refuses to give him any. As a result, Percy decides to give up singing.
+
+In story A, Sam travels the world buying things and then visits his mother, hoping to get a loan. However, his mother is not pleased with him and refuses to give him any money.
+
+In story B, Sam also travels the world buying things and then visits his mother, giving her a gift he bought in Tibet. However, his mother is still not pleased and refuses to give him any money.
+
+Now, let's look for similarities between the source story and the two given stories.
+
+* In all three stories, the main character (Percy/Sam) does something (singing/buying things) and expects a reward or favor in return.
+* In all three stories, the main character's expectations are not met, and they are disappointed or rejected.
+* In all three stories, the main character's actions are not appreciated or valued by the other character (squirrel/mother).
+
+Based on these similarities, I would say that story A is analogous to the source story. Both stories feature a main character who does something and expects a reward, but is disappointed and rejected.
+
+Therefore, the correct answer is:
+
+<ans> A </ans>",,A,B
+14,"A dog named Leonard was trotting along a dock holding a steak in his teeth. However, as he trotted he dropped it inadvertently and it disappeared into the lake. Thus, he was left without his dinner.
+Then Leonard saw another dog with a steak. Because he had lost his own steak he tried to take it. Unluckily, the other dog was much bigger than he was. Leonard ended up losing a tooth in the scuffle.","Charlie was walking through a hotel with an expensive pocket watch in his hand. As he walked he accidently dropped it and it shattered on the floor. Consequently, he was left without a watch.
+Then Charlie saw another man with an expensive watch. Since he had broken his own watch he reached out to take it. Unfortunately, the man was a policeman.","Charlie was walking through a hotel with an expensive pocket watch in his hand. Then he noticed another man with an expensive watch.
+Not realizing it was just his reflection, and since he was also quite greedy, Charlie reached out to take it. Unfortunately, as he opened his hand he dropped his own watch and both watches shattered on the floor. Consequently he was left with no watch at all.","This is a source story:
+
+A dog named Leonard was trotting along a dock holding a steak in his teeth. However, as he trotted he dropped it inadvertently and it disappeared into the lake. Thus, he was left without his dinner.
+Then Leonard saw another dog with a steak. Because he had lost his own steak he tried to take it. Unluckily, the other dog was much bigger than he was. Leonard ended up losing a tooth in the scuffle.
+
+This is story A:
+
+Charlie was walking through a hotel with an expensive pocket watch in his hand. As he walked he accidently dropped it and it shattered on the floor. Consequently, he was left without a watch.
+Then Charlie saw another man with an expensive watch. Since he had broken his own watch he reached out to take it. Unfortunately, the man was a policeman.
+
+This is story B:
+
+Charlie was walking through a hotel with an expensive pocket watch in his hand. Then he noticed another man with an expensive watch.
+Not realizing it was just his reflection, and since he was also quite greedy, Charlie reached out to take it. Unfortunately, as he opened his hand he dropped his own watch and both watches shattered on the floor. Consequently he was left with no watch at all.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's break down the source story and the two alternative stories:
+
+Source story:
+
+* A dog named Leonard loses a steak and then tries to take another dog's steak, but ends up losing a tooth.
+* The key elements are: losing something (steak), trying to take something else, and ending up worse off.
+
+Story A:
+
+* Charlie loses an expensive pocket watch and then tries to take another man's watch, but ends up getting caught by a policeman.
+* The key elements are: losing something (watch), trying to take something else, and ending up in a bad situation.
+
+Story B:
+
+* Charlie sees his own reflection and tries to take his own watch, but ends up breaking both watches and losing his own.
+* The key elements are: losing something (watch), trying to take something else (but it's actually the same thing), and ending up worse off.
+
+Comparing the three stories, we can see that Story A is the most analogous to the source story. Both stories involve losing something, trying to take something else, and ending up in a bad situation. The only difference is that Story A involves a different object (watch vs. steak) and a different outcome (getting caught by a policeman vs. losing a tooth).
+
+Therefore, the correct answer is:
+
+<ans> A </ans>",,A,A
+15,"A dog named Leonard was trotting along a dock holding a steak in his teeth. However, as he trotted he dropped it inadvertently and it disappeared into the lake. Thus, he was left without his dinner.
+Then Leonard saw another dog with a steak. Because he had lost his own steak he tried to take it. Unluckily, the other dog was much bigger than he was. Leonard ended up losing a tooth in the scuffle.","Charlie was walking through a hotel with an expensive pocket watch in his hand. Then he noticed another man with an expensive watch.
+Not realizing it was just his reflection, and since he was also quite greedy, Charlie reached out to take it. Unfortunately, as he opened his hand he dropped his own watch and both watches shattered on the floor. Consequently he was left with no watch at all.","Charlie was walking through a hotel with an expensive pocket watch in his hand. As he walked he accidently dropped it and it shattered on the floor. Consequently, he was left without a watch.
+Then Charlie saw another man with an expensive watch. Since he had broken his own watch he reached out to take it. Unfortunately, the man was a policeman.","This is a source story:
+
+A dog named Leonard was trotting along a dock holding a steak in his teeth. However, as he trotted he dropped it inadvertently and it disappeared into the lake. Thus, he was left without his dinner.
+Then Leonard saw another dog with a steak. Because he had lost his own steak he tried to take it. Unluckily, the other dog was much bigger than he was. Leonard ended up losing a tooth in the scuffle.
+
+This is story A:
+
+Charlie was walking through a hotel with an expensive pocket watch in his hand. Then he noticed another man with an expensive watch.
+Not realizing it was just his reflection, and since he was also quite greedy, Charlie reached out to take it. Unfortunately, as he opened his hand he dropped his own watch and both watches shattered on the floor. Consequently he was left with no watch at all.
+
+This is story B:
+
+Charlie was walking through a hotel with an expensive pocket watch in his hand. As he walked he accidently dropped it and it shattered on the floor. Consequently, he was left without a watch.
+Then Charlie saw another man with an expensive watch. Since he had broken his own watch he reached out to take it. Unfortunately, the man was a policeman.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the source story and the two given stories.
+
+The source story is about a dog named Leonard who loses his steak and then tries to take another dog's steak, but ends up losing a tooth.
+
+Story A is about Charlie who drops his own watch and then tries to take another man's watch, but ends up with no watch.
+
+Story B is about Charlie who drops his own watch and then sees another man with an expensive watch, but doesn't try to take it.
+
+The key elements that make the source story analogous to another story are:
+
+1. Losing something valuable (steak/watch)
+2. Trying to take something else to replace what was lost
+3. Ending up with less or nothing as a result
+
+Story A matches these elements, as Charlie loses his watch, tries to take another man's watch, and ends up with no watch.
+
+Story B does not match these elements, as Charlie does not try to take the other man's watch.
+
+Therefore, the correct answer is:
+
+<ans> A </ans>",,A,B
+16,"Boris and Ivan thought well of one anothers' skill in business and resolved to open up a store together. As ill luck would have it, Ivan was quite absent-minded and he threw out a large amount of cash. This annoyed Boris who therefore demanded that Ivan have nothing to do with the monetary matters of their new store. Later, however, Ivan redeemed himself by selling his fancy new stereo set to replace the lost cash.","John and Christine loved each other and decided to be married. Unfortunately, Christine was so reckless that she accidently dented John's new car. This upset John, so he insisted that she never drive his car again.","John and Christine loved each other and decided to be married. Unfortunately, John discovered that Christine was a very reckless driver. So he insisted that Christine never drive his new car. This upset Christine so much that she dented John's new car hoping that John would be hurt.","This is a source story:
+
+Boris and Ivan thought well of one anothers' skill in business and resolved to open up a store together. As ill luck would have it, Ivan was quite absent-minded and he threw out a large amount of cash. This annoyed Boris who therefore demanded that Ivan have nothing to do with the monetary matters of their new store. Later, however, Ivan redeemed himself by selling his fancy new stereo set to replace the lost cash.
+
+This is story A:
+
+John and Christine loved each other and decided to be married. Unfortunately, Christine was so reckless that she accidently dented John's new car. This upset John, so he insisted that she never drive his car again.
+
+This is story B:
+
+John and Christine loved each other and decided to be married. Unfortunately, John discovered that Christine was a very reckless driver. So he insisted that Christine never drive his new car. This upset Christine so much that she dented John's new car hoping that John would be hurt.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the source story and the two given stories.
+
+In the source story, Boris and Ivan are business partners who have a disagreement due to Ivan's absent-mindedness, which leads to a loss of money. However, Ivan redeems himself by selling his stereo set to replace the lost cash.
+
+In story A, John and Christine are getting married, and Christine accidentally dents John's new car. John is upset and insists that Christine never drive his car again.
+
+In story B, John and Christine are getting married, and John discovers that Christine is a reckless driver. John insists that Christine never drive his new car, which upsets Christine so much that she dents John's new car.
+
+Now, let's look for similarities between the source story and the two given stories.
+
+* In the source story, there is a disagreement between business partners due to Ivan's absent-mindedness.
+* In story A, there is no disagreement between John and Christine due to Christine's reckless behavior. Instead, John is upset and insists that Christine never drive his car again.
+* In story B, there is a disagreement between John and Christine due to John's discovery of Christine's reckless driving behavior. However, the motivation for Christine's actions is different from the source story. In the source story, Ivan redeems himself by selling his stereo set to replace the lost cash, whereas in story B, Christine dents John's car out of spite.
+
+Based on these similarities and differences, I would say that story B is analogous to the source story.
+
+Therefore, the correct answer is:
+
+<ans> B </ans>",,B,A
+17,"Boris and Ivan thought well of one anothers' skill in business and resolved to open up a store together. As ill luck would have it, Ivan was quite absent-minded and he threw out a large amount of cash. This annoyed Boris who therefore demanded that Ivan have nothing to do with the monetary matters of their new store. Later, however, Ivan redeemed himself by selling his fancy new stereo set to replace the lost cash.","John and Christine loved each other and decided to be married. Unfortunately, John discovered that Christine was a very reckless driver. So he insisted that Christine never drive his new car. This upset Christine so much that she dented John's new car hoping that John would be hurt.","John and Christine loved each other and decided to be married. Unfortunately, Christine was so reckless that she accidently dented John's new car. This upset John, so he insisted that she never drive his car again.","This is a source story:
+
+Boris and Ivan thought well of one anothers' skill in business and resolved to open up a store together. As ill luck would have it, Ivan was quite absent-minded and he threw out a large amount of cash. This annoyed Boris who therefore demanded that Ivan have nothing to do with the monetary matters of their new store. Later, however, Ivan redeemed himself by selling his fancy new stereo set to replace the lost cash.
+
+This is story A:
+
+John and Christine loved each other and decided to be married. Unfortunately, John discovered that Christine was a very reckless driver. So he insisted that Christine never drive his new car. This upset Christine so much that she dented John's new car hoping that John would be hurt.
+
+This is story B:
+
+John and Christine loved each other and decided to be married. Unfortunately, Christine was so reckless that she accidently dented John's new car. This upset John, so he insisted that she never drive his car again.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the source story and the two given stories.
+
+In the source story, Boris and Ivan are business partners who have a disagreement due to Ivan's absent-mindedness, which leads to a loss of money. However, Ivan redeems himself by selling his stereo set to replace the lost cash.
+
+In story A, John and Christine are getting married, but John discovers Christine's reckless driving and insists she never drives his new car. This leads to Christine denting the car, hoping to hurt John.
+
+In story B, John and Christine are getting married, and Christine accidentally dents John's new car due to her reckless driving. John is upset and insists she never drive his car again.
+
+Comparing the stories, we can see that story B is more analogous to the source story. In both stories, there is a disagreement between partners (Boris and Ivan, John and Christine) due to a mistake or absent-mindedness (Ivan throwing away cash, Christine denting the car). In both stories, the mistake is rectified (Ivan selling his stereo set, Christine not intentionally causing damage), and the partner who made the mistake is restricted from handling certain matters (Ivan with monetary matters, Christine with John's car).
+
+Therefore, the correct answer is:
+
+<ans> B </ans>",,B,B
+18,"Two small countries, Bolon and Salam, were adjacent to a large, warlike country called Mayonia.
+Bolon decided to make the best of the situation by taking over Salam. Salam started looking for aid from other strong countries but soon Bolon succeeded in taking it over.
+Then victorious Bolon proposed to make a treaty with its warlike neighbor Mayonia. Bolon proposed to give Mayonia control over Salam in exchange for a guarantee that Bolon would remain independent.
+Mayonia responded by overrunning both Bolon and Salam. Bolon was so busy maintaining control of Salam, it could do nothing to stop Mayonia. Therupon, Mayonia installed puppet governments in both Bolon and Salam, and took over the newspapers and radio stations.","Two sixth-grade boys, Lincoln and Moreland were walking to school together when they met Chad. Chad was a mean high school boy who was known to rob younger kids.
+Moreland was scared but he decided to make the best of the situation by overpowering Lincoln. Immediately, Lincoln started running to find a policeman but Moreland ran after Lincoln and eventually succeeded in catching him.
+When Chad arrived Moreland offered to let him rob Lincoln in exchange for being left alone himself. But Chad robbed both of them. Moreland was so busy holding Lincoln down, he could do nothing to prevent it.","Two seventh graders, Lincoln and Moreland, were walking to school together when they met Chad. Chad was a mean high school boy who was known to rob younger kids.Moreland was scared but he decided to make the best of the situation by offering to help Chad rob Lincoln in exchange for being left alone himself.
+But Lincoln overheard and started running to find a policeman. Immediately, Moreland took off after him and eventually succeeded in catching him.
+When Chad arrived he robbed both of them. And Moreland was so exhausted, he could do nothing to prevent it.","This is a source story:
+
+Two small countries, Bolon and Salam, were adjacent to a large, warlike country called Mayonia.
+Bolon decided to make the best of the situation by taking over Salam. Salam started looking for aid from other strong countries but soon Bolon succeeded in taking it over.
+Then victorious Bolon proposed to make a treaty with its warlike neighbor Mayonia. Bolon proposed to give Mayonia control over Salam in exchange for a guarantee that Bolon would remain independent.
+Mayonia responded by overrunning both Bolon and Salam. Bolon was so busy maintaining control of Salam, it could do nothing to stop Mayonia. Therupon, Mayonia installed puppet governments in both Bolon and Salam, and took over the newspapers and radio stations.
+
+This is story A:
+
+Two sixth-grade boys, Lincoln and Moreland were walking to school together when they met Chad. Chad was a mean high school boy who was known to rob younger kids.
+Moreland was scared but he decided to make the best of the situation by overpowering Lincoln. Immediately, Lincoln started running to find a policeman but Moreland ran after Lincoln and eventually succeeded in catching him.
+When Chad arrived Moreland offered to let him rob Lincoln in exchange for being left alone himself. But Chad robbed both of them. Moreland was so busy holding Lincoln down, he could do nothing to prevent it.
+
+This is story B:
+
+Two seventh graders, Lincoln and Moreland, were walking to school together when they met Chad. Chad was a mean high school boy who was known to rob younger kids.Moreland was scared but he decided to make the best of the situation by offering to help Chad rob Lincoln in exchange for being left alone himself.
+But Lincoln overheard and started running to find a policeman. Immediately, Moreland took off after him and eventually succeeded in catching him.
+When Chad arrived he robbed both of them. And Moreland was so exhausted, he could do nothing to prevent it.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's break down the source story and the two story options:
+
+Source story:
+
+* Bolon takes over Salam, but then Mayonia overruns both Bolon and Salam, and installs puppet governments and takes control of media.
+* Bolon tries to make a deal with Mayonia, but Mayonia takes advantage of the situation and takes control of both countries.
+
+Story A:
+
+* Moreland overpowers Lincoln, but then Chad arrives and robs both of them.
+* Moreland is busy holding Lincoln down and can't do anything to prevent the robbery.
+
+Story B:
+
+* Moreland offers to help Chad rob Lincoln, but Lincoln overhears and runs away. Moreland chases after him and eventually catches him. Chad arrives and robs both of them.
+
+Now, let's look for similarities between the source story and the two story options:
+
+* In the source story, Bolon tries to make a deal with Mayonia, but Mayonia takes advantage of the situation. In Story A, Moreland tries to make a deal with Chad (by overpowering Lincoln), but Chad takes advantage of the situation and robs both of them.
+* In the source story, Bolon is busy maintaining control of Salam and can't do anything to stop Mayonia. In Story A, Moreland is busy holding Lincoln down and can't do anything to prevent the robbery.
+
+Based on these similarities, I would say that Story A is analogous to the source story.
+
+<ans> A </ans>",,A,A
+19,"Two small countries, Bolon and Salam, were adjacent to a large, warlike country called Mayonia.
+Bolon decided to make the best of the situation by taking over Salam. Salam started looking for aid from other strong countries but soon Bolon succeeded in taking it over.
+Then victorious Bolon proposed to make a treaty with its warlike neighbor Mayonia. Bolon proposed to give Mayonia control over Salam in exchange for a guarantee that Bolon would remain independent.
+Mayonia responded by overrunning both Bolon and Salam. Bolon was so busy maintaining control of Salam, it could do nothing to stop Mayonia. Therupon, Mayonia installed puppet governments in both Bolon and Salam, and took over the newspapers and radio stations.","Two seventh graders, Lincoln and Moreland, were walking to school together when they met Chad. Chad was a mean high school boy who was known to rob younger kids.Moreland was scared but he decided to make the best of the situation by offering to help Chad rob Lincoln in exchange for being left alone himself.
+But Lincoln overheard and started running to find a policeman. Immediately, Moreland took off after him and eventually succeeded in catching him.
+When Chad arrived he robbed both of them. And Moreland was so exhausted, he could do nothing to prevent it.","Two sixth-grade boys, Lincoln and Moreland were walking to school together when they met Chad. Chad was a mean high school boy who was known to rob younger kids.
+Moreland was scared but he decided to make the best of the situation by overpowering Lincoln. Immediately, Lincoln started running to find a policeman but Moreland ran after Lincoln and eventually succeeded in catching him.
+When Chad arrived Moreland offered to let him rob Lincoln in exchange for being left alone himself. But Chad robbed both of them. Moreland was so busy holding Lincoln down, he could do nothing to prevent it.","This is a source story:
+
+Two small countries, Bolon and Salam, were adjacent to a large, warlike country called Mayonia.
+Bolon decided to make the best of the situation by taking over Salam. Salam started looking for aid from other strong countries but soon Bolon succeeded in taking it over.
+Then victorious Bolon proposed to make a treaty with its warlike neighbor Mayonia. Bolon proposed to give Mayonia control over Salam in exchange for a guarantee that Bolon would remain independent.
+Mayonia responded by overrunning both Bolon and Salam. Bolon was so busy maintaining control of Salam, it could do nothing to stop Mayonia. Therupon, Mayonia installed puppet governments in both Bolon and Salam, and took over the newspapers and radio stations.
+
+This is story A:
+
+Two seventh graders, Lincoln and Moreland, were walking to school together when they met Chad. Chad was a mean high school boy who was known to rob younger kids.Moreland was scared but he decided to make the best of the situation by offering to help Chad rob Lincoln in exchange for being left alone himself.
+But Lincoln overheard and started running to find a policeman. Immediately, Moreland took off after him and eventually succeeded in catching him.
+When Chad arrived he robbed both of them. And Moreland was so exhausted, he could do nothing to prevent it.
+
+This is story B:
+
+Two sixth-grade boys, Lincoln and Moreland were walking to school together when they met Chad. Chad was a mean high school boy who was known to rob younger kids.
+Moreland was scared but he decided to make the best of the situation by overpowering Lincoln. Immediately, Lincoln started running to find a policeman but Moreland ran after Lincoln and eventually succeeded in catching him.
+When Chad arrived Moreland offered to let him rob Lincoln in exchange for being left alone himself. But Chad robbed both of them. Moreland was so busy holding Lincoln down, he could do nothing to prevent it.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's break down the source story and the two story options:
+
+Source story:
+
+* Bolon, a small country, takes over Salam, another small country.
+* Bolon proposes a treaty with Mayonia, a warlike country, to give Mayonia control over Salam in exchange for a guarantee of Bolon's independence.
+* Mayonia responds by overrunning both Bolon and Salam, installing puppet governments, and taking control of the media.
+
+Now, let's compare this to the two story options:
+
+Story A:
+
+* Lincoln and Moreland, two seventh graders, meet Chad, a mean high school boy who robs younger kids.
+* Moreland offers to help Chad rob Lincoln in exchange for being left alone himself.
+* Lincoln overhears and runs to find a policeman, but Moreland catches him, and Chad robs both of them.
+
+Story B:
+
+* Lincoln and Moreland, two sixth-grade boys, meet Chad, a mean high school boy who robs younger kids.
+* Moreland overpowers Lincoln and runs after him to catch him, and when Chad arrives, Moreland offers to let him rob Lincoln in exchange for being left alone himself.
+
+Which story is analogous to the source story?
+
+In the source story, Bolon takes over Salam, and then proposes a treaty with Mayonia, which ultimately leads to Mayonia taking over both countries. In both story options, Moreland (or Bolon) makes a deal with Chad (or Mayonia) that ultimately leads to both Lincoln (or Salam) and Moreland (or Bolon) being taken advantage of.
+
+The key similarity is that in both the source story and Story A, Moreland (or Bolon) tries to make a deal with the more powerful entity (Chad or Mayonia) to protect themselves, but ultimately ends up being taken over. This is not the case in Story B, where Moreland overpowers Lincoln and then tries to make a deal with Chad, which is a different sequence of events.
+
+Therefore, the correct answer is:
+
+<ans> A </ans>",,A,B
+20,"A farmer named Beedle had a choice apricot tree that he valued above all the rest in his garden. Every year Beedle gave presents of fruit from this tree to everyone he knew.
+ But one year the tree began to wither and there was no moreof the wonderful fruit. Everyone was very unhappy.
+ The judge had enjoyed the apricots from the tree very much -so much so that he resolved to take the tree to his own garden to take care of it. He paid Beedle very well and had the tree moved to his own grounds. Fortunately, as soon as it was transplanted, the tree bore delicious apricots again. That very year, the fruit won first prize in the county fair.","Mr. Gerson had several pets but he valued the canary above all the rest. Occasionally, he invited friends over to hear the canary sing. 
+ However, one autumn the canary became very ill and there were no more of its beautiful songs. Everyone was extremely disappointed. 
+ A veterinarian friend had liked the canary's songs so much that he decided he would buy the canary and put it in his office where he could look after it. He paid Mr. Gerson very well. Upon being moved, the canary sang beautiful songs again.","Mr. Gerson had several pets but he valued the canary above all the rest. Occasionally, he invited friends over to hear the canary sing.
+ A wealthy businessman liked the canary's songs so much that one autumn he decided he wanted the bird in his house in the city where he could enjoy it every day. He paid Mr. Gerson very well and had the canary moved to his house.
+ However, upon being moved the canary became fatally ill and there were no more of its beautiful songs. Everyone was extremely disappointed.","This is a source story:
+
+A farmer named Beedle had a choice apricot tree that he valued above all the rest in his garden. Every year Beedle gave presents of fruit from this tree to everyone he knew.
+ But one year the tree began to wither and there was no moreof the wonderful fruit. Everyone was very unhappy.
+ The judge had enjoyed the apricots from the tree very much -so much so that he resolved to take the tree to his own garden to take care of it. He paid Beedle very well and had the tree moved to his own grounds. Fortunately, as soon as it was transplanted, the tree bore delicious apricots again. That very year, the fruit won first prize in the county fair.
+
+This is story A:
+
+Mr. Gerson had several pets but he valued the canary above all the rest. Occasionally, he invited friends over to hear the canary sing. 
+ However, one autumn the canary became very ill and there were no more of its beautiful songs. Everyone was extremely disappointed. 
+ A veterinarian friend had liked the canary's songs so much that he decided he would buy the canary and put it in his office where he could look after it. He paid Mr. Gerson very well. Upon being moved, the canary sang beautiful songs again.
+
+This is story B:
+
+Mr. Gerson had several pets but he valued the canary above all the rest. Occasionally, he invited friends over to hear the canary sing.
+ A wealthy businessman liked the canary's songs so much that one autumn he decided he wanted the bird in his house in the city where he could enjoy it every day. He paid Mr. Gerson very well and had the canary moved to his house.
+ However, upon being moved the canary became fatally ill and there were no more of its beautiful songs. Everyone was extremely disappointed.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the stories:
+
+**Source story:**
+
+* A farmer, Beedle, has a special apricot tree that he values and gives presents to everyone he knows.
+* The tree withers and loses its fruit, making everyone unhappy.
+* A judge takes the tree to his own garden, pays Beedle well, and the tree starts bearing delicious apricots again, winning a prize at the county fair.
+
+**Story A:**
+
+* Mr. Gerson has a canary that he values and occasionally invites friends to hear it sing.
+* The canary becomes ill and stops singing, making everyone disappointed.
+* A veterinarian friend buys the canary, pays Mr. Gerson well, and the canary starts singing again.
+
+**Story B:**
+
+* Mr. Gerson has a canary that he values and occasionally invites friends to hear it sing.
+* A wealthy businessman buys the canary, pays Mr. Gerson well, and moves it to his city house.
+* However, the canary becomes fatally ill and stops singing, making everyone disappointed.
+
+Now, let's identify the analogous elements:
+
+* In the source story and Story A, the special tree/canary is taken away by someone who values it and takes care of it, leading to its recovery.
+* In both stories, the person who takes the tree/canary away is willing to pay well for it.
+
+In contrast, Story B does not have a happy ending for the canary, and the businessman's motivations are different (he wants to keep the canary in his city house, not necessarily to care for it).
+
+Therefore, the correct answer is:
+
+<ans> A </ans>",,A,A
+21,"A farmer named Beedle had a choice apricot tree that he valued above all the rest in his garden. Every year Beedle gave presents of fruit from this tree to everyone he knew.
+ But one year the tree began to wither and there was no moreof the wonderful fruit. Everyone was very unhappy.
+ The judge had enjoyed the apricots from the tree very much -so much so that he resolved to take the tree to his own garden to take care of it. He paid Beedle very well and had the tree moved to his own grounds. Fortunately, as soon as it was transplanted, the tree bore delicious apricots again. That very year, the fruit won first prize in the county fair.","Mr. Gerson had several pets but he valued the canary above all the rest. Occasionally, he invited friends over to hear the canary sing.
+ A wealthy businessman liked the canary's songs so much that one autumn he decided he wanted the bird in his house in the city where he could enjoy it every day. He paid Mr. Gerson very well and had the canary moved to his house.
+ However, upon being moved the canary became fatally ill and there were no more of its beautiful songs. Everyone was extremely disappointed.","Mr. Gerson had several pets but he valued the canary above all the rest. Occasionally, he invited friends over to hear the canary sing. 
+ However, one autumn the canary became very ill and there were no more of its beautiful songs. Everyone was extremely disappointed. 
+ A veterinarian friend had liked the canary's songs so much that he decided he would buy the canary and put it in his office where he could look after it. He paid Mr. Gerson very well. Upon being moved, the canary sang beautiful songs again.","This is a source story:
+
+A farmer named Beedle had a choice apricot tree that he valued above all the rest in his garden. Every year Beedle gave presents of fruit from this tree to everyone he knew.
+ But one year the tree began to wither and there was no moreof the wonderful fruit. Everyone was very unhappy.
+ The judge had enjoyed the apricots from the tree very much -so much so that he resolved to take the tree to his own garden to take care of it. He paid Beedle very well and had the tree moved to his own grounds. Fortunately, as soon as it was transplanted, the tree bore delicious apricots again. That very year, the fruit won first prize in the county fair.
+
+This is story A:
+
+Mr. Gerson had several pets but he valued the canary above all the rest. Occasionally, he invited friends over to hear the canary sing.
+ A wealthy businessman liked the canary's songs so much that one autumn he decided he wanted the bird in his house in the city where he could enjoy it every day. He paid Mr. Gerson very well and had the canary moved to his house.
+ However, upon being moved the canary became fatally ill and there were no more of its beautiful songs. Everyone was extremely disappointed.
+
+This is story B:
+
+Mr. Gerson had several pets but he valued the canary above all the rest. Occasionally, he invited friends over to hear the canary sing. 
+ However, one autumn the canary became very ill and there were no more of its beautiful songs. Everyone was extremely disappointed. 
+ A veterinarian friend had liked the canary's songs so much that he decided he would buy the canary and put it in his office where he could look after it. He paid Mr. Gerson very well. Upon being moved, the canary sang beautiful songs again.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the stories step by step.
+
+**Common elements:**
+
+* Both stories A and B have a character named Mr. Gerson who values a canary above all his other pets.
+* Both stories have a character who wants to take the canary away from Mr. Gerson.
+
+**Differences:**
+
+* In story A, the canary becomes fatally ill after being moved, while in story B, the canary recovers after being moved.
+* In story A, the character who takes the canary away is a wealthy businessman, while in story B, the character is a veterinarian friend.
+
+**Comparison to the source story:**
+
+* In the source story, the judge takes the apricot tree away from Beedle and it recovers after being transplanted.
+* In both stories A and B, the character who takes the canary away is motivated by a desire to enjoy the canary's songs, just like the judge in the source story.
+
+**Conclusion:**
+
+Based on the analysis, I conclude that **story B** is analogous to the source story. In both stories, the canary is taken away by a character who wants to care for it, and it recovers after being moved. In contrast, story A has a different outcome, where the canary becomes fatally ill after being moved.
+
+Therefore, the correct answer is:
+
+<ans> B </ans>",,B,B
+22,"Morris was a simple-minded prisoner who loved to play the harmonica at night. Finally, his cellmate got tired of this and demanded that he shut up. He should always play during the day, the cellmate insisted.
+ The next night, Morris escaped from prison and hid in a boxcar. But then Morris remembered that his cellmate said he should play harmonica every day, so he started playing. Immediately, Morris was nabbed by the cops. Poor, simple-minded Morris wished he hadn't paid any attention to his cellmate. Back in his cell, he devoted himself to covering the walls with obscenites.","A little girl named Jenny loved to play with her dog in her neighbor's yard. Eventually, the neighbor got fed-up and told her she should always play with her dog in her own yard. 
+ A few days later, Jenny snuck out of the house without doing her chores and hid at the playground. But after awhile she went home to play with her dog because she thought her neighbor said she should every day. Right away her mother caught her and the little girl wished she hadn't listened to her neighbor.","A little girl named Jenny wished she could run away from home. She loved to play with her dog every day, but only in her neighbor's yard. Eventually, her neighbor got fed-up and told her to always play in her own yard.
+ But Jenny refused to listen because she thought it was bad luck to play in her own yard. The last time she did it her mother caught her right away and made her go to work.","This is a source story:
+
+Morris was a simple-minded prisoner who loved to play the harmonica at night. Finally, his cellmate got tired of this and demanded that he shut up. He should always play during the day, the cellmate insisted.
+ The next night, Morris escaped from prison and hid in a boxcar. But then Morris remembered that his cellmate said he should play harmonica every day, so he started playing. Immediately, Morris was nabbed by the cops. Poor, simple-minded Morris wished he hadn't paid any attention to his cellmate. Back in his cell, he devoted himself to covering the walls with obscenites.
+
+This is story A:
+
+A little girl named Jenny loved to play with her dog in her neighbor's yard. Eventually, the neighbor got fed-up and told her she should always play with her dog in her own yard. 
+ A few days later, Jenny snuck out of the house without doing her chores and hid at the playground. But after awhile she went home to play with her dog because she thought her neighbor said she should every day. Right away her mother caught her and the little girl wished she hadn't listened to her neighbor.
+
+This is story B:
+
+A little girl named Jenny wished she could run away from home. She loved to play with her dog every day, but only in her neighbor's yard. Eventually, her neighbor got fed-up and told her to always play in her own yard.
+ But Jenny refused to listen because she thought it was bad luck to play in her own yard. The last time she did it her mother caught her right away and made her go to work.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the stories:
+
+**Source story**: Morris, a simple-minded prisoner, is told by his cellmate to play the harmonica during the day. He escapes and hides in a boxcar, but then starts playing the harmonica again because he remembers his cellmate's advice. He gets caught by the cops.
+
+**Story A**: Jenny, a little girl, is told by her neighbor to play with her dog in her own yard. She sneaks out to play with her dog in the neighbor's yard, but then goes home to play with her dog again because she thinks her neighbor said she should play every day. She gets caught by her mother.
+
+**Story B**: Jenny, a little girl, is told by her neighbor to play in her own yard. She refuses to listen because she thinks it's bad luck to play in her own yard. The story doesn't mention her playing in the neighbor's yard or getting caught.
+
+Comparing the stories, we can see that:
+
+* Both stories A and the source story feature a character being told to do something (play harmonica or play with dog) and then doing it again because they remember the advice.
+* Both stories A and the source story feature the character getting caught or punished for their actions.
+
+Therefore, the analogous story is:
+
+<ans> A </ans>",,A,A
+23,"Morris was a simple-minded prisoner who loved to play the harmonica at night. Finally, his cellmate got tired of this and demanded that he shut up. He should always play during the day, the cellmate insisted.
+ The next night, Morris escaped from prison and hid in a boxcar. But then Morris remembered that his cellmate said he should play harmonica every day, so he started playing. Immediately, Morris was nabbed by the cops. Poor, simple-minded Morris wished he hadn't paid any attention to his cellmate. Back in his cell, he devoted himself to covering the walls with obscenites.","A little girl named Jenny wished she could run away from home. She loved to play with her dog every day, but only in her neighbor's yard. Eventually, her neighbor got fed-up and told her to always play in her own yard.
+ But Jenny refused to listen because she thought it was bad luck to play in her own yard. The last time she did it her mother caught her right away and made her go to work.","A little girl named Jenny loved to play with her dog in her neighbor's yard. Eventually, the neighbor got fed-up and told her she should always play with her dog in her own yard. 
+ A few days later, Jenny snuck out of the house without doing her chores and hid at the playground. But after awhile she went home to play with her dog because she thought her neighbor said she should every day. Right away her mother caught her and the little girl wished she hadn't listened to her neighbor.","This is a source story:
+
+Morris was a simple-minded prisoner who loved to play the harmonica at night. Finally, his cellmate got tired of this and demanded that he shut up. He should always play during the day, the cellmate insisted.
+ The next night, Morris escaped from prison and hid in a boxcar. But then Morris remembered that his cellmate said he should play harmonica every day, so he started playing. Immediately, Morris was nabbed by the cops. Poor, simple-minded Morris wished he hadn't paid any attention to his cellmate. Back in his cell, he devoted himself to covering the walls with obscenites.
+
+This is story A:
+
+A little girl named Jenny wished she could run away from home. She loved to play with her dog every day, but only in her neighbor's yard. Eventually, her neighbor got fed-up and told her to always play in her own yard.
+ But Jenny refused to listen because she thought it was bad luck to play in her own yard. The last time she did it her mother caught her right away and made her go to work.
+
+This is story B:
+
+A little girl named Jenny loved to play with her dog in her neighbor's yard. Eventually, the neighbor got fed-up and told her she should always play with her dog in her own yard. 
+ A few days later, Jenny snuck out of the house without doing her chores and hid at the playground. But after awhile she went home to play with her dog because she thought her neighbor said she should every day. Right away her mother caught her and the little girl wished she hadn't listened to her neighbor.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the stories step by step.
+
+In the source story, Morris's cellmate tells him to play the harmonica during the day, and Morris follows this advice, which leads to his capture. Then, Morris decides to cover the walls with obscenities in his cell.
+
+In story A, Jenny's neighbor tells her to play with her dog in her own yard, and Jenny refuses to listen because she thinks it's bad luck. This leads to her getting caught by her mother.
+
+In story B, Jenny's neighbor tells her to play with her dog in her own yard, and Jenny listens to this advice. She then sneaks out of the house to play with her dog at the playground, but gets caught by her mother.
+
+Comparing the stories, we can see that:
+
+* In both stories A and B, the neighbor/authority figure gives advice to Jenny, and Jenny follows this advice.
+* In both stories, Jenny's decision to follow the advice leads to her getting caught by her mother.
+
+The key similarity between the source story and story B is that Morris and Jenny both follow the advice given to them, which leads to their capture. In story A, Jenny refuses to listen to the advice, which is not analogous to the source story.
+
+Therefore, the correct answer is:
+
+<ans> B </ans>",,B,B
+24,"King Otto was a warmonger who was obsessed with conquest and riches. One year he decided to rebuild all the bridges of the kingdom to make them strong enough for all his armies.
+Otto's counselor, the chamberlain, complained that he was spending too much money on the. bridges and not enough on actual military campaigns. Because of all the construction too many of the bridges were out of commission being worked on. Otto decided that the chamberlain was right and he abandoned the bridge project to mount a full-scale invasion of a neighboring country.
+Then one day when King Otto was travelling through his kingdom his carriage crashed through an unfinished bridge. He was severely injured but the mishap made it clear to him that he needed to balance his military and domestic expenditures. Also, he ordered the chamberlain to get him a new crown because the old one had gotten smashed in the crash.","Cornelius was an astronomer who thought about nothing but astronomy. He was obsessed with stars and galaxies. Gradually he was turning his home into an observatory.
+But before he was finished his wife Agatha complained that he was spending too much time renovating the house and not enough on his job which was astronomy. As a result, the house was no longer livable. Cornelius decided that Agatha was right and he went back to thinking about nothing but astronomy.
+Then, one evening when Cornelius was walking through his house, an unfinished floor collapsed under his weight. Cornelius was severely injured but the accident showed him that he should try to balance his time between astronomy and maintaining his home.","Cornelius was an astronomer who thought about nothing but astronomy. He was obsessed with stars and galaxies.
+His wife Agatha complained that he was spending too much time on astronomy and not enough on maintaining his own house. As a result, the roof was gradually leaking more and more and the house was becoming almost unlivable. But Cornelius would not listen.
+Then, one evening when Cornelius was walking through his house, a rotten floor collapsed under his weight. Cornelius was severely injured but the accident showed him that Agatha had been right all along. He decided to try to balance his time between astronomy and maintaining his home.","This is a source story:
+
+King Otto was a warmonger who was obsessed with conquest and riches. One year he decided to rebuild all the bridges of the kingdom to make them strong enough for all his armies.
+Otto's counselor, the chamberlain, complained that he was spending too much money on the. bridges and not enough on actual military campaigns. Because of all the construction too many of the bridges were out of commission being worked on. Otto decided that the chamberlain was right and he abandoned the bridge project to mount a full-scale invasion of a neighboring country.
+Then one day when King Otto was travelling through his kingdom his carriage crashed through an unfinished bridge. He was severely injured but the mishap made it clear to him that he needed to balance his military and domestic expenditures. Also, he ordered the chamberlain to get him a new crown because the old one had gotten smashed in the crash.
+
+This is story A:
+
+Cornelius was an astronomer who thought about nothing but astronomy. He was obsessed with stars and galaxies. Gradually he was turning his home into an observatory.
+But before he was finished his wife Agatha complained that he was spending too much time renovating the house and not enough on his job which was astronomy. As a result, the house was no longer livable. Cornelius decided that Agatha was right and he went back to thinking about nothing but astronomy.
+Then, one evening when Cornelius was walking through his house, an unfinished floor collapsed under his weight. Cornelius was severely injured but the accident showed him that he should try to balance his time between astronomy and maintaining his home.
+
+This is story B:
+
+Cornelius was an astronomer who thought about nothing but astronomy. He was obsessed with stars and galaxies.
+His wife Agatha complained that he was spending too much time on astronomy and not enough on maintaining his own house. As a result, the roof was gradually leaking more and more and the house was becoming almost unlivable. But Cornelius would not listen.
+Then, one evening when Cornelius was walking through his house, a rotten floor collapsed under his weight. Cornelius was severely injured but the accident showed him that Agatha had been right all along. He decided to try to balance his time between astronomy and maintaining his home.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's break down the source story and the two given stories:
+
+Source story:
+
+* King Otto is obsessed with conquest and riches, but his counselor advises him to balance his military and domestic expenditures.
+* King Otto ignores the advice and focuses on conquest, but ultimately, his own mistake (crashing through an unfinished bridge) makes him realize the importance of balancing his expenditures.
+
+Story A:
+
+* Cornelius is obsessed with astronomy, but his wife Agatha advises him to balance his time between astronomy and maintaining his home.
+* Cornelius ignores the advice and focuses on astronomy, but ultimately, his own mistake (an unfinished floor collapsing) makes him realize the importance of balancing his time.
+
+Story B:
+
+* Cornelius is obsessed with astronomy, and his wife Agatha advises him to balance his time between astronomy and maintaining his home.
+* Cornelius ignores the advice and focuses on astronomy, and the house becomes unlivable due to neglect.
+* Eventually, Cornelius is injured when a rotten floor collapses, and he realizes that Agatha was right all along.
+
+Comparing the three stories, we can see that both Story A and Story B have a similar structure and theme to the source story. Both Cornelius and King Otto are obsessed with something and ignore advice to balance their priorities, leading to their own mistakes and eventual realization of the importance of balance.
+
+However, Story B has a more significant difference in that the house becomes unlivable due to Cornelius's neglect, whereas in the source story, King Otto's mistake is more of an accident. This difference makes Story B less analogous to the source story.
+
+Therefore, the correct answer is:
+
+<ans> A </ans>",,A,A
+25,"King Otto was a warmonger who was obsessed with conquest and riches. One year he decided to rebuild all the bridges of the kingdom to make them strong enough for all his armies.
+Otto's counselor, the chamberlain, complained that he was spending too much money on the. bridges and not enough on actual military campaigns. Because of all the construction too many of the bridges were out of commission being worked on. Otto decided that the chamberlain was right and he abandoned the bridge project to mount a full-scale invasion of a neighboring country.
+Then one day when King Otto was travelling through his kingdom his carriage crashed through an unfinished bridge. He was severely injured but the mishap made it clear to him that he needed to balance his military and domestic expenditures. Also, he ordered the chamberlain to get him a new crown because the old one had gotten smashed in the crash.","Cornelius was an astronomer who thought about nothing but astronomy. He was obsessed with stars and galaxies.
+His wife Agatha complained that he was spending too much time on astronomy and not enough on maintaining his own house. As a result, the roof was gradually leaking more and more and the house was becoming almost unlivable. But Cornelius would not listen.
+Then, one evening when Cornelius was walking through his house, a rotten floor collapsed under his weight. Cornelius was severely injured but the accident showed him that Agatha had been right all along. He decided to try to balance his time between astronomy and maintaining his home.","Cornelius was an astronomer who thought about nothing but astronomy. He was obsessed with stars and galaxies. Gradually he was turning his home into an observatory.
+But before he was finished his wife Agatha complained that he was spending too much time renovating the house and not enough on his job which was astronomy. As a result, the house was no longer livable. Cornelius decided that Agatha was right and he went back to thinking about nothing but astronomy.
+Then, one evening when Cornelius was walking through his house, an unfinished floor collapsed under his weight. Cornelius was severely injured but the accident showed him that he should try to balance his time between astronomy and maintaining his home.","This is a source story:
+
+King Otto was a warmonger who was obsessed with conquest and riches. One year he decided to rebuild all the bridges of the kingdom to make them strong enough for all his armies.
+Otto's counselor, the chamberlain, complained that he was spending too much money on the. bridges and not enough on actual military campaigns. Because of all the construction too many of the bridges were out of commission being worked on. Otto decided that the chamberlain was right and he abandoned the bridge project to mount a full-scale invasion of a neighboring country.
+Then one day when King Otto was travelling through his kingdom his carriage crashed through an unfinished bridge. He was severely injured but the mishap made it clear to him that he needed to balance his military and domestic expenditures. Also, he ordered the chamberlain to get him a new crown because the old one had gotten smashed in the crash.
+
+This is story A:
+
+Cornelius was an astronomer who thought about nothing but astronomy. He was obsessed with stars and galaxies.
+His wife Agatha complained that he was spending too much time on astronomy and not enough on maintaining his own house. As a result, the roof was gradually leaking more and more and the house was becoming almost unlivable. But Cornelius would not listen.
+Then, one evening when Cornelius was walking through his house, a rotten floor collapsed under his weight. Cornelius was severely injured but the accident showed him that Agatha had been right all along. He decided to try to balance his time between astronomy and maintaining his home.
+
+This is story B:
+
+Cornelius was an astronomer who thought about nothing but astronomy. He was obsessed with stars and galaxies. Gradually he was turning his home into an observatory.
+But before he was finished his wife Agatha complained that he was spending too much time renovating the house and not enough on his job which was astronomy. As a result, the house was no longer livable. Cornelius decided that Agatha was right and he went back to thinking about nothing but astronomy.
+Then, one evening when Cornelius was walking through his house, an unfinished floor collapsed under his weight. Cornelius was severely injured but the accident showed him that he should try to balance his time between astronomy and maintaining his home.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the stories:
+
+**Source story:**
+
+* King Otto is obsessed with conquest and riches, but his counselor advises him to balance his military and domestic expenditures.
+* King Otto ignores the advice, but then has an accident (carriage crash) that makes him realize the importance of balancing his expenditures.
+* As a result, he decides to balance his military and domestic expenditures.
+
+**Story A:**
+
+* Cornelius is obsessed with astronomy, but his wife Agatha advises him to balance his time between astronomy and maintaining his home.
+* Cornelius ignores the advice, but then has an accident (rotten floor collapse) that makes him realize the importance of balancing his time.
+* As a result, he decides to balance his time between astronomy and maintaining his home.
+
+**Story B:**
+
+* Cornelius is obsessed with astronomy, but his wife Agatha advises him to balance his time between astronomy and maintaining his home.
+* Cornelius ignores the advice, but then has an accident (unfinished floor collapse) that makes him realize the importance of balancing his time.
+* As a result, he decides to go back to thinking about nothing but astronomy, ignoring his wife's advice.
+
+Comparing the stories, we can see that:
+
+* Both Story A and the Source story have a similar structure: the character is obsessed with something, ignores advice to balance their priorities, has an accident, and then realizes the importance of balancing their priorities.
+* Story B, on the other hand, has a different outcome: Cornelius ignores his wife's advice and then has an accident, but instead of balancing his priorities, he decides to go back to his original obsession.
+
+Therefore, the correct answer is:
+
+<ans> A </ans>",,A,B
+26,"Frederick the shepherd was tending his flock at the edge of a forest. Suddenly, a lion appeared out of the forest. Frederick was really scared so he started shouting to scare the lion away. But the shouting did nothing but attract the lion's attention and it began walking towards him. He then realized he should have left it alone. 
+ To escape, Frederick gave the lion a lamb. While the lion was occupied, he led the rest of the flock away. Eventually, he guessed they were far enough away to be safe from the lion. So he took a nap on the grass.
+ However, when he awoke he notice another lamb was missing and he could not find it anywhere! At the next opportunity, Frederick bought a blunderbuss so he could better defend his flock in the future.","Zebediah, the old miser, was sitting on his back porch counting his money. Suddenly, a beggar came out of the forsythia bushes. Zebediah was very frightened so he started yelling for the beggar to go away. The yelling only caught the beggar's attention and he began walking towards the old man. The miser wished he had left the beggar alone.
+ To escape, Zebediah threw a bag of coins to the beggar. While the beggar was occupied, Zebediah took the last few bags of money into the house and locked the door. 
+ Zebediah figured that he was safe inside and he dozed off in an easy chair. When he awoke he was surprised to discover another bag of coins was missing. He could not find it anywhere!","Zebediah, the old miser, was sitting on his back porch counting his money and he dozed off. When he awoke he discovered that one bag of coins was missing. He could not find the bag anywhere. Zebediah figured that the thief was still nearby so he started yelling for whoever took the money to show his face.
+ Suddenly, a beggar came out of the forsythia bushes and started walking towards the old man on the porch. Zebediah was surprised and very frightened. He wished he had left the beggar alone. 
+ To escape, he threw a second bag of coins to the beggar. While the beggar was occupied, Zebediah took the last few bags of money into the house and locked the door!","This is a source story:
+
+Frederick the shepherd was tending his flock at the edge of a forest. Suddenly, a lion appeared out of the forest. Frederick was really scared so he started shouting to scare the lion away. But the shouting did nothing but attract the lion's attention and it began walking towards him. He then realized he should have left it alone. 
+ To escape, Frederick gave the lion a lamb. While the lion was occupied, he led the rest of the flock away. Eventually, he guessed they were far enough away to be safe from the lion. So he took a nap on the grass.
+ However, when he awoke he notice another lamb was missing and he could not find it anywhere! At the next opportunity, Frederick bought a blunderbuss so he could better defend his flock in the future.
+
+This is story A:
+
+Zebediah, the old miser, was sitting on his back porch counting his money. Suddenly, a beggar came out of the forsythia bushes. Zebediah was very frightened so he started yelling for the beggar to go away. The yelling only caught the beggar's attention and he began walking towards the old man. The miser wished he had left the beggar alone.
+ To escape, Zebediah threw a bag of coins to the beggar. While the beggar was occupied, Zebediah took the last few bags of money into the house and locked the door. 
+ Zebediah figured that he was safe inside and he dozed off in an easy chair. When he awoke he was surprised to discover another bag of coins was missing. He could not find it anywhere!
+
+This is story B:
+
+Zebediah, the old miser, was sitting on his back porch counting his money and he dozed off. When he awoke he discovered that one bag of coins was missing. He could not find the bag anywhere. Zebediah figured that the thief was still nearby so he started yelling for whoever took the money to show his face.
+ Suddenly, a beggar came out of the forsythia bushes and started walking towards the old man on the porch. Zebediah was surprised and very frightened. He wished he had left the beggar alone. 
+ To escape, he threw a second bag of coins to the beggar. While the beggar was occupied, Zebediah took the last few bags of money into the house and locked the door!
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's break down the source story and the two given stories:
+
+Source story:
+
+* Frederick, a shepherd, is tending his flock when a lion appears.
+* Frederick tries to scare the lion away, but it doesn't work.
+* He gives the lion a lamb to distract it and leads the rest of the flock away.
+* While he's away, he takes a nap.
+* When he wakes up, he realizes another lamb is missing.
+
+Story A:
+
+* Zebediah, an old miser, is counting his money when a beggar appears.
+* Zebediah tries to scare the beggar away, but it doesn't work.
+* He throws a bag of coins to distract the beggar and takes the rest of the money inside.
+* He locks the door and takes a nap.
+* When he wakes up, he realizes another bag of coins is missing.
+
+Story B:
+
+* Zebediah, an old miser, is counting his money and dozes off.
+* When he wakes up, he realizes one bag of coins is missing.
+* He yells for the thief to show his face, and a beggar appears.
+* Zebediah throws a second bag of coins to distract the beggar and takes the rest of the money inside.
+* He locks the door.
+
+Now, let's compare the stories:
+
+* Both Story A and the source story involve a character trying to scare an animal/beggar away, but it doesn't work.
+* Both stories involve the character giving something to the animal/beggar to distract it and then taking action to protect themselves.
+* Both stories have the character taking a nap and then realizing something is missing.
+
+Story B is different from the source story and Story A. In Story B, Zebediah doesn't try to scare the beggar away initially, and the beggar appears after Zebediah has already realized something is missing.
+
+Therefore, the correct answer is:
+
+<ans> A </ans>",,A,A
+27,"Frederick the shepherd was tending his flock at the edge of a forest. Suddenly, a lion appeared out of the forest. Frederick was really scared so he started shouting to scare the lion away. But the shouting did nothing but attract the lion's attention and it began walking towards him. He then realized he should have left it alone. 
+ To escape, Frederick gave the lion a lamb. While the lion was occupied, he led the rest of the flock away. Eventually, he guessed they were far enough away to be safe from the lion. So he took a nap on the grass.
+ However, when he awoke he notice another lamb was missing and he could not find it anywhere! At the next opportunity, Frederick bought a blunderbuss so he could better defend his flock in the future.","Zebediah, the old miser, was sitting on his back porch counting his money and he dozed off. When he awoke he discovered that one bag of coins was missing. He could not find the bag anywhere. Zebediah figured that the thief was still nearby so he started yelling for whoever took the money to show his face.
+ Suddenly, a beggar came out of the forsythia bushes and started walking towards the old man on the porch. Zebediah was surprised and very frightened. He wished he had left the beggar alone. 
+ To escape, he threw a second bag of coins to the beggar. While the beggar was occupied, Zebediah took the last few bags of money into the house and locked the door!","Zebediah, the old miser, was sitting on his back porch counting his money. Suddenly, a beggar came out of the forsythia bushes. Zebediah was very frightened so he started yelling for the beggar to go away. The yelling only caught the beggar's attention and he began walking towards the old man. The miser wished he had left the beggar alone.
+ To escape, Zebediah threw a bag of coins to the beggar. While the beggar was occupied, Zebediah took the last few bags of money into the house and locked the door. 
+ Zebediah figured that he was safe inside and he dozed off in an easy chair. When he awoke he was surprised to discover another bag of coins was missing. He could not find it anywhere!","This is a source story:
+
+Frederick the shepherd was tending his flock at the edge of a forest. Suddenly, a lion appeared out of the forest. Frederick was really scared so he started shouting to scare the lion away. But the shouting did nothing but attract the lion's attention and it began walking towards him. He then realized he should have left it alone. 
+ To escape, Frederick gave the lion a lamb. While the lion was occupied, he led the rest of the flock away. Eventually, he guessed they were far enough away to be safe from the lion. So he took a nap on the grass.
+ However, when he awoke he notice another lamb was missing and he could not find it anywhere! At the next opportunity, Frederick bought a blunderbuss so he could better defend his flock in the future.
+
+This is story A:
+
+Zebediah, the old miser, was sitting on his back porch counting his money and he dozed off. When he awoke he discovered that one bag of coins was missing. He could not find the bag anywhere. Zebediah figured that the thief was still nearby so he started yelling for whoever took the money to show his face.
+ Suddenly, a beggar came out of the forsythia bushes and started walking towards the old man on the porch. Zebediah was surprised and very frightened. He wished he had left the beggar alone. 
+ To escape, he threw a second bag of coins to the beggar. While the beggar was occupied, Zebediah took the last few bags of money into the house and locked the door!
+
+This is story B:
+
+Zebediah, the old miser, was sitting on his back porch counting his money. Suddenly, a beggar came out of the forsythia bushes. Zebediah was very frightened so he started yelling for the beggar to go away. The yelling only caught the beggar's attention and he began walking towards the old man. The miser wished he had left the beggar alone.
+ To escape, Zebediah threw a bag of coins to the beggar. While the beggar was occupied, Zebediah took the last few bags of money into the house and locked the door. 
+ Zebediah figured that he was safe inside and he dozed off in an easy chair. When he awoke he was surprised to discover another bag of coins was missing. He could not find it anywhere!
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's break down the source story and the two given stories:
+
+Source story:
+
+* Frederick, a shepherd, is tending his flock when a lion appears.
+* Frederick tries to scare the lion away, but it doesn't work.
+* He gives the lion a lamb to distract it and escapes with the rest of the flock.
+* Later, he realizes another lamb is missing.
+
+Story A:
+
+* Zebediah, an old miser, is counting his money when he dozes off.
+* He wakes up to find one bag of coins missing.
+* He yells for the thief to show their face, and a beggar appears.
+* Zebediah throws a second bag of coins to distract the beggar and escapes with the remaining money.
+* Later, he realizes another bag of coins is missing.
+
+Story B:
+
+* Zebediah, an old miser, is counting his money when a beggar appears.
+* Zebediah yells for the beggar to go away, but it only attracts the beggar's attention.
+* Zebediah throws a bag of coins to distract the beggar and escapes with the remaining money.
+* Later, he wakes up to find another bag of coins missing.
+
+Now, let's identify the analogous elements between the source story and the two given stories:
+
+* In the source story, Frederick tries to scare the lion away, but it doesn't work. In both Story A and Story B, Zebediah tries to scare the beggar away, but it only attracts their attention.
+* In the source story, Frederick gives the lion a lamb to distract it and escapes. In both Story A and Story B, Zebediah throws a bag of coins to distract the beggar and escapes.
+* In the source story, Frederick realizes another lamb is missing. In both Story A and Story B, Zebediah realizes another bag of coins is missing.
+
+Based on these analogous elements, I would say that both Story A and Story B are analogous to the source story. However, since you're asking for a single answer, I would choose:
+
+<ans> A </ans>
+
+Story A has a more direct parallel to the source story, as Zebediah's actions and reactions are more similar to Frederick's.",,A,B
+28,"Mark the chicken farmer was standing in the henhouse collecting eggs while his chickens were out in the yard. When his chickens returned, they all began to attack him, for some unknown reason.
+""You ungrateful beasts!"" Mark screamed. The chickens chased him out of the henhouse and into the woods.
+While they were gone, a thief slipped into the yard and made off with the unguarded eggs. After he got out of the hospital, Mark quit chicken farming and went on a vacation in Africa.","Linda, the director of a girl scout camp, was thinking about the camp on the beach while all the girls were hiking in the hills nearby. While she was standing there the girl scouts returned and they all started pestering her with questions about what was for dinner, could they go swimming, and so on.
+""Why do you pester me when I am racking my brain to figure out what we're going to do?"" Linda screamed as she ran off the beach and down the road. ""Show a little appreciation!"" The scouts followed her, still yelling.
+A short time later, a tidal wave hit the beach and washed away all the sleeping bags.","A tidal wave hit a girl scout camp on the beach while everyone was away and washed away all of the sleeping bags. A short time later, Linda, the camp director, came back and discovered the tragedy.
+She stood on the beach thinking about what to do. While she was thinking, the girl scouts returned from hiking in the hills. Since they could not find their sleeping bags they attacked their director. What'll we do now? Where will we sleep?...they said.
+""Why do you pester me when I am racking my brain to figure out what we are going to do?"" the camp director screamed as she ran down the road. ""Show a little appreciation!""","This is a source story:
+
+Mark the chicken farmer was standing in the henhouse collecting eggs while his chickens were out in the yard. When his chickens returned, they all began to attack him, for some unknown reason.
+""You ungrateful beasts!"" Mark screamed. The chickens chased him out of the henhouse and into the woods.
+While they were gone, a thief slipped into the yard and made off with the unguarded eggs. After he got out of the hospital, Mark quit chicken farming and went on a vacation in Africa.
+
+This is story A:
+
+Linda, the director of a girl scout camp, was thinking about the camp on the beach while all the girls were hiking in the hills nearby. While she was standing there the girl scouts returned and they all started pestering her with questions about what was for dinner, could they go swimming, and so on.
+""Why do you pester me when I am racking my brain to figure out what we're going to do?"" Linda screamed as she ran off the beach and down the road. ""Show a little appreciation!"" The scouts followed her, still yelling.
+A short time later, a tidal wave hit the beach and washed away all the sleeping bags.
+
+This is story B:
+
+A tidal wave hit a girl scout camp on the beach while everyone was away and washed away all of the sleeping bags. A short time later, Linda, the camp director, came back and discovered the tragedy.
+She stood on the beach thinking about what to do. While she was thinking, the girl scouts returned from hiking in the hills. Since they could not find their sleeping bags they attacked their director. What'll we do now? Where will we sleep?...they said.
+""Why do you pester me when I am racking my brain to figure out what we are going to do?"" the camp director screamed as she ran down the road. ""Show a little appreciation!""
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's break down the source story and the two alternative stories:
+
+Source story:
+
+* Mark, a chicken farmer, is collecting eggs when his chickens suddenly attack him for no apparent reason.
+* The chickens chase him out of the henhouse and into the woods.
+* A thief takes advantage of the situation and steals the eggs.
+* Mark quits chicken farming and goes on a vacation.
+
+Story A:
+
+* Linda, a camp director, is thinking about the camp while the girls are away.
+* The girls return and start pestering her with questions.
+* Linda gets frustrated and runs away, and the girls follow her.
+* A tidal wave hits the beach and washes away the sleeping bags.
+
+Story B:
+
+* A tidal wave hits the beach and washes away the sleeping bags.
+* Linda, the camp director, returns and finds the sleeping bags gone.
+* The girls return from hiking and attack Linda because they can't find their sleeping bags.
+* Linda gets frustrated and runs away.
+
+Now, let's look for similarities between the source story and the two alternative stories:
+
+* In the source story, Mark is attacked by his chickens, and in both Story A and Story B, Linda is attacked by the girl scouts.
+* In the source story, Mark is chased out of the henhouse and into the woods, and in both Story A and Story B, Linda is chased away by the girl scouts.
+* In the source story, a thief takes advantage of the situation and steals the eggs, and in both Story A and Story B, a disaster (the tidal wave) occurs while Linda is away, and she returns to find chaos.
+
+Based on these similarities, I would say that:
+
+<ans> B </ans>
+
+Story B is the most analogous to the source story.",,B,A
+29,"Mark the chicken farmer was standing in the henhouse collecting eggs while his chickens were out in the yard. When his chickens returned, they all began to attack him, for some unknown reason.
+""You ungrateful beasts!"" Mark screamed. The chickens chased him out of the henhouse and into the woods.
+While they were gone, a thief slipped into the yard and made off with the unguarded eggs. After he got out of the hospital, Mark quit chicken farming and went on a vacation in Africa.","A tidal wave hit a girl scout camp on the beach while everyone was away and washed away all of the sleeping bags. A short time later, Linda, the camp director, came back and discovered the tragedy.
+She stood on the beach thinking about what to do. While she was thinking, the girl scouts returned from hiking in the hills. Since they could not find their sleeping bags they attacked their director. What'll we do now? Where will we sleep?...they said.
+""Why do you pester me when I am racking my brain to figure out what we are going to do?"" the camp director screamed as she ran down the road. ""Show a little appreciation!""","Linda, the director of a girl scout camp, was thinking about the camp on the beach while all the girls were hiking in the hills nearby. While she was standing there the girl scouts returned and they all started pestering her with questions about what was for dinner, could they go swimming, and so on.
+""Why do you pester me when I am racking my brain to figure out what we're going to do?"" Linda screamed as she ran off the beach and down the road. ""Show a little appreciation!"" The scouts followed her, still yelling.
+A short time later, a tidal wave hit the beach and washed away all the sleeping bags.","This is a source story:
+
+Mark the chicken farmer was standing in the henhouse collecting eggs while his chickens were out in the yard. When his chickens returned, they all began to attack him, for some unknown reason.
+""You ungrateful beasts!"" Mark screamed. The chickens chased him out of the henhouse and into the woods.
+While they were gone, a thief slipped into the yard and made off with the unguarded eggs. After he got out of the hospital, Mark quit chicken farming and went on a vacation in Africa.
+
+This is story A:
+
+A tidal wave hit a girl scout camp on the beach while everyone was away and washed away all of the sleeping bags. A short time later, Linda, the camp director, came back and discovered the tragedy.
+She stood on the beach thinking about what to do. While she was thinking, the girl scouts returned from hiking in the hills. Since they could not find their sleeping bags they attacked their director. What'll we do now? Where will we sleep?...they said.
+""Why do you pester me when I am racking my brain to figure out what we are going to do?"" the camp director screamed as she ran down the road. ""Show a little appreciation!""
+
+This is story B:
+
+Linda, the director of a girl scout camp, was thinking about the camp on the beach while all the girls were hiking in the hills nearby. While she was standing there the girl scouts returned and they all started pestering her with questions about what was for dinner, could they go swimming, and so on.
+""Why do you pester me when I am racking my brain to figure out what we're going to do?"" Linda screamed as she ran off the beach and down the road. ""Show a little appreciation!"" The scouts followed her, still yelling.
+A short time later, a tidal wave hit the beach and washed away all the sleeping bags.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's break down the source story and the two given stories:
+
+Source story:
+
+* Mark, a chicken farmer, is attacked by his chickens for unknown reasons.
+* The chickens chase him out of the henhouse and into the woods.
+* A thief steals the unguarded eggs.
+* Mark quits chicken farming and goes on a vacation.
+
+Story A:
+
+* A tidal wave hits a girl scout camp on the beach, washing away the sleeping bags.
+* The camp director, Linda, returns to find the tragedy and is attacked by the girl scouts who are upset about their lost sleeping bags.
+* Linda runs away, screaming at the girl scouts to show some appreciation.
+
+Story B:
+
+* Linda, the camp director, is thinking about the camp while the girl scouts are hiking nearby.
+* The girl scouts return and start pestering Linda with questions about dinner, swimming, etc.
+* Linda screams at the girl scouts to show some appreciation and runs away.
+* A tidal wave hits the beach, washing away the sleeping bags.
+
+Now, let's look for similarities between the source story and the two given stories:
+
+* In the source story, Mark is attacked by his chickens for unknown reasons.
+* In both Story A and Story B, Linda is attacked by the girl scouts, but the reasons are different (lost sleeping bags in Story A, pestering in Story B).
+* In the source story, a thief steals the unguarded eggs.
+* In Story A, there is no thief, but the sleeping bags are washed away by a tidal wave.
+* In Story B, there is no thief, and the sleeping bags are washed away by a tidal wave later on.
+
+Based on these similarities, I would say that Story A is analogous to the source story. Both stories feature an unexpected event (chickens attacking Mark, tidal wave washing away sleeping bags) that leads to chaos and a character being attacked or chased away.
+
+Therefore, the correct answer is:
+
+<ans> A </ans>",,A,B
+30,"Two pioneers, Smith and Johnson, discovered a gorgeous little valley that was as yet unclaimed in Oregon Territory. Each of them wanted the land for himself, so soon they were fighting over who saw it first.
+ While they were fighting over it, Sheriff Jones came along and divided the land evenly between them. In the end, Smith and Johnson realized that they should have done that on their own. From that day forward they were the best of friends, and they helped build each others' houses.","Betty and Norma were walking towards each other, when they simultaneously discovered a twenty dollar bill on the floor. Both of them wanted the money so soon they were arguing desperately over who saw it first.
+ While they were busy arguing, their teacher Mrs. Lee, came along, took the money and divided it between them. Then Betty and Norma realized that they should have done that themselves.","Betty and Norma were walking towards each other when they simultaneously discovered a twenty dollar bill on the floor. Both of them wanted the money so soon they were arguing desperately over who saw it first. 
+ While they were busy arguing over the money, Lee came along and took it herself. By the time Betty and Norma realized they should just divide it up, it was too late.","This is a source story:
+
+Two pioneers, Smith and Johnson, discovered a gorgeous little valley that was as yet unclaimed in Oregon Territory. Each of them wanted the land for himself, so soon they were fighting over who saw it first.
+ While they were fighting over it, Sheriff Jones came along and divided the land evenly between them. In the end, Smith and Johnson realized that they should have done that on their own. From that day forward they were the best of friends, and they helped build each others' houses.
+
+This is story A:
+
+Betty and Norma were walking towards each other, when they simultaneously discovered a twenty dollar bill on the floor. Both of them wanted the money so soon they were arguing desperately over who saw it first.
+ While they were busy arguing, their teacher Mrs. Lee, came along, took the money and divided it between them. Then Betty and Norma realized that they should have done that themselves.
+
+This is story B:
+
+Betty and Norma were walking towards each other when they simultaneously discovered a twenty dollar bill on the floor. Both of them wanted the money so soon they were arguing desperately over who saw it first. 
+ While they were busy arguing over the money, Lee came along and took it herself. By the time Betty and Norma realized they should just divide it up, it was too late.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the stories step by step.
+
+In the source story, two pioneers, Smith and Johnson, discover a valley and fight over who saw it first. Sheriff Jones intervenes and divides the land evenly between them. In the end, they become friends and help each other.
+
+In story A, Betty and Norma discover a twenty-dollar bill and argue over who saw it first. Their teacher, Mrs. Lee, intervenes and divides the money between them. They then realize they should have done it themselves.
+
+In story B, Betty and Norma discover a twenty-dollar bill and argue over who saw it first. Lee (no title mentioned) takes the money herself, and by the time Betty and Norma realize they should divide it, it's too late.
+
+Now, let's compare the stories:
+
+* In the source story and story A, a third party intervenes and divides the disputed item (land/money) between the two parties.
+* In the source story and story A, the two parties eventually become friends or realize they should have divided it themselves.
+
+Story B does not have these elements. Lee takes the money herself, and the story does not show the two parties becoming friends or realizing they should have divided it themselves.
+
+Therefore, the correct answer is:
+
+<ans> A </ans>",,A,A
+31,"Two pioneers, Smith and Johnson, discovered a gorgeous little valley that was as yet unclaimed in Oregon Territory. Each of them wanted the land for himself, so soon they were fighting over who saw it first.
+ While they were fighting over it, Sheriff Jones came along and divided the land evenly between them. In the end, Smith and Johnson realized that they should have done that on their own. From that day forward they were the best of friends, and they helped build each others' houses.","Betty and Norma were walking towards each other when they simultaneously discovered a twenty dollar bill on the floor. Both of them wanted the money so soon they were arguing desperately over who saw it first. 
+ While they were busy arguing over the money, Lee came along and took it herself. By the time Betty and Norma realized they should just divide it up, it was too late.","Betty and Norma were walking towards each other, when they simultaneously discovered a twenty dollar bill on the floor. Both of them wanted the money so soon they were arguing desperately over who saw it first.
+ While they were busy arguing, their teacher Mrs. Lee, came along, took the money and divided it between them. Then Betty and Norma realized that they should have done that themselves.","This is a source story:
+
+Two pioneers, Smith and Johnson, discovered a gorgeous little valley that was as yet unclaimed in Oregon Territory. Each of them wanted the land for himself, so soon they were fighting over who saw it first.
+ While they were fighting over it, Sheriff Jones came along and divided the land evenly between them. In the end, Smith and Johnson realized that they should have done that on their own. From that day forward they were the best of friends, and they helped build each others' houses.
+
+This is story A:
+
+Betty and Norma were walking towards each other when they simultaneously discovered a twenty dollar bill on the floor. Both of them wanted the money so soon they were arguing desperately over who saw it first. 
+ While they were busy arguing over the money, Lee came along and took it herself. By the time Betty and Norma realized they should just divide it up, it was too late.
+
+This is story B:
+
+Betty and Norma were walking towards each other, when they simultaneously discovered a twenty dollar bill on the floor. Both of them wanted the money so soon they were arguing desperately over who saw it first.
+ While they were busy arguing, their teacher Mrs. Lee, came along, took the money and divided it between them. Then Betty and Norma realized that they should have done that themselves.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the stories:
+
+**Source story:**
+
+* Two pioneers, Smith and Johnson, discover a valley and fight over who saw it first.
+* Sheriff Jones intervenes and divides the land evenly between them.
+* Smith and Johnson become friends and help each other build houses.
+
+**Story A:**
+
+* Betty and Norma discover a twenty-dollar bill and argue over who saw it first.
+* Lee takes the money while they're arguing.
+* Betty and Norma realize they should have divided it themselves, but it's too late.
+
+**Story B:**
+
+* Betty and Norma discover a twenty-dollar bill and argue over who saw it first.
+* Mrs. Lee, their teacher, takes the money and divides it between them.
+* Betty and Norma realize they should have divided it themselves.
+
+Now, let's identify the analogous elements:
+
+* In all three stories, two individuals (Smith and Johnson, Betty and Norma) discover something valuable (a valley, a twenty-dollar bill) and argue over who saw it first.
+* In both stories A and B, a third party (Lee, Mrs. Lee) intervenes and divides the valuable thing between the two individuals.
+* In all three stories, the individuals involved realize that they should have divided the valuable thing themselves, but it's too late (or they learn to do so in the end).
+
+Based on these similarities, I conclude that:
+
+<ans> B </ans>
+
+Story B is analogous to the source story.",,B,B
+32,"Once there was a teacher named Mrs. Jackson who wanted a salary increase. One day, the principal said that he was increasing his own salary by 20 percent. However, he said, there was not enough money to give the teachers a salary increase.
+When Mrs. Jackson heard this she became so angry that she decided to take revenge. The next day, Mrs. Jackson used gasoline to set fire to the principal's office. Then she went to a bar and got drunk.","McGhee was a sailor who wanted a few days of vacation on land. One day, the captain announced that he would be taking a vacation in the mountains. However, he said, everyone else would have to remain on the ship.
+After McGhee heard this he became so upset that he decided to get revenge. Within an hour McGhee blew up the captain's cabin with dynamite.","McGhee was a sailor who wanted a few days of vacation on land. One day McGhee became so impatient that he tried to blow up the captain's cabin using dynamite.
+After this incident, the captain announced that he would be taking a vacation in the mountains. However, he said, everyone else would have to remain on board to repair the ship.","This is a source story:
+
+Once there was a teacher named Mrs. Jackson who wanted a salary increase. One day, the principal said that he was increasing his own salary by 20 percent. However, he said, there was not enough money to give the teachers a salary increase.
+When Mrs. Jackson heard this she became so angry that she decided to take revenge. The next day, Mrs. Jackson used gasoline to set fire to the principal's office. Then she went to a bar and got drunk.
+
+This is story A:
+
+McGhee was a sailor who wanted a few days of vacation on land. One day, the captain announced that he would be taking a vacation in the mountains. However, he said, everyone else would have to remain on the ship.
+After McGhee heard this he became so upset that he decided to get revenge. Within an hour McGhee blew up the captain's cabin with dynamite.
+
+This is story B:
+
+McGhee was a sailor who wanted a few days of vacation on land. One day McGhee became so impatient that he tried to blow up the captain's cabin using dynamite.
+After this incident, the captain announced that he would be taking a vacation in the mountains. However, he said, everyone else would have to remain on board to repair the ship.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the source story and the two alternative stories:
+
+Source story:
+
+* Mrs. Jackson, a teacher, wants a salary increase.
+* The principal increases his own salary by 20%, but says there's no money for teacher raises.
+* Mrs. Jackson becomes angry and takes revenge by setting fire to the principal's office.
+
+Story A:
+
+* McGhee, a sailor, wants a few days of vacation on land.
+* The captain announces he's taking a vacation, but everyone else must stay on the ship.
+* McGhee becomes upset and decides to get revenge by blowing up the captain's cabin with dynamite.
+
+Story B:
+
+* McGhee, a sailor, tries to blow up the captain's cabin using dynamite.
+* The captain announces he's taking a vacation in the mountains, and everyone else must stay on board to repair the ship.
+
+Now, let's look for similarities between the source story and the two alternative stories:
+
+* In the source story, Mrs. Jackson is unhappy with the principal's decision and takes revenge.
+* In Story A, McGhee is unhappy with the captain's decision and decides to take revenge.
+* Both stories involve a person taking revenge against someone who has made a decision that affects them negatively.
+
+However, there's a key difference between the source story and Story A: in the source story, the principal's decision is the direct cause of Mrs. Jackson's anger, whereas in Story A, the captain's decision is not the direct cause of McGhee's anger. McGhee's anger seems to be more related to his own desire for vacation, rather than the captain's decision.
+
+Story B, on the other hand, does not involve revenge or a decision made by someone else. Instead, it seems to be a separate incident that is not analogous to the source story.
+
+Therefore, the correct answer is:
+
+<ans> A </ans>",,A,A
+33,"Once there was a teacher named Mrs. Jackson who wanted a salary increase. One day, the principal said that he was increasing his own salary by 20 percent. However, he said, there was not enough money to give the teachers a salary increase.
+When Mrs. Jackson heard this she became so angry that she decided to take revenge. The next day, Mrs. Jackson used gasoline to set fire to the principal's office. Then she went to a bar and got drunk.","McGhee was a sailor who wanted a few days of vacation on land. One day McGhee became so impatient that he tried to blow up the captain's cabin using dynamite.
+After this incident, the captain announced that he would be taking a vacation in the mountains. However, he said, everyone else would have to remain on board to repair the ship.","McGhee was a sailor who wanted a few days of vacation on land. One day, the captain announced that he would be taking a vacation in the mountains. However, he said, everyone else would have to remain on the ship.
+After McGhee heard this he became so upset that he decided to get revenge. Within an hour McGhee blew up the captain's cabin with dynamite.","This is a source story:
+
+Once there was a teacher named Mrs. Jackson who wanted a salary increase. One day, the principal said that he was increasing his own salary by 20 percent. However, he said, there was not enough money to give the teachers a salary increase.
+When Mrs. Jackson heard this she became so angry that she decided to take revenge. The next day, Mrs. Jackson used gasoline to set fire to the principal's office. Then she went to a bar and got drunk.
+
+This is story A:
+
+McGhee was a sailor who wanted a few days of vacation on land. One day McGhee became so impatient that he tried to blow up the captain's cabin using dynamite.
+After this incident, the captain announced that he would be taking a vacation in the mountains. However, he said, everyone else would have to remain on board to repair the ship.
+
+This is story B:
+
+McGhee was a sailor who wanted a few days of vacation on land. One day, the captain announced that he would be taking a vacation in the mountains. However, he said, everyone else would have to remain on the ship.
+After McGhee heard this he became so upset that he decided to get revenge. Within an hour McGhee blew up the captain's cabin with dynamite.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's analyze the source story and the two alternative stories:
+
+Source story:
+
+* Mrs. Jackson, a teacher, wants a salary increase.
+* The principal increases his own salary by 20%, but says there's no money for teacher raises.
+* Mrs. Jackson becomes angry and takes revenge by setting fire to the principal's office.
+
+Now, let's look at story A:
+
+* McGhee, a sailor, wants a few days of vacation on land.
+* The captain announces he's taking a vacation in the mountains, but everyone else has to stay on board to repair the ship.
+* McGhee becomes impatient and tries to blow up the captain's cabin with dynamite.
+
+Notice that in story A, McGhee's reaction is not directly caused by the captain's decision. Instead, McGhee is already impatient and decides to take revenge. This is different from the source story, where Mrs. Jackson's anger is directly caused by the principal's decision.
+
+Now, let's look at story B:
+
+* McGhee, a sailor, wants a few days of vacation on land.
+* The captain announces he's taking a vacation in the mountains, and everyone else has to stay on the ship.
+* McGhee becomes upset and blows up the captain's cabin with dynamite.
+
+In story B, McGhee's reaction is directly caused by the captain's decision, which is similar to the source story. Mrs. Jackson's anger is caused by the principal's decision to increase his own salary, and McGhee's upset is caused by the captain's decision to take a vacation while keeping everyone else on board.
+
+Therefore, the correct answer is:
+
+<ans> B </ans>",,B,B
+34,"A cobra called Pierre was slithering through the brush when a falcon came towards it. Pierre became frightened and struck, wounding the falcon in the abdomen. To teach him a lesson, the falcon grabbed the cobra and flew away with it.
+ Unfortunately for both of them, after they were high above the earth the wounded falcon became too weak to fly. Consequently, they plummeted straight down to the earth and perished. They landed, strangely enough, in the middle of an outdoor wedding ceremony.","Young Gene was walking home from school when a policeman approached him. Suddenly Gene panicked and hit the policeman in the side of the head. The policeman wanted to set the boy straight. He grabbed Gene and drove away with him.
+ Unfortunately, once they were on the road the policeman became too dizzy to drive. Consequently, they ran off the road and died when they hit a wall.","Young Gene was walking home from school when he met a policeman. Suddenly, the policeman grabbed him and drove away with him.
+ Once they got onto the freeway, Gene panicked and hit the policeman in the side of the head. Unfortunately, the policeman became too dizzy to drive. Consequently, they ran off the road and died when they hit a wall.","This is a source story:
+
+A cobra called Pierre was slithering through the brush when a falcon came towards it. Pierre became frightened and struck, wounding the falcon in the abdomen. To teach him a lesson, the falcon grabbed the cobra and flew away with it.
+ Unfortunately for both of them, after they were high above the earth the wounded falcon became too weak to fly. Consequently, they plummeted straight down to the earth and perished. They landed, strangely enough, in the middle of an outdoor wedding ceremony.
+
+This is story A:
+
+Young Gene was walking home from school when a policeman approached him. Suddenly Gene panicked and hit the policeman in the side of the head. The policeman wanted to set the boy straight. He grabbed Gene and drove away with him.
+ Unfortunately, once they were on the road the policeman became too dizzy to drive. Consequently, they ran off the road and died when they hit a wall.
+
+This is story B:
+
+Young Gene was walking home from school when he met a policeman. Suddenly, the policeman grabbed him and drove away with him.
+ Once they got onto the freeway, Gene panicked and hit the policeman in the side of the head. Unfortunately, the policeman became too dizzy to drive. Consequently, they ran off the road and died when they hit a wall.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's break down the stories and identify the analogous elements.
+
+In the source story, a cobra (Pierre) and a falcon have a confrontation, which leads to the falcon grabbing the cobra and flying away. However, the falcon becomes too weak to fly, and they both plummet to their death.
+
+In story A, a boy (Gene) and a policeman have a confrontation, which leads to the policeman grabbing the boy and driving away. However, the policeman becomes too dizzy to drive, and they both die in a car accident.
+
+In story B, the events are reversed. The policeman grabs Gene, and then Gene hits the policeman, causing the policeman to become dizzy and lose control of the car.
+
+The analogous elements between the source story and story A are:
+
+* A confrontation between two individuals (cobra and falcon/policeman and boy)
+* The grabbing and flying/driving away of one individual by the other
+* The subsequent accident or mishap that leads to their death
+
+Therefore, the correct answer is:
+
+<ans> A </ans>",,A,A
+35,"A cobra called Pierre was slithering through the brush when a falcon came towards it. Pierre became frightened and struck, wounding the falcon in the abdomen. To teach him a lesson, the falcon grabbed the cobra and flew away with it.
+ Unfortunately for both of them, after they were high above the earth the wounded falcon became too weak to fly. Consequently, they plummeted straight down to the earth and perished. They landed, strangely enough, in the middle of an outdoor wedding ceremony.","Young Gene was walking home from school when he met a policeman. Suddenly, the policeman grabbed him and drove away with him.
+ Once they got onto the freeway, Gene panicked and hit the policeman in the side of the head. Unfortunately, the policeman became too dizzy to drive. Consequently, they ran off the road and died when they hit a wall.","Young Gene was walking home from school when a policeman approached him. Suddenly Gene panicked and hit the policeman in the side of the head. The policeman wanted to set the boy straight. He grabbed Gene and drove away with him.
+ Unfortunately, once they were on the road the policeman became too dizzy to drive. Consequently, they ran off the road and died when they hit a wall.","This is a source story:
+
+A cobra called Pierre was slithering through the brush when a falcon came towards it. Pierre became frightened and struck, wounding the falcon in the abdomen. To teach him a lesson, the falcon grabbed the cobra and flew away with it.
+ Unfortunately for both of them, after they were high above the earth the wounded falcon became too weak to fly. Consequently, they plummeted straight down to the earth and perished. They landed, strangely enough, in the middle of an outdoor wedding ceremony.
+
+This is story A:
+
+Young Gene was walking home from school when he met a policeman. Suddenly, the policeman grabbed him and drove away with him.
+ Once they got onto the freeway, Gene panicked and hit the policeman in the side of the head. Unfortunately, the policeman became too dizzy to drive. Consequently, they ran off the road and died when they hit a wall.
+
+This is story B:
+
+Young Gene was walking home from school when a policeman approached him. Suddenly Gene panicked and hit the policeman in the side of the head. The policeman wanted to set the boy straight. He grabbed Gene and drove away with him.
+ Unfortunately, once they were on the road the policeman became too dizzy to drive. Consequently, they ran off the road and died when they hit a wall.
+
+Which of the stories A/B are analogous to the source story?
+Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
+
+Only one answer is correct.
+
+Let's think step by step.
+","Let's break down the source story and the two alternative stories:
+
+Source story:
+
+* A cobra (Pierre) and a falcon have an altercation, resulting in the falcon being wounded.
+* The falcon grabs the cobra and flies away, but the wounded falcon becomes too weak to fly and they both plummet to their deaths.
+* They land in the middle of an outdoor wedding ceremony.
+
+Story A:
+
+* Young Gene meets a policeman and is grabbed by the policeman.
+* Gene panics and hits the policeman in the side of the head.
+* The policeman becomes too dizzy to drive and they crash into a wall, resulting in their deaths.
+
+Story B:
+
+* Young Gene meets a policeman and panics, hitting the policeman in the side of the head.
+* The policeman grabs Gene and drives away with him.
+* The policeman becomes too dizzy to drive and they crash into a wall, resulting in their deaths.
+
+Now, let's identify the analogous elements between the source story and the two alternative stories:
+
+* In all three stories, an altercation or conflict occurs between two individuals (Pierre and the falcon, Gene and the policeman).
+* In all three stories, one of the individuals becomes injured or weakened as a result of the altercation (the falcon, the policeman).
+* In all three stories, the injured individual's condition leads to a catastrophic outcome (the falcon and cobra plummeting to their deaths, the policeman and Gene crashing into a wall).
+
+Based on these analogous elements, I would conclude that:
+
+<ans> A </ans>
+
+Story A is analogous to the source story, as it shares the same pattern of events and consequences.",,A,B
