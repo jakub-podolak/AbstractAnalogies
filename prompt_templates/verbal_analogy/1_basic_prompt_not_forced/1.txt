@@ -1,0 +1,17 @@
+The notation "A : B :: C : D" should be read as "A is to B like C is to D".
+
+In the following example:
+
+{A} : {B} :: {C} : ?
+
+Replace the question mark with the correct analogy:
+
+D: {D}
+
+or
+
+E: {D_prime}
+
+Provide final answer in tags: <ans> D </ans> or <ans> E </ans>
+
+Only one answer is correct.
