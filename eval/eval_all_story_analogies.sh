@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the list of models
-models=("starling7b-beta", "mistral7b", "llama3")  # Add your models to this list
+models=("llama3" "mistral7b" "starling7b-beta")  # Add your models to this list
 
 # Define the directory to search for text files
 directory="prompt_templates/story_analogies"  # Change this to your target directory

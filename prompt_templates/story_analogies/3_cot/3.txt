@@ -15,6 +15,5 @@ Story B: {StoryB}
 
 ---
 Provide the final answer in tags: <ans> A </ans> or <ans> B </ans>.
-Return only the final answer.
 
 Let's think step by step.
