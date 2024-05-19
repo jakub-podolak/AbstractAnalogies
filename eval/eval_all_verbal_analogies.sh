@@ -29,6 +29,6 @@ for model in "${models[@]}"; do
     find "$directory" -type f -name '*.txt' | while read -r file; do
         # Run the command for each text file with the current model
         echo $file
-        srun python -u eval/eval_story_analogy_new.py --model "$model" --prompt "$file"
+        srun python -u eval/eval_story_analogy.py --model "$model" --prompt "$file"
     done
 done

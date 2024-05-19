@@ -1,12 +1,23 @@
+import logging
+import sys
+import argparse
+import os
+import torch
 import numpy as np
 import pandas as pd
-import builtins
-import argparse
-from prompt_templates.verbal_analogy import create_prompt
+from tqdm import tqdm
+import re
+
+# Automatically determine the correct path to the AbstractAnalogies directory
+home_directory = os.path.expanduser('~')  # Gets the home directory
+abstract_analogies_path = os.path.join(home_directory, 'AbstractAnalogies')
+sys.path.append(abstract_analogies_path)
+
+print(sys.path)
+
 from models.llama3 import LLama3
 from models.mistral7b import Mistral7B
 from models.starling7b_beta import Starling7BBeta
-
 
 SUPPORTED_MODELS = {
     'llama3': LLama3,
@@ -20,141 +31,97 @@ def parse_option():
         "--model", type=str, default="mistral7b", help="One of the models"
     )
     parser.add_argument(
-        "--task", type=str, default="verbal_analogies"
+        "--task", type=str, default="verbal_analogy"
+    )
+    parser.add_argument(
+        "--prompt", type=str, default="basic_prompt.txt"
     )
     args = parser.parse_args()
     return args
 
-# pass mistral7b via args
-args = parse_option()
-model_class = SUPPORTED_MODELS[args.model]
-model = model_class()
+def parse_model_generation(generation: str):
+    # 1. Try finding <ans> </ans> tags
+    pattern = r"<ans>(.*?)</ans>"
 
-class VerbalAnalogyEvaluator:
-    def __init__(self, data_path, results_path):
-        """
-        Initialize the VerbalAnalogyEvaluator class.
-        Args:
-			data_path (str): The path to the dataset.
-			results_path (str): The path to save the results.
-            
-        Returns:
-			None
-        
-        """
-        df = pd.read_excel(data_path, sheet_name='UCLA_VAT')
-        self.A = builtins.list(df['A'])
-        self.B = builtins.list(df['B'])
-        self.C = builtins.list(df['C'])
-        self.D = builtins.list(df['D'])
-        self.D_prime = builtins.list(df["D'"])
+    # Find all matches
+    matches = re.findall(pattern, generation)
+    if len(matches) == 1 and (matches[0].strip() == 'D' or matches[0].strip() == 'E'):
+        return matches[0].strip()
+    
+    # 2. Default to None if answer not found
+    return None
 
-        self.results_path = results_path
-        self.all_synonym_correct_pred = []
-        self.all_opposite_correct_pred = []
-        self.all_function_correct_pred = []
-        self.all_category_correct_pred = []
-        self.context = ""
-        self.prob_order = np.arange(len(self.A))
-        np.random.shuffle(self.prob_order)
+def inference(model, rel, A, B, C, D, D_prime, prompt_template, results, task):
+    prompt = prompt_template.format(A=A, B=B, C=C, D=D, D_prime=D_prime)
+    generation = model.forward(prompt)
+    parsed_answer = parse_model_generation(generation)
 
-    # def create_prompt(self, p, correct=True):
-    #     """Create the prompt based on whether it's the first or subsequent problems."""
-    #     prompt = self.context + '\n\n' if self.context and p != 0 else ""
-    #     prompt += f"{self.A[self.prob_order[p]]} : {self.B[self.prob_order[p]]} :: {self.C[self.prob_order[p]]} : "
-    #     return prompt + (self.D[self.prob_order[p]] if correct else self.D_prime[self.prob_order[p]])
+    ambiguous = True
+    if parsed_answer == None:
+        logit_D, logit_D_prime = model.forward_logits(prompt + ' So the final answer is <ans> ', task)
+        parsed_answer = 'D' if logit_D > logit_D_prime else 'D_prime'
+    else:
+        ambiguous = False
+        logit_D = None
+        logit_D_prime = None
 
-    def get_model_response(self, prompt):
-        """
-        Get the model response to a prompt.
-        Args:
-			prompt (str): The prompt to send to the model.
-            
-		Returns:
-			response (dict): The model's response to the prompt. I think its a dict of logprobs and text_offset
-        """
+    results.append({
+        'relation': rel,
+        'A': A,
+        'B': B,
+        'C': C,
+        'D': D,
+        "D'": D_prime,
+        'full_prompt': prompt,
+        'raw_generation': generation,
+        'parsed_answer': parsed_answer,
+        'ambiguous': ambiguous,
+        'logit_D': logit_D,
+        "logit_D'": logit_D_prime
+    })
 
-        # TO DO: Do inference with the model and return the response
-        # Check are these responses same as what authors got from gpt
-        _, log_probs, text_offsets = model.forward_with_details(prompt)
-        
-        response = {
-            'choices': [
-                {
-                    'logprobs': {
-                        'token_logprobs': log_probs,
-                        'text_offset': text_offsets
-                    }
-                }
-            ]
-        }
-        return response
 
-    def evaluate_problem(self, p):
-        """
-        Evaluate a specific analogy problem.
-        Args:
-			p (int): The index of the analogy problem to evaluate.
-	
-		Returns:
-			None
-        """
-		# Correct Prompt (d_prompt): This prompt concatenates strings from columns A, B, C, and D. 
-        # The format is like this: A : B :: C : D. This is the expected correct answer based on the analogy rule being tested.
-        correct_prompt = create_prompt(p, correct=True)
-        response = self.get_model_response(correct_prompt)
-        d_avg_logprob = self.calculate_average_logprob(correct_prompt, response)
-        
-		# Incorrect Prompt (d_prime_prompt): This prompt uses the same format but replaces D with D' from the dataset. 
-        # The format becomes: A : B :: C : D'. Here, D' is specifically provided in our dataset as a plausible but incorrect answer, making it the foil.
-        incorrect_prompt = create_prompt(p, correct=False)
-        response = self.get_model_response(incorrect_prompt)
-        d_prime_avg_logprob = self.calculate_average_logprob(incorrect_prompt, response)
-        
-		# Compare the average log probabilities of the correct and incorrect prompts to determine the model's prediction.
-        # A true value means the model preferred the correct answer, and false means the model was misled by the foil.
-        correct_pred = d_avg_logprob > d_prime_avg_logprob
-        if self.prob_order[p] < 20: # Synonym
-            self.all_synonym_correct_pred.append(correct_pred)
-        elif 20 <= self.prob_order[p] < 40: # Opposite
-            self.all_opposite_correct_pred.append(correct_pred)
-        elif 40 <= self.prob_order[p] < 60: # Function
-            self.all_function_correct_pred.append(correct_pred)
-        else:
-            self.all_category_correct_pred.append(correct_pred) # Category
+def evaluate_verbal_analogies(args):
+    print('Loading ', args.model)
+    model_class = SUPPORTED_MODELS[args.model]
+    # TODO: add passing config to model class init
+    model = model_class()
 
-        self.context = correct_prompt if correct_pred else incorrect_prompt
+    dataset = pd.read_csv('datasets/verbal_analogy/UCLA_VAT.csv')
+    
+    # read prompt_templates/story_analogies/basic_prompt.txt
+    with open(f'prompt_templates/verbal_analogy/{args.prompt}', 'r', encoding='utf-8') as file:
+        prompt_template = file.read()
+    print(prompt_template)
 
-    def calculate_average_logprob(self, prompt, response):
-        """Calculate the average log probability from the model's response."""
+    results = []
+    for _, row in tqdm(dataset.iterrows(), total=len(dataset)):
+        rel = row['Relation']
+        A = row['A']
+        B = row['B']
+        C = row['C']
+        D = row['D']
+        D_prime = row["D'"]
 
-        # TO DO: Check if this 'response' return is similar structure to gpt3 for consistency
-        first_token_ind = np.where(np.array(response['choices'][0]['logprobs']['text_offset']) <= len(prompt))[0][-1]
-        return np.mean(response['choices'][0]['logprobs']['token_logprobs'][first_token_ind:])
+        inference(model, rel, A, B, C, D, D_prime, prompt_template, results, args.task)
 
-    def evaluate_all(self):
-        """Evaluate all analogy problems and save results."""
-        for p in range(len(self.A)):
-            print(f"{p + 1} of {len(self.A)}...")
-            self.evaluate_problem(p)
-            np.savez(self.results_path,
-                     synonym=self.all_synonym_correct_pred,
-                     opposite=self.all_opposite_correct_pred,
-                     function=self.all_function_correct_pred,
-                     category=self.all_category_correct_pred,
-                     context=self.context,
-                     prob_order=self.prob_order,
-                     allow_pickle=True)
-            
+    # Check if results directory exists, if not, create it
+    results_directory = './results'
+    if not os.path.exists(results_directory):
+        os.makedirs(results_directory)
+    # Save results to csv
+    prompt_format = args.prompt.split('.')[0]
+    pd.DataFrame(results).to_csv(f'./results/verbal_analogies_logits_{args.model}_{prompt_format}.csv')
+
 
 def main():
     args = parse_option()
     print(args)
 
-    if args.task == 'verbal_analogies':
-        evaluator = VerbalAnalogyEvaluator('datasets/verbal_analogy/UCLA_VAT.xlsx', './UCLA_VAT_results.npz')
-        evaluator.evaluate_all()
+    if args.task == 'verbal_analogy':
+        evaluate_verbal_analogies(args)
+    # TODO: implement other tasks
 
-# Example usage to fix once the model is implemented:
+
 if __name__ == "__main__":
     main()
