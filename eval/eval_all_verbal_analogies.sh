@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#SBATCH --partition=gpu
+#SBATCH --partition=gpu_vis
 #SBATCH --gpus=1
 #SBATCH --job-name=EvalVerbalAnalogies_mistral7b
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=18
 #SBATCH --time=04:00:00
-#SBATCH --output=eval_llama3_story_analogies_two_stage_%A.out
+#SBATCH --output=eval_verbal_analogies_basic_no_%A.out
 
 module purge
 module load 2022
