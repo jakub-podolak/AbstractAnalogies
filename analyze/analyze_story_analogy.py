@@ -7,10 +7,9 @@ def calculate_accuracy(results_file):
 
     print(results_file, 'numer of ambiguous', (results_df['ambiguous'] == True).sum())
 
-    # Treat the ambigous ones as wrong ones
-    # Calculate the number of correct predictions
-    correct_predictions = ((results_df['parsed_answer'] == results_df['correct_answer']) &\
-                           (results_df['ambiguous'] == False)).sum()
+    # Treat the None ones as wrong ones
+    # Ambiguous know mean that we need two stages of retrieval: that is still fine
+    correct_predictions = ((results_df['parsed_answer'] == results_df['correct_answer'])).sum()
     
     # Calculate the total number of predictions
     total_predictions = len(results_df)
