@@ -10,13 +10,10 @@ import re
 
 # Automatically determine the correct path to the AbstractAnalogies directory
 
-# get base directory
-# base_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# home_directory = os.path.expanduser('~')  # Gets the home directory
-abstract_analogies_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.append(abstract_analogies_path)
-
-print(sys.path)
+root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+print(f"Root directory: {root_dir}")
+sys.path.insert(0, root_dir)
+print(f"sys.path: {sys.path}")
 
 from models.llama3 import LLama3
 from models.mistral7b import Mistral7B
@@ -37,7 +34,7 @@ def parse_option():
         "--task", type=str, default="verbal_analogy"
     )
     parser.add_argument(
-        "--prompt", type=str, default="3_cot/1.txt"
+        "--prompt", type=str, default="prompt_templates/verbal_analogies/3_cot/1.txt"
     )
     args = parser.parse_args()
     return args
@@ -103,10 +100,10 @@ def evaluate_verbal_analogies(args):
     # TODO: add passing config to model class init
     model = model_class()
 
-    dataset = pd.read_csv('datasets/verbal_analogy/UCLA_VAT.csv')
+    dataset = pd.read_csv('datasets/verbal_analogies/UCLA_VAT.csv')
     
     # read prompt_templates/story_analogies/basic_prompt.txt
-    with open(f'prompt_templates/verbal_analogy/{args.prompt}', 'r', encoding='utf-8') as file:
+    with open(f'{args.prompt}', 'r', encoding='utf-8') as file:
         prompt_template = file.read()
     print(prompt_template)
 
