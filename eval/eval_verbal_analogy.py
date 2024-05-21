@@ -9,8 +9,11 @@ from tqdm import tqdm
 import re
 
 # Automatically determine the correct path to the AbstractAnalogies directory
-home_directory = os.path.expanduser('~')  # Gets the home directory
-abstract_analogies_path = os.path.join(home_directory, 'AbstractAnalogies')
+
+# get base directory
+# base_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# home_directory = os.path.expanduser('~')  # Gets the home directory
+abstract_analogies_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(abstract_analogies_path)
 
 print(sys.path)
@@ -34,14 +37,14 @@ def parse_option():
         "--task", type=str, default="verbal_analogy"
     )
     parser.add_argument(
-        "--prompt", type=str, default="basic_prompt.txt"
+        "--prompt", type=str, default="3_cot/1.txt"
     )
     args = parser.parse_args()
     return args
 
 def parse_model_generation(generation: str):
     # 1. Try finding <ans> </ans> tags
-    pattern = r"<ans>(.*?)</ans>"
+    pattern = r"<ans>\s*([A-Z])[^<]*</ans>"
 
     # Find all matches
     matches = re.findall(pattern, generation)
@@ -51,19 +54,35 @@ def parse_model_generation(generation: str):
     # 2. Default to None if answer not found
     return None
 
+def parse_extended_model_generation(extended_prompt, generation: str):
+    extended_prompt = extended_prompt
+    # 1. Try finding <ans> </ans> tags
+    # pattern = r"<ans>(.*?)</ans>"
+    pattern = r"<ans>\s*([A-Z])\s*</ans>"
+
+    # Find all matches
+    matches = re.findall(pattern, generation)
+    if len(matches) == 1 and (matches[0].strip() == 'D' or matches[0].strip() == 'E'):
+        return matches[0].strip()
+    # Extract the first character from generation
+    # if len(generation) > 0:
+    #     return generation[0]
+    else:
+        return None
+
 def inference(model, rel, A, B, C, D, D_prime, prompt_template, results, task):
     prompt = prompt_template.format(A=A, B=B, C=C, D=D, D_prime=D_prime)
     generation = model.forward(prompt)
     parsed_answer = parse_model_generation(generation)
 
-    ambiguous = True
+    ambiguous = False
     if parsed_answer == None:
-        logit_D, logit_D_prime = model.forward_logits(prompt + ' So the final answer is <ans> ', task)
-        parsed_answer = 'D' if logit_D > logit_D_prime else 'D_prime'
-    else:
-        ambiguous = False
-        logit_D = None
-        logit_D_prime = None
+        ambiguous = True
+        # extended_prompt = prompt + "\n" + generation + "\n So the final answer as a single letter is <ans> "
+        extended_prompt = prompt + "\n" + generation + "\n So the final answer in single letter is (return just <ans> D </ans> or <ans> E </ans>): "
+
+        new_generation = model.forward(extended_prompt)
+        parsed_answer = parse_extended_model_generation(extended_prompt, new_generation)
 
     results.append({
         'relation': rel,
@@ -72,12 +91,9 @@ def inference(model, rel, A, B, C, D, D_prime, prompt_template, results, task):
         'C': C,
         'D': D,
         "D'": D_prime,
-        'full_prompt': prompt,
         'raw_generation': generation,
+        'new_generation': new_generation if ambiguous else None,
         'parsed_answer': parsed_answer,
-        'ambiguous': ambiguous,
-        'logit_D': logit_D,
-        "logit_D'": logit_D_prime
     })
 
 
@@ -109,9 +125,23 @@ def evaluate_verbal_analogies(args):
     results_directory = './results'
     if not os.path.exists(results_directory):
         os.makedirs(results_directory)
+
+
+    verbal_results_directory = os.path.join(results_directory, 'verbal_analogies')
+    if not os.path.exists(verbal_results_directory):
+        os.makedirs(verbal_results_directory)
+
     # Save results to csv
     prompt_format = args.prompt.split('.')[0]
-    pd.DataFrame(results).to_csv(f'./results/verbal_analogies_logits_{args.model}_{prompt_format}.csv')
+    # create ddf of resutts and save results to csv
+    fname_from_prompt = prompt_format.split("/")
+    file_prefix = '_'.join(fname_from_prompt)
+    csv_file = os.path.join(verbal_results_directory, f'verbal_analogies_{args.model}_{file_prefix}.csv')
+    # Delete the file if it already exists
+    if os.path.exists(csv_file):
+        os.remove(csv_file)
+    df = pd.DataFrame(results)
+    df.to_csv(csv_file, index=False)
 
 
 def main():

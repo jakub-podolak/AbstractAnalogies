@@ -1,6 +1,6 @@
-#Instruction:
-You will be presented with one analogy and two potential completions. 
-Your task is to determine which of the completions, D or E, correctly completes the analogy. 
+# Instruction:
+You will be presented with one analogy and two potential completions.
+Your task is to determine which of the completions, D or E, correctly completes the analogy.
 Only one answer is correct.
 
 The notation "A : B :: C : D" should be read as "A is to B like C is to D".
@@ -18,5 +18,6 @@ or
 
 E: {D_prime}
 
-#Answer
+# Answer:
 Final answer should be in tags: <ans> D </ans> or <ans> E </ans>
+Return only the final answer
