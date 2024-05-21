@@ -1,0 +1,762 @@
+relation,A,B,C,D,D',raw_generation,new_generation,parsed_answer
+Synonym,easy,simple,sad,unhappy,happy,"The analogy ""easy : simple :: sad : ?"" is saying that ""easy"" is to ""simple"" in the same way that ""sad"" is to something.
+
+We know that ""easy"" is related to ""simple"" as ""simpler"" or ""less complex."" So we need to find the term that is related to ""sad"" as ""less sad"" or ""happier.""
+
+Therefore, the answer is:
+
+<ans> D: unhappy </ans>
+
+is incorrect.
+
+The correct answer is:
+
+<ans> E: happy </ans>
+
+So, ""easy"" is to ""simple"" as ""sad"" is to ""happy.""</s>",<ans> E </ans></s>,E
+Synonym,hurry,rush,harm,injure,help,"The analogy ""hurry : rush :: harm : ?"" is saying that ""hurry is to rush"" and ""harm is to?"" are similar relationships.
+
+The relationship between ""hurry"" and ""rush"" is that of cause and effect. Hurrying causes the state of rushing.
+
+The relationship between ""harm"" and ""?"" should have a similar cause-and-effect relationship.
+
+The options provided are:
+
+D: injure
+E: help
+
+Let's consider each option:
+
+Option D: ""harm : injure""
+The relationship between ""harm"" and ""injure"" is that of cause and effect. Harming causes the state of injuring.
+
+Option E: ""harm : help""
+The relationship between ""harm"" and ""help"" is not a cause-and-effect relationship. Harming does not cause helping, and helping does not cause harming.
+
+Therefore, the correct completion for the analogy is:
+
+<ans> D </ans>
+
+So the final analogy should read:
+
+hurry : rush :: harm : injure</s>",,D
+Synonym,rob,steal,cry,weep,laugh,"The analogy ""rob : steal :: cry :?"" is comparing the relationship between the verb in the first pair (rob and steal) to the verb in the second pair (cry and ?).
+
+The first pair, ""rob : steal,"" is an analogy for taking something unlawfully or by force. The second pair, ""cry : ?"" should have a similar meaning but related to emotions.
+
+The options provided are:
+
+D: weep
+E: laugh
+
+The correct answer is D: weep.
+
+The reason is that both ""rob"" and ""cry"" involve an expression or release of emotions. ""Rob"" is an action that can be associated with negative emotions like anger, fear, or sadness. Similarly, ""cry"" is an action that is often associated with expressing sadness or other intense emotions. Therefore, the correct completion for the analogy is ""weep,"" as it is a synonym for crying and expressing emotions.
+
+<ans> D </ans></s>",,D
+Synonym,polite,courteous,angry,furious,happy,"The analogy ""polite : courteous :: angry :?"" is comparing two pairs of related concepts. The first pair, ""polite"" and ""courteous,"" are both related to manners and social behavior. The second pair, ""angry"" and ""?,"" are related to emotions.
+
+To complete the analogy, we need to find an emotion that is related to anger in the same way that courteous is related to polite. The emotion that fits this description is ""furious.""
+
+Therefore, the final answer is: <ans> D </ans>
+
+Explanation:
+The analogy is saying that polite is to courteous as angry is to furious. Polite and courteous are both related to manners and social behavior, and furious is an intense form of anger. Therefore, the correct completion is D: furious.</s>",,D
+Synonym,beginner,novice,doctor,physician,heal,"In this analogy, ""beginner"" and ""novice"" are related concepts, with ""beginner"" being a broader term that includes the concept of ""novice"". Similarly, ""doctor"" and ""physician"" are related concepts, with ""doctor"" being a broader term that includes the concept of ""physician"". Therefore, the correct completion is:
+
+<ans> D: physician </ans>
+
+Explanation:
+The analogy is saying that a beginner is to a novice as a doctor is to a physician. Since a doctor is a type of physician, the correct completion is ""physician"".</s>",,D
+Synonym,baby,infant,woman,lady,girl,"The analogy ""baby : infant :: woman : ?"" is comparing two pairs of related concepts. The first pair, ""baby"" and ""infant,"" are related in that a baby is a younger form of an infant. The second pair, ""woman"" and ""?,"" should also be related in this way.
+
+The correct completion for the analogy is:
+
+<ans> D: lady </ans>
+
+Explanation:
+A woman is an adult female, and a lady is an adult woman with refined manners and behavior. So, just as a baby is a younger form of an infant, a woman is a younger form of a lady.</s>",,D
+Synonym,brook,stream,courage,bravery,cowardice,"The analogy ""brook : stream :: courage :?"" suggests that a brook is to a stream as courage is to something. In other words, a brook is a part of a larger stream, and courage is related to a certain quality or state.
+
+The options provided are:
+
+D: bravery
+E: cowardice
+
+Given the context of the analogy, the correct answer is:
+
+<ans> D: bravery </ans>
+
+Explanation:
+The analogy suggests that courage is related to a certain quality or state, and the options provided are two common qualities associated with courage. However, the analogy itself implies that courage is a positive trait, as a brook is a positive part of a larger stream. Therefore, the correct answer is bravery, which is another positive trait associated with courage. Cowardice, on the other hand, is the opposite of courage, and would not fit the analogy.</s>",,D
+Synonym,huge,enormous,wealthy,rich,poor,"The analogy ""huge : enormous :: wealthy : ?"" is saying that ""huge"" is to ""enormous"" in the same way that ""wealthy"" is to something.
+
+We know that ""huge"" means very large and ""enormous"" means extremely large. So we need to find a term that, when paired with ""wealthy,"" creates an analogy where ""wealthy"" is to that term in the same way that ""huge"" is to ""enormous.""
+
+The answer is ""rich."" Just as ""huge"" is to ""enormous,"" ""wealthy"" is to ""rich."" Both pairs describe degrees of size and degree of wealth, respectively.
+
+Therefore, the answer is: <ans> D </ans>
+
+Alternatively, if we were given the incorrect completion ""E: poor,"" the analogy would not be correct because ""poor"" is not the opposite of ""wealthy"" in the same way that ""enormous"" is the opposite of ""huge."" ""Poor"" is the opposite of ""wealthy"" in terms of having less wealth, but the analogy requires a term that is analogous to ""enormous"" in relation to ""huge,"" which is ""rich.""</s>",,D
+Synonym,cheerful,happy,awful,horrible,wonderful,"The analogy ""cheerful : happy :: awful : ?"" is saying that ""cheerful"" is to ""happy"" in the same way that ""awful"" is to something.
+
+We know that ""happy"" is a synonym for positive emotions, so ""cheerful"" can also be described as a synonym for happy or a very happy person.
+
+Similarly, we know that ""awful"" is a synonym for something that is very unpleasant or bad.
+
+Therefore, the missing term should be a synonym for something very unpleasant or bad. The correct answer is:
+
+<ans> D: horrible </ans></s>",,D
+Synonym,remain,stay,begin,start,continue,"The analogy ""remain : stay :: begin :?"" suggests that ""remain"" and ""stay"" are related in some way, and that ""begin"" is related to one of the completions (either D or E).
+
+The word ""remain"" means to continue to exist or be present. The word ""stay"" means to remain in a place or continue to do something.
+
+The word ""begin"" means to start or initiate an action.
+
+Based on this analysis, the correct completion for the analogy is:
+
+<ans> D: start </ans>
+
+Explanation:
+The analogy suggests that ""remain"" is to ""stay"" as ""begin"" is to something. Since ""remain"" and ""stay"" both refer to continuing, the correct completion is the opposite of ""remain"" and ""stay"", which is ""start"". Therefore, the answer is D: start.</s>",,D
+Synonym,unusual,strange,famous,renowned,unknown,"The analogy ""unusual : strange :: famous : ?"" is saying that ""unusual is to strange"" and ""famous is to ?"" are similar relationships.
+
+The relationship between ""unusual"" and ""strange"" is that ""unusual"" means not typical or normal, and ""strange"" means unusual or extraordinary in a way that is often unexpected or surprising.
+
+The relationship between ""famous"" and ""renowned"" is that ""famous"" means well-known or recognized by many people, and ""renowned"" means highly respected or admired for a particular quality or achievement.
+
+The relationship between ""unusual"" and ""strange"" is similar to the relationship between ""famous"" and ""renowned"" in that both pairs involve a modification or intensification of the first term in the relationship.
+
+Therefore, the correct completion for the analogy is:
+
+<ans> D: renowned </ans>
+
+This is because ""renowned"" is a term that intensifies or modifies the meaning of ""famous"" in a way that is similar to how ""strange"" modifies or intensifies the meaning of ""unusual"".
+
+The term ""unknown"" does not fit the analogy because it does not modify or intensify the meaning of ""famous"" in the same way that ""strange"" modifies the meaning of ""unusual"". Instead, ""unknown"" is the opposite of ""renowned"" or ""famous"", making it an incorrect completion for the analogy.</s>",,D
+Synonym,sick,ill,little,small,big,"The analogy ""sick : ill :: little : ?"" is saying that ""sick"" and ""ill"" are related in the same way that ""little"" is related to something.
+
+The correct answer is:
+
+<ans> D: small </ans>
+
+Explanation:
+
+The word ""ill"" is a synonym for ""sick,"" meaning that someone who is ill is not feeling well. The word ""little"" means small in size. Therefore, the correct completion is ""small,"" as ""little"" describes something that is of small size.</s>",,D
+Synonym,legal,lawful,usual,normal,strange,"The analogy ""legal : lawful"" means that ""legal"" refers to something that is in accordance with the law, while ""lawful"" means something that is permitted by law.
+
+The analogy ""usual : ?"" should have a similar meaning. ""Usual"" refers to something that is common or regular. Therefore, the missing part should refer to something that is also common or regular.
+
+So, the correct completion is:
+
+<ans> D: normal </ans>
+
+Explanation:
+The word ""normal"" is often used to describe something that is usual or common. Therefore, it fits the analogy.
+
+The word ""strange"" does not fit the analogy because it refers to something that is unusual or abnormal.</s>",,D
+Synonym,collect,gather,leave,abandon,stay,"The analogy ""collect : gather :: leave : ?"" is comparing the relationship between ""collect"" and ""gather"" to the relationship between ""leave"" and the missing term.
+
+The first pair, ""collect"" and ""gather,"" are synonymous and both mean to bring or gather items together.
+
+The second pair, ""leave"" and the missing term, should have a relationship that is analogous to the first pair.
+
+The options provided are ""abandon"" and ""stay.""
+
+Let's consider each option:
+
+Option D: abandon
+When we collect or gather items, we are bringing them together. When we leave, we are moving away from a place or situation. Abandoning something is the opposite of collecting or gathering, as it involves leaving something behind.
+
+Option E: stay
+Staying in a place or situation is not the opposite of collecting or gathering. In fact, one can collect or gather while staying in the same place.
+
+Based on the analysis, the correct completion for the analogy is:
+
+<ans> D </ans>
+
+Therefore, the final answer is:
+
+The correct completion for the analogy ""collect : gather :: leave : ?"" is ""abandon.""</s>",,D
+Synonym,clean,neat,fortunate,lucky,miserable,"The analogy ""clean : neat"" suggests a relationship of orderliness or tidiness. The correct completion for the analogy ""fortunate : ?"" should also convey a sense of good fortune or luck. Therefore, the answer is:
+
+<ans> D: lucky </ans></s>",,D
+Synonym,immense,colossal,precise,exact,approximate,"The analogy ""immense : colossal :: precise : ? "" suggests a comparison between two pairs of concepts. The first pair, ""immense"" and ""colossal,"" refers to something very large or extensive. The second pair, ""precise"" and ""?"" should refer to something related to accuracy or detail.
+
+Given the context, the correct completion for the analogy would be:
+
+<ans> D: exact </ans>
+
+Explanation:
+The term ""precise"" implies a high degree of accuracy or exactness. Therefore, the correct completion for the analogy would be ""exact."" The term ""approximate"" would not fit the analogy as it implies a lack of precision or accuracy.</s>",,D
+Synonym,stone,rock,garbage,trash,bag,"In this analogy, ""stone : rock"" is a well-known analogy where a stone is a specific type of rock. Therefore, the missing part should complete the relationship between ""garbage"" and the other term.
+
+Given the options, ""trash"" is a more accurate completion as it is a common term for the waste material that ""garbage"" represents.
+
+<ans> D </ans></s>",,D
+Synonym,help,aid,raise,lift,lower,"The analogy ""help : aid"" means that help is to aid, in the sense that help is a synonym or a means of providing aid.
+
+The analogy ""raise : ?"" requires us to find a term that completes the analogy in the same way that ""aid"" completes the first analogy.
+
+The term ""lift"" is a synonym or a means of providing help or aid, especially when referring to raising an object. Therefore, the correct completion is:
+
+<ans> D </ans>
+
+The term ""lower"" does not complete the analogy correctly.</s>",,D
+Synonym,rug,carpet,bucket,pail,milk,"The analogy ""rug : carpet"" suggests a relationship of a specific type of object being a part of or used with another type of object. In this case, a rug is a type of floor covering, and carpet is also a type of floor covering.
+
+The second part of the analogy, ""bucket : ?"", suggests that a bucket is being compared to something else. However, the given options do not seem to fit the analogy.
+
+Option D, ""pail,"" is not a good fit for the analogy as a pail is a type of container, not a floor covering like a rug or carpet.
+
+Option E, ""milk,"" does not make sense in the context of the analogy as milk is a liquid and not a type of container or floor covering.
+
+Therefore, the answer is <ans> D: pail </ans> is incorrect.
+
+Without more context, it is impossible to determine the correct completion for the analogy. The given options do not fit the analogy, and the analogy itself may not have a clear or definitive answer.</s>",,D
+Synonym,shout,yell,leap,jump,fall,"The analogy ""shout : yell :: leap :?"" is comparing two pairs of related actions. ""Shout"" and ""yell"" are both ways of making loud sounds, while ""leap"" and the missing term are both types of movements.
+
+The correct answer is:
+
+<ans> D: jump </ans>
+
+Explanation:
+
+""Jump"" is a common action that goes well with ""leap."" Both ""shout"" and ""yell"" are ways to make loud sounds, and ""leap"" and ""jump"" are both types of movements. Therefore, the correct completion is ""jump.""</s>",,D
+Opposite,artificial,natural,friend,enemy,relative,"In this analogy, ""artificial"" and ""natural"" are contrasting concepts. Artificial refers to something made by humans, while natural refers to something that exists in nature.
+
+The second pair of concepts, ""friend"" and ""?"", should also be contrasting. A friend is someone who is supportive and helpful, while the question mark represents an unknown concept.
+
+Based on this analysis, the correct completion is:
+
+<ans> D: enemy </ans>
+
+Explanations:
+
+Option D, ""enemy"", is a contrasting concept to ""friend"". An enemy is someone who is hostile or opposing, while a friend is someone who is supportive and helpful.
+
+Option E, ""relative"", is not a contrasting concept to ""friend"". A relative is someone who is related by blood or marriage, while a friend is someone who is supportive and helpful. While there can be friendly relatives and unfriendly relatives, the relationship between a friend and a relative is not necessarily contrasting.</s>",,D
+Opposite,love,hate,rich,poor,wealthy,"The analogy ""love : hate :: rich :?"" is comparing two pairs of concepts. The first pair, ""love : hate,"" is an emotional contrast, with love being a positive emotion and hate being a negative one. The second pair, ""rich : ?,"" is a contrast in financial terms.
+
+The correct completion for the analogy would be one that maintains the contrast in financial terms. Therefore, the answer is:
+
+<ans> D: poor </ans>
+
+Explanation:
+The contrast between ""rich"" and ""poor"" maintains the emotional contrast between ""love"" and ""hate"" while also maintaining the financial contrast. ""Love"" is a positive emotion, and ""hate"" is a negative one. Similarly, ""rich"" represents a positive financial situation, and ""poor"" represents a negative financial situation.</s>",,D
+Opposite,alive,dead,succeed,fail,conquer,"In this analogy, ""alive : dead"" represents a contrast between two states, where ""alive"" is the active, living state, and ""dead"" is the inactive, non-living state.
+
+The second part of the analogy, ""succeed : ?"", also represents a contrast between two states, where ""succeed"" is the desired outcome or achievement, and the question mark represents the unknown state.
+
+To complete the analogy, we need to find the state that corresponds to ""dead"" in the second part. The correct answer is:
+
+<ans> D: fail </ans>
+
+Explanation:
+The analogy is saying that just as ""dead"" is the opposite of ""alive"", ""fail"" is the opposite of ""succeed"". In other words, ""fail"" represents the state where an outcome is not achieved, just as ""dead"" represents the state where something is not alive.</s>",,D
+Opposite,ugliness,beauty,joy,sorrow,emotion,"In this analogy, ""ugliness"" is compared to ""beauty"" using the colon and the double colon. The first colon indicates that ugliness and beauty are related in some way. The second colon indicates that joy and the missing term are also related in the same way that ugliness and beauty are.
+
+The given options are D: sorrow and E: emotion.
+
+To determine which one is the correct completion, we need to consider how ""sorrow"" and ""emotion"" relate to ""ugliness"" and ""beauty"" respectively.
+
+""Ugliness"" is the opposite of ""beauty,"" so we are looking for a term that is the opposite of ""joy."" ""Sorrow"" is a feeling of sadness or misery, which is often considered the opposite of ""joy."" Therefore, the correct completion is:
+
+<ans> D </ans>
+
+So the final analogy would be: ""ugliness : beauty :: joy : sorrow"".</s>",,D
+Opposite,huge,tiny,arrive,depart,come,"The analogy ""huge : tiny :: arrive :?"" is comparing two pairs of concepts. The first pair, ""huge : tiny,"" is a size comparison. The second pair, ""arrive :?,"" is a temporal concept.
+
+To correctly complete the analogy, we need to find a temporal concept that is related to ""arrive"" in the same way that ""tiny"" is related to ""huge.""
+
+The answer is D: depart.
+
+Explanation:
+The size comparison ""huge : tiny"" can be completed with the temporal comparison ""depart : arrive."" Just as ""tiny"" is the opposite or inverse of ""huge"" in terms of size, ""depart"" is the opposite or inverse of ""arrive"" in terms of time. When something arrives, it has come to a destination. When it departs, it is leaving that destination.
+
+Therefore, the correct completion is D: depart.
+
+<ans> D </ans></s>",,D
+Opposite,somber,cheerful,lawyer,client,doctor,"In this analogy, ""somber"" and ""cheerful"" are contrasting emotions. ""Lawyer"" is a profession. We need to find a profession that contrasts with ""lawyer"" in the same way that ""cheerful"" contrasts with ""somber"".
+
+The answer is:
+
+<ans> D: client </ans>
+
+Explanation:
+
+Just as ""cheerful"" is the opposite emotion to ""somber"", ""client"" is the opposite role to ""lawyer"" in a legal context. While a lawyer represents and advocates for a client in court, a client is the person who hires and relies on the lawyer for legal advice and representation. The relationship between a lawyer and a client is essential to the legal system, but it is fundamentally different from the role of a lawyer.</s>",,D
+Opposite,late,early,win,lose,capture,"In this analogy, ""late"" is compared to ""early"" using the colon, and then ""win"" is compared to the question mark using the same relationship. The relationship between ""late"" and ""early"" is one of opposition or contrast, where ""late"" comes after ""early"" in time. Similarly, the relationship between ""win"" and the missing term should also represent opposition or contrast.
+
+The options provided, ""lose"" and ""capture,"" do not directly represent opposition or contrast to ""win."" ""Lose"" is the opposite of ""win"" in the sense of a competition, but it does not contrast with ""win"" in the same way that ""late"" contrasts with ""early."" ""Capture,"" on the other hand, is not an opposite or contrast to ""win"" in the same way.
+
+Therefore, the correct answer is:
+
+<ans> D: lose </ans>
+
+is incorrect.
+
+The correct answer is:
+
+<ans> E: defeat </ans>
+
+Explanation: ""Defeat"" is the opposite of ""win"" in the sense of a competition, and it contrasts with ""win"" in the same way that ""late"" contrasts with ""early."" However, since the provided options were ""lose"" and ""capture,"" the answer key incorrectly lists ""lose"" as the answer.</s>","<ans> E </ans>
+
+Explanation: The correct answer is ""E: defeat"" as explained above. However, the provided options were ""lose"" and ""capture,"" so the answer key incorrectly lists ""D: lose"" as the answer.</s>",E
+Opposite,quick,slow,grow,wither,plant,"The analogy ""quick : slow :: grow :?"" is comparing two pairs of concepts. The first pair, ""quick : slow,"" is about speed. The second pair, ""grow :?,"" is about a process that can make something bigger or develop over time.
+
+The correct answer is D: wither.
+
+Explanation:
+The process of growing makes something bigger or develops it over time, while the process of withering makes something smaller or causes it to deteriorate. The analogy is complete when we say that quick is to slow as grow is to wither.</s>",<ans> D </ans></s>,D
+Opposite,antonym,synonym,selfish,generous,egocentric,"Antonym and synonym are opposite meanings of the same word. In the case of the analogy provided, we are looking for a term that is the opposite of ""selfish"" in the same way that the opposite of a synonym is a synonym itself.
+
+The term ""generous"" fits this description perfectly, as it is the opposite of ""selfish"" in terms of character traits. Therefore, the correct completion is:
+
+<ans> D: generous </ans></s>",,D
+Opposite,quiet,noisy,last,first,final,"In the given analogy, ""quiet"" is compared to ""noisy"" using the colon and the double colon. This implies that just as ""quiet"" is to ""noisy"", the second pair of terms, ""last"" and the missing term, should also have a similar relationship.
+
+The options provided are ""first"" and ""final"". Let's consider each one:
+
+Option D: ""first""
+If ""last"" were to be completed with ""first"", it would mean that ""last"" is the opposite of ""first"" in the same way that ""quiet"" is the opposite of ""noisy"". However, ""last"" and ""first"" are not opposites.
+
+Option E: ""final""
+On the other hand, if ""last"" were to be completed with ""final"", it would mean that ""last"" is the end of a sequence, just as ""quiet"" is the end of a noisy period. This is a valid analogy.
+
+Therefore, the correct completion is:
+<ans> E </ans>
+
+So, the completed analogy is:
+quiet : noisy :: last : final.</s>",,E
+Opposite,start,stop,trivial,important,famous,"In this analogy, ""start"" and ""stop"" are related concepts in the domain of actions or processes. ""Trivial"" and the missing term are related concepts in the domain of importance or significance.
+
+The correct completion would be one that preserves the relationship between the original terms. In this case, ""trivial"" is often used to describe something that is unimportant or insignificant. Therefore, the missing term should also be related to unimportance or insignificance.
+
+So, the answer is:
+
+<ans> D: important </ans>
+
+Explanation:
+The analogy ""start : stop :: trivial : important"" suggests that ""trivial"" is the opposite of ""important"" in the same way that ""stop"" is the opposite of ""start"". This is because ""start"" and ""stop"" are related to the beginning and end of a process, respectively, while ""trivial"" and ""important"" are related to the significance or importance of something.</s>",,D
+Opposite,laugh,cry,cheap,expensive,inexpensive,"The analogy ""laugh : cry :: cheap : ?"" is suggesting a parallel relationship between the pairs ""laugh : cry"" and ""cheap : ?"". The first pair ""laugh : cry"" implies an emotional contrast, where laughing is a positive emotion and crying is a negative one.
+
+The second pair ""cheap : ?"" should have a similar contrasting relationship with ""expensive"". Therefore, the answer is:
+
+<ans> D: expensive </ans>
+
+So, ""cheap"" is to ""inexpensive"" as ""laugh"" is to ""cry"" but the question asks for the opposite of ""expensive"" to complete the analogy.</s>",,D
+Opposite,accept,reject,dark,bright,dim,"The analogy ""accept : reject :: dark : ? "" is saying that ""accept"" is to ""reject"" as ""dark"" is to the missing term.
+
+We know that ""accept"" is the opposite of ""reject,"" so we need to find a term that is the opposite of ""dark."" The term that fits this description is ""bright"" or ""light.""
+
+Therefore, the correct completion is:
+
+<ans> D: bright </ans>
+
+Explanation:
+The analogy is saying that ""accept"" is to ""reject"" as ""dark"" is to ""bright."" Accept and reject are opposites, and dark and bright are opposites as well. Therefore, the correct completion is ""bright.""</s>",,D
+Opposite,abundant,scarce,agree,disagree,concur,"The analogy ""abundant : scarce :: agree :?"" is comparing two pairs of concepts. The first pair, ""abundant : scarce,"" is a well-known analogy where ""abundant"" represents a large amount or surplus, while ""scarce"" represents a small amount or deficiency.
+
+The second pair, ""agree : ?,"" needs to be completed in a way that makes the analogy consistent. Let's consider both options:
+
+Option D: agree : disagree
+
+Option E: agree : concur
+
+The correct answer is:
+
+<ans> D </ans>
+
+Explanation:
+
+The analogy requires that ""agree"" be paired with a concept that is the opposite of ""abundant"" or ""scarce,"" depending on the position in the analogy. Since ""abundant"" is compared to ""scarce,"" the opposite of ""agree"" should be ""disagree."" Therefore, the correct completion is ""agree : disagree.""
+
+Option E, ""agree : concur,"" is not the correct completion because ""concur"" means to agree or approve, which is similar to ""agree,"" not the opposite.</s>",,D
+Opposite,hero,coward,strong,weak,muscular,"The analogy ""hero : coward :: strong : ?"" means that a hero is to a coward as a strong person is to something. In this context, the correct completion is:
+
+<ans> D: weak </ans>
+
+Explanation: A hero is someone who is brave and courageous, while a coward is someone who lacks courage. Similarly, a strong person is someone who is physically or mentally robust, while someone who is weak lacks this robustness. Therefore, the correct completion is ""weak"".</s>",,D
+Opposite,teacher,student,calm,stormy,serene,"The analogy ""teacher : student :: calm : ?"" is suggesting a relationship between two pairs. The first pair, ""teacher : student,"" describes a relationship where the teacher is the giver of knowledge and the student is the receiver. The second pair, ""calm : ?,"" is suggesting a comparison between two states or qualities.
+
+To complete the analogy, we need to find the quality that is related to ""calm"" in the same way that ""student"" is related to ""teacher.""
+
+The answer is:
+
+<ans> D: stormy </ans>
+
+Explanation:
+
+The relationship between ""teacher"" and ""student"" is one of instruction and learning. In the same way, the relationship between ""calm"" and ""stormy"" is one of tranquility and turbulence. Therefore, the correct completion is ""stormy.""</s>",,D
+Opposite,give,take,allow,forbid,permit,"The analogy ""give : take :: allow : ?"" suggests that ""give"" and ""allow"" are related in the same way that ""take"" and ""?"" are related.
+
+""Give"" means to transfer something to someone, while ""take"" means to receive something from someone. Therefore, the missing term should be something that is the opposite of ""allow,"" which is ""forbid.""
+
+So, the correct answer is:
+
+<ans> D </ans>
+
+Therefore, the completed analogy should read: ""give : take :: allow : forbid.""</s>",,D
+Opposite,clean,dirty,awake,asleep,alert,"The analogy ""clean : dirty :: awake :?"" is comparing two pairs of concepts. The first pair, ""clean : dirty,"" describes a state of being free from dirt or impurities. The second pair, ""awake : ?,"" describes a state of consciousness or being alert.
+
+The correct completion for the analogy is:
+
+<ans> D: asleep </ans>
+
+The reason is that ""asleep"" is the opposite state of being awake, just as ""dirty"" is the opposite state of being clean.</s>",,D
+Opposite,remember,forget,increase,decrease,lengthen,"The analogy ""remember : forget :: increase :?"" is comparing two pairs of concepts. The first pair, ""remember"" and ""forget,"" are opposites in the context of memory. The second pair, ""increase"" and ""?,"" are also intended to be opposites, but we need to determine what concept fits as the opposite of ""increase.""
+
+The given options are ""decrease"" and ""lengthen."" Let's consider each option:
+
+Option D: decrease
+Decrease is the opposite of increase in terms of numerical or quantitative change. So, if we remember something, we are not forgetting it, and if we increase something, we are not decreasing it.
+
+Option E: lengthen
+Lengthening is not the opposite of increasing. Instead, it is a related concept, as both involve making something larger. However, decreasing is the opposite of increasing.
+
+Therefore, the correct answer is:
+<ans> D </ans></s>",,D
+Opposite,crazy,sane,bent,straight,crooked,"The analogy ""crazy : sane :: bent : ?"" is saying that ""crazy"" is to ""sane"" in the same way that ""bent"" is to something.
+
+The correct completion is ""straight"". So, the analogy should read ""crazy : sane :: bent : straight"".
+
+Therefore, the answer is: <ans> D </ans>
+
+Explanation:
+
+The analogy is comparing two pairs of opposites: crazy/sane and bent/straight. The first pair is about mental states, while the second pair is about physical states. The analogy is saying that just as crazy is the opposite of sane, bent is the opposite of straight.</s>",,D
+Function,fly,bird,hop,rabbit,leg,"The analogy ""fly : bird :: hop :?"" suggests that ""fly"" and ""bird"" are related in some way, and that ""hop"" and the missing term are also related. The relationship between ""fly"" and ""bird"" is that a fly is a type of bird. Therefore, the missing term should be something that is related to ""hop"" in the same way that ""rabbit"" is related to ""bird"".
+
+The answer is:
+<ans> D: rabbit </ans>
+
+Explanation:
+The correct completion is ""rabbit"" because, just as a fly is a type of bird, a rabbit is a type of animal that hops.</s>",,D
+Function,build,house,dig,hole,shovel,"The analogy ""build : house :: dig :?"" is saying that ""build"" is to ""house"" in the same way that ""dig"" is to something.
+
+A house is the result of building, so the missing part should be something that is the result of digging. Therefore, the answer is:
+
+<ans> D </ans>
+
+So, ""dig : hole"" is a correct analogy.</s>",,D
+Function,sing,song,ride,horse,rider,"In the given analogy, ""sing : song"" means that singing is an activity that produces a song. Similarly, ""ride : ?"" should mean that riding is an activity that produces something. Therefore, the correct answer is:
+
+<ans> D: horse </ans>
+
+Explanation:
+The correct completion should be something that is produced or results from the activity of riding. A horse is an object that can be ridden, and it is a common and natural completion for this analogy.
+
+Alternatively, ""rider"" could be considered as a valid completion, but it is less common and less direct in completing the analogy. The analogy is asking for what is produced or results from the activity of riding, and a horse is the more direct and natural answer.</s>",,D
+Function,hear,ear,wear,clothes,woman,"The analogy ""hear : ear :: wear :?"" is suggesting a relationship between an action and the body part that facilitates that action.
+
+The first pair, ""hear : ear,"" is clear: hearing is an action, and the ear is the body part that facilitates hearing.
+
+The second pair, ""wear : ?"" is asking for the body part or object that facilitates the action of wearing.
+
+The answer is D: clothes. Clothes are the objects that we wear.
+
+<ans> D </ans></s>",,D
+Function,drive,car,burn,wood,fire,"The analogy ""drive : car :: burn :?"" is saying that ""drive"" is to ""car"" in the same way that ""burn"" is to something.
+
+A car is something that is driven. So, the missing part should be something that is burned.
+
+Therefore, the answer is:
+
+<ans> E: fire </ans>
+
+Explanation:
+The correct completion is ""fire"" because ""burn"" is an action that is typically associated with fire. So, the analogy is complete as ""drive : car :: burn : fire"".</s>",,E
+Function,open,door,touch,hands,doctor,"In the given analogy, ""open : door"" is a relationship where opening refers to the action of making something accessible or revealing its contents. Similarly, ""touch : ?"" is a relationship where touch refers to the action of making contact with something.
+
+The correct completion for the analogy would be something that can make contact with a door or a similar object. Therefore, the answer is:
+
+<ans> D: hands </ans>
+
+Explanation: Hands are commonly used to touch and open doors.</s>",,D
+Function,squeeze,juice,shoot,gun,miss,"In the given analogy, ""squeeze : juice"" is compared to ""shoot : ?"". The first part of the analogy, ""squeeze : juice"", means that you perform an action (squeeze) to obtain a result (juice).
+
+The second part of the analogy, ""shoot : ?"", suggests that an action (shoot) is being compared to something that results in a certain outcome.
+
+The options provided, D: gun and E: miss, can be analyzed as follows:
+
+Option D: gun
+A gun is an object used to perform the action of shooting. Therefore, it can be considered a correct completion for the analogy as it completes the meaning of the second part, ""shoot : X"", where X is the object or result of the action.
+
+Option E: miss
+A miss is an outcome or result of an action, specifically a failed attempt to shoot a target. While it is related to the concept of shooting, it does not complete the analogy in the same way that ""gun"" does.
+
+Based on the analysis, the correct completion for the analogy is:
+
+<ans> D </ans>
+
+Therefore, the final answer is:
+
+squeeze : juice :: shoot : gun</s>",,D
+Function,cut,knife,hit,hammer,nail,"In the given analogy, ""cut"" is related to ""knife"" in the same way that ""hit"" is related to ""?"". The relationship between ""cut"" and ""knife"" is that of an action and the tool that performs that action.
+
+Similarly, ""hit"" is an action, and we need to find the tool or instrument that is used to perform that action. The correct answer is:
+
+<ans> D: hammer </ans>
+
+Explanation: A hammer is an instrument used to deliver a blow or impact, making it the tool that corresponds to the action ""hit"" in the analogy.</s>",,D
+Function,throw,ball,open,envelope,close,"The analogy ""throw : ball :: open : ?"" suggests that ""throw"" and ""open"" are related in some way, and ""ball"" and ""envelope"" or ""close"" are related in the same way.
+
+The verb ""throw"" implies an action of propelling an object through the air. The noun ""ball"" is an object that can be thrown.
+
+The verb ""open"" implies an action of making something accessible or revealing its contents. The noun ""envelope"" is an object that can be opened to reveal its contents.
+
+Therefore, the correct completion is D: envelope. The analogy can be read as ""throwing a ball is like opening an envelope."" Both actions involve propelling or revealing something.
+
+<ans> D </ans></s>",,D
+Function,read,magazine,play,football,kids,"In this analogy, ""read"" is an activity that one can do with a ""magazine."" ""Play"" is also an activity, so we need to find something that can be done with, or is related to, in the same way that a magazine is related to reading.
+
+The correct answer is:
+<ans> D: football </ans>
+
+Explanation:
+Just as one can read a magazine, one can also play a game, such as football. In both cases, there is an activity (reading or playing) that is being engaged in, and there is a medium or object (magazine or football) that facilitates that activity.</s>",,D
+Function,carry,suitcase,sit,chair,job,"In this analogy, ""carry"" and ""sit"" are related actions. ""Carry"" is an action that involves holding and transporting an object, while ""sit"" is an action that involves occupying a space.
+
+The second pair of terms, ""suitcase"" and ""?"" are related in some way to ""carry"" and ""sit"" respectively.
+
+The correct answer is:
+
+<ans> D: chair </ans>
+
+Explanation:
+
+The correct completion is ""chair"". The reason is that ""chair"" is an object that is typically ""sat on"" or ""sits under"" someone, just as a ""suitcase"" is an object that is typically ""carried"".</s>",,D
+Function,drink,glass,cook,pan,chef,"In the given analogy, ""drink"" is related to ""glass"" in the same way that ""cook"" is related to ""?"".
+
+The relationship between ""drink"" and ""glass"" is that of a substance being contained in a vessel. Therefore, the missing part ""?"" should be something that ""cook"" is related to in the same way.
+
+The answer is:
+<ans> D: pan </ans>
+
+Explanation:
+The correct answer is ""pan"" because, just as a glass is a container for a drink, a pan is a container for cooking.</s>",,D
+Function,burn,fire,blow,wind,down,"The analogy ""burn : fire :: blow :?"" is saying that ""burn is to fire"" and ""blow is to?"". We know that ""burn is to fire"" means that burn causes fire. So, we need to find what ""blow"" is related to in the same way. The answer is ""wind"" because blowing causes wind.
+
+Therefore, the final answer is: <ans> D </ans>
+
+Explanation:
+The correct completion is ""wind"" because the analogy is saying that ""burn is to fire"" and ""blow is to wind"". Both ""burn"" and ""blow"" have causes and effects. ""Burn"" causes ""fire"", and ""blow"" causes ""wind"".
+
+The incorrect completion ""down"" does not fit the analogy because ""blow"" does not cause ""down"". Instead, ""blow"" can be used to describe a force applied in the opposite direction of ""down"". For example, ""blow up a balloon"" or ""blow out a candle"".
+
+So, the analogy ""burn : fire :: blow : wind"" is a correct analogy.</s>",,D
+Function,ski,snow,swim,water,swimmer,"In this analogy, ""ski : snow"" means that skis are used on snow. Similarly, the missing part should be something that swimmers use or are related to in the context of swimming. The correct answer is:
+
+<ans> D: water </ans>
+
+Explanation:
+The analogy is comparing the relationship between a mode of transportation (skiing) and the substance it is used on (snow), to the relationship between a mode of transportation (swimming) and the substance it is used in or near (water).</s>",,D
+Function,tell,story,fight,battle,soldier,"In the given analogy, ""tell : story"" is a relationship of communication or conveying information. Similarly, ""fight"" can also be related to conveying or expressing something, but in a more intense or conflictual way. Therefore, the correct completion for the analogy would be ""battle"", as battles are a type of intense conflict that expresses or resolves differences.
+
+<ans> D </ans></s>",,D
+Function,run,horse,pull,tractor,muscle,"In this analogy, ""run"" is associated with ""horse,"" and ""pull"" is associated with something else. We need to find what that something is.
+
+The analogy suggests that ""run"" and ""horse"" are related in some way, and ""pull"" and the missing term are also related. To understand this, let's consider the meanings of the words:
+
+- ""Run"" means to move quickly by using legs or wheels.
+- ""Horse"" is an animal that moves by running.
+- ""Pull"" means to exert force to move something towards oneself.
+
+Given this information, we can infer that the missing term should be something that exerts force to move a heavy object.
+
+Now let's compare the options:
+
+- Option D: ""tractor"" - A tractor is a heavy machine that moves by using wheels and exerts force to pull or push heavy loads.
+- Option E: ""muscle"" - A muscle is a type of tissue that contracts to produce force and move body parts.
+
+Based on the analogy and the meanings of the words, the correct answer is:
+
+<ans> D </ans>
+
+Explanation:
+The analogy ""run : horse :: pull : ?"" suggests that ""run"" and ""horse"" are related, and ""pull"" and the missing term are also related. Since a horse runs and pulls loads using its strength, the missing term should be something that exerts force to move heavy objects, such as a tractor. Therefore, the correct answer is D: tractor.</s>",,D
+Function,write,poem,carve,statue,knife,"In this analogy, ""write : poem"" is a metaphor for creating a poem through the use of language. ""Carve : ?"" is also a metaphor, but its completion needs to match the meaning of ""poem"" in the first part of the analogy.
+
+The answer is:
+
+<ans> D: statue </ans>
+
+Explanation:
+The completion ""D: statue"" is the correct answer because carving a statue is a process of creating a three-dimensional work of art, similar to how writing a poem is a process of creating a work of art through language.</s>",,D
+Function,ride,bicycle,drink,cup,water,"In this analogy, ""ride"" is an action performed on a ""bicycle,"" and ""drink"" is an action. The missing part should be something that can be consumed during the action of drinking. Therefore, the answer is:
+
+<ans> D: cup </ans>
+
+or, if we want to complete the analogy with the substance being consumed, we could say:
+
+<ans> E: water </ans>
+
+However, the original analogy is more accurately completed with a container for the substance being consumed.</s>",<ans> D: cup </ans></s>,
+Function,throw,ball,jump,parachute,walk,"The analogy ""throw : ball :: jump : ?"" suggests that throwing a ball and jumping are related in some way. The correct completion should make this relationship clear.
+
+Option D, ""parachute,"" does not make sense in this context. Jumping and using a parachute are not directly related.
+
+Option E, ""walk,"" is a better fit. Just as throwing a ball is an action that can be performed while moving, jumping is also an action that can be performed while moving, such as when walking.
+
+Therefore, the answer is: <ans> E </ans>.</s>",,E
+Function,ride,elevator,sail,boat,wind,"In this analogy, ""ride"" refers to traveling inside an elevator, while ""sail"" refers to traveling on a boat. The missing part should represent something related to ""wind"" in the context of sailing. Therefore, the correct completion is:
+
+<ans> D: boat </ans>
+
+Explanation:
+The analogy compares ""riding in an elevator"" to ""sailing on a boat."" The elevator is a means of transportation that moves people vertically, while a boat is a means of transportation that moves people horizontally on water. The wind is a force that propels the boat, making it an appropriate comparison to the role of the elevator motor in moving the elevator. However, since the analogy asks for what is being sailed or ridden, the correct answer is the boat itself.</s>",,D
+Category Members,vegetable,cabbage,insect,beetle,frog,"Cabbage is a type of vegetable, and beetles are a type of insect. Both are common organisms found in nature. Therefore, the correct completion is:
+
+<ans> D: beetle </ans></s>",,D
+Category Members,insect,bee,fish,halibut,water,"The analogy ""insect : bee :: fish :?"" suggests that bees are to insects as halibut are to fish or as water is to fish. However, the given options are ""halibut"" and ""water"". Since insects and bees are both types of insects, and fish are all aquatic animals, the correct answer is not ""halibut"", but rather ""water"".
+
+However, the options provided do not match the analogy. The correct completion for the analogy ""insect : bee :: fish :?"" is ""water"".
+
+Therefore, the answer is: <ans> E </ans> (water).
+
+The options provided were incorrect, and the analogy should be completed as ""insect : bee :: fish : water"".</s>",,E
+Category Members,flower,rose,bird,pigeon,nest,"In this analogy, ""flower : rose"" is a part-whole relationship, where a rose is a specific type of flower. ""Bird : ?"" should also be a part-whole relationship, so we need to find a specific type of bird that is related to birds in the same way that a rose is related to flowers.
+
+The answer is:
+<ans> D: pigeon </ans>
+
+Explanation:
+A pigeon is a specific type of bird, just as a rose is a specific type of flower. Therefore, the correct completion is ""pigeon"".</s>",,D
+Category Members,bird,wren,insect,mosquito,sting,"The analogy ""bird : wren :: insect : ?"" suggests that a wren is to birds as something is to insects. Wrens are a type of small bird, and the missing part of the analogy should refer to a specific type of insect.
+
+The options provided are:
+
+D: mosquito
+E: sting
+
+Since the analogy is asking for a type of insect, the correct answer is:
+
+<ans> D </ans>
+
+Therefore, the completed analogy would be:
+
+bird : wren :: insect : mosquito.</s>",,D
+Category Members,vegetable,lettuce,bird,sparrow,cat,"The analogy ""vegetable : lettuce :: bird : ?"" suggests that lettuce is a type of vegetable, and the question mark represents a type of bird. The correct answer should be a bird species that is commonly associated with vegetables or farms, where lettuce is often found.
+
+The answer is:
+<ans> D: sparrow </ans>
+
+Explanation:
+Sparrows are often found near farms and fields where vegetables, including lettuce, are grown. They feed on seeds and grains, but they also consume vegetables and fruits. Therefore, the analogy is correctly completed with ""sparrow"" as the answer.
+
+Alternative answer:
+<ans> E: cat </ans>
+
+Explanation:
+Cats are not related to the analogy as they are not birds and do not have a direct relationship with lettuce or vegetables. Therefore, the answer is incorrect.</s>",<ans> D </ans></s>,D
+Category Members,sport,soccer,vehicle,bus,engine,"In the given analogy, ""sport : soccer"" is a common example of a category and a specific type of that category. ""Vehicle"" is also a category, so we need to find a specific type of vehicle that parallels ""soccer"" in the analogy.
+
+The answer is:
+<ans> D: bus </ans>
+
+Explanation:
+Just as soccer is a specific type of sport, a bus is a specific type of vehicle. Both soccer and bus are well-known examples within their respective categories.</s>",,D
+Category Members,weapon,pistol,clothing,shoes,cotton,"A pistol is a type of weapon, and shoes are a type of clothing. Both weapons and shoes are used to protect or serve specific functions for humans. Therefore, the correct completion is D: shoes.</s>",<ans> D </ans></s>,D
+Category Members,sport,tennis,weapon,gun,murder,"In this analogy, ""sport : tennis"" means that tennis is a specific type of sport. Similarly, ""weapon : ?"" should mean that the question mark is a specific type of weapon. Therefore, the answer is:
+
+<ans> D: gun </ans>
+
+Explanation: A gun is a specific type of weapon, just as tennis is a specific type of sport.</s>",,D
+Category Members,furniture,sofa,sport,golf,coat,"In this analogy, ""furniture : sofa"" is a part-whole relationship, where ""sofa"" is a specific type of furniture. On the other hand, ""sport : ?"" is a relationship that requires finding an activity or object related to the category ""sport.""
+
+Given the options, ""golf"" is a more suitable completion for the analogy as it is an activity that falls under the category of ""sports."" Therefore, the final answer is:
+
+<ans> D </ans>
+
+So, the completed analogy is: ""furniture : sofa :: sport : golf.""</s>",,D
+Category Members,tool,pliers,vehicle,van,fuel,"A pliers is a type of tool used for gripping and cutting. A van is a type of vehicle used for transportation. In this analogy, we are looking for something that is to vehicles as pliers are to tools. The answer is:
+
+<ans> D: van </ans></s>",,D
+Category Members,clothing,trousers,fish,cod,net,"In this analogy, ""clothing : trousers"" represents a type of category, where clothing is a general category and trousers are a specific type of clothing.
+
+Similarly, ""fish : ?"" should represent another type of category, where fish is a general category and the missing part is a specific type of fish.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>
+
+So the final analogy should read: ""clothing : trousers :: fish : cod"".</s>",,D
+Category Members,fruit,banana,furniture,dresser,house,"In an analogy, two pairs of things are being compared using the colon ""::"". In this case, ""fruit : banana"" is being compared to ""furniture : ?"". The comparison is saying that a banana is to fruit as something is to furniture.
+
+A banana is a specific type of fruit. Fruit is a general category that includes many types of food, such as apples, oranges, bananas, etc.
+
+Similarly, a dresser is a specific type of furniture. Furniture is a general category that includes many types of objects, such as chairs, tables, beds, dressers, etc.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>
+
+So the final analogy would be:
+
+fruit : banana :: furniture : dresser.</s>",,D
+Category Members,fish,shark,sport,baseball,team,"In this analogy, ""fish : shark"" represents a type of animal where shark is a specific kind of fish. ""sport : ?"" is asking for a specific type of activity.
+
+The correct answer is:
+<ans> D: baseball </ans>
+
+Explanation:
+The analogy ""fish : shark"" suggests that shark is a specific kind of fish. Similarly, ""sport : baseball"" suggests that baseball is a specific type of sport. Therefore, the answer is ""baseball"".</s>",,D
+Category Members,fruit,plum,clothing,coat,silk,"The analogy ""fruit : plum :: clothing : ?"" is suggesting a comparison between the relationship of a specific type of fruit (plum) to the broader category of fruit, and the relationship of a specific type of clothing (coat or silk) to the broader category of clothing.
+
+To understand this analogy, we need to consider what plums have in common with other fruits, and what coats or silk have in common with other clothing.
+
+Plums are a type of fruit that is often large, round, and juicy. They have a stone or pit in the center. Fruits, in general, are the edible part of a plant that develops from the flower and contains seeds.
+
+Clothing, on the other hand, is something that covers the body to protect it from the elements or to make a fashion statement. Coats are a type of clothing that is typically worn to keep warm in cold weather. Silk is a type of clothing that is known for its smooth, soft texture and its ability to drape elegantly.
+
+Based on this analysis, the correct completion for the analogy is:
+
+<ans> D: coat </ans>
+
+The reason is that both plums and coats are specific examples of their respective categories. Plums are a specific type of fruit, and coats are a specific type of clothing. Both have unique characteristics that make them distinct within their categories.
+
+Alternatively, the analogy could also be completed with ""E: silk"", but this would not be as accurate because silk is not typically worn primarily for warmth like a coat. Instead, it is worn for its softness and elegance. While both plums and silk have unique characteristics that make them distinct within their categories, the analogy is more accurately completed with ""coat"" because both plums and coats are specific examples of their respective categories that share a common function or purpose.</s>",,D
+Category Members,flower,carnation,tool,hacksaw,carpenter,"A carnation is a type of flower, and a hacksaw is a type of tool. Both are used for specific purposes but are not interchangeable in their primary functions. Therefore, the correct answer is:
+
+<ans> D: hacksaw </ans></s>",,D
+Category Members,bird,crow,sport,football,stadium,"The analogy ""bird : crow :: sport :?"" is suggesting a relationship between birds and crows, and sports and the given option D or E.
+
+The relationship between birds and crows is that of a general category and a specific example within that category. Crows are a type of bird.
+
+The relationship between sports and the options D and E should follow the same pattern. We need to find the specific example within the category of sports that corresponds to the general category relationship between birds and crows.
+
+Option D, ""football,"" is a specific example of a sport. Therefore, the correct answer is:
+
+<ans> D </ans></s>",,D
+Category Members,weapon,sword,flower,daffodil,vase,"In this analogy, a sword is to a weapon as a daffodil is to a flower or a vase is to a flower.
+
+A sword is a type of weapon, so the first part of the analogy is correct.
+
+A daffodil is a type of flower, but a vase is not a type of flower, it's an object used to hold flowers.
+
+Therefore, the correct completion is:
+
+<ans> D: daffodil </ans></s>",,D
+Category Members,clothing,jacket,bird,pigeon,dog,"In this analogy, ""clothing : jacket"" is a part-whole relationship, where a jacket is a type of clothing. The second part of the analogy, ""bird : ?"", is asking for another part-whole relationship where a bird is the whole and the missing part is a specific type.
+
+The correct answer is:
+<ans> D: pigeon </ans>
+
+Explanations:
+1. Bird is a whole organism, and a pigeon is a specific type of bird.
+2. The analogy ""clothing : jacket :: bird : pigeon"" now holds true as clothing is a whole category, and a jacket is a specific type of clothing, just like birds are a whole category, and a pigeon is a specific type of bird.
+
+Alternative answer E: dog is incorrect because a dog is not a specific type of bird. It is a type of mammal.</s>",,D
+Category Members,furniture,table,fruit,pear,tree,"In this analogy, ""furniture : table"" means ""furniture is to table as something is to pear or tree"". We need to find the correct answer that completes the analogy with ""pear"" or ""tree"".
+
+The analogy ""fruit : pear"" can be read as ""fruit is to pear as something is to itself"". In this case, the missing part is just another type of fruit. So, the correct answer is:
+
+<ans> D </ans>
+
+Therefore, the completed analogy is:
+
+furniture : table :: fruit : pear.</s>",,D
+Category Members,clothing,jeans,vegetable,potato,apple,"Jeans are a type of clothing, and potatoes are a type of vegetable. Both jeans and potatoes are common and widely consumed in their respective categories. Therefore, the correct completion for the analogy is:
+
+<ans> D: potato </ans></s>",,D

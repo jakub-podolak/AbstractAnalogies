@@ -1,0 +1,900 @@
+relation,A,B,C,D,D',raw_generation,new_generation,parsed_answer
+Synonym,easy,simple,sad,unhappy,happy,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""easy"" is to ""simple"" as ""sad"" is to ""unhappy""
+* Both ""easy"" and ""sad"" are emotions that are closely related to their corresponding adjectives ""simple"" and ""unhappy"", respectively.
+
+So, the correct analogy is: easy : simple :: sad : unhappy",,D
+Synonym,hurry,rush,harm,injure,help,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""hurry"" and ""rush"" are both verbs that mean to move quickly.
+* ""harm"" and ""injure"" are both verbs that mean to cause damage or hurt.
+
+So, the analogy is: ""hurry is to rush like harm is to injure"".",,D
+Synonym,rob,steal,cry,weep,laugh,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""rob"" is to ""steal"" as ""cry"" is to ""weep""
+* Both ""rob"" and ""cry"" are actions that are often accompanied by the corresponding verbs ""steal"" and ""weep"", respectively.
+
+So, the correct analogy is: rob : steal :: cry : weep",,D
+Synonym,polite,courteous,angry,furious,happy,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* Polite is to Courteous as Angry is to Furious
+* Both pairs of words are synonyms, with Polite/Courteous being more formal and Angry/Furious being more intense.
+
+So, the correct analogy is: polite : courteous :: angry : furious",,D
+Synonym,beginner,novice,doctor,physician,heal,"The correct answer is:
+
+<ans> D </ans>
+
+The analogy is:
+
+beginner : novice :: doctor :?
+
+A beginner is to a novice like a doctor is to a physician.",,D
+Synonym,baby,infant,woman,lady,girl,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""baby"" is to ""infant"" as ""woman"" is to ""lady""
+* Both ""baby"" and ""woman"" are adult forms, and ""infant"" and ""lady"" are corresponding terms for younger or more mature forms.
+
+So, the correct analogy is: baby (adult form) : infant (younger form) :: woman (adult form) : lady (more mature form)",,D
+Synonym,brook,stream,courage,bravery,cowardice,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* Brook is a type of stream, so the relationship is ""a specific type of"" or ""a subclass of"".
+* Courage is a type of bravery, so the relationship is also ""a specific type of"" or ""a subclass of"".
+
+Therefore, the analogy is: brook : stream :: courage : bravery.",,D
+Synonym,huge,enormous,wealthy,rich,poor,"A classic analogy!
+
+Let's break it down:
+
+huge : enormous :: wealthy :?
+
+The relationship between ""huge"" and ""enormous"" is that ""enormous"" is a more intense or extreme version of ""huge"". Similarly, the relationship between ""wealthy"" and? should be that? is a more intense or extreme version of ""wealthy"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>
+
+Wealthy : rich",,D
+Synonym,cheerful,happy,awful,horrible,wonderful,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""Cheerful"" is to ""happy"" as ""awful"" is to... ""horrible"". Both ""happy"" and ""horrible"" are antonyms of ""cheerful"" and ""awful"", respectively.
+
+So, the correct analogy is: cheerful : happy :: awful : horrible",,D
+Synonym,remain,stay,begin,start,continue,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""remain"" and ""stay"" are related in the sense that ""to remain"" means ""to stay"" in a place or situation.
+* Similarly, ""begin"" and ""start"" are related in the sense that ""to begin"" means ""to start"" something.
+* Therefore, the analogy suggests that ""begin"" is to ""start"" like ""remain"" is to ""stay"".
+
+So, the correct answer is ""D: start"".",,D
+Synonym,unusual,strange,famous,renowned,unknown,"A classic analogy!
+
+Let's break it down:
+
+* Unusual is to strange as famous is to?
+* Unusual is a type of strange, so we're looking for a word that is a type of famous.
+* Renowned is a synonym of famous, so the correct answer is:
+<ans> D </ans>",,D
+Synonym,sick,ill,little,small,big,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""sick"" is to ""ill"" as ""little"" is to... ""small""
+
+The analogy is based on the relationship between the words. ""Sick"" and ""ill"" are synonyms, and ""little"" and ""small"" are also synonyms. Therefore, the correct answer is ""small"".",,D
+Synonym,legal,lawful,usual,normal,strange,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""Legal"" and ""lawful"" are synonyms, both meaning ""in accordance with the law"".
+* ""Usual"" and ""normal"" are also synonyms, both meaning ""typical"" or ""standard"".
+* Therefore, the analogy is: ""A (legal) is to B (lawful) like C (usual) is to D (normal)"".
+
+So, the correct answer is ""D: normal"".",,D
+Synonym,collect,gather,leave,abandon,stay,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's the reasoning:
+
+* ""Collect"" and ""gather"" are both actions that involve bringing things together.
+* ""Leave"" and ""abandon"" are both actions that involve giving up or departing from something.
+* Therefore, the correct analogy is: ""collect : gather :: leave : abandon""
+
+So, the answer is D: abandon.",,D
+Synonym,clean,neat,fortunate,lucky,miserable,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""clean"" is to ""neat"" as ""fortunate"" is to ""lucky""
+	+ ""clean"" and ""neat"" are both positive adjectives describing a state of tidiness
+	+ ""fortunate"" and ""lucky"" are both positive adjectives describing a state of good fortune
+
+So, the analogy is: ""A is to B like C is to D"", where A and C are both positive adjectives, and B and D are related to each other in a similar way.",,D
+Synonym,immense,colossal,precise,exact,approximate,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""immense"" and ""colossal"" are both large, enormous words.
+* ""precise"" and ""exact"" are both accurate, detailed words.
+
+So, the analogy is: ""immense is to colossal like precise is to exact"".",,D
+Synonym,stone,rock,garbage,trash,bag,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""stone"" is a type of ""rock""
+* ""garbage"" is a type of ""trash""
+* Therefore, ""garbage"" is to ""trash"" like ""stone"" is to ""rock""
+
+So, the correct analogy is: stone : rock :: garbage : trash",,D
+Synonym,help,aid,raise,lift,lower,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's the reasoning:
+
+* ""help"" is to ""aid"" as ""raise"" is to ""lift""
+* Both ""aid"" and ""lift"" are verbs that mean to assist or elevate something.
+
+So, the correct analogy is: help : aid :: raise : lift",,D
+Synonym,rug,carpet,bucket,pail,milk,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* rug is a type of carpet
+* bucket is a type of pail
+
+So, the analogy is: rug : carpet :: bucket : pail",,D
+Synonym,shout,yell,leap,jump,fall,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* Shout is a louder form of Yell, so the relationship is ""more intense"".
+* Leap is a more intense form of Jump, so the analogy is ""more intense"".
+
+Therefore, the correct answer is D: jump.",,D
+Opposite,artificial,natural,friend,enemy,relative,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""Artificial"" is to ""natural"" as ""friend"" is to ""enemy"".
+
+In other words, just as ""artificial"" is the opposite of ""natural"", ""friend"" is the opposite of ""enemy"".",,D
+Opposite,love,hate,rich,poor,wealthy,"The correct answer is:
+
+<ans> D </ans>
+
+The analogy is:
+
+love : hate :: rich : poor
+
+The relationship between ""love"" and ""hate"" is that they are opposites, and the relationship between ""rich"" and ""poor"" is also that they are opposites.",,D
+Opposite,alive,dead,succeed,fail,conquer,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""alive"" is the opposite of ""dead"", so the relationship is ""opposite"".
+* ""succeed"" is the opposite of ""fail"", so the relationship is also ""opposite"".
+
+Therefore, the correct analogy is:
+
+alive : dead :: succeed : fail",,D
+Opposite,ugliness,beauty,joy,sorrow,emotion,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ugliness is the opposite of beauty
+* joy is the opposite of sorrow
+
+So, the analogy is: ugliness : beauty :: joy : sorrow
+
+Well done on trying, though!",,D
+Opposite,huge,tiny,arrive,depart,come,"A classic analogy!
+
+huge : tiny :: arrive : depart
+
+The relationship is ""large"" : ""small"" :: ""come in"" : ""go out"".
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Opposite,somber,cheerful,lawyer,client,doctor,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* Somber is to Cheerful as Lawyer is to Client
+	+ Somber is a mood, and Cheerful is a contrasting mood.
+	+ Lawyer is a profession, and Client is a person who hires a lawyer.
+
+So, the analogy is: a somber person is like a cheerful one, and a lawyer is like a client.",,D
+Opposite,late,early,win,lose,capture,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's the reasoning:
+
+late : early :: win :?
+
+The analogy is saying that ""late"" is to ""early"" as ""win"" is to... something.
+
+In this case, ""late"" is the opposite of ""early"", so ""win"" is likely the opposite of... ""lose"".
+
+Therefore, the correct answer is ""lose"", which is represented by the letter D.",,D
+Opposite,quick,slow,grow,wither,plant,"A classic analogy!
+
+The correct answer is: <ans> E </ans>
+
+Here's why:
+
+* ""quick"" is to ""slow"" as ""grow"" is to ""wither"" (both are antonyms)
+* ""grow"" is to ""wither"" as ""plant"" is to ""withhold"" (both are antonyms)
+
+So, the correct analogy is: grow : wither :: plant :? and the answer is ""withhold"", which is not an option. However, the closest option is ""plant"", which is the correct answer.",,E
+Opposite,antonym,synonym,selfish,generous,egocentric,"A classic analogy!
+
+Let's break it down:
+
+* Antonym and synonym are related to words that have opposite or similar meanings, respectively.
+* Selfish is an antonym of generous, so we're looking for a word that is a synonym of generous.
+
+The correct answer is:
+
+<ans> D </ans>
+
+Selfish is to generous as antonym is to synonym, and generous is a synonym of generous.",,D
+Opposite,quiet,noisy,last,first,final,"A classic analogy!
+
+The correct answer is: <ans> E </ans>
+
+Here's why:
+
+* ""quiet"" is to ""noisy"" as ""last"" is to ""final""
+* Both ""noisy"" and ""final"" are antonyms of ""quiet"" and ""last"", respectively.
+
+So, the correct analogy is: quiet : noisy :: last : final",,E
+Opposite,start,stop,trivial,important,famous,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""start"" and ""stop"" are related to a range or a period of time, where ""start"" is the beginning and ""stop"" is the end.
+* Similarly, ""trivial"" and ""important"" are related to a level of significance or importance, where ""trivial"" is of little importance and ""important"" is of great importance.
+* Therefore, the analogy is: ""start : stop :: trivial : important"", where ""important"" is the equivalent of ""stop"" in the second pair.
+
+So, the correct answer is D: important.",,D
+Opposite,laugh,cry,cheap,expensive,inexpensive,"A classic analogy!
+
+The correct answer is: <ans> E </ans>
+
+Here's why:
+
+* ""laugh"" and ""cry"" are both emotions, but ""laugh"" is a more positive emotion, while ""cry"" is a more negative one.
+* Similarly, ""cheap"" and ""expensive"" are both adjectives describing something, but ""cheap"" implies a lower price, while ""expensive"" implies a higher price.
+* Therefore, the analogy suggests that ""cheap"" is to ""inexpensive"" like ""laugh"" is to ""cry"", i.e., a more positive or desirable option.",,E
+Opposite,accept,reject,dark,bright,dim,"A classic analogy!
+
+The correct answer is: <ans> E </ans>
+
+Here's why:
+
+* ""accept"" and ""reject"" are antonyms (opposites)
+* ""dark"" and ""bright"" are also antonyms
+* Therefore, the analogy suggests that ""dark"" is to ""bright"" like ""reject"" is to ""accept"", which means ""dim"" is the opposite of ""bright"", just like ""reject"" is the opposite of ""accept"".
+
+So, the correct answer is ""dim"", which corresponds to the letter E.",,E
+Opposite,abundant,scarce,agree,disagree,concur,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""abundant"" is to ""scarce"" as ""agree"" is to ""disagree""
+* Both ""abundant"" and ""scarce"" are antonyms, and so are ""agree"" and ""disagree""
+
+So, the correct analogy is: abundant : scarce :: agree : disagree",,D
+Opposite,hero,coward,strong,weak,muscular,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""hero"" is to ""coward"" as ""strong"" is to... ""weak""
+
+In other words, a hero is the opposite of a coward, and similarly, strong is the opposite of weak.",,D
+Opposite,teacher,student,calm,stormy,serene,"A classic analogy!
+
+The correct answer is: <ans> E </ans>
+
+Here's why:
+
+* Teacher is to Student as Calm is to Serene
+* A teacher is a calm and authoritative figure, just like calm is a peaceful and tranquil state, and a student is a learner, just like serene is a peaceful and untroubled state.
+
+So, the correct analogy is: teacher : student :: calm : serene",,E
+Opposite,give,take,allow,forbid,permit,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""give"" and ""take"" are antonyms, and ""allow"" and ""forbid"" are also antonyms.
+* So, if ""give"" is to ""take"" like ""allow"" is to?, then the correct answer is ""forbid"", which is the opposite of ""allow"".
+
+Therefore, the correct analogy is:
+
+give : take :: allow : forbid",,D
+Opposite,clean,dirty,awake,asleep,alert,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's the reasoning:
+
+* ""clean"" is to ""dirty"" as ""awake"" is to ""asleep""
+* Both ""clean"" and ""awake"" are opposite of ""dirty"" and ""asleep"", respectively.
+
+So, the correct analogy is: awake : asleep :: clean : dirty",,D
+Opposite,remember,forget,increase,decrease,lengthen,"A classic analogy!
+
+Let's break it down:
+
+""remember : forget :: increase :?""
+
+The relationship between ""remember"" and ""forget"" is that they are opposites. ""Remember"" is the opposite of ""forget"".
+
+Similarly, the relationship between ""increase"" and? should be that they are opposites.
+
+So, the correct answer is:
+
+<ans> D </ans>
+
+""increase"" is the opposite of ""decrease"".",,D
+Opposite,crazy,sane,bent,straight,crooked,"A classic analogy!
+
+The correct answer is: <ans> E </ans>
+
+Here's why:
+
+* ""crazy"" is to ""sane"" as ""bent"" is to ""straight"" (opposite)
+* So, ""bent"" is to ""crooked"" as ""crazy"" is to ""sane""
+
+Therefore, the correct analogy is: bent : crooked :: crazy : sane",,E
+Function,fly,bird,hop,rabbit,leg,"A classic analogy!
+
+The correct answer is: <ans> E </ans>
+
+Here's why:
+
+* fly : bird :: hop :? (verb : animal)
+* fly is a verb that birds do, so hop is a verb that rabbits do.
+* Therefore, the correct analogy is: hop : rabbit :: fly : bird
+
+So, the answer is E: leg.",,E
+Function,build,house,dig,hole,shovel,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's the reasoning:
+
+* ""build"" is to ""house"" as ""dig"" is to ""hole""
+* Both ""build"" and ""dig"" are actions that create something
+* Both ""house"" and ""hole"" are the resulting structures or objects
+
+So, the correct analogy is: build : house :: dig : hole",,D
+Function,sing,song,ride,horse,rider,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* sing : song :: ride :?
+* sing is a verb, and song is a noun (the result of singing)
+* ride is a verb, and? should be a noun (the result of riding)
+* horse is not the result of riding, but rather the thing you ride
+* rider is not the result of riding, but rather the one who rides
+* So, the correct answer is D: horse, because you ride a horse.",,D
+Function,hear,ear,wear,clothes,woman,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""hear"" is related to ""ear"" (you hear with your ear)
+* ""wear"" is related to ""clothes"" (you wear clothes)
+
+So, the analogy is: ""hear : ear :: wear : clothes""",,D
+Function,drive,car,burn,wood,fire,"A classic analogy!
+
+The correct answer is:
+
+<ans> E </ans>
+
+Here's why:
+
+* ""drive"" is a verb that is often associated with ""car"", implying that one drives a car.
+* Similarly, ""burn"" is a verb that is often associated with ""wood"", implying that one burns wood.
+* Therefore, the analogy suggests that ""burn"" is to ""wood"" like ""drive"" is to ""car"", which means that the correct answer is ""fire"", as one burns with fire.
+
+So, the correct analogy is: drive : car :: burn : fire",,E
+Function,open,door,touch,hands,doctor,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""open"" is a verb that is often performed on a ""door"".
+* Similarly, ""touch"" is a verb that is often performed on ""hands"" (or other body parts).
+
+So, the analogy is: ""open : door :: touch : hands""",,D
+Function,squeeze,juice,shoot,gun,miss,"A classic analogy!
+
+The correct answer is: <ans> E </ans>
+
+Here's why:
+
+* Squeeze : juice :: shoot :? (What do you get when you shoot?)
+* Squeeze juice, so you get juice.
+* Shoot a gun, so you get a miss (as in, you miss your target).
+
+So, the correct analogy is: shoot : miss :: squeeze : juice.",,E
+Function,cut,knife,hit,hammer,nail,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""cut"" is a verb that is often performed using a ""knife""
+* Similarly, ""hit"" is a verb that is often performed using a ""hammer""
+* Therefore, the correct analogy is: ""cut : knife :: hit : hammer""
+
+So, the answer is D: hammer!",,D
+Function,throw,ball,open,envelope,close,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's the explanation:
+
+* ""throw"" is a verb that is often associated with ""ball"" (e.g., throwing a ball)
+* Similarly, ""open"" is a verb that is often associated with ""envelope"" (e.g., opening an envelope)
+* Therefore, the correct completion is ""open : envelope"", which is equivalent to ""D : envelope"".",,D
+Function,read,magazine,play,football,kids,"A classic analogy!
+
+The correct answer is: <ans> E </ans>
+
+Here's why:
+
+* ""Read"" is to ""magazine"" as ""play"" is to... (something that kids do)
+* ""Read"" is a common activity done with a ""magazine""
+* Similarly, ""play"" is a common activity done with ""kids"" (e.g., playing with kids, playing games with kids, etc.)
+
+So, the correct analogy is: play : kids :: read : magazine",,E
+Function,carry,suitcase,sit,chair,job,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's the explanation:
+
+* ""carry"" is a verb that is often associated with a ""suitcase"" (e.g., carrying a suitcase)
+* Similarly, ""sit"" is a verb that is often associated with a ""chair"" (e.g., sitting in a chair)
+* Therefore, the analogy suggests that ""sit"" is to ""chair"" like ""carry"" is to ""suitcase"", so the correct answer is ""D: chair"".",,D
+Function,drink,glass,cook,pan,chef,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""drink"" is to ""glass"" as ""cook"" is to ""pan""
+* Both ""glass"" and ""pan"" are containers used for their respective activities (drinking and cooking)
+
+So, the correct analogy is: cook : pan",,D
+Function,burn,fire,blow,wind,down,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""burn"" is related to ""fire"" as a result of an action
+* Similarly, ""blow"" is related to ""wind"" as a result of an action
+* Therefore, the correct analogy is: ""burn : fire :: blow : wind""
+
+So, the correct answer is D: wind.",,D
+Function,ski,snow,swim,water,swimmer,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+The reasoning is:
+
+* Ski is related to snow (you ski on snow)
+* Swim is related to water (you swim in water)
+* Therefore, swim is related to water in the same way ski is related to snow.",,D
+Function,tell,story,fight,battle,soldier,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+The analogy is: ""tell : story :: fight : battle""
+
+In this analogy, ""tell"" is to ""story"" as ""fight"" is to ""battle"".",,D
+Function,run,horse,pull,tractor,muscle,"A classic analogy!
+
+The correct answer is:
+
+<ans> E </ans>
+
+Here's why:
+
+* ""run"" is a verb that a ""horse"" can do (run on four legs)
+* ""pull"" is a verb that a ""muscle"" can do (pull something)
+* Similarly, ""pull"" is a verb that a ""tractor"" (which has strong muscles) can do
+
+So, the analogy is: ""run : horse :: pull : muscle""",,E
+Function,write,poem,carve,statue,knife,"A classic analogy!
+
+The correct answer is: <ans> E </ans>
+
+Here's why:
+
+* ""write"" is to ""poem"" like ""carve"" is to ""statue""
+* ""write"" creates a ""poem"", so ""carve"" should create a ""statue""
+* The tool used to create a ""poem"" is a pen or pencil, but the tool used to create a ""statue"" is a ""knife"" (or a chisel, but ""knife"" is a more common association)
+
+So, the correct analogy is: write : poem :: carve : E (knife)",,E
+Function,ride,bicycle,drink,cup,water,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""Ride"" is a verb that you do on a ""bicycle"".
+* Similarly, ""drink"" is a verb that you do with a ""cup"".
+* So, just like ""bicycle"" is the object you ride, ""cup"" is the object you drink from.
+
+Therefore, the correct analogy is: ride : bicycle :: drink : cup.",,D
+Function,throw,ball,jump,parachute,walk,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""throw"" is a verb that involves a ball, so ""ball"" is the object being thrown.
+* Similarly, ""jump"" is a verb that involves a parachute, so ""parachute"" is the object being jumped with (i.e., using as a means of slowing down one's descent).
+* Therefore, the correct analogy is: throw : ball :: jump : parachute.",,D
+Function,ride,elevator,sail,boat,wind,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""Ride"" is a way to travel using an ""elevator"" (a vehicle).
+* Similarly, ""sail"" is a way to travel using a ""boat"" (a vehicle).
+* Therefore, the correct analogy is: ""ride : elevator :: sail : boat"".",,D
+Category Members,vegetable,cabbage,insect,beetle,frog,"A classic analogy!
+
+The pattern is: ""A is a type of B"" :: ""C is a type of D""
+
+In this case, ""vegetable"" is a type of ""cabbage"", so ""insect"" should be a type of ""beetle"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,insect,bee,fish,halibut,water,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* Insect is to bee like fish is to... halibut (both are types of the respective animals)
+* So, the analogy is: insect : bee :: fish : halibut
+
+Well, that was easy!",,D
+Category Members,flower,rose,bird,pigeon,nest,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* flower : rose :: bird :?
+* In the first pair, ""flower"" is a type of ""rose"", so we're looking for a type of ""bird"".
+* Pigeon is a type of bird, so the correct analogy is: bird : pigeon.
+
+The other option, ""nest"", is not a type of bird, so it doesn't fit the analogy.",,D
+Category Members,bird,wren,insect,mosquito,sting,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""bird : wren"" means ""a bird is a type of wren""
+* ""insect :?"" means ""an insect is a type of?""
+* Since a wren is a type of bird, a mosquito is a type of insect (both are specific types of their respective categories)
+* Therefore, the correct answer is ""D: mosquito""",,D
+Category Members,vegetable,lettuce,bird,sparrow,cat,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""vegetable : lettuce"" means ""a type of vegetable is lettuce""
+* ""bird :?"" means ""a type of bird is?""
+* Since sparrow is a type of bird, the analogy is: ""bird : sparrow""
+
+So, the correct answer is D: sparrow.",,D
+Category Members,sport,soccer,vehicle,bus,engine,"A classic analogy!
+
+Let's break it down:
+
+* sport : soccer :: vehicle :?
+* sport is a type of activity, and soccer is a type of sport.
+* Therefore, vehicle should be a type of transportation, and bus is a type of vehicle.
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,weapon,pistol,clothing,shoes,cotton,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* weapon : pistol :: clothing :?
+* In the first pair, a weapon is a specific type of weapon (a pistol).
+* In the second pair, clothing is a general category, and shoes is a specific type of clothing.
+
+So, the analogy is: a specific type of X is to X, like a specific type of Y is to Y.
+
+Therefore, the correct answer is D: shoes.",,D
+Category Members,sport,tennis,weapon,gun,murder,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* Sport is to Tennis like Weapon is to Gun
+* Both pairs are related by a specific type of activity or object
+
+So, the correct analogy is: sport : tennis :: weapon : gun",,D
+Category Members,furniture,sofa,sport,golf,coat,"A classic analogy!
+
+Let's break it down:
+
+* ""Furniture"" is a category, and ""sofa"" is a type of furniture.
+* ""Sport"" is a category, and we need to find a type of sport that is similar to ""golf"".
+
+So, the correct answer is:
+
+<ans> D </ans>
+
+Golf is a type of sport, just like sofa is a type of furniture.",,D
+Category Members,tool,pliers,vehicle,van,fuel,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* tool : pliers :: vehicle :?
+* tool is a type of pliers (a specific tool)
+* vehicle is a type of van (a specific vehicle)
+
+So, the analogy is: a tool is to pliers as a vehicle is to a van.",,D
+Category Members,clothing,trousers,fish,cod,net,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""clothing : trousers"" means ""clothing is a category and trousers is a type of clothing""
+* ""fish :?"" means ""fish is a category and? is a type of fish""
+* Since ""cod"" is a type of fish, the analogy is: ""fish : cod :: clothing : trousers""
+
+So, the correct answer is D: cod.",,D
+Category Members,fruit,banana,furniture,dresser,house,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""fruit"" is a type of ""banana""
+* ""furniture"" is a type of ""dresser""
+
+So, the analogy is: ""fruit : banana :: furniture : dresser""",,D
+Category Members,fish,shark,sport,baseball,team,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* Fish is to Shark as Sport is to Baseball
+* Both ""fish"" and ""sport"" are the things being compared, while ""shark"" and ""baseball"" are the corresponding things being compared to.
+
+So, the analogy is saying that just as a fish is a type of prey for a shark, a sport is a type of activity played with a baseball.",,D
+Category Members,fruit,plum,clothing,coat,silk,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""fruit"" is a category, and ""plum"" is a specific type of fruit.
+* Similarly, ""clothing"" is a category, and ""coat"" is a specific type of clothing.
+* Therefore, the analogy is: ""fruit : plum :: clothing : coat""
+
+So, the correct answer is ""D: coat"".",,D
+Category Members,flower,carnation,tool,hacksaw,carpenter,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's the explanation:
+
+* flower : carnation :: tool :?
+* flower is a type of carnation (a specific type of flower)
+* tool is a type of hacksaw (a specific type of tool)
+
+So, the analogy is saying that just as a flower is a type of carnation, a tool is a type of hacksaw.",,D
+Category Members,bird,crow,sport,football,stadium,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""bird"" is a type of ""crow"" (a specific example of a bird)
+* ""sport"" is a type of ""football"" (a specific example of a sport)
+* Therefore, ""sport"" is to ""football"" like ""bird"" is to ""crow""
+
+So, the correct answer is ""D: football"".",,D
+Category Members,weapon,sword,flower,daffodil,vase,"A classic analogy!
+
+The correct answer is:
+
+<ans> D </ans>
+
+Here's why:
+
+* weapon : sword :: flower :?
+* In the first pair, a weapon is a type of sword.
+* In the second pair, a flower is a type of daffodil.
+
+So, the analogy is: a type of X is Y, and a type of flower is daffodil. Therefore, the correct answer is D: daffodil.",,D
+Category Members,clothing,jacket,bird,pigeon,dog,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* clothing : jacket :: bird :?
+* In the first pair, ""clothing"" is a category and ""jacket"" is a specific type of clothing.
+* Similarly, in the second pair, ""bird"" is a category and we're looking for a specific type of bird.
+* Pigeon is a type of bird, just like jacket is a type of clothing.
+
+So, the correct analogy is: clothing : jacket :: bird : pigeon",,D
+Category Members,furniture,table,fruit,pear,tree,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""furniture"" is a category of things, and ""table"" is a specific type of furniture.
+* ""fruit"" is a category of things, and we need to find a specific type of fruit.
+* ""pear"" is a specific type of fruit, just like ""table"" is a specific type of furniture.
+* Therefore, the correct analogy is: fruit : pear :: furniture : table.
+
+So, the answer is D: pear.",,D
+Category Members,clothing,jeans,vegetable,potato,apple,"A classic analogy!
+
+The correct answer is: <ans> D </ans>
+
+Here's why:
+
+* ""clothing : jeans"" means that jeans is a type of clothing.
+* ""vegetable :?"" is asking for a type of vegetable.
+* ""potato"" is a type of vegetable, just like ""jeans"" is a type of clothing.
+
+So, the analogy is: clothing : jeans :: vegetable : potato",,D

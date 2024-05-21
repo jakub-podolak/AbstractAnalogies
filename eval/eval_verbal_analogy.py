@@ -28,7 +28,7 @@ SUPPORTED_MODELS = {
 def parse_option():
     parser = argparse.ArgumentParser("Evaluate Sentence Embedding Models")
     parser.add_argument(
-        "--model", type=str, default="mistral7b", help="One of the models"
+        "--model", type=str, default="starling7b-beta", help="One of the models"
     )
     parser.add_argument(
         "--task", type=str, default="verbal_analogy"
