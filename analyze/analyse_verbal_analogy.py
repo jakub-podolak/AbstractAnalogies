@@ -71,45 +71,45 @@ for model in model_name:
         print(f"Model: {model}, Prompt: {prompt}, Accuracy: {accuracy}")
 
 
-# Define the order of models explicitly
+# Define the order of models and prompts explicitly
 models = ["mistral7b", "llama3"]
-prompts = sorted(set(prompt for _, prompt in accuracy_dict.keys()))
+prompts = ["basic_prompt_not_forced", "basic_prompt_forced", "cot", "cot_structured"]
 
 # Prepare accuracy data in the correct format
 accuracy_data = {model: [] for model in models}
-for prompt in prompts:
-    for model in models:
+for model in models:
+    for prompt in prompts:
         accuracy_data[model].append(accuracy_dict[(model, prompt)])
 
 # Number of models and prompts
 n_models = len(models)
 n_prompts = len(prompts)
 
-# Set width of bar
-bar_width = 0.15
+# Set width of bar to a smaller value for thinner bars
+bar_width = 0.1
 
 # Set positions of bar on X axis
-r = np.arange(n_prompts)
-positions = [r - bar_width/2, r + bar_width/2]
+r = np.arange(n_models)
+positions = [r + i * bar_width for i in range(n_prompts)]
 
 # Create figure and axes
 fig, ax = plt.subplots(figsize=(10, 6))
 
 # Plot each model's data
-for i, model in enumerate(models):
-    ax.bar(positions[i], accuracy_data[model], width=bar_width, edgecolor='grey', label=model)
+for i, prompt in enumerate(prompts):
+    ax.bar(positions[i], [accuracy_dict[(model, prompt)] for model in models], width=bar_width, edgecolor='grey', label=prompt)
 
 # Add labels
-ax.set_xlabel('Prompts', fontweight='bold')
+ax.set_xlabel('Models', fontweight='bold')
 ax.set_ylabel('Accuracy', fontweight='bold')
 ax.set_title('Comparison of Accuracy across Different Prompts and Models')
-ax.set_xticks(r)
-ax.set_xticklabels(prompts)
-# Legend should be about the models
-ax.legend(models)
+ax.set_xticks(r + bar_width * (n_prompts - 1) / 2)
+ax.set_xticklabels(models)
+# Legend should be about the prompts
+ax.legend(prompts)
 
 # Show plot
 plt.show()
 
-
-plt.savefig(os.path.join(base_dir, "accuracy_comparison_verbal_analogy.png"))
+# Save the plot
+plt.savefig(os.path.join(base_dir, "accuracy_comparison_with_models.png"))
