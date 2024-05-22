@@ -67,7 +67,7 @@ def inference(model, source_story, correct_analogy, false_analogy, prompt_templa
     if parsed_answer is None:
         ambiguous = True
         # Second-stage extraction
-        extended_prompt = prompt + "\n" + generation + "\n So the final answer is (return just <ans> A </ans> or <ans> B </ans>): "
+        extended_prompt = prompt + "\n" + generation + "\n So the final answer is (return just <ans> A </ans> or <ans> B </ans>):"
         new_generation = model.forward(extended_prompt)
         parsed_answer = parse_model_generation(new_generation)
 

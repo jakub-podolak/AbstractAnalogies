@@ -1,0 +1,1078 @@
+relation,A,B,C,D,D',raw_generation,new_generation,parsed_answer
+Synonym,easy,simple,sad,unhappy,happy,"I'm ready to help. Let's break down the analogy:
+
+""easy : simple :: sad :?""
+
+The analogy is comparing words that are related to each other. ""easy"" and ""simple"" are both adjectives that describe something that is not difficult or complicated. Similarly, ""sad"" is an emotion, and we need to find an emotion that is related to it.
+
+In this case, ""unhappy"" is an emotion that is related to ""sad"", as both describe a negative emotional state. Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,hurry,rush,harm,injure,help,"I'm ready to help. Let's break down the analogy:
+
+hurry : rush :: harm :?
+
+The analogy is saying that ""hurry"" and ""rush"" are related in some way, and we need to find a similar relationship between ""harm"" and the unknown word.
+
+The relationship between ""hurry"" and ""rush"" is that they are both verbs that mean to move quickly. So, we're looking for a verb that means to cause harm.
+
+In this case, the correct completion is:
+
+<ans> D </ans>
+
+The verb ""injure"" means to cause harm or damage to someone or something.",,D
+Synonym,rob,steal,cry,weep,laugh,"I'm ready to help. Let's break down the analogy:
+
+""rob : steal :: cry :?""
+
+The analogy is saying that ""rob"" is related to ""steal"" in the same way that ""cry"" is related to the unknown word.
+
+The relationship between ""rob"" and ""steal"" is that ""steal"" is a verb that means to take something that doesn't belong to you, often in a sneaky or illegal way. This is a type of action that is often associated with ""rob"".
+
+Similarly, the relationship between ""cry"" and the unknown word is that the unknown word is a verb that is related to expressing sadness or distress. This is a type of action that is often associated with ""cry"".
+
+With this in mind, the correct completion of the analogy is:
+
+<ans> D </ans>
+
+The word ""weep"" is a verb that means to cry or shed tears, often in a way that is associated with sadness or distress. This fits with the relationship between ""cry"" and the unknown word in the analogy.",,D
+Synonym,polite,courteous,angry,furious,happy,"I'm ready to help. Let's break down the analogy:
+
+""polite : courteous :: angry :?""
+
+The analogy is comparing two pairs of words. The first pair is ""polite"" and ""courteous"", which are both adjectives that describe a person's behavior or manner. They are synonyms, but ""courteous"" is a more formal or old-fashioned way of saying ""polite"".
+
+The second pair is ""angry"" and the unknown word. We need to find a word that is similar to ""angry"" in some way.
+
+The correct completion should maintain the same relationship between the words as the original pair. In this case, ""courteous"" is a more intense or formal version of ""polite"", so we need a word that is a more intense or formal version of ""angry"".
+
+""Furious"" is a more intense version of ""angry"", so it fits the analogy.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Synonym,beginner,novice,doctor,physician,heal,"I'm ready to help. Let's break down the analogy:
+
+""beginner : novice :: doctor :?""
+
+The analogy is comparing two pairs of words. The relationship between ""beginner"" and ""novice"" is that they are both early stages of a field or activity. A beginner is someone who is just starting out, and a novice is also someone who is inexperienced but has some knowledge.
+
+The relationship between ""doctor"" and the unknown word is similar. A doctor is a professional in the medical field, and the unknown word should also be a professional in the medical field.
+
+Based on this analysis, the correct completion is:
+
+<ans> D </ans>
+
+The word ""physician"" is a professional in the medical field, just like a doctor.",,D
+Synonym,baby,infant,woman,lady,girl,"I'm ready to help. Let's break down the analogy:
+
+""baby : infant :: woman :?""
+
+The analogy is comparing two pairs of words. The first pair is ""baby"" and ""infant"", which are both stages of human development. The second pair is ""woman"" and the unknown word.
+
+To complete the analogy, we need to find a word that is a stage of human development for a woman, just like ""infant"" is a stage of human development for a ""baby"".
+
+The options are:
+
+D: lady
+E: girl
+
+A ""lady"" is an adult human being, but it's not a stage of human development. On the other hand, a ""girl"" is a stage of human development for a woman, just like ""infant"" is a stage of human development for a ""baby"".
+
+Therefore, the correct answer is:
+
+<ans> E </ans>",,E
+Synonym,brook,stream,courage,bravery,cowardice,"I'm ready to help. Let's break down the analogy:
+
+brook : stream :: courage :?
+
+The analogy is comparing two pairs of words. The first pair is ""brook"" and ""stream"", which are both types of small bodies of water. The second pair is ""courage"" and?, which are both abstract concepts.
+
+The relationship between ""brook"" and ""stream"" is that a stream is a smaller or more specific type of brook. Therefore, we can infer that the relationship between ""courage"" and? is that? is a smaller or more specific type of courage.
+
+The correct answer is therefore the one that fits this description. Bravery is a smaller or more specific type of courage, so:
+
+<ans> D </ans>",,D
+Synonym,huge,enormous,wealthy,rich,poor,"I'm ready to help. Let's break down the analogy:
+
+huge : enormous :: wealthy :?
+
+The analogy is comparing two pairs of words. The relationship between ""huge"" and ""enormous"" is that both words describe something as very large. Similarly, the relationship between ""wealthy"" and the unknown word should be that both words describe someone as having a lot of money.
+
+Based on this, I think the correct completion is:
+
+<ans> D </ans>
+
+rich",,D
+Synonym,cheerful,happy,awful,horrible,wonderful,"I'm ready to help. Let's analyze the analogy:
+
+cheerful : happy :: awful :?
+
+The analogy is saying that ""cheerful"" and ""happy"" are related in some way, and ""awful"" and? are related in the same way.
+
+The relationship between ""cheerful"" and ""happy"" is that they are both positive emotions. ""Cheerful"" is a more specific word, but it conveys a sense of happiness.
+
+If we apply the same relationship to ""awful"", we can think of a word that is also a negative emotion. ""Horrible"" is a good fit, as it is a strong negative emotion.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,remain,stay,begin,start,continue,"I'm ready to help. Let's break down the analogy:
+
+""remain : stay :: begin :?""
+
+The analogy is saying that ""remain"" is related to ""stay"" in some way, and we need to find a similar relationship between ""begin"" and the unknown.
+
+The relationship between ""remain"" and ""stay"" is that they are both forms of continuing to be in a particular state or location. ""To remain"" means to stay or continue to be in a place or situation, and ""to stay"" also means to continue to be in a place or situation.
+
+Using this logic, we can apply the same relationship to ""begin"" and the unknown. ""To begin"" means to start or initiate something, so the corresponding action to ""begin"" would be to start or initiate something as well.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,unusual,strange,famous,renowned,unknown,"I'm ready to help. Let's break down the analogy:
+
+""unusual : strange :: famous :?""
+
+The analogy is comparing two pairs of words. The relationship between ""unusual"" and ""strange"" is that they are both adjectives that describe something as being unusual or unexpected. So, the relationship is one of synonymy.
+
+If we apply this relationship to the second pair, we're looking for an adjective that describes something as being famous or well-known. A word that fits this description is ""renowned"".
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,sick,ill,little,small,big,"I'm ready to help. Let's break down the analogy:
+
+sick : ill :: little :?
+
+The analogy is saying that ""sick"" and ""ill"" are related in some way, and we need to find a similar relationship between ""little"" and the unknown word.
+
+The relationship between ""sick"" and ""ill"" is that they are both words that describe a state of being unwell. ""Sick"" is a more informal or colloquial way of saying ""ill"".
+
+So, we need to find a word that is similar to ""small"" in relation to ""little"". ""Small"" is a more formal or precise way of saying ""little"".
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,legal,lawful,usual,normal,strange,"I'm ready to help. Let's break down the analogy:
+
+""legal : lawful :: usual :?""
+
+The analogy is comparing words that are related to each other. ""Legal"" and ""lawful"" are synonyms, both meaning conforming to the law.
+
+So, we need to find a word that is similar to ""usual"" in meaning. ""Usual"" means typical or customary.
+
+A word that is similar in meaning to ""usual"" is ""normal"". It's a word that describes something that is typical or expected.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,collect,gather,leave,abandon,stay,"I'm ready to help. Let's break down the analogy:
+
+""collect : gather :: leave :?""
+
+The analogy is saying that ""collect"" and ""gather"" are related in some way, and we need to find a similar relationship between ""leave"" and the unknown word.
+
+""Collect"" and ""gather"" both mean to bring things together or accumulate them. They have a similar meaning.
+
+So, we're looking for a word that is similar in meaning to ""leave"" in the same way that ""gather"" is similar in meaning to ""collect"".
+
+""Leave"" means to go away or depart from a place or situation. A word that is similar in meaning to ""leave"" is ""abandon"", which also means to give up or desert something.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,clean,neat,fortunate,lucky,miserable,"I'm ready to help. Let's break down the analogy:
+
+""clean : neat :: fortunate :?""
+
+The analogy is comparing two pairs of words. The first pair is ""clean"" and ""neat"", which are both adjectives that describe a state of tidiness or order. The second pair is ""fortunate"" and the unknown word.
+
+To complete the analogy, we need to find a word that is similar in meaning to ""fortunate"". A word that comes to mind is ""lucky"", which is also a positive adjective that describes a state of good fortune.
+
+So, the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,immense,colossal,precise,exact,approximate,"I'm ready to help.
+
+Let's analyze the analogy:
+
+immense : colossal :: precise :?
+
+The analogy is comparing two pairs of words. The first pair is ""immense"" and ""colossal"", which are both large or enormous words. The second pair is ""precise"" and?, which should also be a pair of words that are related in some way.
+
+The relationship between ""immense"" and ""colossal"" is that they are both very large or enormous. Therefore, the relationship between ""precise"" and? should be similar.
+
+""Exact"" is a word that is also very precise or accurate, just like ""colossal"" is very large. On the other hand, ""approximate"" is a word that is not very precise or accurate, which is the opposite of what we're looking for.
+
+So, the correct completion of the analogy is:
+
+<ans> D </ans>",,D
+Synonym,stone,rock,garbage,trash,bag,"I'm ready to help. Let's break down the analogy:
+
+""stone : rock :: garbage :?""
+
+The analogy is saying that ""stone"" is a type of ""rock"", so we're looking for a relationship between ""garbage"" and the unknown.
+
+In this case, ""garbage"" is a type of ""trash"", so the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,help,aid,raise,lift,lower,"I'm ready to help. Let's break down the analogy:
+
+""help : aid :: raise :?""
+
+The analogy is saying that ""help"" is to ""aid"" like ""raise"" is to...?
+
+The relationship between ""help"" and ""aid"" is that ""aid"" is a type of ""help"". So, we're looking for a word that has a similar relationship with ""raise"".
+
+The options are:
+
+D: lift
+E: lower
+
+Hmm... ""raise"" is a verb that means to increase or elevate something. ""Lift"" is also a verb that means to raise or elevate something, so it seems like a good fit.
+
+Therefore, I'm going to choose:
+
+<ans> D </ans>",,D
+Synonym,rug,carpet,bucket,pail,milk,"I'm ready to help. Let's break down the analogy:
+
+rug : carpet :: bucket :?
+
+The analogy is saying that ""rug"" is to ""carpet"" as ""bucket"" is to...?
+
+In this case, both ""rug"" and ""bucket"" are containers, and ""carpet"" and? are types of containers.
+
+So, the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,shout,yell,leap,jump,fall,"I'm ready to help. Let's break down the analogy:
+
+""shout : yell :: leap :?""
+
+The analogy is comparing two pairs of words. The relationship between ""shout"" and ""yell"" is that they are both forms of loud vocalizations. Similarly, the relationship between ""leap"" and the unknown word should be that they are both forms of physical actions.
+
+Based on this, I think the correct completion is:
+
+<ans> D </ans>
+
+The reasoning is that ""jump"" is a form of physical action, just like ""leap"" is.",,D
+Opposite,artificial,natural,friend,enemy,relative,"I'm ready to help.
+
+Let's analyze the analogy:
+
+artificial : natural :: friend :?
+
+The analogy is comparing two pairs of words. The first pair is ""artificial"" and ""natural"", which are both types of environments or settings. The second pair is ""friend"" and?, which is also a relationship.
+
+In this case, the correct completion would be a word that is a type of relationship, just like ""natural"" is a type of environment.
+
+So, I'm going to choose:
+
+<ans> E </ans>
+
+Am I correct?",,E
+Opposite,love,hate,rich,poor,wealthy,"I'm ready to help. Let's analyze the analogy:
+
+""love : hate :: rich :?""
+
+The analogy is comparing two pairs of words. The first pair is ""love"" and ""hate"", which are antonyms (opposite emotions). The second pair is ""rich"" and?, which is also expected to be antonyms.
+
+The correct antonym of ""rich"" is ""poor"", so the correct completion is:
+
+<ans> D </ans>",,D
+Opposite,alive,dead,succeed,fail,conquer,"I'm ready to help. Let's break down the analogy:
+
+""alive : dead :: succeed :?""
+
+The analogy is comparing two pairs of words. The relationship between ""alive"" and ""dead"" is that they are opposites. One is the opposite of the other.
+
+The relationship between ""succeed"" and the unknown word should be the same. Therefore, we need to find a word that is the opposite of ""succeed"".
+
+The opposite of ""succeed"" is ""fail"".
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Opposite,ugliness,beauty,joy,sorrow,emotion,"I'm ready to help. Let's break down the analogy:
+
+""ugliness : beauty :: joy :?""
+
+The analogy is comparing two pairs of words. The first pair is ""ugliness"" and ""beauty"", which are antonyms (opposites). The second pair is ""joy"" and the unknown word.
+
+To complete the analogy, we need to find a word that is an antonym of ""joy"". The options are:
+
+D: sorrow (which is an antonym of joy)
+E: emotion (which is not an antonym of joy)
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Opposite,huge,tiny,arrive,depart,come,"I'm ready to help. Let's break down the analogy:
+
+huge : tiny :: arrive :?
+
+The analogy is comparing two pairs of words. The relationship between ""huge"" and ""tiny"" is that they are antonyms, meaning they are opposite in size or magnitude.
+
+The relationship between ""arrive"" and the unknown word is likely to be an antonym as well. If we think about the opposite of ""arrive"", it would be ""leave"" or ""depart"", which is similar in meaning to ""huge"" and ""tiny"".
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Opposite,somber,cheerful,lawyer,client,doctor,"I'm ready to help. Let's break down the analogy:
+
+""Somber : cheerful :: lawyer :?""
+
+The analogy is comparing two pairs of words. The first pair is ""somber"" and ""cheerful"", which are antonyms (opposite in meaning). The second pair is ""lawyer"" and the unknown word.
+
+To complete the analogy, we need to find a word that is antonymous to ""lawyer"". A possible antonym of ""lawyer"" is ""client"", as a lawyer represents a client.
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Opposite,late,early,win,lose,capture,"I'm ready to help. Let's break down the analogy:
+
+late : early :: win :?
+
+The analogy is comparing two pairs of words. The relationship between ""late"" and ""early"" is that they are both times of day, with ""late"" being the opposite of ""early"".
+
+The relationship between ""win"" and the unknown word is that they are both actions or outcomes, with the unknown word being the opposite of ""win"".
+
+Based on this analysis, the correct completion is:
+
+<ans> D </ans>
+
+The opposite of ""win"" is indeed ""lose"".",,D
+Opposite,quick,slow,grow,wither,plant,"I'm ready to help. Let's break down the analogy:
+
+""quick : slow :: grow :?""
+
+The analogy is comparing two pairs of words. The first pair is ""quick"" and ""slow"", which are antonyms (opposites). The second pair is ""grow"" and the unknown word.
+
+To complete the analogy, we need to find a word that is an antonym of ""grow"". The word ""wither"" means to shrink or become smaller, which is the opposite of growing. Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Opposite,antonym,synonym,selfish,generous,egocentric,"I'm ready to help. Let's break down the analogy:
+
+""antonym : synonym :: selfish :?""
+
+The analogy is comparing two pairs of words. The first pair is ""antonym"" and ""synonym"", which are two types of words that are related to each other (one is the opposite of the other, and one is a similar word).
+
+The second pair is ""selfish"" and?, which is also a pair of words that are related to each other.
+
+The relationship between ""antonym"" and ""synonym"" is that they are both types of words. Therefore, the relationship between ""selfish"" and? is likely to be a type of person or behavior.
+
+The correct completion is the one that is a type of person or behavior that is related to ""selfish"".
+
+""Selfish"" is a type of behavior that is the opposite of ""generous"", which is a type of behavior that is helpful and giving.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Opposite,quiet,noisy,last,first,final,"I'm ready to help. Let's break down the analogy:
+
+quiet : noisy :: last :?
+
+The analogy is comparing two pairs of words. The relationship between ""quiet"" and ""noisy"" is that they are opposites, one being the opposite of the other.
+
+In the second pair, ""last"" and? are being compared. We need to find a word that is the opposite of ""last"".
+
+The correct opposite of ""last"" is ""first"", not ""final"". So, the correct completion is:
+
+<ans> D </ans>",,D
+Opposite,start,stop,trivial,important,famous,"I'm ready to help. Let's break down the analogy:
+
+""start : stop :: trivial :?""
+
+The analogy is comparing two pairs of words. The relationship between ""start"" and ""stop"" is that they are both related to the beginning and end of something. In this case, ""start"" is the beginning of an activity, and ""stop"" is the end of an activity.
+
+The relationship between ""trivial"" and the unknown word is that they are both related to the importance or significance of something. ""Trivial"" means unimportant or insignificant.
+
+With this understanding, we can complete the analogy:
+
+""start : stop :: trivial : important""
+
+The correct answer is:
+
+<ans> D </ans>",,D
+Opposite,laugh,cry,cheap,expensive,inexpensive,"I'm ready to help. Let's break down the analogy:
+
+""laugh : cry :: cheap :?""
+
+The analogy is comparing two pairs of words. The first pair is ""laugh"" and ""cry"", which are both emotions or feelings. The second pair is ""cheap"" and the unknown word.
+
+The relationship between ""laugh"" and ""cry"" is that they are both emotional states, but they are opposite in nature. ""Laugh"" is a positive emotion, while ""cry"" is a negative emotion.
+
+Applying this relationship to the second pair, we can infer that the unknown word is also an opposite of ""cheap"". ""Cheap"" is a negative connotation, implying something is of low quality or value. Therefore, the opposite of ""cheap"" would be something that is of high quality or value.
+
+Based on this analysis, I believe the correct completion is:
+
+<ans> E </ans>
+
+The word ""inexpensive"" is the opposite of ""cheap"", implying something is of low cost or value.",,E
+Opposite,accept,reject,dark,bright,dim,"I'm ready to help. Let's break down the analogy:
+
+""accept : reject :: dark :?""
+
+The analogy is comparing two pairs of words. The first pair is ""accept"" and ""reject"", which are antonyms (opposites). The second pair is ""dark"" and the unknown word.
+
+The relationship between ""accept"" and ""reject"" is that they are opposites. Therefore, the relationship between ""dark"" and the unknown word should also be opposites.
+
+The opposite of ""dark"" is ""light"". However, the options are ""bright"" and ""dim"". ""Bright"" is not the opposite of ""dark"", it's a more intense version of light. On the other hand, ""dim"" is a less intense version of light, which is closer to being the opposite of ""dark"".
+
+Therefore, the correct completion is:
+
+<ans> E </ans>",,E
+Opposite,abundant,scarce,agree,disagree,concur,"I'm ready to help. Let's break down the analogy:
+
+""abundant : scarce :: agree :?""
+
+The analogy is comparing two pairs of words. The first pair is ""abundant"" and ""scarce"", which are antonyms (meaning they have opposite meanings). The second pair is ""agree"" and the unknown word.
+
+To complete the analogy, we need to find a word that is an antonym of ""agree"". The antonyms of ""agree"" are ""disagree"" and ""concur"". However, ""concur"" means to agree or be in accord, which is not an antonym of ""agree"".
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Opposite,hero,coward,strong,weak,muscular,"I'm ready to help. Let's break down the analogy:
+
+""hero : coward :: strong :?""
+
+The analogy is saying that a hero is to a coward as strong is to...?
+
+In this case, a hero is the opposite of a coward, so we're looking for the opposite of ""strong"".
+
+A coward is weak, so the correct completion is:
+
+<ans> D </ans>",,D
+Opposite,teacher,student,calm,stormy,serene,"I'm ready to help. Let's break down the analogy:
+
+""teacher : student :: calm :?""
+
+The analogy is saying that a teacher is to a student as calm is to...?
+
+In this case, a teacher is an authority figure to a student, so we're looking for a word that is an opposite or contrast to calm.
+
+Stormy is an opposite of calm, as it describes a state of turmoil or disturbance.
+
+Serene, on the other hand, is a synonym of calm, as it describes a state of peace or tranquility.
+
+So, the correct completion is:
+
+<ans> D </ans>",,D
+Opposite,give,take,allow,forbid,permit,"I'm ready to help. Let's break down the analogy:
+
+""give : take :: allow :?""
+
+The analogy is saying that ""give"" and ""take"" are related in some way, and we need to find a similar relationship between ""allow"" and the unknown.
+
+The relationship between ""give"" and ""take"" is that they are both actions that involve possession or control of something. ""Give"" means to transfer something to someone else, while ""take"" means to receive or seize something.
+
+With this in mind, let's look at the options:
+
+D: forbid
+E: permit
+
+The relationship between ""allow"" and the unknown is similar to the relationship between ""give"" and ""take"". ""Allow"" means to permit or grant permission for something to happen, while ""forbid"" means to prohibit or prevent something from happening.
+
+Therefore, the correct completion of the analogy is:
+
+<ans> D </ans>
+
+Forbid is the opposite of allow, just like take is the opposite of give.",,D
+Opposite,clean,dirty,awake,asleep,alert,"I'm ready to help. Let's break down the analogy:
+
+""clean : dirty :: awake :?""
+
+The analogy is comparing two pairs of words. The relationship between ""clean"" and ""dirty"" is that they are opposites. ""Clean"" is the opposite of ""dirty"".
+
+The relationship between ""awake"" and the unknown word is similar. ""Awake"" is the opposite of the unknown word.
+
+So, the unknown word should also be an opposite of ""awake"". The opposite of ""awake"" is ""asleep"".
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Opposite,remember,forget,increase,decrease,lengthen,"I'm ready to help. Let's break down the analogy:
+
+""remember : forget :: increase :?""
+
+The analogy is comparing two pairs of words. The first pair is ""remember"" and ""forget"", which are antonyms (opposite meanings). The second pair is ""increase"" and the unknown word.
+
+The relationship between ""remember"" and ""forget"" is that they are both actions related to memory, but in opposite directions. ""Remember"" means to recall something, while ""forget"" means to lose the memory of something.
+
+Similarly, the relationship between ""increase"" and the unknown word should be that they are both actions related to quantity or magnitude, but in opposite directions. ""Increase"" means to make something larger or greater, while the unknown word should mean to make something smaller or lesser.
+
+Based on this analysis, the correct completion is:
+
+<ans> D </ans>
+
+The word ""decrease"" is the antonym of ""increase"", meaning to make something smaller or lesser.",,D
+Opposite,crazy,sane,bent,straight,crooked,"I'm ready to help. Let's break down the analogy:
+
+crazy : sane :: bent :?
+
+The analogy is saying that ""crazy"" is to ""sane"" as ""bent"" is to? 
+
+The relationship between ""crazy"" and ""sane"" is that they are opposites. ""Crazy"" is an extreme or abnormal state, and ""sane"" is a normal or healthy state.
+
+Applying this relationship to ""bent"" and?, we can conclude that ""bent"" is an extreme or abnormal state, and? is a normal or healthy state.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Function,fly,bird,hop,rabbit,leg,"I'm ready to help. Let's break down the analogy:
+
+""fly : bird :: hop :?""
+
+The analogy is saying that ""fly"" is a characteristic or action of ""bird"", and ""hop"" is a characteristic or action of...?
+
+The correct completion should have a similar relationship between the two words. In this case, ""hop"" is a characteristic or action of ""rabbit"", so it's a type of movement that rabbits do.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Function,build,house,dig,hole,shovel,"I'm ready to help. Let's break down the analogy:
+
+""build : house :: dig :?""
+
+The analogy is saying that ""build"" is related to ""house"" in some way, and ""dig"" is related to the unknown in the same way.
+
+The relationship between ""build"" and ""house"" is that ""build"" is an action that creates a ""house"".
+
+So, we need to find a relationship between ""dig"" and the unknown that is similar to the relationship between ""build"" and ""house"".
+
+The correct relationship is that ""dig"" is an action that creates a ""hole"".
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Function,sing,song,ride,horse,rider,"I'm ready to help. Let's break down the analogy:
+
+""Sing : song :: ride :?""
+
+The analogy is saying that ""sing"" is related to ""song"" in some way, and we need to find a similar relationship between ""ride"" and the unknown.
+
+The relationship between ""sing"" and ""song"" is that ""sing"" is an action, and ""song"" is the result of that action (a thing).
+
+So, we're looking for a similar relationship between ""ride"" and the unknown. ""Ride"" is an action, and...
+
+Hmm... what is the result of riding? Ah, a horse!
+
+So, the correct completion is:
+
+<ans> D </ans>",,D
+Function,hear,ear,wear,clothes,woman,"I'm ready to help. Let's break down the analogy:
+
+""hear : ear :: wear :?""
+
+The analogy is saying that ""hear"" is related to ""ear"" in some way, and we need to find a similar relationship between ""wear"" and the unknown.
+
+The relationship between ""hear"" and ""ear"" is that ""hear"" is an action that is performed through the use of the ""ear"". In other words, you use your ear to hear.
+
+So, we're looking for a similar relationship between ""wear"" and the unknown. The relationship between ""wear"" and the unknown is that ""wear"" is an action that is performed through the use of the unknown. In other words, you use your clothes to wear.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>
+
+The answer is ""clothes"".",,D
+Function,drive,car,burn,wood,fire,"I'm ready to help. Let's break down the analogy:
+
+""drive : car :: burn :?""
+
+The analogy is saying that ""drive"" is related to ""car"" in a certain way, and we need to find a similar relationship between ""burn"" and the unknown.
+
+The relationship between ""drive"" and ""car"" is that ""drive"" is an action that is typically performed using a ""car"".
+
+So, we need to find a similar relationship between ""burn"" and the unknown.
+
+""Burn"" is an action that is typically performed on something, and that something is often ""wood"".
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Function,open,door,touch,hands,doctor,"I'm ready to help. Let's break down the analogy:
+
+""open : door :: touch :?""
+
+The analogy is saying that ""open"" is related to ""door"" in a certain way, and we need to find a similar relationship between ""touch"" and the unknown.
+
+The relationship between ""open"" and ""door"" is that ""open"" is an action that can be performed on a ""door"". A door can be opened.
+
+So, we're looking for a similar relationship between ""touch"" and the unknown. The relationship between ""touch"" and ""hands"" is that ""touch"" is an action that can be performed by ""hands"". You can touch something with your hands.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Function,squeeze,juice,shoot,gun,miss,"I'm ready to help. Let's break down the analogy:
+
+squeeze : juice :: shoot :?
+
+The analogy is saying that ""squeeze"" is related to ""juice"" in some way, and ""shoot"" is related to the unknown answer in the same way.
+
+The relationship between ""squeeze"" and ""juice"" is that squeezing a fruit or vegetable produces juice.
+
+So, we need to find a relationship between ""shoot"" and the unknown answer that is similar to the relationship between ""squeeze"" and ""juice"".
+
+A possible relationship is that ""shoot"" is related to a ""gun"", as in shooting a gun.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Function,cut,knife,hit,hammer,nail,"I'm ready to help. Let's break down the analogy:
+
+""cut : knife :: hit :?""
+
+The analogy is saying that ""cut"" is related to ""knife"" in some way, and we need to find a similar relationship between ""hit"" and the unknown.
+
+The relationship between ""cut"" and ""knife"" is that a knife is a tool used to cut. So, we're looking for a tool that is used to hit.
+
+Based on this, I think the correct completion is:
+
+<ans> D </ans>
+
+Because a hammer is a tool that is commonly used to hit things.",,D
+Function,throw,ball,open,envelope,close,"I'm ready to help. Let's break down the analogy:
+
+""throw : ball :: open :?""
+
+The analogy is saying that ""throw"" is related to ""ball"" in a certain way, and we need to find a similar relationship between ""open"" and the unknown.
+
+The relationship between ""throw"" and ""ball"" is that you throw a ball. So, we're looking for a similar relationship between ""open"" and the unknown.
+
+One possibility is that you open an envelope. This fits the pattern, as ""open"" is related to ""envelope"" in the same way that ""throw"" is related to ""ball"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Function,read,magazine,play,football,kids,"I'm ready to help. Let's break down the analogy:
+
+""read : magazine :: play :?""
+
+The analogy is saying that ""read"" is related to ""magazine"" in some way, and we need to find a similar relationship between ""play"" and the unknown.
+
+The relationship between ""read"" and ""magazine"" is that ""read"" is an activity that is often done with a ""magazine"". Magazines are typically read for entertainment, information, or leisure.
+
+Applying this relationship to ""play"", we can think of an activity that is often done with ""kids"". Kids are often played with, entertained, or engaged in play activities.
+
+Therefore, the correct completion is:
+
+<ans> E </ans>",,E
+Function,carry,suitcase,sit,chair,job,"I'm ready to help. Let's break down the analogy:
+
+""carry : suitcase :: sit :?""
+
+The analogy is saying that ""carry"" is related to ""suitcase"" in some way, and ""sit"" is related to the unknown word.
+
+The relationship between ""carry"" and ""suitcase"" is that you carry a suitcase.
+
+So, the relationship between ""sit"" and the unknown word should be similar. You sit in a chair.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Function,drink,glass,cook,pan,chef,"I'm ready to help. Let's break down the analogy:
+
+""drink : glass :: cook :?""
+
+The analogy is saying that ""drink"" is related to ""glass"" in some way, and we need to find a similar relationship between ""cook"" and the unknown.
+
+The relationship between ""drink"" and ""glass"" is that you use a glass to drink. So, we're looking for a similar relationship between ""cook"" and the unknown.
+
+The options are:
+
+D: pan
+E: chef
+
+A pan is something you use to cook, so this seems like a good fit. Therefore, I'm going to choose:
+
+<ans> D </ans>",,D
+Function,burn,fire,blow,wind,down,"I'm ready to help. Let's break down the analogy:
+
+""burn : fire :: blow :?""
+
+The analogy is saying that ""burn"" is related to ""fire"" in some way, and we need to find a similar relationship between ""blow"" and the unknown.
+
+The relationship between ""burn"" and ""fire"" is that ""burn"" is an action that is often performed by ""fire"". Fire is a source of heat that can cause things to burn.
+
+So, we're looking for a similar relationship between ""blow"" and the unknown. One possibility is that ""blow"" is an action that is often performed by ""wind"". Wind is a source of air that can cause things to blow.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Function,ski,snow,swim,water,swimmer,"I'm ready to help. Let's break down the analogy:
+
+""ski : snow :: swim :?""
+
+The analogy is saying that ""ski"" is related to ""snow"" in some way, and we need to find a similar relationship between ""swim"" and the unknown.
+
+The relationship between ""ski"" and ""snow"" is that skiing typically takes place on snow. So, we're looking for a word that is related to ""swim"" in a similar way.
+
+The options are:
+
+D: water
+E: swimmer
+
+Water is where swimming typically takes place, so the correct completion is:
+
+<ans> D </ans>",,D
+Function,tell,story,fight,battle,soldier,"I'm ready to help. Let's break down the analogy:
+
+""tell : story :: fight :?""
+
+The analogy is saying that ""tell"" is related to ""story"" in some way, and we need to find a similar relationship between ""fight"" and the unknown.
+
+The relationship between ""tell"" and ""story"" is that ""tell"" is a way of conveying a ""story"". So, we're looking for a word that is a way of conveying a ""fight"".
+
+The options are:
+
+D: battle
+E: soldier
+
+A battle is a type of fight, so it makes sense that ""fight"" is related to ""battle"" in the same way that ""tell"" is related to ""story"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Function,run,horse,pull,tractor,muscle,"I'm ready to help. Let's break down the analogy:
+
+""run : horse :: pull :?""
+
+The analogy is saying that ""run"" is related to ""horse"" in some way, and ""pull"" is related to the unknown in the same way.
+
+The relationship between ""run"" and ""horse"" is that a horse is often used for running. So, the analogy is looking for a relationship between ""pull"" and the unknown.
+
+The options are:
+
+D: tractor (a tractor is often used for pulling)
+E: muscle (a muscle is used for pulling, but this is a more abstract relationship)
+
+Based on the analogy, I think the correct completion is:
+
+<ans> D </ans>
+
+A tractor is often used for pulling, which matches the relationship between a horse and running.",,D
+Function,write,poem,carve,statue,knife,"I'm ready to help. Let's break down the analogy:
+
+""write : poem :: carve :?""
+
+The analogy is saying that ""write"" is related to ""poem"" in some way, and ""carve"" is related to the unknown word in the same way.
+
+The relationship between ""write"" and ""poem"" is that ""write"" is a way to create a ""poem"". So, the unknown word should be something that is a way to create a ""statue"".
+
+The two options are:
+
+D: statue
+E: knife
+
+A knife is not a way to create a statue, but rather a tool used to carve one. Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Function,ride,bicycle,drink,cup,water,"I'm ready to help. Let's break down the analogy:
+
+""ride : bicycle :: drink :?""
+
+The analogy is saying that ""ride"" is related to ""bicycle"" in some way, and ""drink"" is related to the unknown in the same way.
+
+The relationship between ""ride"" and ""bicycle"" is that you ride a bicycle.
+
+So, the relationship between ""drink"" and the unknown should be the same. You drink from a...
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Function,throw,ball,jump,parachute,walk,"I'm ready to help. Let's break down the analogy:
+
+""throw : ball :: jump :?""
+
+The analogy is saying that ""throw"" is related to ""ball"" in some way, and we need to find a similar relationship between ""jump"" and the unknown.
+
+The relationship between ""throw"" and ""ball"" is that you throw a ball. So, we're looking for something that you jump with.
+
+The options are:
+
+D: parachute (you jump with a parachute, but this doesn't feel like the correct relationship)
+E: walk (you can jump while walking, but this isn't the primary relationship)
+
+I think the correct relationship is that you jump while doing something else (like walking). Therefore, the correct answer is:
+
+<ans> E </ans>",,E
+Function,ride,elevator,sail,boat,wind,"I'm ready to help. Let's break down the analogy:
+
+""ride : elevator :: sail :?""
+
+The analogy is saying that ""ride"" is related to ""elevator"" in some way, and ""sail"" is related to the unknown in the same way.
+
+The relationship between ""ride"" and ""elevator"" is that you ride in an elevator.
+
+So, the analogy is looking for a relationship between ""sail"" and the unknown that is similar to the relationship between ""ride"" and ""elevator"".
+
+The options are:
+
+D: boat
+E: wind
+
+A boat is something you sail in, so the correct completion is:
+
+<ans> D </ans>",,D
+Category Members,vegetable,cabbage,insect,beetle,frog,"I'm ready to help. Let's break down the analogy:
+
+""vegetable : cabbage :: insect :?""
+
+The analogy is saying that ""cabbage"" is a type of ""vegetable"", so we need to find a type of ""insect"" that matches the relationship.
+
+""Cabbage"" is a specific type of vegetable, so we need to find a specific type of insect.
+
+The correct answer is a type of insect that is commonly associated with the term ""insect"".
+
+Between the two options, ""beetle"" is a specific type of insect, whereas ""frog"" is an amphibian, not an insect.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,insect,bee,fish,halibut,water,"I'm ready to help. Let's break down the analogy:
+
+insect : bee :: fish :?
+
+The analogy is saying that an insect is a type of bee, so we're looking for a type of fish.
+
+Halibut is a type of fish, so it seems like a good fit.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,flower,rose,bird,pigeon,nest,"I'm ready to help. Let's break down the analogy:
+
+""flower : rose :: bird :?""
+
+The analogy is comparing a type of flower to a specific type of flower, and a type of bird to a specific type of bird.
+
+So, the relationship between ""flower"" and ""rose"" is that ""rose"" is a specific type of ""flower"".
+
+Similarly, the relationship between ""bird"" and? should be that? is a specific type of ""bird"".
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Category Members,bird,wren,insect,mosquito,sting,"I'm ready to help. Let's break down the analogy:
+
+""bird : wren :: insect :?""
+
+The analogy is saying that a bird is a type of bird, and a wren is a specific type of bird. So, the relationship between ""bird"" and ""wren"" is one of categorization (a bird is a general category, and a wren is a specific example).
+
+Applying this relationship to the second part of the analogy, we can say that an insect is a type of insect, and? is a specific type of insect.
+
+Comparing the two options:
+
+D: mosquito (a specific type of insect)
+E: sting (not a type of insect, but a way insects can hurt humans)
+
+Based on the analogy, I think the correct completion is:
+
+<ans> D </ans>
+
+Am I correct?",,D
+Category Members,vegetable,lettuce,bird,sparrow,cat,"I'm ready to help. Let's break down the analogy:
+
+""vegetable : lettuce :: bird :?""
+
+The analogy is saying that ""lettuce"" is a type of ""vegetable"", so we're looking for a type of ""bird"".
+
+Sparrow is a type of bird, so...
+
+<ans> D </ans>",,D
+Category Members,sport,soccer,vehicle,bus,engine,"I'm ready to help. Let's break down the analogy:
+
+""Sport : soccer :: vehicle :?""
+
+The analogy is saying that a sport is to soccer like a vehicle is to...?
+
+In this case, ""sport"" is a category, and ""soccer"" is a specific example of a sport. Similarly, ""vehicle"" is a category, and we need to find a specific example of a vehicle.
+
+The correct completion would be a type of vehicle that is commonly associated with everyday use. In this case, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,weapon,pistol,clothing,shoes,cotton,"I'm ready to help. Let's break down the analogy:
+
+""weapon : pistol :: clothing :?""
+
+The analogy is saying that a weapon is a specific type of weapon (pistol), so we need to find a specific type of clothing.
+
+The options are:
+
+D: shoes
+E: cotton
+
+Shoes are a type of clothing, so I think the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,sport,tennis,weapon,gun,murder,"I'm ready to help. Let's break down the analogy:
+
+""Sport : tennis :: weapon :?""
+
+The analogy is saying that a sport is related to a specific activity (tennis) in the same way that a weapon is related to a specific action (gun).
+
+So, the correct completion would be:
+
+D: gun
+
+Therefore, my answer is:
+
+<ans> D </ans>",,D
+Category Members,furniture,sofa,sport,golf,coat,"I'm ready to help. Let's break down the analogy:
+
+furniture : sofa :: sport :?
+
+The analogy is saying that ""furniture"" is a category, and ""sofa"" is a specific type of furniture. Similarly, ""sport"" is a category, and we need to find a specific type of sport.
+
+Golf is a specific type of sport, so it fits the analogy.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,tool,pliers,vehicle,van,fuel,"I'm ready to help. Let's break down the analogy:
+
+tool : pliers :: vehicle :?
+
+The analogy is saying that a tool is related to pliers in a certain way, and a vehicle is related to? in the same way.
+
+The relationship between ""tool"" and ""pliers"" is that pliers is a type of tool. So, we're looking for a relationship between ""vehicle"" and?, where? is also a type of vehicle.
+
+Based on this, I think the correct completion is:
+
+<ans> D </ans>
+
+Because a van is a type of vehicle.",,D
+Category Members,clothing,trousers,fish,cod,net,"I'm ready to help. Let's break down the analogy:
+
+""clothing : trousers :: fish :?""
+
+The analogy is saying that ""clothing"" is a category, and ""trousers"" is a specific type of clothing. Similarly, ""fish"" is a category, and we need to find a specific type of fish.
+
+The options are:
+
+D: cod (a type of fish)
+E: net (not a type of fish, but a tool used to catch fish)
+
+So, the correct completion is:
+
+<ans> D </ans>",,D
+Category Members,fruit,banana,furniture,dresser,house,"I'm ready to help. Let's break down the analogy:
+
+""fruit : banana :: furniture :?""
+
+The analogy is saying that ""banana"" is a type of ""fruit"", so we need to find a word that is a type of ""furniture"".
+
+""Dresser"" is a type of furniture, so it makes sense to complete the analogy with:
+
+<ans> D </ans>",,D
+Category Members,fish,shark,sport,baseball,team,"I'm ready to help. Let's break down the analogy:
+
+""fish : shark :: sport :?""
+
+The analogy is comparing a type of fish to a type of shark, so we're looking for a comparison between a type of sport and a type of team.
+
+In this case, a fish is a type of fish, and a shark is a type of fish (a predator). Similarly, a sport is a type of sport, and a team is a type of sport (a group of athletes competing together).
+
+So, the correct completion is:
+
+<ans> E </ans>
+
+A team is a type of sport, just like a shark is a type of fish.",,E
+Category Members,fruit,plum,clothing,coat,silk,"I'm ready to help. Let's break down the analogy:
+
+""fruit : plum :: clothing :?""
+
+The analogy is saying that ""plum"" is a type of ""fruit"", so we need to find a word that is a type of ""clothing"".
+
+The options are:
+
+D: coat
+E: silk
+
+A coat is a type of clothing, so...
+
+<ans> D </ans>",,D
+Category Members,flower,carnation,tool,hacksaw,carpenter,"I'm ready to help. Let's break down the analogy:
+
+""flower : carnation :: tool :?""
+
+The analogy is comparing a type of flower to a specific type of flower, and a type of tool to a specific type of tool.
+
+In this case, ""carnation"" is a specific type of flower, so we're looking for a specific type of tool.
+
+The options are:
+
+D: hacksaw
+E: carpenter
+
+A hacksaw is a specific type of tool, so it seems like a good fit.
+
+Therefore, my answer is:
+
+<ans> D </ans>",,D
+Category Members,bird,crow,sport,football,stadium,"I'm ready to help. Let's break down the analogy:
+
+""bird : crow :: sport :?""
+
+The analogy is saying that a bird is a type of crow, so we're looking for a relationship between sport and the answer.
+
+In this case, I think the correct completion is:
+
+<ans> D </ans>
+
+The reasoning is that a sport is a type of football, just like a bird is a type of crow.",,D
+Category Members,weapon,sword,flower,daffodil,vase,"I'm ready to help. Let's break down the analogy:
+
+""weapon : sword :: flower :?""
+
+The analogy is comparing a type of weapon to a type of flower. The relationship between ""weapon"" and ""sword"" is that a sword is a type of weapon.
+
+So, we're looking for a type of flower that is similar to a sword in the same way that a sword is a type of weapon.
+
+D: daffodil
+
+Daffodils are a type of flower, just like swords are a type of weapon. This seems like a good match.
+
+E: vase
+
+Vases are containers, not a type of flower. This doesn't seem like a good match.
+
+Therefore, I think the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,clothing,jacket,bird,pigeon,dog,"I'm ready to help. Let's break down the analogy:
+
+""clothing : jacket :: bird :?""
+
+The analogy is saying that a jacket is a type of clothing, so we're looking for a type of bird.
+
+The correct answer is:
+
+<ans> D </ans>",,D
+Category Members,furniture,table,fruit,pear,tree,"I'm ready to help. Let's break down the analogy:
+
+furniture : table :: fruit :?
+
+The analogy is saying that ""table"" is a type of ""furniture"", so we need to find a word that is a type of ""fruit"".
+
+Pear is a type of fruit, so...
+
+<ans> D </ans>",,D
+Category Members,clothing,jeans,vegetable,potato,apple,"I'm ready to help. Let's break down the analogy:
+
+""clothing : jeans :: vegetable :?""
+
+The analogy is saying that ""clothing"" is a category, and ""jeans"" is a specific type of clothing. Similarly, ""vegetable"" is a category, and we need to find a specific type of vegetable.
+
+The correct completion should be a type of vegetable, just like ""jeans"" is a type of clothing.
+
+Comparing the options:
+
+D: potato (a type of vegetable)
+E: apple (a type of fruit, not a vegetable)
+
+So, the correct answer is:
+
+<ans> D </ans>",,D

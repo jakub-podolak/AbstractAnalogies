@@ -1,0 +1,24 @@
+The notation "A : B :: C : D" should be read as "A is to B like C is to D".
+
+In the following example:
+
+Analogy:
+{A} : {B} :: {C} : ?
+
+Replace the question mark with the correct analogy:
+
+D: {D}
+
+or
+
+E: {D_prime}
+
+Which of the completions D or E correctly completes the analogy?
+
+1/ Briefly explain how completion D relates to the analogy.
+2/ Briefly explain how completion E relates to the analogy.
+3/ Compare the relationships presented in completions D and E with the analogy.
+4/ Based on the comparisons, determine which completion (D or E) correctly completes the analogy.
+5/ State the final answer. Provide final answer in tags: <ans> D </ans> or <ans> E </ans>
+
+Only one answer is correct.

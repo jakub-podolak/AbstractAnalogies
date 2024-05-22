@@ -1,0 +1,697 @@
+relation,A,B,C,D,D',raw_generation,new_generation,parsed_answer
+Synonym,easy,simple,sad,unhappy,happy,"A nice analogy!
+
+The relationship between ""easy"" and ""simple"" is that both words describe something that is uncomplicated or straightforward. Similarly, the relationship between ""sad"" and the correct completion should be that both words describe a negative emotional state.
+
+""Unhappy"" is a synonym of ""sad"", so it fits the analogy.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Synonym,hurry,rush,harm,injure,help,"A nice analogy!
+
+The pattern here is that the first word is a verb, and the second word is a related verb that means to do the first verb more quickly or intensely. For example, ""hurry"" is to ""rush"" as ""harm"" is to...?
+
+In this case, ""harm"" is to ""injure"" as ""hurry"" is to ""rush"", so the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,rob,steal,cry,weep,laugh,"A classic analogy!
+
+The correct completion is:
+
+<ans> D </ans>
+
+The analogy is based on the idea that ""rob"" and ""steal"" are synonyms, and ""cry"" and ""weep"" are also synonyms. Similarly, ""laugh"" is not a synonym of ""cry"", so it doesn't fit the pattern.
+
+Well, that was easy!",,D
+Synonym,polite,courteous,angry,furious,happy,"A nice analogy!
+
+The relationship between ""polite"" and ""courteous"" is that they are synonyms, both describing a polite or respectful manner.
+
+If we apply this relationship to the analogy, we can see that ""angry"" and ""furious"" are also synonyms, both describing a strong feeling of anger.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,beginner,novice,doctor,physician,heal,"A nice analogy!
+
+The relationship between ""beginner"" and ""novice"" is that they are both terms for someone who is new to a particular field or activity. Similarly, the relationship between ""doctor"" and ""physician"" is that they are both terms for a medical professional.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,baby,infant,woman,lady,girl,"A nice analogy!
+
+The relationship between ""baby"" and ""infant"" is that ""baby"" is a more general term that encompasses ""infant"", which is a more specific term.
+
+Similarly, ""woman"" is a more general term that encompasses ""lady"", which is a more specific term.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,brook,stream,courage,bravery,cowardice,"A nice analogy!
+
+The relationship between ""brook"" and ""stream"" is that a brook is a smaller or narrower stream. This suggests that the analogy is comparing a smaller or more specific form of something to the more general term.
+
+In this case, ""courage"" is a more general term, and ""bravery"" is a specific form of courage. Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,huge,enormous,wealthy,rich,poor,"A nice analogy!
+
+The relationship between ""huge"" and ""enormous"" is that both words describe something as very large. Similarly, the relationship between ""wealthy"" and the correct completion should be that both words describe someone as having a lot of money.
+
+In this case, ""rich"" is a synonym for ""wealthy"", so the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,cheerful,happy,awful,horrible,wonderful,"A delightful analogy!
+
+The pattern here is that the first word is an adjective that describes a positive emotion, and the second word is the emotion itself. Therefore, if ""cheerful"" is to ""happy"" like ""awful"" is to...?
+
+The correct completion is ""horrible"", as ""awful"" is an adjective that describes a negative emotion, and ""horrible"" is the emotion itself.
+
+So, the correct answer is: <ans> D </ans>",,D
+Synonym,remain,stay,begin,start,continue,"A nice analogy!
+
+The relationship between ""remain"" and ""stay"" is that ""remain"" is a verb that means to stay or continue to be in a place or state, and ""stay"" is a verb that means to remain in a place or state.
+
+Similarly, the relationship between ""begin"" and the correct completion is that ""begin"" is a verb that means to start or initiate something, and the correct completion should be a verb that means to start or initiate something.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,unusual,strange,famous,renowned,unknown,"A nice analogy!
+
+The relationship between ""unusual"" and ""strange"" is that they both describe something that is not typical or normal. Therefore, the correct completion for ""famous"" should be a word that describes something that is well-known or widely recognized.
+
+""Renowned"" fits this description, as it means famous or well-known, especially for something that is considered to be of high quality or achievement.
+
+On the other hand, ""unknown"" doesn't quite fit, as it means not well-known or recognized, which is the opposite of what we're looking for.
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Synonym,sick,ill,little,small,big,"A nice analogy!
+
+The analogy is comparing two pairs of words that are related in a similar way. In the first pair, ""sick"" and ""ill"" are both words that describe a state of being unwell. In the second pair, we need to find a word that is related to ""little"" in a similar way.
+
+After analyzing the analogy, I think I have the correct answer:
+
+The word ""little"" is an adjective that means ""small in size or amount"", so the correct completion is:
+
+<ans> D </ans>
+
+The word ""small"" is the one that is related to ""little"" in the same way that ""ill"" is related to ""sick"".",,D
+Synonym,legal,lawful,usual,normal,strange,"A nice analogy!
+
+The relationship between ""legal"" and ""lawful"" is that they are synonyms. Both words refer to something that is in accordance with the law.
+
+If we apply this relationship to the analogy, we can see that ""usual"" and ""normal"" are also synonyms, whereas ""usual"" and ""strange"" are antonyms.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,collect,gather,leave,abandon,stay,"A nice analogy!
+
+The relationship between ""collect"" and ""gather"" is that both verbs mean to bring together or accumulate something. Therefore, the correct completion would be a verb that means to depart or go away from something.
+
+""Leave"" is a verb that means to depart or go away from a place or a person, which is similar to ""abandon"", which means to give up or desert something. Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Synonym,clean,neat,fortunate,lucky,miserable,"A nice analogy!
+
+The relationship between ""clean"" and ""neat"" is that both words describe a state of tidiness or orderliness. Similarly, the relationship between ""fortunate"" and the correct completion should be that both words describe a state of good luck or prosperity.
+
+""Lucky"" fits this description, as it is a synonym of ""fortunate"". On the other hand, ""miserable"" is an antonym of ""fortunate"", describing a state of unhappiness or bad luck.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,immense,colossal,precise,exact,approximate,"A nice analogy!
+
+The relationship between ""immense"" and ""colossal"" is that they are both superlatives used to describe something as extremely large or impressive. Therefore, the correct completion should also be a superlative adjective that describes something as extremely precise.
+
+""Exact"" is a superlative adjective that means extremely precise or accurate, whereas ""approximate"" is the opposite, meaning not precise or accurate.
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Synonym,stone,rock,garbage,trash,bag,"A nice analogy!
+
+The relationship between ""stone"" and ""rock"" is that a stone is a type of rock. Therefore, we're looking for a relationship between ""garbage"" and ""trash"" that is similar.
+
+In this case, ""garbage"" is a type of ""trash"", so the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,help,aid,raise,lift,lower,"A nice analogy!
+
+The relationship between ""help"" and ""aid"" is that ""aid"" is a type of ""help"". Similarly, the relationship between ""raise"" and the correct completion should be that the correct completion is a type of ""raise"".
+
+""Lift"" is a type of ""raise"", as in ""to lift someone's spirits"" or ""to lift a weight"". On the other hand, ""lower"" is not a type of ""raise"", but rather the opposite.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,rug,carpet,bucket,pail,milk,"A nice analogy!
+
+The pattern here is that both ""rug"" and ""carpet"" are types of floor coverings, so we're looking for a similar relationship between ""bucket"" and its completion.
+
+A bucket is a type of container, and a pail is a type of container, so the correct completion is:
+
+<ans> D </ans>",,D
+Synonym,shout,yell,leap,jump,fall,"A nice analogy!
+
+The relationship between ""shout"" and ""yell"" is that they are both forms of loud or intense speaking. Similarly, the relationship between ""leap"" and the correct completion should be that they are both forms of sudden or energetic movement.
+
+In this case, ""jump"" is a more intense or energetic form of movement, just like ""yell"" is a more intense form of speaking. Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Opposite,artificial,natural,friend,enemy,relative,"The analogy is comparing the relationship between ""artificial"" and ""natural"" to the relationship between ""friend"" and another term.
+
+In the first pair, ""artificial"" is the opposite of ""natural"", suggesting a contrast or dichotomy.
+
+In the second pair, ""friend"" is often contrasted with ""enemy"", which is a common antonym.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Opposite,love,hate,rich,poor,wealthy,"A classic analogy!
+
+The correct completion is:
+
+<ans> D </ans>
+
+The analogy is based on the opposition between two emotions (love and hate) and two economic states (rich and poor). The relationship between love and hate is one of opposition, and the relationship between rich and poor is also one of opposition. Therefore, the correct completion is ""poor"", which is the opposite of ""rich"".",,D
+Opposite,alive,dead,succeed,fail,conquer,"A nice analogy!
+
+The correct completion is one that maintains a similar relationship between the words. In this case, ""alive"" and ""dead"" are antonyms, and ""succeed"" and ""fail"" are also antonyms.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Opposite,ugliness,beauty,joy,sorrow,emotion,"A classic analogy!
+
+The correct completion is:
+
+<ans> D </ans>
+
+Here's why:
+
+The analogy is comparing a negative quality (ugliness) to its opposite (beauty). Similarly, the analogy is comparing a negative emotion (joy) to its opposite (sorrow).",,D
+Opposite,huge,tiny,arrive,depart,come,"The analogy is comparing a large quantity to a small quantity, and a verb that means to start a journey to a verb that means to end a journey.
+
+huge : tiny :: arrive : depart
+
+The correct completion is:
+
+<ans> D </ans>",,D
+Opposite,somber,cheerful,lawyer,client,doctor,"A nice analogy!
+
+The relationship between ""somber"" and ""cheerful"" is one of antonyms, where ""somber"" is the opposite of ""cheerful"".
+
+The relationship between ""lawyer"" and ""client"" is also one of antonyms, where a lawyer represents a client.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Opposite,late,early,win,lose,capture,"A nice analogy!
+
+The relationship between ""late"" and ""early"" is one of opposition or contrast. ""Late"" is the opposite of ""early"".
+
+If we apply this relationship to the words ""win"" and?, we can see that ""win"" is the opposite of?. In this case, the opposite of ""win"" is indeed ""lose"".
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Opposite,quick,slow,grow,wither,plant,"A nice analogy!
+
+The pattern here is that the first word is an action, and the second word is the result of that action. In other words, ""quick"" is the result of ""growing"" (fast), and ""slow"" is the result of ""growing"" (not fast).
+
+Applying this pattern to the second part of the analogy, we get:
+
+grow :? :: quick : slow
+
+The correct result of ""growing"" is ""plant"", not ""wither"". Wither is the opposite of growing, whereas plant is the result of growing.
+
+Therefore, the correct answer is:
+
+<ans> E </ans>",,E
+Opposite,antonym,synonym,selfish,generous,egocentric,"The analogy is comparing antonyms and synonyms, and the relationship between them is one of opposition or similarity.
+
+Selfish is an antonym of generous, as they are opposite in meaning. Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Opposite,quiet,noisy,last,first,final,"The analogy is comparing two pairs of words that have a similar relationship. In this case, ""quiet"" and ""noisy"" are antonyms, with ""quiet"" being the opposite of ""noisy"".
+
+The relationship between ""last"" and? is also an antonymic relationship. The opposite of ""last"" is ""first"", not ""final"". ""Final"" means the last in a series or sequence, but it's not the direct opposite of ""last"".
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Opposite,start,stop,trivial,important,famous,"A nice analogy!
+
+The relationship between ""start"" and ""stop"" is that they are both verbs that describe actions related to a journey or a process. ""Start"" means to begin, and ""stop"" means to cease.
+
+In the same vein, ""trivial"" and ""important"" are both adjectives that describe the significance or value of something. ""Trivial"" means of little importance, and ""important"" means significant or crucial.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Opposite,laugh,cry,cheap,expensive,inexpensive,"A nice analogy!
+
+The relationship between ""laugh"" and ""cry"" is that they are both emotional expressions. ""Laugh"" is a positive emotional expression, while ""cry"" is a negative emotional expression.
+
+Similarly, ""cheap"" and ""expensive"" are both adjectives that describe the price or value of something. ""Cheap"" implies a low price or value, while ""expensive"" implies a high price or value.
+
+Therefore, the correct completion is:
+
+<ans> E </ans>
+
+""cheap"" is to ""inexpensive"" like ""laugh"" is to ""cry"".",,E
+Opposite,accept,reject,dark,bright,dim,"A nice analogy!
+
+The relationship between ""accept"" and ""reject"" is one of opposition or contrast. Similarly, the relationship between ""dark"" and ""bright"" is also one of opposition or contrast.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Opposite,abundant,scarce,agree,disagree,concur,"The analogy is comparing two pairs of words that have a similar relationship. In the first pair, ""abundant"" and ""scarce"" are antonyms, meaning they have opposite meanings. Similarly, in the second pair, ""agree"" and ""disagree"" are also antonyms.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Opposite,hero,coward,strong,weak,muscular,"A classic analogy!
+
+The correct completion is:
+
+<ans> D </ans>
+
+Here's why:
+
+The analogy is saying that a hero is to a coward as strong is to [something]. The relationship between hero and coward is one of opposition, where a hero is the opposite of a coward. Similarly, the relationship between strong and [something] is also one of opposition, where strong is the opposite of [something].
+
+Weak is the correct completion because it is the opposite of strong, just like coward is the opposite of hero.
+
+Muscular is not the correct completion because it is not the opposite of strong. In fact, muscular is often associated with being strong!",,D
+Opposite,teacher,student,calm,stormy,serene,"A nice analogy!
+
+The relationship between ""teacher"" and ""student"" is one of authority and subordinate, respectively. Similarly, the relationship between ""calm"" and ""stormy"" is one of peacefulness and turbulence, respectively.
+
+So, the correct analogy is:
+
+teacher : student :: calm : serene
+
+Therefore, the correct answer is:
+
+<ans> E </ans>",,E
+Opposite,give,take,allow,forbid,permit,"A nice analogy!
+
+The relationship between ""give"" and ""take"" is one of reciprocity, where one person gives something and another person takes it. This is similar to the relationship between ""allow"" and ""forbid"", where one action allows something to happen and the other action forbids it.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>
+
+The analogy is: give : take :: allow : forbid",,D
+Opposite,clean,dirty,awake,asleep,alert,"A classic analogy!
+
+The correct completion is:
+
+<ans> D </ans>
+
+The analogy is based on antonyms. ""Clean"" and ""dirty"" are antonyms, as are ""awake"" and ""asleep"". Therefore, the correct completion is ""asleep"", which is the opposite of ""awake"".",,D
+Opposite,remember,forget,increase,decrease,lengthen,"A nice analogy!
+
+The correct completion is the one that maintains a similar relationship between the words.
+
+""forget"" and ""remember"" are antonyms, and ""increase"" and ""decrease"" are also antonyms.
+
+Therefore, the correct analogy is:
+
+""remember : forget :: increase : decrease""
+
+So, the final answer is:
+
+<ans> D </ans>",,D
+Opposite,crazy,sane,bent,straight,crooked,"A nice analogy!
+
+The relationship between ""crazy"" and ""sane"" is one of opposites, where ""crazy"" is the opposite of ""sane"". Similarly, the relationship between ""bent"" and ""straight"" is also one of opposites, where ""bent"" is the opposite of ""straight"".
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Function,fly,bird,hop,rabbit,leg,"A classic analogy!
+
+The correct completion is:
+
+<ans> E </ans>
+
+Here's why:
+
+The analogy is saying that ""fly"" is a characteristic of ""bird"", and ""hop"" is a characteristic of...?
+
+In this case, ""hop"" is a characteristic of ""rabbit"", just like ""fly"" is a characteristic of ""bird"".",,E
+Function,build,house,dig,hole,shovel,"A classic analogy!
+
+The correct completion is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""build"" is a verb that means to construct or create a ""house"".
+* ""dig"" is a verb that means to create a ""hole"".
+
+The analogy is saying that just as ""build"" is related to creating a ""house"", ""dig"" is related to creating a ""hole"". Therefore, the correct completion is ""D: hole"".",,D
+Function,sing,song,ride,horse,rider,"A nice analogy!
+
+The pattern here is that the first word is a verb, and the second word is a noun that is a unit of the verb. In other words, ""sing"" is a verb and ""song"" is a unit of singing, and similarly, ""ride"" is a verb and a unit of riding is a horse.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Function,hear,ear,wear,clothes,woman,"A classic analogy!
+
+The correct completion is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""hear"" is related to ""ear"" as a verb is related to a body part.
+* Similarly, ""wear"" is related to ""clothes"" as a verb is related to a thing that is worn.
+* The analogy is based on the relationship between a verb and a noun, where the verb is related to the noun in a specific way.
+
+In contrast, ""woman"" is not a body part or a thing that is worn, so the analogy doesn't hold up in that case.",,D
+Function,drive,car,burn,wood,fire,"A classic analogy!
+
+The correct completion is:
+
+<ans> D </ans>
+
+Here's why:
+
+The analogy is saying that ""drive"" is a verb that is often associated with ""car"", just like ""burn"" is a verb that is often associated with ""wood"". In other words, ""drive"" is an action that is typically performed on a ""car"", and ""burn"" is an action that is typically performed on ""wood"".
+
+So, the correct completion is ""wood"", as it is a common object that is often burned.",,D
+Function,open,door,touch,hands,doctor,"A classic analogy!
+
+The correct completion is:
+
+<ans> D </ans>
+
+Here's why:
+
+The analogy is saying that ""open"" is a verb that is typically performed on a ""door"", and similarly, ""touch"" is a verb that is typically performed on ""hands"". The correct completion is ""hands"" because it is a common object that people touch, just like a door is a common object that people open.",,D
+Function,squeeze,juice,shoot,gun,miss,"A classic analogy!
+
+The correct completion is:
+
+<ans> D </ans>
+
+The reasoning is that ""squeeze"" is a verb that extracts ""juice"" from a fruit or vegetable, and similarly, ""shoot"" is a verb that uses a ""gun"" to fire a projectile.",,D
+Function,cut,knife,hit,hammer,nail,"A classic analogy!
+
+The correct completion is:
+
+<ans> D </ans>
+
+Here's why:
+
+* ""cut"" is a verb that is often performed using a ""knife"".
+* Similarly, ""hit"" is a verb that is often performed using a ""hammer"".
+
+So, the analogy is: ""cut : knife :: hit : hammer"".",,D
+Function,throw,ball,open,envelope,close,"A classic analogy!
+
+The correct completion is:
+
+<ans> D </ans>
+
+The analogy is: ""throw : ball :: open : envelope""
+
+The relationship between ""throw"" and ""ball"" is that a ball is something that can be thrown. Similarly, the relationship between ""open"" and ""envelope"" is that an envelope is something that can be opened.
+
+The option E, ""close"", doesn't fit the analogy as well, as there isn't a direct relationship between ""close"" and something that can be closed (like an envelope).",,D
+Function,read,magazine,play,football,kids,"A nice analogy!
+
+The analogy is saying that ""reading"" is a common activity associated with ""magazine"", just like ""playing"" is a common activity associated with ""football"".
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Function,carry,suitcase,sit,chair,job,"A nice analogy!
+
+The relationship between ""carry"" and ""suitcase"" is that ""carry"" is an action that is often performed with a ""suitcase"". Similarly, ""sit"" is an action that is often performed with a ""chair"".
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Function,drink,glass,cook,pan,chef,"A nice analogy!
+
+The analogy is saying that just as a drink is typically contained in a glass, a cook is typically associated with a pan.
+
+So, the correct completion is:
+
+<ans> D </ans>",,D
+Function,burn,fire,blow,wind,down,"A nice analogy!
+
+The relationship between ""burn"" and ""fire"" is that ""burn"" is an action that occurs when exposed to ""fire"". Similarly, the relationship between ""blow"" and ""wind"" is that ""blow"" is an action that occurs when exposed to ""wind"".
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Function,ski,snow,swim,water,swimmer,"A classic analogy!
+
+The correct completion is:
+
+<ans> D </ans>
+
+The analogy is: ""ski : snow :: swim : water""
+
+The relationship between ""ski"" and ""snow"" is that skiing takes place on snow. Similarly, the relationship between ""swim"" and ""water"" is that swimming takes place in water.",,D
+Function,tell,story,fight,battle,soldier,"A great analogy!
+
+The relationship between ""tell"" and ""story"" is that a ""tell"" is a way of telling a ""story"". Therefore, the correct analogy would be:
+
+The relationship between ""fight"" and ""battle"" is that a ""fight"" is a way of engaging in a ""battle"".
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Function,run,horse,pull,tractor,muscle,"A classic analogy!
+
+The correct completion is:
+
+<ans> D </ans>
+
+The analogy is: ""run : horse :: pull : tractor""
+
+The relationship between ""run"" and ""horse"" is that a horse is often used for running. Similarly, the relationship between ""pull"" and ""tractor"" is that a tractor is often used for pulling.",,D
+Function,write,poem,carve,statue,knife,"A nice analogy!
+
+The relationship between ""write"" and ""poem"" is that writing creates a poem. Similarly, the relationship between ""carve"" and ""statue"" is that carving creates a statue.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Function,ride,bicycle,drink,cup,water,"A nice analogy!
+
+The pattern here is that both ""ride"" and ""drink"" are verbs, and the second part of the analogy is a noun that is commonly associated with the verb.
+
+In the case of ""ride"", the noun is ""bicycle"", which is a vehicle designed for riding.
+
+Similarly, for ""drink"", the correct noun is ""cup"", which is a container used for holding liquids.
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Function,throw,ball,jump,parachute,walk,"A classic analogy!
+
+The correct completion is:
+
+<ans> D </ans>
+
+The analogy is: ""throw : ball :: jump : parachute""
+
+The relationship between ""throw"" and ""ball"" is that a ball is something that is thrown. Similarly, the relationship between ""jump"" and ""parachute"" is that a parachute is something that is used to slow down the descent after jumping.",,D
+Function,ride,elevator,sail,boat,wind,"A classic analogy!
+
+The correct completion is:
+
+<ans> D </ans>
+
+The analogy is comparing modes of transportation. ""Ride"" is a way to travel using an ""elevator"", and similarly, ""sail"" is a way to travel using a ""boat"".",,D
+Category Members,vegetable,cabbage,insect,beetle,frog,"A nice analogy!
+
+The analogy is saying that ""vegetable"" and ""cabbage"" are related in some way, and we need to find a similar relationship between ""insect"" and the unknown term.
+
+The relationship between ""vegetable"" and ""cabbage"" is that ""cabbage"" is a type of ""vegetable"". Therefore, we need to find a type of ""insect"".
+
+Beetle is a type of insect, whereas frog is not (it's an amphibian).
+
+So, the correct completion is:
+
+<ans> D </ans>",,D
+Category Members,insect,bee,fish,halibut,water,"A nice analogy!
+
+The analogy is saying that ""insect"" is a general category, and ""bee"" is a specific type of insect. Similarly, ""fish"" is a general category, and the analogy is asking for a specific type of fish.
+
+In this case, ""halibut"" is a specific type of fish, just like ""bee"" is a specific type of insect. Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Category Members,flower,rose,bird,pigeon,nest,"A lovely analogy!
+
+The analogy is saying that a flower is a type of rose, just as a bird is a type of [insert answer here].
+
+In this case, the correct completion is that a bird is a type of pigeon, not a type of nest (which is a structure built by birds, not a type of bird).
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,bird,wren,insect,mosquito,sting,"A nice analogy!
+
+The analogy is comparing a bird (A) to a wren (B), suggesting that the relationship between bird and wren is a specific type of relationship. In this case, it's a type of bird.
+
+The analogy is asking us to apply this same relationship to insects (C). A wren is a type of bird, so we need to find a type of insect.
+
+Mosquito (D) is a type of insect, so the correct completion is:
+
+<ans> D </ans>",,D
+Category Members,vegetable,lettuce,bird,sparrow,cat,"A nice analogy!
+
+The analogy is saying that ""vegetable"" and ""lettuce"" are related in some way, and we need to find a similar relationship between ""bird"" and the unknown.
+
+The relationship between ""vegetable"" and ""lettuce"" is that ""lettuce"" is a type of ""vegetable"". Therefore, we're looking for a relationship where ""bird"" is a type of something.
+
+In this case, ""sparrow"" is a type of ""bird"", so the correct completion is:
+
+<ans> D </ans>",,D
+Category Members,sport,soccer,vehicle,bus,engine,"A nice analogy!
+
+The pattern here is that ""sport"" is a type of activity, and ""soccer"" is a specific type of sport. Similarly, ""vehicle"" is a general category, and we're looking for a specific type of vehicle.
+
+In this case, ""bus"" is a specific type of vehicle, just like ""soccer"" is a specific type of sport. Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Category Members,weapon,pistol,clothing,shoes,cotton,"A nice analogy!
+
+The analogy is saying that a weapon is a specific type of something (pistol), and I need to find a specific type of clothing.
+
+In this case, a specific type of clothing is a type of footwear, which is a shoe.
+
+So, the correct completion is:
+
+<ans> D </ans>",,D
+Category Members,sport,tennis,weapon,gun,murder,"A nice analogy!
+
+The analogy is saying that ""sport"" is to ""tennis"" like ""weapon"" is to...?
+
+In this case, ""sport"" is a general category, and ""tennis"" is a specific example of a sport. Similarly, ""weapon"" is a general category, and we need to find a specific example of a weapon.
+
+The correct completion is:
+
+<ans> D </ans>
+
+""Gun"" is a specific example of a weapon, just like ""tennis"" is a specific example of a sport.",,D
+Category Members,furniture,sofa,sport,golf,coat,"A nice analogy!
+
+The analogy is saying that ""furniture"" is a category that ""sofa"" belongs to, and we're looking for a similar relationship between ""sport"" and the correct completion.
+
+In this case, ""furniture"" is a broad category, and ""sofa"" is a specific type of furniture. Similarly, ""sport"" is a broad category, and we're looking for a specific type of sport.
+
+Golf is a specific type of sport, just like sofa is a specific type of furniture. Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Category Members,tool,pliers,vehicle,van,fuel,"A great analogy!
+
+The correct completion is the one that maintains a similar relationship between the words. In this case, ""tool"" and ""pliers"" are a pair of related words, where ""tool"" is a general category and ""pliers"" is a specific type of tool.
+
+Similarly, ""vehicle"" is a general category, and we need to find a specific type of vehicle that is related to it. A ""van"" is a type of vehicle, just like ""pliers"" is a type of tool.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,clothing,trousers,fish,cod,net,"A nice analogy!
+
+The analogy is saying that ""clothing"" is a general category, and ""trousers"" is a specific type of clothing. Similarly, ""fish"" is a general category, and the correct completion should be a specific type of fish.
+
+""Cod"" is a type of fish, so it fits the analogy.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,fruit,banana,furniture,dresser,house,"A classic analogy!
+
+The correct completion is:
+
+<ans> D </ans>
+
+The analogy is based on the relationship between a type of fruit (banana) and a type of furniture (dresser). Both ""banana"" and ""dresser"" are specific examples of their respective categories, just like ""fruit"" and ""furniture"" are categories that encompass many specific examples.",,D
+Category Members,fish,shark,sport,baseball,team,"A nice analogy!
+
+The analogy is saying that just as ""fish"" is a type of ""shark"", the relationship between ""sport"" and ""?"" is similar.
+
+In this case, ""shark"" is a specific type of fish, so the analogy is suggesting that ""baseball"" is a specific type of ""sport"".
+
+Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Category Members,fruit,plum,clothing,coat,silk,"A nice analogy!
+
+The analogy is saying that ""fruit"" is a type of ""plum"", so we're looking for a relationship between ""clothing"" and ""D"" that is similar.
+
+In this case, a ""coat"" is a type of ""clothing"", just like a ""plum"" is a type of ""fruit"". Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Category Members,flower,carnation,tool,hacksaw,carpenter,"A nice analogy!
+
+The analogy is saying that a flower is a type of carnation, so we're looking for a relationship between a tool and a carpenter.
+
+In this case, a hacksaw is a type of tool, and a carpenter is a person who uses it. Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Category Members,bird,crow,sport,football,stadium,"A classic analogy!
+
+The correct completion is:
+
+<ans> D </ans>
+
+The analogy is: ""bird : crow :: sport : football""
+
+The relationship between ""bird"" and ""crow"" is that ""crow"" is a type of ""bird"". Similarly, the relationship between ""sport"" and ""football"" is that ""football"" is a type of ""sport"".
+
+Well, that was easy!",,D
+Category Members,weapon,sword,flower,daffodil,vase,"A nice analogy!
+
+The analogy is saying that a weapon is a type of sword, and a flower is a type of [insert answer here].
+
+In this case, a daffodil is a type of flower, just as a sword is a type of weapon. Therefore, the correct completion is:
+
+<ans> D </ans>",,D
+Category Members,clothing,jacket,bird,pigeon,dog,"A nice analogy!
+
+The relationship between ""clothing"" and ""jacket"" is that a jacket is a type of clothing. Similarly, the relationship between ""bird"" and the correct answer should be that the correct answer is a type of bird.
+
+""Pigeon"" is a type of bird, so it fits the analogy.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,furniture,table,fruit,pear,tree,"A nice analogy!
+
+The analogy is saying that ""furniture"" is a category that ""table"" belongs to, and similarly, ""fruit"" is a category that the answer should belong to.
+
+In this case, ""table"" is a specific type of ""furniture"", so we're looking for a specific type of ""fruit"".
+
+""Pear"" is a specific type of fruit, so it fits the analogy.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,clothing,jeans,vegetable,potato,apple,"A great analogy!
+
+The analogy is saying that ""clothing"" is a category, and ""jeans"" is a specific type of clothing. Similarly, ""vegetable"" is a category, and the correct completion should be a specific type of vegetable.
+
+In this case, ""potato"" is a type of vegetable, just like ""jeans"" is a type of clothing. Therefore, the correct completion is:
+
+<ans> D </ans>",,D

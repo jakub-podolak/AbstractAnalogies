@@ -15,10 +15,10 @@ module load Anaconda3/2022.05
 source activate abstract
 
 # Define the list of models
-models=("llama" "starling7b-beta" "mistral7b") # Add your models to this list
+models=("starling7b-beta")  # Add your models to this list
 
 # Define the directory to search for text files
-directory="prompt_templates/story_analogies/"  # Change this to your target directory
+directory="prompt_templates/verbal_analogies/"  # Change this to your target directory
 
 # Iterate over each model
 for model in "${models[@]}"; do 
