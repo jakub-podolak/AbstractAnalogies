@@ -1,0 +1,81 @@
+relation,A,B,C,D,llama3_basic_prompt_not_forced,llama3_basic_prompt_forced,llama3_cot,llama3_cot_structured
+Synonym,easy,simple,sad,unhappy,D,D,D,D
+Synonym,hurry,rush,harm,injure,D,D,D,D
+Synonym,rob,steal,cry,weep,D,D,D,D
+Synonym,polite,courteous,angry,furious,D,D,D,D
+Synonym,beginner,novice,doctor,physician,D,D,D,D
+Synonym,baby,infant,woman,lady,D,D,D,D
+Synonym,brook,stream,courage,bravery,D,D,D,D
+Synonym,huge,enormous,wealthy,rich,D,D,D,D
+Synonym,cheerful,happy,awful,horrible,D,D,D,D
+Synonym,remain,stay,begin,start,D,D,D,D
+Synonym,unusual,strange,famous,renowned,D,D,D,D
+Synonym,sick,ill,little,small,D,D,D,D
+Synonym,legal,lawful,usual,normal,D,D,D,D
+Synonym,collect,gather,leave,abandon,D,D,D,D
+Synonym,clean,neat,fortunate,lucky,D,D,D,D
+Synonym,immense,colossal,precise,exact,D,D,D,D
+Synonym,stone,rock,garbage,trash,D,D,D,D
+Synonym,help,aid,raise,lift,D,D,D,D
+Synonym,rug,carpet,bucket,pail,D,D,D,D
+Synonym,shout,yell,leap,jump,D,D,D,D
+Opposite,artificial,natural,friend,enemy,D,D,D,D
+Opposite,love,hate,rich,poor,D,D,D,D
+Opposite,alive,dead,succeed,fail,D,D,D,D
+Opposite,ugliness,beauty,joy,sorrow,D,D,D,D
+Opposite,huge,tiny,arrive,depart,D,D,D,D
+Opposite,somber,cheerful,lawyer,client,D,D,D,D
+Opposite,late,early,win,lose,D,D,D,D
+Opposite,quick,slow,grow,wither,E,D,D,D
+Opposite,antonym,synonym,selfish,generous,D,D,D,D
+Opposite,quiet,noisy,last,first,E,E,D,D
+Opposite,start,stop,trivial,important,D,D,D,D
+Opposite,laugh,cry,cheap,expensive,E,E,D,D
+Opposite,accept,reject,dark,bright,D,D,D,D
+Opposite,abundant,scarce,agree,disagree,D,D,D,D
+Opposite,hero,coward,strong,weak,D,D,D,D
+Opposite,teacher,student,calm,stormy,E,E,E,E
+Opposite,give,take,allow,forbid,D,D,D,D
+Opposite,clean,dirty,awake,asleep,D,D,D,D
+Opposite,remember,forget,increase,decrease,D,D,D,D
+Opposite,crazy,sane,bent,straight,E,E,D,D
+Function,fly,bird,hop,rabbit,E,E,D,D
+Function,build,house,dig,hole,D,D,D,D
+Function,sing,song,ride,horse,D,D,D,D
+Function,hear,ear,wear,clothes,D,D,D,D
+Function,drive,car,burn,wood,E,E,D,D
+Function,open,door,touch,hands,D,D,D,D
+Function,squeeze,juice,shoot,gun,D,D,D,D
+Function,cut,knife,hit,hammer,D,D,D,D
+Function,throw,ball,open,envelope,D,D,D,D
+Function,read,magazine,play,football,E,D,D,D
+Function,carry,suitcase,sit,chair,D,D,D,D
+Function,drink,glass,cook,pan,D,D,D,D
+Function,burn,fire,blow,wind,D,D,D,D
+Function,ski,snow,swim,water,D,D,D,D
+Function,tell,story,fight,battle,D,D,D,D
+Function,run,horse,pull,tractor,D,D,D,D
+Function,write,poem,carve,statue,E,D,D,D
+Function,ride,bicycle,drink,cup,D,D,D,D
+Function,throw,ball,jump,parachute,D,E,D,D
+Function,ride,elevator,sail,boat,D,D,D,D
+Category Members,vegetable,cabbage,insect,beetle,D,D,D,D
+Category Members,insect,bee,fish,halibut,D,D,D,D
+Category Members,flower,rose,bird,pigeon,D,D,D,D
+Category Members,bird,wren,insect,mosquito,D,D,D,D
+Category Members,vegetable,lettuce,bird,sparrow,D,D,D,D
+Category Members,sport,soccer,vehicle,bus,D,D,D,D
+Category Members,weapon,pistol,clothing,shoes,D,D,D,D
+Category Members,sport,tennis,weapon,gun,D,D,D,D
+Category Members,furniture,sofa,sport,golf,D,D,D,D
+Category Members,tool,pliers,vehicle,van,D,D,D,D
+Category Members,clothing,trousers,fish,cod,D,D,D,D
+Category Members,fruit,banana,furniture,dresser,D,D,D,D
+Category Members,fish,shark,sport,baseball,D,D,D,D
+Category Members,fruit,plum,clothing,coat,D,D,D,D
+Category Members,flower,carnation,tool,hacksaw,D,D,D,D
+Category Members,bird,crow,sport,football,D,D,D,D
+Category Members,weapon,sword,flower,daffodil,D,D,D,D
+Category Members,clothing,jacket,bird,pigeon,D,D,D,D
+Category Members,furniture,table,fruit,pear,D,D,D,D
+Category Members,clothing,jeans,vegetable,potato,D,D,D,D

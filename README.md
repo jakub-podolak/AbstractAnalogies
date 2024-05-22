@@ -1,5 +1,28 @@
 # AbstractAnalogies
 
+This repository contains code for evaluating language models on story and verbal analogies. The code is based on the code from the paper "Emergent Analogies: A Method for Discovering the Structure of Analogical Relationships" by Webb et al. (2021). The code is adapted to work with the Hugging Face Transformers library and evaluate models on story and verbal analogies to test if "Chain of Reasoning" performs better than "Basic Prompt" for analogy completions.
+
+Directory structure;
+```
+|-- analyze                  # code for analyzing results
+|-- datasets                 # datasets for story and verbal analogies
+   |-- story_analogies
+   |-- verbal_analogies
+|-- eval                     # code for evaluating models
+|-- models                   # models to evaluate
+   |-- mistral7b
+   |-- llama3
+   |-- starling7b
+|-- prompt_templates         # prompts for story and verbal analogies
+   |-- story_analogies
+   |-- verbal_analogies
+|-- results                  # results of evaluations
+|-- abstract.yml             # conda environment file
+|-- install_environment.job  # job file to install environment on Snellius
+|-- README.md                # this file
+```
+
+
 ## 1. Setup on Snellius
 Install environment using
 ```
