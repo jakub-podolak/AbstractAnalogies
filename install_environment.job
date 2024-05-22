@@ -1,16 +1,34 @@
 #!/bin/bash
 
 #SBATCH --partition=gpu
-#SBATCH --gpus=1
-#SBATCH --job-name=InstallEnvironment
+#SBATCH --gpus=2
+#SBATCH --job-name=EvalVerbalAnalogies_starling7b-beta
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=18
 #SBATCH --time=04:00:00
-#SBATCH --output=slurm_output_%A.out
+#SBATCH --output=eval_verbal_analogies_starling_%A.out
 
 module purge
 module load 2022
 module load Anaconda3/2022.05
 
-cd $HOME/AbstractAnalogies
-conda env create -f abstract.yml
+source activate abstract
+
+# Define the list of models
+models=("llama" "starling7b-beta" "mistral7b") # Add your models to this list
+
+# Define the directory to search for text files
+directory="prompt_templates/story_analogies/"  # Change this to your target directory
+
+# Iterate over each model
+for model in "${models[@]}"; do 
+    echo "Starting model:"
+    echo $model
+
+    # Find all text files in the directory and its subdirectories
+    find "$directory" -type f -name '*.txt' | while read -r file; do
+        # Run the command for each text file with the current model
+        echo $file
+        srun python -u eval/eval_story_analogy.py --model "$model" --prompt "$file"
+    done
+done
