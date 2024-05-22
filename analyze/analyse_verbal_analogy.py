@@ -2,6 +2,8 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+import seaborn as sns
+import builtins
 
 
 base_dir = "analyze"
@@ -57,7 +59,6 @@ df_combined.to_csv(new_csv_file, columns=["relation", "A", "B", "C", "D"] + new_
 
 # Calculate the accuracy of the majority vote per model and prompt
 # where D=correct answer, E=incorrect answer
-
 accuracy_dict = {}
 for model in model_name:
     for prompt in ["basic_prompt_not_forced", "basic_prompt_forced", "cot", "cot_structured"]:
@@ -70,6 +71,22 @@ for model in model_name:
         
         print(f"Model: {model}, Prompt: {prompt}, Accuracy: {accuracy}")
 
+def human_accuracy():
+    # Human data
+    human_file = os.path.join("datasets/verbal_analogies", "UCLA_VAT_ind_subj_data.xlsx")
+    df = pd.read_excel (human_file, sheet_name='ind_subj')
+    category_ind_subj_acc = np.array(builtins.list(df['category'])[1:]) / 100.
+    function_ind_subj_acc = np.array(builtins.list(df['function'])[1:]) / 100.
+    opposite_ind_subj_acc = np.array(builtins.list(df['opposite'])[1:]) / 100.
+    synonym_ind_subj_acc = np.array(builtins.list(df['synonym'])[1:]) / 100.
+    human_ind_subj = np.array([category_ind_subj_acc, function_ind_subj_acc, opposite_ind_subj_acc, synonym_ind_subj_acc])
+    human_acc_across_categories = human_ind_subj.mean(1)
+    total_human_acc = human_acc_across_categories.mean()
+
+    # human_err = sem(human_ind_subj,1)
+    return total_human_acc
+
+human_accuracy_val = human_accuracy()
 
 # Define the order of models and prompts explicitly
 models = ["mistral7b", "llama3"]
@@ -85,28 +102,43 @@ for model in models:
 n_models = len(models)
 n_prompts = len(prompts)
 
+palette = 'pastel'
+
+colors = {
+    'basic_prompt_not_forced': sns.color_palette(palette)[0],
+    'basic_prompt_forced': sns.color_palette(palette)[1],
+    'cot': sns.color_palette(palette)[2],
+    'cot_structured':sns.color_palette(palette)[3],
+}
+
+
 # Set width of bar to a smaller value for thinner bars
-bar_width = 0.1
+bar_width = 0.08
 
 # Set positions of bar on X axis
 r = np.arange(n_models)
 positions = [r + i * bar_width for i in range(n_prompts)]
 
+
 # Create figure and axes
-fig, ax = plt.subplots(figsize=(10, 6))
+fig, ax = plt.subplots(figsize=(12, 8))
 
 # Plot each model's data
 for i, prompt in enumerate(prompts):
-    ax.bar(positions[i], [accuracy_dict[(model, prompt)] for model in models], width=bar_width, edgecolor='grey', label=prompt)
+    # positions_with_offset = positions[i] + offsets[prompt]
+    positions_with_offset = positions[i]
+    ax.bar(positions_with_offset, [accuracy_dict[(model, prompt)] for model in models], width=bar_width, label=prompt, color=colors[prompt])
 
 # Add labels
 ax.set_xlabel('Models', fontweight='bold')
 ax.set_ylabel('Accuracy', fontweight='bold')
-ax.set_title('Comparison of Accuracy across Different Prompts and Models')
+ax.set_title('Verbal Analogies (Majority Vote from 3 prompt variants)')
 ax.set_xticks(r + bar_width * (n_prompts - 1) / 2)
 ax.set_xticklabels(models)
+ax.set_yticks(np.arange(0, 1.1, 0.1))
+ax.axhline(y=human_accuracy_val, linewidth=2, label='Mean accuracy of human participants', linestyle='dashed')
 # Legend should be about the prompts
-ax.legend(prompts)
+ax.legend(title='Prompt Types', loc='lower center')
 
 # Show plot
 plt.show()
