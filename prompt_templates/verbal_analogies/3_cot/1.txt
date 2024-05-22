@@ -13,3 +13,7 @@ or
 E: {D_prime}
 
 Provide final answer in tags: <ans> D </ans> or <ans> E </ans>
+
+Only one answer is correct.
+
+Let's think step by step.

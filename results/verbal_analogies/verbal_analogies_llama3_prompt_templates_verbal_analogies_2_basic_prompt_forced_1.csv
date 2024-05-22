@@ -1,0 +1,81 @@
+relation,A,B,C,D,D',raw_generation,new_generation,parsed_answer
+Synonym,easy,simple,sad,unhappy,happy,<ans> D </ans>,,D
+Synonym,hurry,rush,harm,injure,help,<ans> D </ans>,,D
+Synonym,rob,steal,cry,weep,laugh,<ans> D </ans>,,D
+Synonym,polite,courteous,angry,furious,happy,<ans> D </ans>,,D
+Synonym,beginner,novice,doctor,physician,heal,<ans> D </ans>,,D
+Synonym,baby,infant,woman,lady,girl,<ans> D </ans>,,D
+Synonym,brook,stream,courage,bravery,cowardice,<ans> D </ans>,,D
+Synonym,huge,enormous,wealthy,rich,poor,<hans> D </ans>,<ans> D </ans>,D
+Synonym,cheerful,happy,awful,horrible,wonderful,<ans> D </ans>,,D
+Synonym,remain,stay,begin,start,continue,<ans> D </ans>,,D
+Synonym,unusual,strange,famous,renowned,unknown,<ans> D </ans>,,D
+Synonym,sick,ill,little,small,big,<ans> D </ans>,,D
+Synonym,legal,lawful,usual,normal,strange,<ans> D </ans>,,D
+Synonym,collect,gather,leave,abandon,stay,<ans> D </ans>,,D
+Synonym,clean,neat,fortunate,lucky,miserable,<ans> D </ans>,,D
+Synonym,immense,colossal,precise,exact,approximate,<ans> D </ans>,,D
+Synonym,stone,rock,garbage,trash,bag,<ans> D </ans>,,D
+Synonym,help,aid,raise,lift,lower,<ans> D </ans>,,D
+Synonym,rug,carpet,bucket,pail,milk,<ans> D </ans>,,D
+Synonym,shout,yell,leap,jump,fall,<ans> D </ans>,,D
+Opposite,artificial,natural,friend,enemy,relative,<ans> D </ans>,,D
+Opposite,love,hate,rich,poor,wealthy,<ans> D </ans>,,D
+Opposite,alive,dead,succeed,fail,conquer,<ans> D </ans>,,D
+Opposite,ugliness,beauty,joy,sorrow,emotion,<ans> D </ans>,,D
+Opposite,huge,tiny,arrive,depart,come,<ans> D </ans>,,D
+Opposite,somber,cheerful,lawyer,client,doctor,<ans> D </ans>,,D
+Opposite,late,early,win,lose,capture,<ans> D </ans>,,D
+Opposite,quick,slow,grow,wither,plant,<ans> E </ans>,,E
+Opposite,antonym,synonym,selfish,generous,egocentric,<ans> E </ans>,,E
+Opposite,quiet,noisy,last,first,final,<ans> E </ans>,,E
+Opposite,start,stop,trivial,important,famous,<ans> D </ans>,,D
+Opposite,laugh,cry,cheap,expensive,inexpensive,<ans> E </ans>,,E
+Opposite,accept,reject,dark,bright,dim,<ans> D </ans>,,D
+Opposite,abundant,scarce,agree,disagree,concur,<ans> D </ans>,,D
+Opposite,hero,coward,strong,weak,muscular,<ans> D </ans>,,D
+Opposite,teacher,student,calm,stormy,serene,<ans> E </ans>,,E
+Opposite,give,take,allow,forbid,permit,<ans> D </ans>,,D
+Opposite,clean,dirty,awake,asleep,alert,<ans> D </ans>,,D
+Opposite,remember,forget,increase,decrease,lengthen,<ans> D </ans>,,D
+Opposite,crazy,sane,bent,straight,crooked,<ans> E </ans>,,E
+Function,fly,bird,hop,rabbit,leg,<ans> E </ans>,,E
+Function,build,house,dig,hole,shovel,<ans> D </ans>,,D
+Function,sing,song,ride,horse,rider,<ans> D </ans>,,D
+Function,hear,ear,wear,clothes,woman,<ans> D </ans>,,D
+Function,drive,car,burn,wood,fire,<ans> E </ans>,,E
+Function,open,door,touch,hands,doctor,<ans> D </ans>,,D
+Function,squeeze,juice,shoot,gun,miss,<sans> E </ans>,<ans> E </ans>,E
+Function,cut,knife,hit,hammer,nail,<ans> D </ans>,,D
+Function,throw,ball,open,envelope,close,<ans> D </ans>,,D
+Function,read,magazine,play,football,kids,<ans> D </ans>,,D
+Function,carry,suitcase,sit,chair,job,<ans> D </ans>,,D
+Function,drink,glass,cook,pan,chef,<ans> D </ans>,,D
+Function,burn,fire,blow,wind,down,<ans> D </ans>,,D
+Function,ski,snow,swim,water,swimmer,<ans> D </ans>,,D
+Function,tell,story,fight,battle,soldier,<ans> D </ans>,,D
+Function,run,horse,pull,tractor,muscle,<ans> D </ans>,,D
+Function,write,poem,carve,statue,knife,<ans> E </ans>,,E
+Function,ride,bicycle,drink,cup,water,<ans> D </ans>,,D
+Function,throw,ball,jump,parachute,walk,<ans> E </ans>,,E
+Function,ride,elevator,sail,boat,wind,<ans> D </ans>,,D
+Category Members,vegetable,cabbage,insect,beetle,frog,<ans> D </ans>,,D
+Category Members,insect,bee,fish,halibut,water,<ans> D </ans>,,D
+Category Members,flower,rose,bird,pigeon,nest,<ans> D </ans>,,D
+Category Members,bird,wren,insect,mosquito,sting,<ans> D </ans>,,D
+Category Members,vegetable,lettuce,bird,sparrow,cat,<ans> D </ans>,,D
+Category Members,sport,soccer,vehicle,bus,engine,<ans> D </ans>,,D
+Category Members,weapon,pistol,clothing,shoes,cotton,<ans> D </ans>,,D
+Category Members,sport,tennis,weapon,gun,murder,<ans> D </ans>,,D
+Category Members,furniture,sofa,sport,golf,coat,<ans> D </ans>,,D
+Category Members,tool,pliers,vehicle,van,fuel,<ans> D </ans>,,D
+Category Members,clothing,trousers,fish,cod,net,<ans> D </ans>,,D
+Category Members,fruit,banana,furniture,dresser,house,<ans> D </ans>,,D
+Category Members,fish,shark,sport,baseball,team,<ans> D </ans>,,D
+Category Members,fruit,plum,clothing,coat,silk,<ans> D </ans>,,D
+Category Members,flower,carnation,tool,hacksaw,carpenter,<ans> D </ans>,,D
+Category Members,bird,crow,sport,football,stadium,<ans> D </ans>,,D
+Category Members,weapon,sword,flower,daffodil,vase,<ans> D </ans>,,D
+Category Members,clothing,jacket,bird,pigeon,dog,<ans> D </ans>,,D
+Category Members,furniture,table,fruit,pear,tree,<ans> D </ans>,,D
+Category Members,clothing,jeans,vegetable,potato,apple,<ans> D </ans>,,D

@@ -1,0 +1,540 @@
+relation,A,B,C,D,D',raw_generation,new_generation,parsed_answer
+Synonym,easy,simple,sad,unhappy,happy,"1. Completion D, ""unhappy,"" is related to the analogy as the counterpart to ""simple"" in the first pair, ""easy : simple."" The term ""simple"" implies a lack of complexity or difficulty. Similarly, ""unhappy"" implies a lack of happiness or positivity.
+
+2. Completion E, ""happy,"" is not related to the analogy as the counterpart to ""sad"" in the second pair, ""sad : ?"". The term ""happy"" is the opposite of ""sad,"" but it does not fit the pattern of the analogy, which requires a term that is related to the term in the first pair in a similar way to how the second term is related to the term in the second pair.
+
+3. Completion D, ""unhappy,"" and the term ""simple"" are both related to their respective terms in the analogy in the sense that they imply a lack or absence of something. In the case of ""simple,"" it implies a lack of complexity or difficulty, while ""unhappy"" implies a lack of happiness or positivity. Completion E, ""happy,"" does not fit this pattern as it is the opposite of ""sad,"" but it does not imply a lack or absence of anything in the same way that ""simple"" and ""unhappy"" do.
+
+4. Based on the comparisons, completion D, ""unhappy,"" correctly completes the analogy as it follows the pattern of the analogy, which requires terms that are related to their respective terms in the same way.
+
+5. <ans> D </ans></s>",,D
+Synonym,hurry,rush,harm,injure,help,"1. Completion D, ""injure,"" relates to the analogy as ""rush"" can cause ""harm,"" and ""hurry"" can cause ""injure."" Both ""rush"" and ""hurry"" imply a sense of urgency or haste, and ""harm"" and ""injure"" both imply negative consequences.
+
+2. Completion E, ""help,"" does not relate to the analogy as ""rush"" does not cause ""help,"" and ""hurry"" does not cause ""help."" The relationship between ""hurry"" and ""help"" is not inverse to the relationship between ""hurry"" and ""harm.""
+
+3. Comparing the relationships presented in completions D and E with the analogy, we see that completion D correctly completes the analogy as it maintains the inverse relationship between the two pairs. In the analogy, ""hurry"" is related to ""rush"" as ""harm"" is related to ""rush,"" and ""hurry"" is related to ""harm"" as ""rush"" is related to ""injure.""
+
+4. Based on the comparisons, the correct completion is D, ""injure.""
+
+5. <ans> D </ans></s>",,D
+Synonym,rob,steal,cry,weep,laugh,"1. Completion D, ""weep,"" is the correct answer because in the analogy, ""rob"" and ""steal"" are related as actions of taking something from someone without permission. Similarly, ""cry"" and ""weep"" are related as actions expressing emotion, particularly sadness.
+
+2. Completion E, ""laugh,"" does not fit the analogy because ""laugh"" is an expression of happiness or amusement, while ""cry"" and ""weep"" are expressions of sadness.
+
+3. The relationships presented in completions D and E are quite different. Completion D correctly completes the analogy by maintaining the emotional theme, while completion E introduces a different emotion, happiness, which does not fit the analogy.
+
+4. Based on the comparisons, completion D is the correct answer as it correctly completes the analogy by maintaining the emotional theme.
+
+5. <ans> D </ans></s>",,D
+Synonym,polite,courteous,angry,furious,happy,"1. Completion D, ""furious,"" is the correct answer because in the analogy, ""polite"" is related to ""courteous"" as a synonym or a milder form of the same quality. Similarly, ""angry"" is related to ""furious"" as a stronger or more intense form of the same emotion.
+2. Completion E, ""happy,"" does not relate to the analogy as it is not an emotion that is opposite or related in intensity to ""angry.""
+3. The relationships presented in completions D and E with the analogy are as follows:
+   - Completion D, ""furious,"" correctly completes the analogy as it is an emotion that is opposite in intensity to ""courteous"" (mild) and related in meaning to ""angry"" (intense).
+   - Completion E, ""happy,"" does not complete the analogy as it is not an emotion that is opposite or related in intensity to ""angry.""
+4. Based on the comparisons, completion D is the correct answer as it correctly completes the analogy by providing an emotion that is opposite in intensity to ""courteous"" and related in meaning to ""angry.""
+5. <ans> D </ans></s>",,D
+Synonym,beginner,novice,doctor,physician,heal,"1. Completion D, ""doctor : physician,"" completes the analogy by providing a specific type of doctor that fits the role of C in the analogy. The analogy suggests that a beginner is to novice as a doctor is to something related to healing. A physician is a type of doctor who specializes in healing and curing illnesses, making it a suitable completion for C.
+
+2. Completion E, ""doctor : heal,"" does not correctly complete the analogy. While a doctor is indeed involved in healing, the analogy requires a specific role or title for the doctor, not the action of healing itself.
+
+3. Comparing the relationships presented in completions D and E:
+   - Completion D establishes a relationship between a beginner and a novice, and a doctor and a physician. Both pairs are related by their roles and titles.
+   - Completion E, on the other hand, establishes a relationship between a doctor and the action of healing. This relationship does not fit the analogy as it does not provide a suitable completion for C.
+
+4. Based on the comparisons, completion D is the correct completion for the analogy.
+
+5. <ans> D </ans></s>",,D
+Synonym,baby,infant,woman,lady,girl,"1. Completion D, ""lady,"" is correct because a woman in her adult years is to a man or to society as an infant is to a baby. Both a woman and an infant are younger versions of their respective mature forms. A lady is an adult woman, just as a baby is the younger form of an infant.
+
+2. Completion E, ""girl,"" is not the correct answer because a girl is not the mature form of a woman, but rather a younger version of a woman. The analogy is comparing the relationship between a baby and an infant to that of a woman and her mature form.
+
+3. Completion D, ""lady,"" correctly completes the analogy by maintaining the relationship between the younger and older forms. Completion E, ""girl,"" does not complete the analogy as it does not represent the mature form of a woman.
+
+4. Based on the comparisons, the correct completion is D, ""lady.""
+
+5. <ans> D </ans></s>",,D
+Synonym,brook,stream,courage,bravery,cowardice,"1. Completion D, ""bravery,"" relates to the analogy as a quality that is associated with both ""brook"" and ""courage."" A brook is a small stream, and the word ""stream"" implies a continuous flow of water. Similarly, ""courage"" is a quality of being brave or fearless.
+2. Completion E, ""cowardice,"" does not relate to the analogy as it is the opposite of ""courage."" The analogy compares ""brook"" to ""stream"" and ""courage"" to an unknown quality.
+3. Comparing the relationships presented in completions D and E with the analogy, we see that completion D correctly completes the analogy by providing a quality that is associated with both ""brook"" and ""courage."" Completion E, on the other hand, is the opposite of ""courage"" and does not relate to the analogy.
+4. Based on the comparisons, the correct completion of the analogy is D, ""bravery.""
+5. <ans> D </ans></s>",,D
+Synonym,huge,enormous,wealthy,rich,poor,"1. Completion D, ""rich,"" relates to the analogy as something that is equivalent to ""enormous"" when describing wealth. Just as ""huge"" is used to describe something that is very large, ""wealthy"" is used to describe someone or something that has a great deal of financial resources. ""Rich"" is another term used to describe having a large amount of financial resources, making it a fitting completion for the analogy.
+2. Completion E, ""poor,"" does not relate to the analogy in the same way as completion D. While ""huge"" and ""enormous"" both describe something that is large, ""wealthy"" and ""poor"" describe opposite ends of the financial spectrum. ""Poor"" is not equivalent to ""enormous"" in the same way that ""wealthy"" is to ""huge.""
+3. The relationships presented in completions D and E differ significantly. Completion D, ""rich,"" completes the analogy by maintaining the relationship between ""huge"" and ""enormous."" Both ""huge"" and ""enormous"" describe something that is large, and ""wealthy"" and ""rich"" both describe having a large amount of resources. Completion E, ""poor,"" does not maintain the relationship between ""huge"" and ""enormous."" Instead, it describes the opposite end of the financial spectrum from ""wealthy.""
+4. Based on the comparisons, completion D is the correct completion for the analogy. Completion D maintains the relationship between ""huge"" and ""enormous"" by describing something that is equivalent to ""enormous"" when discussing wealth. Completion E does not maintain this relationship and instead describes the opposite end of the financial spectrum.
+5. <ans> D </ans></s>",,D
+Synonym,cheerful,happy,awful,horrible,wonderful,"1. Completion D, ""horrible,"" is a synonym for ""awful,"" and ""happy"" is a synonym for ""joyful"" or ""pleased,"" which is a positive emotion. Therefore, ""cheerful"" is a positive adjective used to describe someone who is happy or pleased, and ""awful"" is a negative adjective used to describe something or someone that is very bad or unpleasant.
+2. Completion E, ""wonderful,"" is an opposite of ""awful."" While ""happy"" and ""cheerful"" are positive emotions, ""wonderful"" is a term used to describe something or someone that is excellent or impressive. However, it does not fit the analogy as well as completion D because ""wonderful"" is not a synonym for ""awful.""
+3. Completion D, ""horrible,"" is a negative term that is a synonym for ""awful,"" and completion D completes the analogy by maintaining the relationship between the positive and negative emotions. Completion E, ""wonderful,"" is a positive term that is an opposite of ""awful,"" but it does not maintain the relationship between the positive and negative emotions in the analogy.
+4. Based on the comparisons, completion D correctly completes the analogy.
+5. <ans> D </ans></s>",,D
+Synonym,remain,stay,begin,start,continue,"1. Completion D, ""start,"" relates to the analogy as the opposite of ""remain"" and ""stay."" ""Begin"" is the action that initiates an activity, while ""remain"" implies continuing to do something. ""Start"" is the action that initiates an activity similar to how ""begin"" does in the analogy.
+
+2. Completion E, ""continue,"" relates to the analogy as a synonym for ""remain."" Both ""remain"" and ""continue"" imply a persistence or continuation of an action. However, ""begin"" and ""remain"" have different meanings. ""Begin"" is the action that initiates an activity, while ""remain"" implies continuing to do something.
+
+3. The relationship presented in completion D is that of an opposition, where ""remain"" and ""stay"" are opposites, and ""begin"" and ""start"" are also opposites. The relationship presented in completion E is that of a synonym, where ""remain"" and ""continue"" have similar meanings.
+
+4. Based on the comparisons, completion D correctly completes the analogy as it presents an opposition to ""remain"" and ""stay,"" while ""begin"" and ""start"" are also opposites.
+
+5. <ans> D </ans></s>",,D
+Synonym,unusual,strange,famous,renowned,unknown,"1. Completion D, ""renowned,"" relates to the analogy by suggesting that ""famous"" is to something that is widely recognized and respected in the same way that ""unusual"" is to something that is not typical or common but still has some level of recognition or notoriety.
+2. Completion E, ""unknown,"" relates to the analogy by suggesting that ""famous"" is to something that is well-known, while ""unusual"" is to something that is not known or recognized. However, this completion does not accurately reflect the relationship between ""unusual"" and ""strange,"" as ""strange"" implies a sense of intrigue or curiosity, while ""unknown"" implies a lack of information or familiarity.
+3. The relationship presented in completion D accurately reflects the relationship between ""unusual"" and ""strange,"" as both terms imply a deviation from the norm, but with ""strange"" carrying a slightly more negative connotation. The relationship presented in completion E does not accurately reflect the relationship between ""unusual"" and ""strange,"" as ""unknown"" does not carry the same implications of intrigue or curiosity as ""strange.""
+4. Based on the comparisons, completion D correctly completes the analogy.
+5. <ans> D </ans></s>",,D
+Synonym,sick,ill,little,small,big,"1. Completion D, ""small,"" relates to the analogy by suggesting that ""little"" is a descriptor of degree or amount that is similar to ""ill"" being a descriptor of degree or condition for ""sick.""
+2. Completion E, ""big,"" does not relate to the analogy as there is no indication in the analogy that ""little"" is the opposite of ""ill"" or ""sick.""
+3. The relationship presented in completion D is one of degree or size, where ""little"" is a smaller amount or degree, and ""sick"" and ""ill"" are conditions of varying degrees. In contrast, completion E suggests a relationship of opposite, which is not indicated in the analogy.
+4. Based on the comparisons, completion D correctly completes the analogy as it maintains the relationship of degree or size between the terms, while completion E does not.
+5. <ans> D </ans></s>",,D
+Synonym,legal,lawful,usual,normal,strange,"1. Completion D, ""normal,"" is the correct answer because in the context of the analogy, ""lawful"" and ""usual"" both imply a sense of conformity or adherence to a norm. Therefore, ""normal"" is the term that completes the analogy most accurately.
+2. Completion E, ""strange,"" does not fit the analogy because ""strange"" implies something that is not normal or unusual, which is the opposite of the relationship suggested by the analogy between ""legal"" and ""lawful"" and ""usual.""
+3. The relationship between ""legal"" and ""lawful"" is one of synonymy or near-synonymy, as ""lawful"" means ""in accordance with the law."" The relationship between ""usual"" and ""normal"" is also one of synonymy or near-synonymy, as ""usual"" means ""common"" or ""regular,"" and ""normal"" means ""conforming to a standard"" or ""typical."" Both pairs of terms describe a sense of conformity or adherence to a norm.
+4. Based on the comparisons, completion D is the correct answer because it accurately reflects the relationships described in the analogy between ""legal"" and ""lawful"" and ""usual"" and ""normal.""
+5. <ans> D </ans></s>",,D
+Synonym,collect,gather,leave,abandon,stay,"1. Completion D, ""abandon,"" relates to the analogy as the opposite of ""gather"" and ""collect."" Just as one can gather or collect items, one can also abandon them, leaving them behind.
+2. Completion E, ""stay,"" does not fit the analogy as well. While ""leave"" implies departing from a location, ""stay"" means remaining at that location. The analogy is looking for an opposite to ""gather"" and ""collect,"" not a synonym for ""leave.""
+3. Comparing the relationships presented in completions D and E with the analogy, we see that D correctly completes the analogy. Completion D, ""abandon,"" is the opposite of ""collect"" and ""gather,"" as one can collect or gather items and then abandon them, leaving them behind. Completion E, ""stay,"" is not the opposite of ""collect"" or ""gather.""
+4. <ans> D </ans></s>",,D
+Synonym,clean,neat,fortunate,lucky,miserable,"1. Completion D, ""lucky,"" relates to the analogy as something that is favorable or fortunate. Neat is a quality that implies orderliness and organization, and clean is a quality that implies freedom from dirt or debris. Similarly, fortunate implies having good luck or favorable circumstances, and lucky is a term that specifically refers to having good fortune.
+2. Completion E, ""miserable,"" does not relate to the analogy in a meaningful way. While neat and clean are positive qualities, miserable is a negative quality that implies sadness, misery, or unhappiness. Fortunate, on the other hand, is a positive term that implies good luck or favorable circumstances.
+3. The relationships presented in completions D and E are quite different. Completion D, ""lucky,"" maintains the positive tone of the analogy by suggesting a fortunate or favorable outcome. Completion E, ""miserable,"" would introduce a negative tone that is not present in the analogy.
+4. Based on the comparisons, completion D, ""lucky,"" correctly completes the analogy as it maintains the positive tone and meaning of the analogy.
+5. <ans> D </ans></s>",,D
+Synonym,immense,colossal,precise,exact,approximate,"1. Completion D, ""exact,"" relates to the analogy by suggesting that just as immense and colossal are used to describe very large quantities, precise and exact are used to describe something that is free from error or inconsistency.
+2. Completion E, ""approximate,"" relates to the analogy by suggesting that just as immense and colossal are used to describe very large quantities, precise and approximate are used to describe something that is not exactly right or true, but close.
+3. In the analogy, ""immense"" and ""colossal"" are used to describe large quantities, while ""precise"" and ""exact"" are used to describe something that is free from error or inconsistency. Completion D, ""exact,"" correctly completes the analogy by maintaining the comparison between large quantities and something free from error or inconsistency. Completion E, ""approximate,"" does not correctly complete the analogy as it suggests a comparison between large quantities and something that is not exactly right or true, which is not the intended comparison in the analogy.
+4. Based on the comparisons, completion D is the correct completion of the analogy.
+5. <ans> D </ans></s>",,D
+Synonym,stone,rock,garbage,trash,bag,"1. Completion D, ""trash,"" relates to the analogy as the material that is discarded or considered worthless, just like how a stone is a component of a larger collection of rocks, and garbage is a collection of discarded or worthless items.
+2. Completion E, ""bag,"" does not relate to the analogy as stones and rocks are not contained in bags, nor is garbage typically stored in bags in the same way that stones are not contained in rocks.
+3. The relationship presented in completion D is that of a material or collection of materials being discarded or considered worthless, while the relationship presented in completion E is that of a material or object being contained. These relationships do not align with the analogy.
+4. Based on the comparisons, neither completion D nor completion E correctly completes the analogy as they do not align with the relationships presented in the analogy.
+5. <ans> None of the above </ans>
+
+The correct completion for the analogy ""stone : rock :: garbage : ?"" would be ""trash"" or ""waste,"" as garbage is a collection of discarded or worthless items, just like how a stone is a component of a larger collection of rocks. However, the provided completions did not include this option.</s>",<ans> None of the above </ans></s>,
+Synonym,help,aid,raise,lift,lower,"1. Completion D, ""lift,"" relates to the analogy as ""aid"" and ""help"" are both actions that support or assist someone or something, and ""lift"" is an action that raises or elevates something, similar to how ""raise"" raises something in the analogy.
+2. Completion E, ""lower,"" does not relate correctly to the analogy. ""Lower"" is the opposite of ""raise,"" so it would not complete the analogy correctly as ""aid"" and ""help"" are not opposites of ""raise"" and ""lift,"" respectively.
+3. The relationships presented in completions D and E differ significantly. Completion D correctly completes the analogy by maintaining the parallelism between the two sides of the analogy, as both ""aid"" and ""lift"" support or assist, and both ""help"" and ""lift"" raise or elevate. Completion E, on the other hand, does not maintain the parallelism as ""lower"" is the opposite of ""raise,"" not the parallel to ""lift.""
+4. Based on the comparisons, completion D correctly completes the analogy.
+5. <ans> D </ans></s>",,D
+Synonym,rug,carpet,bucket,pail,milk,"1. Completion D, ""pail,"" is correct because a rug is to a carpet as a bucket is to a pail. Both pairs are related in that the second term in each pair is a larger or more general version of the first term. A rug is a type of carpet, and a bucket is a type of pail.
+
+2. Completion E, ""milk,"" does not relate to the analogy. The analogy is about containers, not contents.
+
+3. The relationships presented in completions D and E differ significantly. Completion D correctly completes the analogy by maintaining the relationship between the first and second terms in each pair. Completion E, on the other hand, does not relate to the analogy at all.
+
+4. Based on the comparisons, completion D is the correct completion.
+
+5. <ans> D </ans></s>",,D
+Synonym,shout,yell,leap,jump,fall,"1. Completion D, ""jump,"" relates to the analogy as a synonym for ""leap."" Both ""shout"" and ""yell"" are types of loud vocalizations, and ""leap"" and ""jump"" are synonymous in the context of this analogy, as they both refer to a sudden, bounding movement.
+
+2. Completion E, ""fall,"" does not relate to the analogy. The analogy compares ""shout"" to ""yell"" and ""leap"" to an equivalent action. ""Fall"" is not an equivalent action to ""leap"" or ""jump.""
+
+3. Comparing the relationships presented in completions D and E with the analogy:
+   - Completion D, ""jump,"" correctly completes the analogy as it is a synonym for ""leap.""
+   - Completion E, ""fall,"" does not complete the analogy as it is not related to the actions described in the analogy.
+
+4. Based on the comparisons, the correct completion is D, ""jump.""
+
+5. <ans> D </ans></s>",,D
+Opposite,artificial,natural,friend,enemy,relative,"1. Completion D, ""enemy,"" relates to the analogy as something that is the opposite or counterpart to ""friend"" in the context of ""natural"" and ""artificial."" In nature, there are often enemies or competitors that exist, while in the case of artificial things, they may not have enemies in the same way that natural things do.
+
+2. Completion E, ""relative,"" does not correctly relate to the analogy. While relatives are related to each other, they are not opposites or counterparts to friends in the same way that natural things are to artificial things.
+
+3. Comparing the relationships presented in completions D and E with the analogy, we can see that completion D correctly completes the analogy by providing an opposite or counterpart relationship to ""friend"" in the context of ""natural"" and ""artificial."" Completion E does not provide such a relationship.
+
+4. Final answer: <ans> D </ans></s>",,D
+Opposite,love,hate,rich,poor,wealthy,"1. Completion D, ""poor,"" relates to the analogy as the opposite or counterpart of ""rich."" In the context of the analogy, ""love : hate"" represents two opposing emotions, while ""rich : poor"" represents two opposing economic states.
+
+2. Completion E, ""wealthy,"" also relates to the analogy as an opposite or counterpart of ""rich."" However, it is a more specific version of the same concept.
+
+3. The relationships presented in completions D and E are similar in that they both represent opposites or counterparts of ""rich."" However, completion D is a more general opposite, while completion E is a more specific version of the same opposite.
+
+4. Based on the comparisons, completion D, ""poor,"" correctly completes the analogy as it is a more general and appropriate opposite to ""rich"" in the context of the analogy.
+
+5. <ans> D </ans></s>",,D
+Opposite,alive,dead,succeed,fail,conquer,"1. Completion D, ""fail,"" relates to the analogy as the opposite state of ""succeed."" Just as ""dead"" is the opposite state of ""alive,"" ""fail"" is the opposite state of ""succeed.""
+2. Completion E, ""conquer,"" does not directly relate to the analogy. While ""dead"" and ""alive"" are opposites in terms of a living state, ""succeed"" and ""conquer"" are not directly opposites. ""Conquer"" implies gaining control over something, while ""succeed"" implies achieving a goal.
+3. Comparing the relationships presented in completions D and E with the analogy, we see that completion D, ""fail,"" is a more accurate completion as it directly opposes ""succeed"" in the same way that ""dead"" opposes ""alive."" Completion E, ""conquer,"" while related to the concept of achieving a goal, does not directly oppose ""succeed"" in the same way that ""dead"" opposes ""alive.""
+4. Based on the comparisons, the correct completion of the analogy is D: ""fail.""
+5. <ans> D </ans></s>",,D
+Opposite,ugliness,beauty,joy,sorrow,emotion,"1. Completion D, ""sorrow,"" relates to the analogy as the opposite emotion to beauty, just as ugliness is the opposite of beauty.
+2. Completion E, ""emotion,"" is a broader category that includes both joy and sorrow, but it doesn't directly relate to the analogy as a specific opposite emotion to joy.
+3. In the analogy, ""ugliness : beauty,"" the relationship is one of opposites. Completion D, ""sorrow,"" also represents an opposite emotion to joy, making it a closer fit for the analogy. Completion E, ""emotion,"" is a more general term that includes both joy and sorrow, but it doesn't directly represent an opposite emotion to joy.
+4. Based on the comparisons, completion D, ""sorrow,"" correctly completes the analogy as it represents the opposite emotion to joy, just as ugliness is the opposite of beauty.
+5. <ans> D </ans></s>",,D
+Opposite,huge,tiny,arrive,depart,come,"1. Completion D, ""depart,"" relates to the analogy as the opposite of ""arrive."" Just as a huge object is the opposite of a tiny one, an object that is departing is leaving a place, while an object that is arriving is coming to a place.
+2. Completion E, ""come,"" also relates to the analogy as a concept that is connected to ""arrive."" However, it is not the opposite of ""tiny"" in the same way that ""depart"" is the opposite of ""huge."" Instead, ""come"" is a synonym for ""arrive,"" meaning that both words refer to the act of an object moving towards a location.
+3. The relationships presented in completions D and E differ in that D provides an opposite concept to ""huge"" and ""arrive,"" while E provides a synonym for ""arrive.""
+4. Based on the comparisons, completion D correctly completes the analogy as it provides an opposite concept to ""huge"" and ""arrive,"" maintaining the parallel structure of the analogy.
+5. <ans> D </ans></s>",,D
+Opposite,somber,cheerful,lawyer,client,doctor,"1. In the analogy, ""somber"" is compared to ""cheerful."" ""Somber"" means serious and solemn, while ""cheerful"" means happy and light-hearted. In the context of the analogy, a lawyer is being compared to something based on this contrast. Completion D, ""client,"" fits because clients can come to lawyers with serious and solemn issues, such as legal disputes or personal problems, while lawyers provide advice and representation to help resolve those issues.
+
+2. Completion E, ""doctor,"" does not fit the analogy as well. While a doctor can provide relief and happiness to a patient, the relationship between a doctor and a patient is not directly analogous to the relationship between a somber person and a cheerful person.
+
+3. Comparing the relationships presented in completions D and E with the analogy, we can see that completion D aligns more closely with the contrast between ""somber"" and ""cheerful."" A lawyer, in this context, is someone who provides a solution or relief to a serious problem, much like how a client comes to a lawyer with a serious issue. Completion E, on the other hand, does not directly relate to the contrast between ""somber"" and ""cheerful.""
+
+4. Based on the comparisons, the correct completion is D: ""client.""
+
+5. <ans> D </ans></s>",,D
+Opposite,late,early,win,lose,capture,"1. Completion D, ""lose,"" relates to the analogy as the opposite of ""win."" In the context of the analogy, ""late"" is the opposite of ""early,"" and in the same way, ""lose"" is the opposite of ""win.""
+2. Completion E, ""capture,"" does not directly relate to the analogy. While ""win"" and ""capture"" can be related concepts in certain contexts, such as in games, they do not follow the same relationship as ""late"" and ""early.""
+3. The relationship presented in completion D is a simple opposition, where ""late"" is the opposite of ""early,"" and ""lose"" is the opposite of ""win."" In contrast, completion E does not present a clear relationship to the analogy.
+4. Based on the comparisons, completion D is the correct completion as it directly follows the relationship established in the analogy.
+5. <ans> D </ans></s>",,D
+Opposite,quick,slow,grow,wither,plant,"1. In the analogy, ""quick : slow"" describes a relationship of opposites in terms of speed. Completion D, ""wither,"" relates to the analogy by describing a state of decay or dying, which is the opposite of growth.
+2. Completion E, ""plant,"" does not directly relate to the analogy as stated. While a plant can grow, the analogy does not provide enough context to make a direct comparison between ""grow"" and ""plant.""
+3. Completion D, ""wither,"" completes the analogy by providing an opposite state to ""grow,"" just as ""slow"" is an opposite state to ""quick.""
+4. Based on the comparisons, completion D correctly completes the analogy.
+5. <ans> D </ans></s>",,D
+Opposite,antonym,synonym,selfish,generous,egocentric,"1. In the analogy, antonym and synonym are related as opposites. The word ""synonym"" means a word or phrase that has the same or nearly the same meaning as another word or phrase. Therefore, completion D, ""generous,"" is a synonym for the antonym of ""selfish."" Generous means showing a readiness to give help or money, especially towards a good cause. Selfish is the opposite, meaning concerned primarily with one's own interests.
+
+2. Completion E, ""egocentric,"" is a term that refers to a person who is excessively self-centered and unable to see things from other people's perspectives. While it is related to the concept of selfishness, it is not a synonym. An egocentric person may still be selfish, but the terms are not interchangeable.
+
+3. The relationships presented in completions D and E are different. Completion D correctly completes the analogy by providing a synonym for the antonym of selfish. Completion E, while related, is not a synonym for the antonym of selfish. Instead, it is a term that describes a specific type of selfishness.
+
+4. Based on the comparisons, completion D correctly completes the analogy.
+
+5. <ans> D </ans></s>",,D
+Opposite,quiet,noisy,last,first,final,"1. Completion D, ""first,"" does not directly relate to the analogy as stated. ""Quiet"" and ""noisy"" are related to volume or sound level, while ""last"" and ""first"" are related to order or sequence.
+2. Completion E, ""final,"" is a more appropriate completion for the analogy. ""Quiet"" and ""noisy"" are related to volume or sound level, while ""last"" and ""final"" are related to the end or conclusion of a series.
+3. Completion D, ""first,"" does not share the same relationship as ""quiet"" to ""noisy."" ""Quiet"" and ""noisy"" are opposites in terms of volume or sound level, while ""first"" and ""last"" are opposites in terms of order or sequence. Completion E, ""final,"" shares the same relationship as ""quiet"" to ""noisy."" Both pairs are opposites in their respective domains.
+4. Based on the comparisons, completion E, ""final,"" correctly completes the analogy.
+5. <ans> E </ans></s>",,E
+Opposite,start,stop,trivial,important,famous,"1. Completion D, ""important,"" relates to the analogy as something that is essential or necessary to the function or meaning of ""stop"" in the same way that ""trivial"" is to ""start."" In other words, just as ""trivial"" matters little to the overall significance of ""start,"" ""important"" matters greatly to the overall significance of ""stop.""
+2. Completion E, ""famous,"" does not directly relate to the analogy. While ""start"" and ""stop"" can be seen as having a cause-and-effect relationship, ""famous"" is not a natural fit for the analogy as it does not share the same relationship with ""trivial"" as ""important"" does with ""stop.""
+3. Comparing the relationships presented in completions D and E with the analogy, we see that completion D correctly completes the analogy by maintaining the relationship between ""trivial"" and ""start"" and extending it to ""important"" and ""stop."" Completion E, on the other hand, does not maintain the relationship between ""trivial"" and ""start"" and instead introduces an unrelated concept.
+4. Based on the comparisons, the correct completion of the analogy is D: ""important.""
+5. <ans> D </ans></s>",,D
+Opposite,laugh,cry,cheap,expensive,inexpensive,"1. Completion D, ""expensive,"" relates to the analogy by suggesting that just as laughing is the opposite emotion to crying, cheap is the opposite of expensive. In this context, cheap and expensive are used to describe prices or costs.
+
+2. Completion E, ""inexpensive,"" also relates to the analogy but in a different way. It suggests that just as laughing is the opposite emotion to crying, cheap is the opposite of inexpensive. In this context, cheap and inexpensive are used interchangeably to describe low prices or costs.
+
+3. The relationships presented in completions D and E with the analogy are similar in that they both suggest oppositeness between laughing and crying, and between cheap and something else. However, the key difference lies in what that something else is. Completion D suggests that the opposite of cheap is expensive, while completion E suggests that the opposite of cheap is inexpensive.
+
+4. Based on the comparisons, completion D is the correct completion as it correctly completes the analogy by suggesting that the opposite of cheap is expensive, just as the opposite of crying is laughing.
+
+5. <ans> D </ans></s>",,D
+Opposite,accept,reject,dark,bright,dim,"1. Completion D, ""bright,"" is related to the analogy as the opposite of ""dark."" In the context of the analogy, ""accept"" is the opposite of ""reject,"" and ""dark"" is the opposite of ""bright.""
+2. Completion E, ""dim,"" is related to the analogy as another opposite of ""dark."" However, it is not the correct completion because the analogy specifically asks for the opposite of ""bright,"" not just another opposite of ""dark.""
+3. The relationship presented in completion D is a direct opposition, where ""accept"" is to ""reject"" as ""dark"" is to ""bright."" The relationship presented in completion E is also an opposition, but it is not the correct one because it does not fit the specific requirements of the analogy.
+4. Based on the comparisons, the correct completion is D, ""bright,"" because it directly opposes ""dark"" in the analogy, as ""accept"" opposes ""reject.""
+5. <ans> D </ans></s>",,D
+Opposite,abundant,scarce,agree,disagree,concur,"1. Completion D, ""disagree,"" relates to the analogy as the opposite of agreement. Just as abundant and scarce are opposites in terms of availability, agree and disagree are opposites in terms of opinion.
+2. Completion E, ""concur,"" does not correctly complete the analogy. While agree and concur both involve agreement, they are not opposites of scarce and abundant, respectively.
+3. The relationship presented in completion D, ""disagree,"" is an opposition, as it is the opposite of agreement. The relationship presented in completion E, ""concur,"" is a similarity, as it also involves agreement but does not oppose scarcity or abundance.
+4. Based on the comparisons, completion D correctly completes the analogy.
+5. <ans> D </ans></s>",,D
+Opposite,hero,coward,strong,weak,muscular,"1. Completion D, ""weak,"" relates to the analogy by completing the contrast between the two pairs. A hero is to a coward as strong is to weak. The hero is brave and courageous, while the coward is fearful and lacks courage. The strong is to the weak in the same way, with the strong having greater physical power than the weak.
+
+2. Completion E, ""muscular,"" does not correctly relate to the analogy. While a hero may be strong and muscular, the analogy does not require that the strong be muscular. The strong could also be described as having greater physical power or ability than the weak, regardless of their muscularity.
+
+3. The relationships presented in completions D and E differ in that completion D accurately completes the contrast between the two pairs in the analogy, while completion E does not. The analogy requires a contrast between the two pairs, with the first pair (hero:coward) having a contrast of bravery vs. fear, and the second pair (strong:?) requiring a contrast of strength vs. weakness. Completion D correctly completes this contrast, while completion E does not.
+
+4. Based on the comparisons, completion D is the correct completion for the analogy.
+
+5. <ans> D </ans></s>",,D
+Opposite,teacher,student,calm,stormy,serene,"1. Completion D, ""stormy,"" suggests a relationship where the teacher is calm and stable, while the student is unstable and perhaps chaotic. This is an analogy for contrasting roles or states, where the teacher represents a calming influence, and the student represents a more turbulent or unpredictable force.
+
+2. Completion E, ""serene,"" suggests a relationship where the teacher is calm and the student is also calm. This is an analogy for similarity, where both the teacher and student share the quality of calmness.
+
+3. Comparing the relationships presented in completions D and E, we can see that completion D emphasizes the contrast between the teacher's calmness and the student's turbulence, while completion E emphasizes the similarity between the teacher's and student's calmness.
+
+4. Based on the comparisons, the correct completion for the analogy is D, ""stormy,"" as it correctly conveys the contrasting relationship between the teacher's calmness and the student's turbulence.
+
+5. <ans> D </ans></s>",,D
+Opposite,give,take,allow,forbid,permit,"1. Completion D, ""forbid,"" relates to the analogy as the opposite of ""allow."" In the context of the analogy, ""give"" and ""allow"" are actions that grant access or permission, while ""take"" and ""forbid"" are actions that restrict access or deny permission.
+
+2. Completion E, ""permit,"" also relates to the analogy as an opposite of ""allow."" However, it is more directly related to ""allow"" as they both grant access or permission.
+
+3. Comparing the relationships presented in completions D and E, we can see that both are opposites of ""allow,"" but completion D, ""forbid,"" is a more negative and restrictive opposite, while completion E, ""permit,"" is a more positive and granting opposite.
+
+4. Based on the comparisons, the correct completion that correctly completes the analogy is D: ""forbid."" The analogy is about the relationship between giving and taking, and allowing and forbidding, and ""forbid"" is the more appropriate opposite of ""allow"" in this context.
+
+5. <ans> D </ans></s>",,D
+Opposite,clean,dirty,awake,asleep,alert,"1. Completion D, ""asleep,"" relates to the analogy as the opposite state of being awake. Just as dirty is the opposite state of clean, asleep is the opposite state of awake.
+2. Completion E, ""alert,"" does not directly relate to the analogy as the opposite state of awake. While alert is a state of heightened awareness, it is not the opposite state of awake in the same way that asleep is the opposite state of awake.
+3. The relationship presented in completion D is a binary opposition, where clean and awake are considered positive states, and dirty and asleep are considered negative states. Completion E does not present this same relationship, as alert is not the opposite of awake in the same way that asleep is.
+4. Based on the comparisons, completion D correctly completes the analogy as it presents the same binary opposition relationship as clean to dirty.
+5. <ans> D </ans></s>",,D
+Opposite,remember,forget,increase,decrease,lengthen,"1. Completion D, ""decrease,"" relates to the analogy as the opposite of ""increase."" Forgetting is the opposite of remembering in the same way that decreasing is the opposite of increasing.
+2. Completion E, ""lengthen,"" does not relate to the analogy as the opposite of ""increase."" While increasing and lengthening both involve growth, they do not have the same opposite relationship as remembering and forgetting.
+3. Comparing the relationships presented in completions D and E with the analogy, we see that D correctly completes the analogy as the opposite of ""increase."" The relationship between remembering and forgetting is one of presence and absence, while the relationship between increasing and lengthening is one of growth and extension.
+4. Final answer: <ans> D </ans></s>",,D
+Opposite,crazy,sane,bent,straight,crooked,"1. Completion D, ""straight,"" is related to the analogy as the opposite of ""bent."" In the context of the analogy, ""crazy"" is the opposite of ""sane,"" and ""bent"" is the opposite of ""straight.""
+2. Completion E, ""crooked,"" is related to the analogy as another opposite of ""straight."" However, it does not fit as well as completion D because ""crooked"" is not directly related to the given term ""bent.""
+3. The relationships presented in completions D and E are similar in that they both represent opposites. However, completion D is a more direct and accurate completion because it is explicitly stated in the analogy that ""bent"" is the opposite of ""straight.""
+4. Based on the comparisons, completion D correctly completes the analogy.
+5. <ans> D </ans></s>",,D
+Function,fly,bird,hop,rabbit,leg,"1. Completion D, ""rabbit,"" relates to the analogy as birds are animals that fly, and rabbits are animals that hop. The analogy is comparing the way flying is to birds, to the way hopping is to rabbits.
+
+2. Completion E, ""leg,"" does not correctly relate to the analogy. While birds have legs, the analogy is comparing flying to birds and hopping to something else, not comparing body parts directly.
+
+3. The relationship presented in completion D is a comparison of actions or behaviors between two different things: birds fly and rabbits hop. In contrast, completion E does not relate to the analogy as it introduces a different concept, body parts, rather than actions or behaviors.
+
+4. Based on the comparisons, completion D correctly completes the analogy as it maintains the comparison of actions or behaviors between birds and rabbits.
+
+5. <ans> D </ans></s>",,D
+Function,build,house,dig,hole,shovel,"1. Completion D, ""hole,"" relates to the analogy as the thing that is produced when you dig, similar to how a house is the result of building.
+2. Completion E, ""shovel,"" does not correctly relate to the analogy as it is not the result of digging but rather the tool used for digging.
+3. The relationship presented in completion D is that of a result or product, while the relationship presented in completion E is that of a tool or means.
+4. Based on the comparisons, completion D correctly completes the analogy as it maintains the relationship of cause and effect between the two actions and their respective results.
+5. <ans> D </ans></s>",,D
+Function,sing,song,ride,horse,rider,"1. In the analogy, ""sing : song"" means that singing is an activity that produces a song as a result. In the same way, ""ride : horse"" means that riding is an activity that uses a horse as a means to travel.
+2. In the analogy, ""sing : song"" means that singing is an activity that produces a song as a result. In the analogy, completion E suggests that ""ride"" is an activity that uses a ""rider"" as a means to travel. However, this is not an accurate completion of the analogy as a horse is typically the means of transportation in the context of riding.
+3. Completion D, ""horse,"" correctly completes the analogy as it completes the relationship between the activity and the means by which the activity is typically carried out. Completion E, ""rider,"" does not complete the analogy as it does not accurately represent the means by which the activity ""ride"" is typically carried out.
+4. The correct completion of the analogy is D, ""horse.""
+5. <ans> D </ans></s>",,D
+Function,hear,ear,wear,clothes,woman,"1. Completion D, ""clothes,"" relates to the analogy as the thing that is worn on or near the body part signified by the analogy's second term, ""ear,"" is signified by the third term, ""wear."" The first term, ""hear,"" signifies the action of perceiving sounds, and the second term, ""ear,"" signifies the organ of hearing. The third term, ""wear,"" signifies the action of putting on or using something, and the fourth term, ""clothes,"" signifies the things that are put on or used to cover the body.
+2. Completion E, ""woman,"" does not relate to the analogy as it does not fit the pattern of the analogy. The analogy compares two body parts and the actions associated with them, ""hear"" and ""wear,"" and their respective objects, ""ear"" and ""clothes."" A woman is not related to the analogy in the same way.
+3. The relationships presented in completions D and E are different. Completion D correctly completes the analogy by maintaining the pattern of the analogy, comparing two body parts and the actions associated with them, and their respective objects. Completion E does not fit the pattern of the analogy and does not relate to the analogy in the same way.
+4. Based on the comparisons, completion D correctly completes the analogy as it maintains the pattern of the analogy and fits the analogy's structure.
+5. <ans> D </ans></s>",,D
+Function,drive,car,burn,wood,fire,"1. In completion D, ""wood"" is related to ""car"" as ""fuel"" is related to ""drive"". Wood is something that can be burned to power a car, just as a car is driven by using fuel.
+2. In completion E, ""fire"" is related to ""car"" as ""result of burning"" is related to ""drive"". Fire is the result of burning wood or other fuels in a car engine, just as driving a car results in motion.
+3. Completion D emphasizes the role of the fuel in the process of driving a car, while completion E emphasizes the result of the burning process. The analogy itself focuses on the relationship between the action and the object that makes the action possible, so completion D is a better fit.
+4. <ans> D </ans>
+
+Explanation:
+The analogy ""drive : car :: burn : ?"" is about the relationship between an action and the object that makes the action possible. Completion D correctly completes the analogy by providing an object that makes the action of burning possible, while completion E provides the result of the burning action. Therefore, the correct completion is ""wood"".</s>",,D
+Function,open,door,touch,hands,doctor,"1. In the analogy, ""open : door"" refers to the action of making a door accessible or available. ""Touch :?"" is also an action, and the correct completion is ""hands"". Hands are the common tool used to touch objects, just as doors are the common object that is opened with hands.
+2. In the analogy, ""open : door"" refers to the action of making a door accessible or available. ""Touch : doctor"" is not a valid completion as there is no direct relationship between touching and a doctor. A doctor is a medical professional who diagnoses and treats illnesses or injuries.
+3. Completion D, ""hands,"" correctly completes the analogy as it relates to the action of touching. Completion E, ""doctor,"" does not relate to the analogy as it does not complete the relationship between ""touch"" and the blank.
+4. Based on the comparisons, completion D is the correct completion as it completes the relationship between the actions in the analogy.
+5. <ans> D </ans></s>",,D
+Function,squeeze,juice,shoot,gun,miss,"1. Completion D, ""gun,"" relates to the analogy as the tool or means by which the action is carried out in both cases. Just as squeezing extracts juice from a fruit, shooting is the action that propels a projectile from a gun.
+
+2. Completion E, ""miss,"" does not directly relate to the analogy. While it is possible to shoot a missile or bullet and miss the target, the analogy is about the relationship between the action and its result.
+
+3. Comparing the relationships presented in completions D and E with the analogy, we see that completion D, ""gun,"" is a more direct and accurate completion. The analogy is about the relationship between the action and its result, and completion D maintains this relationship by providing a tool or means for the action to occur. Completion E, ""miss,"" does not maintain this relationship as it does not describe a tool or means for the action but rather an outcome.
+
+4. Based on the comparisons, the correct completion is D, ""gun.""
+
+5. <ans> D </ans></s>",,D
+Function,cut,knife,hit,hammer,nail,"1. Completion D, ""hammer,"" relates to the analogy as an instrument used to deliver force or cause an impact, similar to how a knife is used to make a cut.
+2. Completion E, ""nail,"" does not directly relate to the analogy. A nail is an object that is hit with a hammer to be driven into another material. In the analogy, ""hit"" is related to the action of making a cut, and ""nail"" is not an appropriate completion as it does not fit the pattern of the analogy.
+3. Comparing the relationships presented in completions D and E with the analogy, we see that completion D, ""hammer,"" correctly completes the analogy as it follows the pattern of ""A is to B like C is to D,"" where A and C are both tools used to apply force or make an impact. Completion E, ""nail,"" does not follow this pattern as it is not a tool used to make a cut but rather an object that is used with a tool to make a cut.
+4. Based on the comparisons, the correct completion of the analogy is D, ""hammer.""
+5. <ans> D </ans></s>",,D
+Function,throw,ball,open,envelope,close,"1. In the analogy, ""throw : ball"" is an action and object involved in that action. ""Open : envelope"" is also an action and object involved in that action. Completion D, ""envelope,"" is the object that is related to the action of opening in the same way that a ball is related to the action of throwing.
+2. Completion E, ""close,"" is not the correct completion of the analogy. The reason is that ""close"" is not the object related to the action of opening in the same way that a ball is related to the action of throwing.
+3. The relationships presented in completions D and E with the analogy are different. Completion D correctly completes the analogy by providing the object that is related to the action of opening in the same way that a ball is related to the action of throwing. Completion E, on the other hand, provides a different action, ""close,"" which is not related to the action of opening in the same way that a ball is related to the action of throwing.
+4. Based on the comparisons, the correct completion of the analogy is D, ""envelope.""
+5. <ans> D </ans></s>",,D
+Function,read,magazine,play,football,kids,"1. Completion D, ""football,"" relates to the analogy as something that can be ""played"" or engaged with in a similar way that one can ""read"" a magazine. Both reading and playing football provide an experience or entertainment.
+
+2. Completion E, ""kids,"" does not directly relate to the analogy as something that can be ""played"" in the same sense as ""read"" and ""magazine."" Kids are not an activity or entertainment but rather the participants in an activity or audience for a form of entertainment like a magazine or a football game.
+
+3. The relationship presented in completion D is that of an activity or form of entertainment. In the analogy, reading and playing are both activities that provide enjoyment and engagement. Completion E, on the other hand, represents a different relationship as kids are the participants or audience for the activities or forms of entertainment.
+
+4. Based on the comparisons, completion D correctly completes the analogy as it represents the relationship of an activity or form of entertainment that can be ""played"" in a similar way that one can ""read"" a magazine.
+
+5. <ans> D </ans></s>",,D
+Function,carry,suitcase,sit,chair,job,"1. Completion D, ""chair,"" relates to the analogy as an object that people can sit on, similar to how a suitcase is an object that people can carry.
+2. Completion E, ""job,"" does not relate to the analogy as it does not convey a meaning that is analogous to ""carry a suitcase"" and ""sit."" A job is an activity or position of responsibility, while carrying a suitcase and sitting are actions related to objects.
+3. The relationship presented in completion D is that of an object that can be used for a specific purpose, in this case, for sitting. The relationship presented in completion E is not related to the analogy as it does not convey a meaning that is analogous to the given parts of the analogy.
+4. Based on the comparisons, completion D is the correct completion as it correctly completes the analogy by providing an object that can be used for a specific purpose, similar to how a suitcase can be carried and a chair can be sat on.
+5. <ans> D </ans></s>",,D
+Function,drink,glass,cook,pan,chef,"1. Completion D, ""pan,"" relates to the analogy as a container that holds or contains the substance being cooked, similar to how a glass holds or contains the drink.
+
+2. Completion E, ""chef,"" does not relate to the analogy as the analogy is comparing two objects, not an object to a person.
+
+3. The relationship presented in completion D is that of a container to the substance being contained. In the analogy, a glass is a container for a drink. Completion D correctly completes the analogy by providing another container, a pan, for the substance being cooked.
+
+4. The relationship presented in completion E is that of a person to the action they perform. This is not related to the analogy as it compares objects, not people to actions.
+
+5. <ans> D </ans></s>",,D
+Function,burn,fire,blow,wind,down,"1. Explanation for completion D: In the analogy, ""burn"" is related to ""fire"" as an action is related to the substance that causes the action. Similarly, ""blow"" is related to ""wind"" as an action is related to the force that can cause or enhance the action.
+
+2. Explanation for completion E: Completion E does not fit the analogy as ""blow"" is an action, not a state or condition.
+
+3. Comparison of completions D and E: Completion D correctly completes the analogy as it maintains the relationship between actions and their respective causes or enhancers. Completion E does not fit the analogy as it does not maintain the relationship between actions and their causes or enhancers.
+
+4. Final answer: <ans> D </ans></s>",,D
+Function,ski,snow,swim,water,swimmer,"1. Completion D, ""water,"" relates to the analogy because just as skiing is an activity that takes place on snow, swimming is an activity that takes place in water.
+2. Completion E, ""swimmer,"" does not correctly relate to the analogy. While swimmers do swim in water, the analogy is about the relationship between the activities and the substances they take place in, not the participants.
+3. The relationship presented in completion D is that of a substance being the medium or environment for an activity. In the analogy, snow is the medium for skiing and water is the medium for swimming.
+4. The relationship presented in completion E is that of a participant in an activity. However, the analogy is not about the relationship between the participants in the activities, but rather the relationship between the activities and the substances they take place in.
+5. <ans> D </ans></s>",,D
+Function,tell,story,fight,battle,soldier,"1. Completion D, ""battle,"" relates to the analogy as the event or situation that follows a ""fight."" In a story, a ""tell"" is an account or narrative of an event, and a ""battle"" is the event or conflict that is being narrated in a fight analogy.
+
+2. Completion E, ""soldier,"" does not directly relate to the analogy. While soldiers can be involved in battles, the analogy is comparing ""tell"" to ""story"" and ""fight"" to a specific event or situation, not a person or thing.
+
+3. Comparing the relationships presented in completions D and E with the analogy:
+   - Completion D, ""battle,"" correctly completes the analogy as it represents the event or situation that follows a ""fight,"" just as a ""story"" follows a ""tell.""
+   - Completion E, ""soldier,"" does not complete the analogy as it does not represent the event or situation that follows a ""fight.""
+
+4. Based on the comparisons, the correct completion is D, ""battle.""
+
+5. <ans> D </ans></s>",,D
+Function,run,horse,pull,tractor,muscle,"1. Explanation for completion D: In this analogy, ""run"" is associated with ""horse,"" suggesting motion or movement. ""Pull"" is associated with an agent or a force that causes motion. Completion D, ""tractor,"" is a machine that pulls or moves other objects, making it a suitable completion for the analogy.
+
+2. Explanation for completion E: ""Muscle"" is a type of tissue that contracts to produce force and motion. In this analogy, ""run"" is associated with ""horse,"" which can move due to its muscles. ""Pull"" is associated with an action that requires force, which muscles provide. However, muscles are not the only agents that can pull or provide force; other objects or tools can also do so.
+
+3. Comparison of completions D and E: Both completions relate to the analogy by providing agents or forces that cause motion or movement. However, completion D refers to an external agent (tractor), while completion E refers to an internal agent (muscle).
+
+4. Determination of the correct completion: Based on the analogy, ""run : horse :: pull : ?,"" the missing term should represent an external agent or force that causes motion or movement. Completion D, ""tractor,"" is a better fit for this description as it is an external agent that moves other objects.
+
+5. Final answer: <ans> D </ans></s>",,D
+Function,write,poem,carve,statue,knife,"1. Completion D, ""statue,"" relates to the analogy as the end product of the writing and carving processes. Just as a poem is the end result of the writing process, a statue is the end result of the carving process.
+2. Completion E, ""knife,"" does not relate to the analogy in the same way as D. A knife is a tool used in the carving process, not the end result.
+3. The relationships presented in completions D and E are different. Completion D represents the end results of the writing and carving processes, while completion E represents a tool used in the carving process.
+4. Based on the comparisons, completion D correctly completes the analogy as it represents the end result of the carving process, just as the end result of the writing process is a poem.
+5. <ans> D </ans></s>",,D
+Function,ride,bicycle,drink,cup,water,"1. Completion D, ""cup,"" relates to the analogy as the container used for drinking, similar to how a bicycle is the means of transportation for riding.
+2. Completion E, ""water,"" does not directly relate to the analogy as it is a substance that can be drunk, but it is not the completion of the analogy. The analogy compares ""ride"" to ""drink,"" not ""ride"" to ""water.""
+3. In the analogy, ""ride"" is an action performed on a ""bicycle,"" and ""drink"" is an action performed with a ""cup."" Both involve an interaction between an individual and an object.
+4. Based on the comparisons, completion D is the correct completion of the analogy as it completes the analogy by providing the object that is used in the action of ""drinking,"" just as a ""bicycle"" is the object used in the action of ""riding.""
+5. <ans> D </ans></s>",,D
+Function,throw,ball,jump,parachute,walk,"1. In the analogy, ""throw : ball"" is an action where an object (ball) is propelled through the air. ""Jump"" is an action where an individual lifts their body off the ground. ""Parachute"" is an object used to slow down the descent of an individual or object from a height. The relationship between ""jump"" and ""parachute"" is that both are actions or events related to moving through the air or falling from a height. The parachute completes the analogy by being the equivalent of ""ball"" in the second part of the analogy.
+2. ""Walk"" is an action where an individual moves by lifting and setting down each foot in sequence. While ""throw"" and ""jump"" are related to moving through the air or falling from a height, ""walk"" is not. The relationship between ""throw"" and ""jump"" and ""walk"" is not analogous.
+3. The relationship presented in completion D is that of an object used to facilitate movement through the air or falling from a height, similar to the ball in the first part of the analogy. The relationship presented in completion E is not analogous to the relationship between ""throw"" and ""jump"".
+4. Based on the comparisons, completion D correctly completes the analogy as it presents a relationship that is analogous to the relationship between ""throw"" and ""ball"".
+5. <ans> D </ans></s>",,D
+Function,ride,elevator,sail,boat,wind,"1. Completion D, ""boat,"" relates to the analogy as both an elevator ride and sailing involve moving from one place to another, often with the help of an external force. In the case of an elevator, the external force is the motor that moves the elevator car. In sailing, the external force is the wind that propels the boat.
+
+2. Completion E, ""wind,"" does not correctly complete the analogy. While wind is an external force that can propel a sailboat, it is not an appropriate completion for the analogy because an elevator does not rely on wind to move.
+
+3. Comparing the relationships presented in completions D and E with the analogy, we can see that both completions involve external forces moving an object from one place to another. However, only completion D correctly completes the analogy because it maintains the consistency of the analogy's structure. The analogy compares ""ride in an elevator"" to ""sail,"" and both involve moving from one place to another with the help of an external force. Completion D, ""boat,"" maintains this structure by providing an object that can be moved by an external force, like the wind in sailing or the motor in an elevator.
+
+4. Based on the comparisons, the correct completion of the analogy is D, ""boat.""
+
+5. <ans> D </ans></s>",,D
+Category Members,vegetable,cabbage,insect,beetle,frog,"1. Completion D, ""beetle,"" is correct because both cabbage (a type of vegetable) and beetle (a type of insect) are common and familiar entities in their respective domains. They share a similar role as typical representatives of their categories.
+
+2. Completion E, ""frog,"" is not the correct answer because while a cabbage is a type of vegetable, a frog is not a typical or common representative of the insect category. Frogs are amphibians, not insects.
+
+3. Comparing the relationships presented in completions D and E:
+   - In completion D, cabbage and beetle share the commonality of being typical representatives of their respective categories (vegetables and insects).
+   - In completion E, cabbage and frog do not share a commonality as a typical representative of their respective categories. Instead, they belong to different categories (vegetables and amphibians).
+
+4. Based on the comparisons, the correct completion is D, ""beetle,"" because it correctly represents the analogy by showing that cabbage and beetle are typical representatives of their respective categories.
+
+5. <ans> D </ans></s>",,D
+Category Members,insect,bee,fish,halibut,water,"1. Completion D, ""halibut,"" relates to the analogy as the specific type of fish that completes the comparison between ""insect"" and ""bee."" Insects are to bees as fish are to halibut, meaning that bees are a specific type of insect, just as halibut is a specific type of fish.
+
+2. Completion E, ""water,"" does not correctly relate to the analogy. The analogy is comparing insects to bees and fish to a specific type of fish, not to a substance like water.
+
+3. The relationships presented in completions D and E are different. Completion D correctly completes the analogy by providing a specific type of fish that completes the comparison, while completion E does not relate to the analogy at all.
+
+4. Based on the comparisons, completion D is the correct completion that correctly completes the analogy.
+
+5. <ans> D </ans></s>",,D
+Category Members,flower,rose,bird,pigeon,nest,"1. Completion D, ""pigeon,"" relates to the analogy as a specific type of bird that is related to the specific type of flower, ""rose."" Roses are a type of flower, and pigeons are a type of bird.
+2. Completion E, ""nest,"" does not directly relate to the analogy as it is not a type of bird. The analogy compares a flower to a specific type of bird, not a bird in general or a bird's nest.
+3. The relationships presented in completions D and E are different. Completion D correctly completes the analogy by providing a specific type of bird that is related to the specific type of flower, ""rose."" Completion E does not relate to the analogy as it is not a type of bird.
+4. Based on the comparisons, completion D correctly completes the analogy as it provides a specific type of bird that is related to the specific type of flower, ""rose.""
+5. <ans> D </ans></s>",,D
+Category Members,bird,wren,insect,mosquito,sting,"1. Completion D, ""mosquito,"" relates to the analogy as a specific type of insect that is comparable to a wren as a specific type of bird. Wrens are small, agile birds that are common in many regions. Mosquitoes are small, agile insects that are common in many regions and play an important role in various ecosystems as food sources for other organisms.
+2. Completion E, ""sting,"" does not correctly complete the analogy. The analogy compares birds to insects, not specific actions or characteristics.
+3. The relationships presented in completions D and E differ significantly. Completion D correctly compares two specific types of organisms within their respective classes, while completion E introduces an unrelated concept, a sting, which is not a characteristic of insects in general.
+4. Based on the comparisons, completion D correctly completes the analogy.
+5. <ans> D </ans></s>",,D
+Category Members,vegetable,lettuce,bird,sparrow,cat,"1. In the analogy, ""vegetable : lettuce"" refers to the first part of the relationship, where a vegetable is a type of food, and lettuce is a specific type of vegetable. The second part of the relationship is established with ""bird : ?"", where a bird is an animal that eats seeds and leaves, and sparrow is a specific type of bird that often feeds on seeds and leaves, similar to how lettuce is a type of vegetable that is often used in salads or eaten raw.
+
+2. In the analogy, ""vegetable : lettuce"" refers to the first part of the relationship, where a vegetable is a type of food, and lettuce is a specific type of vegetable. The second part of the relationship is established with ""bird : cat"", where a bird is an animal that flies and lays eggs, and a cat is a completely different type of animal that is a mammal and hunts prey. This relationship does not follow the analogy as lettuce and birds have different relationships to their respective categories.
+
+3. Completion D correctly completes the analogy as it follows the relationship established in the analogy. Both lettuce and sparrow are related to their respective categories as specific types. Completion E does not follow the relationship established in the analogy as cats and birds belong to different categories.
+
+4. Based on the comparisons, completion D correctly completes the analogy as it follows the relationship established in the analogy, while completion E does not.
+
+5. <ans> D </ans></s>",,D
+Category Members,sport,soccer,vehicle,bus,engine,"1. Completion D, ""bus,"" relates to the analogy as soccer is a type of sport, and a bus is a type of vehicle. Both soccer and buses can transport a large group of people.
+
+2. Completion E, ""engine,"" does not correctly relate to the analogy. Soccer is a sport, and a vehicle is a means of transportation. An engine is a part of a vehicle, not another type of vehicle.
+
+3. The relationships presented in completions D and E are different. Completion D correctly compares soccer and buses as two types of their respective categories. Completion E incorrectly compares soccer and engines, which are not related categories.
+
+4. Based on the comparisons, completion D correctly completes the analogy.
+
+5. <ans> D </ans></s>",,D
+Category Members,weapon,pistol,clothing,shoes,cotton,"1. Completion D, ""shoes,"" relates to the analogy as an item of clothing that covers and protects the feet, similar to how a pistol is an item that protects and defends.
+2. Completion E, ""cotton,"" does not directly relate to the analogy as it is a natural fiber used in clothing production, while the analogy compares a specific type of clothing (shoes) to a specific type of weapon (pistol).
+3. In the analogy, ""weapon : pistol"" represents a category of protective items, while ""clothing : ?"" represents a category of items that cover and protect the body. Completion D, ""shoes,"" fits this analogy as it is a protective item that covers and protects the feet. Completion E, ""cotton,"" does not fit the analogy as it is not a protective item, but rather a material used in clothing production.
+4. Based on the comparisons, completion D, ""shoes,"" correctly completes the analogy as it is a protective item that covers and protects the body, similar to how a pistol is a protective item that defends.
+5. <ans> D </ans></s>",,D
+Category Members,sport,tennis,weapon,gun,murder,"1. Completion D, ""gun,"" is a correct completion of the analogy because in the same way that tennis is a specific type of sport, a gun is a specific type of weapon.
+2. Completion E, ""murder,"" is not a correct completion of the analogy because murder is not a specific type of weapon, but rather an action that can be committed using various weapons.
+3. The relationship presented in completion D is that of a specific type to a general category, where tennis is a specific type of sport and gun is a specific type of weapon. In contrast, completion E presents a relationship of an action to a general category, where murder is an action that can be committed using various weapons.
+4. Based on the comparisons, completion D correctly completes the analogy because it maintains the relationship of specific to general category, while completion E does not.
+5. <ans> D </ans></s>",,D
+Category Members,furniture,sofa,sport,golf,coat,"1. Completion D, ""golf,"" relates to the analogy as both furniture and golf are things that provide a specific function or activity. A sofa is a piece of furniture that people use to sit and relax. Golf is a sport that involves using various equipment to hit a ball into a hole.
+2. Completion E, ""coat,"" does not relate to the analogy as a coat is a type of clothing that covers and protects the body, while a sofa is a piece of furniture and golf is a sport.
+3. The relationship presented in completion D is that of a functional or activity-based comparison. In contrast, completion E presents a relationship of a protective covering.
+4. Based on the comparisons, completion D correctly completes the analogy as it presents a functional or activity-based comparison, similar to the relationship between furniture and a sofa.
+5. <ans> D </ans></s>",,D
+Category Members,tool,pliers,vehicle,van,fuel,"1. Completion D, ""van,"" is a correct completion of the analogy because a tool, like pliers, is used to manipulate or shape materials, and a vehicle, like a van, is used to transport people or goods from one place to another. Both pliers and a van serve distinct but related functions in their respective domains.
+
+2. Completion E, ""fuel,"" is not a correct completion of the analogy. While pliers and a vehicle both require some form of energy to function, fuel is not a suitable completion because it does not share the same relationship with a vehicle as pliers do with a tool. Fuel is a substance that provides energy for a vehicle to move, but it does not have the same manipulative or shaping function that pliers have.
+
+3. Comparing the relationships presented in completions D and E with the analogy, we can see that completion D correctly completes the analogy by maintaining the relationship between the tool and the vehicle as that of a manipulative instrument and a means of transportation, respectively. Completion E, on the other hand, does not maintain this relationship, as fuel is not a means of transportation but rather a source of energy for a vehicle.
+
+4. Based on the comparisons, the correct completion of the analogy is D, ""van.""
+
+5. <ans> D </ans></s>",,D
+Category Members,clothing,trousers,fish,cod,net,"1. Completion D, ""cod,"" relates to the analogy as trousers are to clothing, cod is to fish. Just as trousers are a type of clothing, cod is a type of fish.
+2. Completion E, ""net,"" does not directly relate to the analogy. While fish can be caught in a net, the analogy is asking for a type of fish, not a tool used to catch fish.
+3. The relationship presented in completion D is a part-whole relationship, where trousers are a part of clothing and cod is a part of fish. In contrast, completion E does not present a relationship that fits the analogy.
+4. Based on the comparisons, completion D correctly completes the analogy as it presents a part-whole relationship between clothing and trousers, and fish and cod.
+5. <ans> D </ans></s>",,D
+Category Members,fruit,banana,furniture,dresser,house,"1. Completion D, ""dresser,"" is a specific type of furniture. Bananas are a type of fruit. In the analogy, fruit is compared to bananas, and furniture is compared to a specific type of furniture, a dresser.
+2. Completion E, ""house,"" is a larger structure that contains furniture. Bananas are individual items that are a part of the larger category of fruit. In the analogy, furniture is compared to a larger structure, a house, which contains various pieces of furniture.
+3. Completion D focuses on the relationship between a specific type of fruit (banana) and a specific type of furniture (dresser). Completion E focuses on the relationship between a larger category of items (fruit) and a larger structure (house) that contains those items.
+4. The analogy compares fruit to bananas and furniture to a specific piece of furniture. Completion D correctly completes the analogy by providing a specific type of furniture that is related to furniture in the same way that bananas are related to fruit.
+5. <ans> D </ans></s>",,D
+Category Members,fish,shark,sport,baseball,team,"1. Completion D, ""baseball,"" relates to the analogy as a specific type of sport. In the same way that fish are to sharks, baseball is a specific type of sport.
+2. Completion E, ""team,"" relates to the analogy as a group of individuals working together. While not a specific type of sport, teams are common in sports.
+3. The relationship presented in completion D is that of a specific type or instance within a larger category. In the analogy, fish are a specific type of aquatic animal, and sharks are a specific type of fish. Similarly, baseball is a specific type of sport.
+4. The relationship presented in completion E is that of a group or collection within a larger category. In the analogy, fish are a collection of various species, and sharks are a specific type of fish within that collection. However, this relationship is not as directly analogous to the relationship between sport and baseball as completion D.
+5. <ans> D </ans>
+
+Explanation:
+The analogy ""fish : shark :: sport : ?"" is asking for a specific type of sport to complete the analogy. Completion D, ""baseball,"" is the correct answer as it directly completes the analogy by providing a specific type of sport. Completion E, ""team,"" while related to sports, does not complete the analogy as it does not provide a specific type of sport.</s>",,D
+Category Members,fruit,plum,clothing,coat,silk,"1. Completion D, ""coat,"" relates to the analogy as an example of a type of clothing. The analogy suggests that just as a plum is a type of fruit, a coat is a type of clothing.
+
+2. Completion E, ""silk,"" relates to the analogy as a specific material used for clothing. The analogy suggests that just as a plum is a type of fruit, silk is a specific type of material used for clothing.
+
+3. Both completions D and E relate to the analogy in the sense that they complete the second part of the analogy by providing an example or a specific instance of the second term. However, completion D provides a general category of clothing, while completion E provides a specific material used for clothing.
+
+4. Based on the comparisons, completion D is the correct completion as it more accurately completes the analogy by providing a general category of clothing, just as plums are a type of fruit.
+
+5. <ans> D </ans></s>",,D
+Category Members,flower,carnation,tool,hacksaw,carpenter,"1. Completion D, ""hacksaw,"" is a type of tool that is used to cut through various materials. In the analogy, carnations are a type of flower. Therefore, completion D correctly completes the analogy by stating that a tool, specifically a hacksaw, is to cutting as a carnation is to being a type of flower.
+2. Completion E, ""carpenter,"" is a person who constructs or repairs structures using tools. While carpenters do use tools, they are not the tools themselves. In the analogy, carnations are a type of flower. Therefore, completion E does not correctly complete the analogy as it does not fit the structure of the analogy, which requires a tool to be compared to a flower.
+3. Completion D directly relates to the analogy by completing the second part of the analogy, ""tool,"" with a specific type of tool, ""hacksaw."" Completion E does not relate to the analogy as it does not fit the structure of the analogy and introduces a person instead of a tool.
+4. Based on the comparisons, completion D correctly completes the analogy as it directly relates to the analogy by completing the second part of the analogy with a specific type of tool. Completion E does not correctly complete the analogy as it does not fit the structure of the analogy and introduces a person instead of a tool.
+5. <ans> D </ans></s>",,D
+Category Members,bird,crow,sport,football,stadium,"1. Completion D, ""football,"" relates to the analogy as the specific type of sport that is commonly associated with birds, just as crows are a specific type of bird.
+2. Completion E, ""stadium,"" does not directly relate to the analogy as it does not represent a specific type of sport. Instead, it represents a place where sports are played.
+3. The relationship presented in completion D is that of a specific type of bird (crow) to a specific type of sport (football), while the relationship presented in completion E is that of a bird (bird) to a place where sports are played (stadium). These relationships are not directly comparable to the analogy as presented.
+4. Based on the comparisons, completion D is the correct completion as it directly relates to the analogy by completing the comparison between a specific type of bird and a specific type of sport.
+5. <ans> D </ans></s>",,D
+Category Members,weapon,sword,flower,daffodil,vase,"1. Completion D, ""daffodil,"" relates to the analogy as a type of flower that can be compared to a sword in the sense that a sword is a weapon used to protect or defend, and a daffodil is a type of flower that can be appreciated for its beauty and ability to brighten up a space, much like how a sword can brighten up a battlefield or protect those around it.
+2. Completion E, ""vase,"" does not correctly relate to the analogy. A vase is an object used to hold flowers or other decorative items, and it is not a type of flower.
+3. Comparing the relationships presented in completions D and E with the analogy, we can see that completion D correctly completes the analogy by providing a type of flower that can be compared to a sword in terms of having a protective or defensive role and adding beauty or brightness to their respective environments. Completion E, on the other hand, does not relate to the analogy as it is not a type of flower.
+4. The final answer is: <ans> D </ans>
+5. The correct completion of the analogy is ""weapon : sword :: flower : daffodil.""</s>",,D
+Category Members,clothing,jacket,bird,pigeon,dog,"1. Completion D, ""pigeon,"" relates to the analogy as birds that commonly wear or are associated with jackets or coats. Pigeons are often seen in urban areas perched on buildings or streets, and some people feed them, making them a common sight associated with clothing, specifically jackets.
+
+2. Completion E, ""dog,"" does not relate to the analogy as directly as completion D. Dogs are not typically associated with jackets or clothing in the same way that birds are. While dogs can wear coats or jackets, the analogy is not about dogs wearing jackets but rather about birds in relation to jackets.
+
+3. Comparing the relationships presented in completions D and E with the analogy, we can see that completion D is a more accurate completion as it directly relates to the analogy by providing a bird species that is commonly associated with jackets. Completion E, on the other hand, does not relate to the analogy as directly as completion D.
+
+4. Based on the comparisons, the correct completion of the analogy is:
+
+<ans> D </ans>
+
+5. The final answer is:
+
+The correct completion of the analogy is ""pigeon.""</s>",,D
+Category Members,furniture,table,fruit,pear,tree,"1. Completion D, ""pear,"" relates to the analogy as a specific type of fruit that can be placed on a table, just as a specific type of furniture can be placed in a room.
+2. Completion E, ""tree,"" does not directly relate to the analogy as a tree is not a specific type of fruit, but rather a plant that bears fruit.
+3. The relationship presented in completion D is that of a specific type of furniture being compared to a specific type of fruit, both of which can be placed in their respective environments. The relationship presented in completion E is not directly related to the analogy as a tree is not a type of fruit.
+4. Based on the comparisons, completion D correctly completes the analogy as it maintains the relationship of a specific type being compared to another specific type.
+5. <ans> D </ans></s>",,D
+Category Members,clothing,jeans,vegetable,potato,apple,"1. Completion D, ""potato,"" is correct because jeans and potatoes are both basic and common in their respective categories. Jeans are a type of clothing that is widely worn and accepted as a staple in many cultures. Potatoes are a type of vegetable that is also widely consumed and accepted as a staple food in many cultures.
+2. Completion E, ""apple,"" is not correct because jeans and apples are not analogous. Jeans are a type of clothing, while apples are a type of fruit. They belong to different categories and do not have the same relationship as clothing and vegetables.
+3. The relationship presented in completion D is one of commonality and ubiquity. Both jeans and potatoes are basic and common in their respective categories.
+4. The relationship presented in completion E is not analogous to the relationship between clothing and vegetables.
+5. <ans> D </ans></s>",,D

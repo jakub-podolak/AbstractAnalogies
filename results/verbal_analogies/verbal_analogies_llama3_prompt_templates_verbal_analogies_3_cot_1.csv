@@ -1,0 +1,1005 @@
+relation,A,B,C,D,D',raw_generation,new_generation,parsed_answer
+Synonym,easy,simple,sad,unhappy,happy,"Let's break it down:
+
+* ""easy"" is related to ""simple"" in a certain way.
+* ""sad"" is related to? in the same way.
+
+The relationship between ""easy"" and ""simple"" is that ""easy"" is a more specific or nuanced version of ""simple"". For example, ""simple"" can refer to something that is uncomplicated, while ""easy"" can refer to something that is not only uncomplicated but also effortless or requiring little effort.
+
+Applying this relationship to ""sad"", we can see that ""sad"" is a more specific or nuanced version of ""unhappy"". For example, ""unhappy"" can refer to a general state of discontent, while ""sad"" can refer to a specific emotional state characterized by sorrow or grief.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Synonym,hurry,rush,harm,injure,help,"Let's break down the analogy:
+
+hurry : rush :: harm :?
+
+The relationship between ""hurry"" and ""rush"" is that ""hurry"" is a verb that means to move quickly, and ""rush"" is a verb that also means to move quickly.
+
+The relationship between ""harm"" and the unknown word is similar. ""Harm"" is a verb that means to cause injury or damage, and the unknown word should be a verb that also means to cause injury or damage.
+
+The correct answer is:
+
+<ans> D </ans>
+
+The word ""injure"" is a verb that means to cause injury or damage, which fits the analogy.",,D
+Synonym,rob,steal,cry,weep,laugh,"Let's break it down:
+
+""rob : steal :: cry :?""
+
+The analogy is saying that ""rob"" is to ""steal"" as ""cry"" is to...?
+
+We know that ""rob"" and ""steal"" are related in the sense that ""rob"" is a verb that means to take something by force or stealth, and ""steal"" is a noun that refers to the act of taking something by force or stealth.
+
+Similarly, ""cry"" is a verb that means to produce tears as a result of strong emotions, and...?
+
+The correct answer is ""weep"", which is a verb that means to produce tears as a result of strong emotions.
+
+So, the correct analogy is:
+
+""rob : steal :: cry : weep""
+
+Therefore, the answer is:
+
+<ans> D </ans>",,D
+Synonym,polite,courteous,angry,furious,happy,"Let's break it down:
+
+* Polite is to Courteous, which means they are synonyms or have a similar meaning.
+* Angry is to?, which means we need to find a word that has a similar meaning to Furious.
+
+Since Polite and Courteous are synonyms, we can conclude that Angry and Furious are also synonyms.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Synonym,beginner,novice,doctor,physician,heal,"Let's break it down:
+
+* ""beginner : novice"" means that a beginner is to novice as...
+*...a doctor is to?
+
+We know that a beginner is a less experienced person compared to a novice. Similarly, a doctor is a more experienced and qualified person compared to a...
+
+*...physician!
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Synonym,baby,infant,woman,lady,girl,"Let's break it down:
+
+* ""baby : infant"" means that a baby is to an infant as...
+*...a woman is to?
+
+We know that a baby is a stage of development before an infant, so we're looking for a word that means a woman is a stage of development before...
+
+*...a lady!
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Synonym,brook,stream,courage,bravery,cowardice,"Let's break it down:
+
+* ""brook"" is a type of ""stream""
+* ""courage"" is a type of ""bravery""
+
+So, the analogy is:
+
+* A (brook) is to B (stream) like C (courage) is to D (bravery)
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Synonym,huge,enormous,wealthy,rich,poor,"Let's break it down:
+
+huge : enormous :: wealthy :?
+
+The analogy is saying that ""huge"" is to ""enormous"" as ""wealthy"" is to?
+
+We can see that ""huge"" is a smaller version of ""enormous"", so we need to find a word that is a smaller version of ""rich"".
+
+The correct answer is:
+
+<ans> D </ans>
+
+Wealthy is a smaller version of rich, just like huge is a smaller version of enormous.",,D
+Synonym,cheerful,happy,awful,horrible,wonderful,"Let's break it down:
+
+* ""cheerful"" is related to ""happy"" in a certain way.
+* ""awful"" is related to? in the same way.
+
+The relationship between ""cheerful"" and ""happy"" is that they are both positive emotions. ""Cheerful"" is a synonym for ""happy"".
+
+So, we're looking for a word that is a synonym for ""awful"", which is a negative emotion.
+
+The correct answer is:
+
+<ans> D </ans>
+
+""Awful"" is related to ""horrible"" in the same way that ""cheerful"" is related to ""happy"".",,D
+Synonym,remain,stay,begin,start,continue,"Let's break it down:
+
+""remain : stay :: begin :?""
+
+The pattern is that the first word is related to the second word in some way. In this case, ""remain"" and ""stay"" are related, and ""begin"" and? are related.
+
+The relationship between ""remain"" and ""stay"" is that they are both verbs that mean to continue in a particular state or position. ""To remain"" means to stay or continue to be in a place or situation, and ""to stay"" means to continue to be in a place or situation.
+
+Using this pattern, we can apply it to ""begin"" and?. The relationship between ""begin"" and? is that they are both verbs that mean to start or initiate something. ""To begin"" means to start or initiate something, and? is a verb that means to start or initiate something.
+
+The correct answer is therefore <ans> D </ans>, as ""start"" is a verb that means to initiate or begin something.",,D
+Synonym,unusual,strange,famous,renowned,unknown,"Let's break down the analogy:
+
+unusual : strange :: famous :?
+
+The analogy is saying that ""unusual"" is to ""strange"" as ""famous"" is to...?
+
+We can start by identifying the relationship between ""unusual"" and ""strange"". It seems that ""unusual"" is being described as ""strange"", implying that ""unusual"" is a characteristic of something that is ""strange"".
+
+Now, let's apply this relationship to ""famous"". If ""unusual"" is to ""strange"" as ""famous"" is to...? Then, ""famous"" is likely being described as ""renowned"", which is a characteristic of something that is ""famous"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Synonym,sick,ill,little,small,big,"Let's break it down:
+
+sick : ill :: little :?
+
+The analogy is saying that ""sick"" is to ""ill"" like ""little"" is to...?
+
+We can see that ""sick"" and ""little"" both have a similar relationship with their corresponding words. Both ""sick"" and ""little"" are describing a quality or characteristic.
+
+So, if ""sick"" is to ""ill"", it means that ""sick"" is a state or condition that is not healthy, and ""ill"" is the corresponding adjective that describes that state.
+
+Similarly, if ""little"" is to...?, it means that ""little"" is a quantity or amount that is not large, and...? is the corresponding adjective that describes that quantity.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>
+
+""little"" is to ""small"" like ""sick"" is to ""ill"".",,D
+Synonym,legal,lawful,usual,normal,strange,"Let's break down the analogy:
+
+""Legal"" and ""lawful"" are related words, with ""lawful"" being a synonym of ""legal"".
+
+""Usual"" and? are also related words, with? being a synonym of ""usual"".
+
+The correct answer should have a similar relationship to ""usual"" as ""lawful"" has to ""legal"".
+
+The word ""normal"" is a synonym of ""usual"", so the correct answer is:
+
+<ans> D </ans>",,D
+Synonym,collect,gather,leave,abandon,stay,"Let's break it down:
+
+* ""collect"" is related to ""gather"" in some way.
+* ""leave"" is related to ""D"" in the same way that ""collect"" is related to ""gather"".
+
+So, if ""collect"" is to ""gather"" like ""leave"" is to ""D"", then ""leave"" is likely to be the opposite of ""gather"", which is ""abandon"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Synonym,clean,neat,fortunate,lucky,miserable,"Let's break it down:
+
+* ""clean"" is related to ""neat"" in a certain way.
+* ""fortunate"" is related to ""D"" in the same way.
+
+We can think of ""clean"" and ""neat"" as having a positive connotation. ""Clean"" is a state of being free from dirt or impurities, and ""neat"" is a state of being tidy and organized.
+
+Similarly, ""fortunate"" has a positive connotation, implying good luck or a favorable situation.
+
+So, we're looking for a word that has a similar positive connotation to ""lucky"", which is a state of being fortunate or successful.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Synonym,immense,colossal,precise,exact,approximate,"Let's break it down:
+
+* ""immense : colossal :: precise :?""
+* ""immense"" and ""colossal"" are both large, but not exact, measurements.
+* ""precise"" is a word that means exact or accurate.
+
+So, we're looking for a word that means approximate or not exact, which is ""approximate"".
+
+Therefore, the correct answer is:
+
+<ans> E </ans>",,E
+Synonym,stone,rock,garbage,trash,bag,"Let's break it down:
+
+* ""stone : rock"" means that a stone is a type of rock.
+* We're looking for a similar relationship between ""garbage"" and the unknown word.
+* ""garbage :?"" means that garbage is a type of?.
+
+So, if ""stone"" is a type of ""rock"", then ""garbage"" is a type of ""trash"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Synonym,help,aid,raise,lift,lower,"Let's break it down:
+
+* ""help"" is to ""aid"" like ""raise"" is to?
+* ""help"" is a type of ""aid"", so we're looking for a word that is a type of ""lift"".
+* ""raise"" is a type of ""lift"", so the correct answer is ""lift"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Synonym,rug,carpet,bucket,pail,milk,"Let's break it down:
+
+rug : carpet :: bucket :?
+
+The analogy is saying that ""rug"" is to ""carpet"" like ""bucket"" is to...?
+
+We know that a rug is a type of carpet, so the relationship between ""rug"" and ""carpet"" is one of type or category.
+
+Applying this to the second part of the analogy, we can say that a bucket is a type of... pail!
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Synonym,shout,yell,leap,jump,fall,"Let's break it down:
+
+* ""shout"" is a way of ""yell""
+* ""leap"" is a way of ""jump""
+
+So, the analogy is: a more intense or loud way of making a sound (shout : yell) is like a more energetic or sudden way of moving (leap :?)
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Opposite,artificial,natural,friend,enemy,relative,"Let's break it down:
+
+* ""artificial : natural"" is a pair of words that are related in some way.
+* The relationship between ""artificial"" and ""natural"" is that they are both types of things that can be used to describe something else.
+* ""friend :?"" is another pair of words that are related in the same way.
+* We need to find a word that has a similar relationship to ""friend"" as ""natural"" has to ""artificial"".
+
+So, we're looking for a word that is the opposite of ""friend"". The opposite of ""friend"" is ""enemy"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Opposite,love,hate,rich,poor,wealthy,"Let's break it down:
+
+""love : hate :: rich :?""
+
+The analogy is saying that ""love"" is to ""hate"" as ""rich"" is to...?
+
+We know that ""love"" and ""hate"" are opposites, so we're looking for a word that is also an opposite of ""rich"".
+
+The opposite of ""rich"" is ""poor"".
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Opposite,alive,dead,succeed,fail,conquer,"Let's break it down:
+
+""alive : dead :: succeed :?""
+
+The analogy is saying that ""alive"" is to ""dead"" as ""succeed"" is to?.
+
+The relationship between ""alive"" and ""dead"" is that ""alive"" is the opposite of ""dead"".
+
+So, we need to find the opposite of ""succeed"".
+
+The opposite of ""succeed"" is indeed ""fail"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Opposite,ugliness,beauty,joy,sorrow,emotion,"Let's break it down:
+
+* ugliness is the opposite of beauty
+* joy is the opposite of?
+
+The correct opposite of joy is sorrow.
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Opposite,huge,tiny,arrive,depart,come,"Let's break it down:
+
+huge : tiny :: arrive :?
+
+The analogy is saying that ""huge"" is to ""tiny"" as ""arrive"" is to?
+
+We know that ""huge"" and ""tiny"" are antonyms, meaning they are opposite in size.
+
+So, we're looking for a pair of words where ""arrive"" is the opposite of the second word.
+
+The correct answer is:
+
+depart
+
+ depart is the opposite of arrive, just like tiny is the opposite of huge.
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Opposite,somber,cheerful,lawyer,client,doctor,"Let's break it down:
+
+* ""somber"" is related to ""cheerful"" in a way that is similar to how ""lawyer"" is related to ""_____"".
+* ""somber"" and ""cheerful"" are antonyms, meaning they are opposite in meaning.
+* ""lawyer"" and ""_____"" should also be antonyms, meaning they should have opposite professions.
+
+The correct answer is:
+
+<ans> D </ans>
+
+A lawyer's client is typically someone who is in a position of need or disadvantage, which is opposite to the lawyer's position of expertise and authority.",,D
+Opposite,late,early,win,lose,capture,"Let's break it down:
+
+late : early :: win :?
+
+The analogy is saying that ""late"" is to ""early"" like ""win"" is to?
+
+The relationship between ""late"" and ""early"" is that ""late"" is the opposite of ""early"". So, we need to find the opposite of ""win"".
+
+The opposite of ""win"" is ""lose"".
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Opposite,quick,slow,grow,wither,plant,"Let's break it down:
+
+""quick : slow :: grow :?""
+
+The notation ""A : B :: C : D"" means that A is to B like C is to D.
+
+In this case, ""quick"" is to ""slow"" like ""grow"" is to...?
+
+We can think of it like this:
+
+* ""quick"" is the opposite of ""slow"" (quick means fast, slow means slow)
+* ""grow"" is the opposite of...?
+
+If we think of the opposite of ""grow"", it would be ""wither"" (to grow means to increase in size, wither means to shrink or decay).
+
+So, the correct answer is:
+
+<ans> D </ans>
+
+The analogy is: quick is to slow like grow is to wither.",,D
+Opposite,antonym,synonym,selfish,generous,egocentric,"Let's break it down:
+
+* ""antonym"" and ""synonym"" are related to words that have opposite or similar meanings, respectively.
+* ""selfish"" is an antonym of ""generous"", so we can conclude that the relationship between ""antonym"" and ""synonym"" is similar to the relationship between ""selfish"" and its opposite.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>
+
+(selfish is an antonym of generous, so the analogy is ""antonym : synonym :: selfish : generous"")",,D
+Opposite,quiet,noisy,last,first,final,"Let's break it down:
+
+quiet : noisy :: last :?
+
+The analogy is saying that ""quiet"" is to ""noisy"" like ""last"" is to...?
+
+We can think of it like a scale or a spectrum. ""Quiet"" is one end of the scale, and ""noisy"" is the other end. Similarly, ""last"" is one end of a scale, and...?
+
+The correct answer is the opposite end of the scale. In this case, the opposite of ""last"" is ""first"".
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Opposite,start,stop,trivial,important,famous,"Let's break it down:
+
+* ""start : stop"" is a pair of words that are related to each other in some way.
+* ""trivial :?"" is another pair of words that are related to each other in the same way as ""start : stop"".
+
+The relationship between ""start"" and ""stop"" is that they are both points in time, and ""start"" is the beginning of a period and ""stop"" is the end of a period.
+
+So, we're looking for a pair of words where the first word is a quality or characteristic, and the second word is something that is the opposite or antithesis of that quality.
+
+* ""trivial"" is a word that means unimportant or insignificant.
+* Therefore, the opposite or antithesis of ""trivial"" would be ""important"".
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Opposite,laugh,cry,cheap,expensive,inexpensive,"Let's break it down:
+
+""laugh : cry :: cheap :?""
+
+The analogy is saying that ""laugh"" is to ""cry"" like ""cheap"" is to something.
+
+We can think of it like this:
+
+* ""laugh"" and ""cry"" are both emotions, but ""laugh"" is a positive emotion and ""cry"" is a negative emotion.
+* Similarly, ""cheap"" and the unknown word are both related to price, but ""cheap"" means low price.
+
+So, if ""cheap"" means low price, then the unknown word should mean high price.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>
+
+(D: expensive)",,D
+Opposite,accept,reject,dark,bright,dim,"Let's break down the analogy:
+
+accept : reject :: dark :?
+
+The relationship between ""accept"" and ""reject"" is that they are opposites. ""Accept"" means to receive something willingly, while ""reject"" means to refuse or decline something.
+
+Similarly, the relationship between ""dark"" and? is that they are also opposites. ""Dark"" means lacking light, while? means having light.
+
+So, the correct answer is:
+
+<ans> D </ans>
+
+(bright)",,D
+Opposite,abundant,scarce,agree,disagree,concur,"Let's break it down:
+
+* ""abundant : scarce"" is a pair of antonyms (opposite meanings)
+* ""agree :?"" should also be a pair of antonyms
+
+So, if ""abundant"" is the opposite of ""scarce"", then ""agree"" is the opposite of... (drumroll)... ""disagree""!
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Opposite,hero,coward,strong,weak,muscular,"Let's break it down:
+
+* ""hero : coward"" means that a hero is the opposite of a coward.
+* We need to find the opposite of ""strong"", which is ""weak"".
+
+So, the correct analogy is:
+
+hero : coward :: strong : weak
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Opposite,teacher,student,calm,stormy,serene,"Let's break it down:
+
+* ""teacher : student"" is a relationship where a teacher is to a student.
+* We're looking for a similar relationship where ""calm"" is to ""D"".
+
+The correct analogy would be:
+
+* ""calm"" is to ""serene"" as ""teacher"" is to ""student"".
+
+So, the correct answer is:
+
+<ans> E </ans>",,E
+Opposite,give,take,allow,forbid,permit,"Let's break it down:
+
+* ""give : take"" is a pair of antonyms (opposite actions)
+* ""allow :?"" is also a pair of antonyms (opposite actions)
+
+So, we need to find the antonym of ""allow"".
+
+* ""forbid"" is the antonym of ""allow""
+* ""permit"" is not the antonym of ""allow"" (it's actually a synonym)
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Opposite,clean,dirty,awake,asleep,alert,"Let's break it down:
+
+* ""clean"" is to ""dirty"" as ""awake"" is to?
+* ""clean"" and ""dirty"" are antonyms (opposite states)
+* ""awake"" and? are also antonyms
+
+So, if ""clean"" is to ""dirty"", then ""awake"" is to ""asleep"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Opposite,remember,forget,increase,decrease,lengthen,"Let's break it down:
+
+""remember : forget :: increase :?""
+
+The analogy is saying that ""remember"" is to ""forget"" as ""increase"" is to...?
+
+We know that ""remember"" and ""forget"" are opposites, so we're looking for a pair of words that are also opposites.
+
+""increase"" and ""decrease"" are opposites, so the correct answer is:
+
+<ans> D </ans>",,D
+Opposite,crazy,sane,bent,straight,crooked,"Let's break it down:
+
+* ""crazy : sane :: bent :?""
+* The relationship between ""crazy"" and ""sane"" is that ""crazy"" is the opposite of ""sane"".
+* The relationship between ""bent"" and the unknown is similar, so we're looking for the opposite of ""bent"".
+* The opposite of ""bent"" is ""straight"", not ""crooked"".
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Function,fly,bird,hop,rabbit,leg,"Let's break it down step by step.
+
+The notation ""A : B :: C : D"" means ""A is to B like C is to D"".
+
+In this case, ""fly : bird :: hop :?"" means ""fly is to bird like hop is to?"".
+
+We know that ""fly"" is a characteristic or action of ""bird"", so we're looking for a characteristic or action of ""rabbit"".
+
+The correct answer is ""hop"" is a characteristic or action of ""rabbit"", so the correct analogy is:
+
+hop : rabbit
+
+Therefore, the correct answer is:
+
+<ans> E </ans>",,E
+Function,build,house,dig,hole,shovel,"Let's break it down:
+
+* ""build"" is related to ""house"" in some way
+* ""dig"" is related to ""hole"" in some way
+* We need to find a word that is related to ""shovel"" in the same way that ""build"" is related to ""house""
+
+The correct analogy is that ""build"" is an action that creates a ""house"", and ""dig"" is an action that creates a ""hole"". Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Function,sing,song,ride,horse,rider,"Let's break it down:
+
+* ""sing"" is a verb, and ""song"" is a noun.
+* The analogy is saying that ""sing"" is to ""song"" like ""ride"" is to...?
+
+We need to find a noun that is related to the verb ""ride"". The correct answer is a noun that is typically ridden.
+
+* A horse is typically ridden, so the correct answer is ""D: horse"".
+
+Final answer: <ans> D </ans>",,D
+Function,hear,ear,wear,clothes,woman,"Let's break it down:
+
+* ""hear"" is related to ""ear"" in some way
+* ""wear"" is related to ""D"" in the same way
+
+The relationship between ""hear"" and ""ear"" is that ""hear"" is an action that is performed on or with the ""ear"".
+
+So, the relationship between ""wear"" and ""D"" is likely that ""wear"" is an action that is performed on or with ""D"".
+
+The only option that fits this relationship is ""D: clothes"", as ""wear"" is an action that is performed on clothes.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Function,drive,car,burn,wood,fire,"Let's break it down step by step.
+
+The notation ""A : B :: C : D"" means ""A is to B like C is to D"".
+
+In this case, ""drive : car :: burn :?""
+
+We know that ""drive"" is related to ""car"" in some way. Let's think about what that relationship might be. When you ""drive"", you are operating a ""car"".
+
+Now, let's look at the second part of the analogy. ""burn"" is related to ""D"" in some way. We know that ""burn"" is often related to fire, so let's think about what ""D"" might be. When something ""burns"", it is often on fire.
+
+So, we can conclude that ""D"" is likely to be ""fire"".
+
+Therefore, the correct answer is:
+
+<ans> E </ans>",,E
+Function,open,door,touch,hands,doctor,"Let's break it down:
+
+* ""open"" is related to ""door"" in some way.
+* ""touch"" is related to? in some way.
+
+We can think of a common relationship between ""open"" and ""door"", which is that ""open"" is an action that is performed on a ""door"".
+
+Similarly, we can think of a common relationship between ""touch"" and?, which is that ""touch"" is an action that is performed on?.
+
+So, we're looking for something that is typically acted upon by ""touch"". Hands are a common thing that people touch, so the correct answer is:
+
+<ans> D </ans>",,D
+Function,squeeze,juice,shoot,gun,miss,"Let's break it down:
+
+* ""squeeze : juice"" means that squeezing something produces juice.
+* We need to find a similar relationship between ""shoot"" and the unknown word.
+
+The correct analogy is that shooting something produces a miss.
+
+So, the correct answer is:
+
+<ans> E </ans>",,E
+Function,cut,knife,hit,hammer,nail,"Let's break it down:
+
+* ""cut"" is related to ""knife"" in a specific way.
+* ""hit"" is related to? in a similar way.
+
+We know that ""cut"" is an action that can be performed with a ""knife"". So, we're looking for an action that can be performed with a ""hammer"".
+
+* ""hit"" is an action that can be performed with a ""hammer"".
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Function,throw,ball,open,envelope,close,"Let's break it down:
+
+* ""throw"" is related to ""ball"" in some way.
+* ""open"" is related to? in some way.
+
+The relationship between ""throw"" and ""ball"" is that ""throw"" is an action done to ""ball"".
+So, we're looking for a relationship between ""open"" and? that is similar.
+
+* ""open"" is an action done to an envelope, which results in the envelope being open.
+* Similarly, ""close"" is an action done to an envelope, which results in the envelope being closed.
+
+Therefore, the correct analogy is:
+
+open : envelope :: close :?
+
+So, the answer is:
+
+<ans> E </ans>",,E
+Function,read,magazine,play,football,kids,"Let's break it down step by step.
+
+The analogy is: read : magazine :: play :?
+
+The first part of the analogy is ""read : magazine"", which means that ""read"" is related to ""magazine"" in some way.
+
+The relationship between ""read"" and ""magazine"" is that ""read"" is an activity that you do with a ""magazine"".
+
+Now, let's look at the second part of the analogy: ""play :?"". We need to find a word that has a similar relationship with ""play"" as ""magazine"" has with ""read"".
+
+The relationship between ""play"" and? is that ""play"" is an activity that you do with?.
+
+So, we need to find a word that is something you play with. And the answer is... football! You play with a football.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Function,carry,suitcase,sit,chair,job,"Let's break it down:
+
+""carry : suitcase :: sit :?""
+
+The analogy is saying that ""carry"" is to ""suitcase"" like ""sit"" is to...?
+
+We know that ""carry"" is an action you do with a ""suitcase"" (you carry it). So, we're looking for an action that you do with a ""chair"" (you...).
+
+The correct answer is: sit on a chair.
+
+So, the correct analogy is: ""sit : chair"".
+
+Therefore, the correct answer is: <ans> D </ans>",,D
+Function,drink,glass,cook,pan,chef,"Let's break it down:
+
+* ""drink : glass"" means that a drink is typically consumed from a glass.
+* We're looking for a similar relationship between ""cook"" and the unknown word.
+
+The correct analogy would be that cooking is typically done in a pan, just like drinking is typically done from a glass.
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Function,burn,fire,blow,wind,down,"Let's break it down:
+
+* ""burn"" is related to ""fire"" in some way.
+* ""blow"" is related to ""wind"" in some way.
+* The analogy is saying that ""burn"" is to ""fire"" like ""blow"" is to ""wind"".
+
+So, we're looking for a word that is related to ""blow"" in the same way that ""fire"" is related to ""burn"".
+
+* ""blow"" is often used to describe the action of moving air, and ""wind"" is the result of that action.
+* Similarly, ""burn"" is often used to describe the action of applying heat, and ""fire"" is the result of that action.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>
+
+""blow"" is to ""wind"" like ""burn"" is to ""fire"".",,D
+Function,ski,snow,swim,water,swimmer,"Let's break it down:
+
+* ""ski"" is related to ""snow"" in some way.
+* ""swim"" is related to ""D"" (water) in the same way that ""ski"" is related to ""snow"".
+
+So, ""swim"" is an activity that takes place in ""water"", just like ""ski"" takes place in ""snow"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Function,tell,story,fight,battle,soldier,"Let's break it down:
+
+* ""tell"" is related to ""story"" in some way.
+* ""fight"" is related to ""battle"" in some way.
+* We need to find a word that is related to ""soldier"" in the same way that ""story"" is related to ""tell"".
+
+The correct analogy is:
+
+* ""tell"" is a way to convey a ""story"".
+* ""fight"" is a way to engage in a ""battle"".
+* Therefore, ""write"" is a way to engage in a ""soldier"".
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Function,run,horse,pull,tractor,muscle,"Let's break it down:
+
+* ""run"" is related to ""horse"" in some way
+* ""pull"" is related to? in some way
+
+We know that a horse is often associated with running, so it's likely that the relationship between ""run"" and ""horse"" is that a horse is a vehicle for running.
+
+If that's the case, then the relationship between ""pull"" and? is likely that? is a vehicle for pulling.
+
+So, what is a common vehicle for pulling? A tractor is a common vehicle used for pulling heavy loads, and it's often associated with pulling.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Function,write,poem,carve,statue,knife,"Let's break it down:
+
+* ""write"" is related to ""poem"" in some way.
+* ""carve"" is related to ""statue"" in some way.
+
+The analogy is saying that ""write"" is to ""poem"" like ""carve"" is to ""statue"".
+
+So, we need to find a word that is related to ""carve"" in the same way that ""poem"" is related to ""write"".
+
+The correct answer is that ""carve"" is used to create a ""statue"", just as ""write"" is used to create a ""poem"".
+
+Therefore, the correct answer is:
+
+<ans> E </ans>
+
+(knife is not the correct answer, as it is not the tool used to create a statue)",,E
+Function,ride,bicycle,drink,cup,water,"Let's break it down:
+
+""ride : bicycle :: drink :?""
+
+The analogy is saying that ""ride"" is to ""bicycle"" like ""drink"" is to something else.
+
+We know that ""ride"" is an action you do on a ""bicycle"", so the relationship between ""ride"" and ""bicycle"" is that ""ride"" is something you do on a ""bicycle"".
+
+So, we're looking for something that you do with a ""cup"". What do you do with a ""cup""? You drink from it!
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Function,throw,ball,jump,parachute,walk,"Let's break it down:
+
+* ""throw"" is related to ""ball"" in some way
+* ""jump"" is related to the unknown word in the same way
+
+The relationship between ""throw"" and ""ball"" is that you throw a ball.
+The relationship between ""jump"" and the unknown word is that you jump with a parachute.
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Function,ride,elevator,sail,boat,wind,"Let's break it down:
+
+""ride : elevator :: sail :?""
+
+The analogy is saying that ""ride"" is to ""elevator"" like ""sail"" is to something else.
+
+We know that ""ride"" is a way to travel using an ""elevator"". So, ""elevator"" is a vehicle for ""ride"".
+
+Similarly, ""sail"" is a way to travel using a ""boat"". So, ""boat"" is a vehicle for ""sail"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,vegetable,cabbage,insect,beetle,frog,"Let's break it down:
+
+* ""vegetable : cabbage"" means that cabbage is a type of vegetable.
+* ""insect :?"" means we need to find a type of insect.
+
+The analogy is saying that just as cabbage is a type of vegetable, the answer should be a type of insect.
+
+So, the correct answer is:
+
+<ans> D </ans>
+
+(D: beetle)",,D
+Category Members,insect,bee,fish,halibut,water,"Let's break it down:
+
+insect : bee :: fish :?
+
+The analogy is saying that ""insect"" is to ""bee"" as ""fish"" is to...?
+
+We know that ""insect"" is a type of animal, and ""bee"" is a type of insect. So, we're looking for a type of fish.
+
+The correct answer is a type of fish, which is ""halibut"".
+
+So, the correct analogy is:
+
+insect : bee :: fish : halibut
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,flower,rose,bird,pigeon,nest,"Let's break down the analogy:
+
+""flower : rose :: bird :?""
+
+The analogy is saying that ""flower"" is to ""rose"" in the same way that ""bird"" is to...?
+
+We know that ""flower"" is a type of ""rose"", so we're looking for a relationship between ""bird"" and the answer that is similar to the relationship between ""flower"" and ""rose"".
+
+The correct answer is that ""bird"" is a type of ""pigeon"", so the analogy would be:
+
+""flower : rose :: bird : pigeon""
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,bird,wren,insect,mosquito,sting,"Let's break it down:
+
+* ""bird : wren"" means that wren is a type of bird.
+* ""insect :?"" means that? is a type of insect.
+
+So, we need to find an insect that is similar to wren in relation to bird. Since wren is a type of bird, we need to find an insect that is a type of mosquito.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,vegetable,lettuce,bird,sparrow,cat,"Let's break it down:
+
+* ""vegetable : lettuce"" means that lettuce is a type of vegetable.
+* ""A : B :: C : D"" means that the relationship between A and B is the same as the relationship between C and D.
+* So, we need to find a relationship between ""bird"" and ""D"" that is similar to the relationship between ""vegetable"" and ""lettuce"".
+
+Since ""lettuce"" is a type of ""vegetable"", we can infer that ""D"" should be a type of ""bird"".
+
+The correct answer is a type of bird, which is a ""sparrow"". Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,sport,soccer,vehicle,bus,engine,"Let's break it down:
+
+* ""sport : soccer"" means that soccer is a type of sport.
+* ""vehicle :?"" means that we're looking for a type of vehicle.
+
+The analogy is saying that just as soccer is a type of sport, the answer is a type of vehicle.
+
+So, the correct answer is a type of vehicle that is commonly associated with roads.
+
+The correct answer is:
+
+<ans> D </ans>",,D
+Category Members,weapon,pistol,clothing,shoes,cotton,"Let's break it down:
+
+* ""A : B :: C : D"" means ""A is to B like C is to D""
+* ""weapon : pistol :: clothing :?"" means ""weapon is to pistol like clothing is to?""
+* Since a weapon is a type of pistol, we can infer that a type of clothing is being sought.
+* The correct answer is something that is a type of clothing, and that is ""shoes"".
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,sport,tennis,weapon,gun,murder,"Let's break it down:
+
+* ""sport : tennis"" means that tennis is a type of sport.
+* We need to find a word that is a type of ""weapon"", just like tennis is a type of sport.
+* The correct answer is ""gun"", which is a type of weapon.
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,furniture,sofa,sport,golf,coat,"Let's break it down step by step.
+
+The analogy is: furniture : sofa :: sport :?
+
+The first part of the analogy is ""furniture : sofa"", which means that sofa is a type of furniture.
+
+The second part of the analogy is ""sport :?"", which means that we need to find a type of sport.
+
+The given option is D: golf, which means that golf is a type of sport.
+
+So, the correct analogy is: furniture : sofa :: sport : golf
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,tool,pliers,vehicle,van,fuel,"Let's break it down:
+
+* ""tool : pliers"" means that a tool is related to pliers in some way.
+* ""vehicle :?"" means that a vehicle is related to something in the same way that a tool is related to pliers.
+
+The relationship between ""tool"" and ""pliers"" is that a tool is a type of pliers. So, we're looking for something that is a type of vehicle.
+
+The answer is a ""van"", which is a type of vehicle. Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,clothing,trousers,fish,cod,net,"Let's break it down:
+
+* ""clothing : trousers"" means that trousers is a type of clothing.
+* ""A : B :: C : D"" means that the relationship between A and B is similar to the relationship between C and D.
+* So, we need to find a relationship between ""fish"" and ""D"" that is similar to the relationship between ""clothing"" and ""trousers"".
+
+The relationship between ""fish"" and ""D"" is that ""D"" is a type of ""fish"".
+
+* ""cod"" is a type of fish, so it fits the analogy.
+* ""net"" is not a type of fish, so it doesn't fit the analogy.
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,fruit,banana,furniture,dresser,house,"Let's break it down:
+
+* ""fruit : banana"" means that banana is a type of fruit.
+* ""furniture :?"" means we need to find a type of furniture that corresponds to the relationship.
+
+Since ""dresser"" is a type of furniture, and ""banana"" is a type of fruit, the correct analogy would be:
+
+furniture : dresser
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,fish,shark,sport,baseball,team,"Let's break it down:
+
+* ""fish : shark"" means that fish is to shark as something is to baseball.
+* So, we need to find something that is related to baseball in a similar way that shark is related to fish.
+
+The correct answer is that baseball is a sport, and a shark is a predator that preys on fish.
+
+Therefore, the correct analogy is:
+
+* sport : baseball
+
+So, the answer is:
+
+<ans> D </ans>",,D
+Category Members,fruit,plum,clothing,coat,silk,"Let's break it down:
+
+* ""fruit : plum"" means that plum is a type of fruit.
+* We need to find a word that is a type of clothing, just like plum is a type of fruit.
+* The correct answer is a type of clothing that is often associated with cold weather, just like plum is a type of fruit that is often associated with autumn/winter.
+* Based on this, the correct answer is ""coat"", which is a type of clothing that is often worn in cold weather.
+
+So, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,flower,carnation,tool,hacksaw,carpenter,"Let's break down the analogy:
+
+""flower : carnation :: tool :?""
+
+The analogy is saying that ""flower"" is to ""carnation"" as ""tool"" is to something else.
+
+We know that a ""carnation"" is a type of ""flower"". So, the relationship between ""flower"" and ""carnation"" is that of a specific type.
+
+Applying this to the second part of the analogy, we can say that ""tool"" is to ""hacksaw"" as ""flower"" is to ""carnation"". This means that ""hacksaw"" is a specific type of ""tool"".
+
+Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,bird,crow,sport,football,stadium,"Let's break it down:
+
+* ""bird : crow"" means that a bird is a type of crow (or, more generally, a crow is a type of bird).
+* ""sport :?"" means that we need to find a type of sport that is similar to the relationship between ""bird"" and ""crow"".
+
+The correct analogy is that a sport is a type of activity, just like a bird is a type of animal. Therefore, the correct answer is:
+
+<ans> D </ans>",,D
+Category Members,weapon,sword,flower,daffodil,vase,"Let's break it down:
+
+* ""A : B :: C : D"" means ""A is to B like C is to D""
+* ""weapon : sword :: flower :?"" means ""a weapon is like a sword, and a flower is like?""
+* Since a sword is a type of weapon, we can infer that a daffodil is a type of flower (just like a vase is a type of container)
+* Therefore, the correct answer is: <ans> D </ans>",,D
+Category Members,clothing,jacket,bird,pigeon,dog,"Let's break it down:
+
+* ""clothing : jacket"" means that jacket is a type of clothing.
+* ""A : B :: C : D"" means that the relationship between A and B is the same as the relationship between C and D.
+* So, we need to find a relationship between ""bird"" and ""D"" that is similar to the relationship between ""clothing"" and ""jacket"".
+
+The correct answer is that ""bird"" is a type of ""pigeon"".
+
+Therefore, the correct analogy is:
+
+bird : pigeon
+
+So, the final answer is:
+
+<ans> D </ans>",,D
+Category Members,furniture,table,fruit,pear,tree,"Let's break it down:
+
+* ""furniture : table"" means that table is a type of furniture.
+* ""::"" is a symbol for analogy.
+* ""C : D"" means that D is a type of C.
+
+So, we need to find a type of fruit that is similar to how table is a type of furniture.
+
+The correct answer is:
+
+<ans> D </ans>",,D
+Category Members,clothing,jeans,vegetable,potato,apple,"Let's break it down:
+
+* ""clothing : jeans"" means that jeans is a type of clothing.
+* ""A : B :: C : D"" means that the relationship between A and B is similar to the relationship between C and D.
+* So, we need to find a vegetable that is similar to jeans in the sense that it is a type of that category.
+
+The correct answer is a type of vegetable that is a specific kind of vegetable, just like jeans is a specific kind of clothing.
+
+The correct answer is <ans> D </ans> because potato is a specific type of vegetable.",,D
