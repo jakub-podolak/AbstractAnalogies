@@ -87,6 +87,7 @@ def human_accuracy():
     return total_human_acc
 
 human_accuracy_val = human_accuracy()
+print(f"Human accuracy: {human_accuracy_val}")
 
 # Define the order of models and prompts explicitly
 models = ["mistral7b", "llama3"]
@@ -151,5 +152,5 @@ ax.legend(title='Prompt Types', loc='lower center', fontsize=12)
 plt.show()
 
 # Save the plot
-plt.savefig(os.path.join(base_dir, "accuracy_comparison_with_models.png"), dpi = 1200)
+plt.savefig(os.path.join(base_dir, "plot_accuracy_verbal_analogy.png"), dpi = 1200)
 
