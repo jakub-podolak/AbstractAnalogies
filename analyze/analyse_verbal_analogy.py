@@ -127,21 +127,29 @@ fig, ax = plt.subplots(figsize=(12, 8))
 for i, prompt in enumerate(prompts):
     # positions_with_offset = positions[i] + offsets[prompt]
     positions_with_offset = positions[i]
-    ax.bar(positions_with_offset, [accuracy_dict[(model, prompt)] for model in models], width=bar_width, label=prompt, color=colors[prompt])
+    
+    ax.bar(positions_with_offset, [accuracy_dict[(model, prompt)] for model in models], 
+           width=bar_width, label=prompt, color=colors[prompt])
+
 
 # Add labels
-ax.set_xlabel('Models', fontweight='bold')
-ax.set_ylabel('Accuracy', fontweight='bold')
-ax.set_title('Verbal Analogies (Majority Vote from 3 prompt variants)')
+font_size = 20
+font = {'family': 'monospace'}
+ax.set_xlabel('Models', fontweight='bold', fontsize=font_size, **font)
+ax.set_ylabel('Accuracy', fontweight='bold', fontsize=font_size, **font)
+# ax.set_title('Verbal Analogies (Majority Vote from 3 prompt variants)')
 ax.set_xticks(r + bar_width * (n_prompts - 1) / 2)
-ax.set_xticklabels(models)
+ax.set_xticklabels(models, fontsize=font_size, **font)
 ax.set_yticks(np.arange(0, 1.1, 0.1))
+# size of the ticks
+ax.tick_params(axis='both', which='major', labelsize=12)
 ax.axhline(y=human_accuracy_val, linewidth=2, label='Mean accuracy of human participants', linestyle='dashed')
-# Legend should be about the prompts
-ax.legend(title='Prompt Types', loc='lower center')
+# Legend here is about prompts
+ax.legend(title='Prompt Types', loc='lower center', fontsize=12)
 
 # Show plot
 plt.show()
 
 # Save the plot
-plt.savefig(os.path.join(base_dir, "accuracy_comparison_with_models.png"))
+plt.savefig(os.path.join(base_dir, "accuracy_comparison_with_models.png"), dpi = 1200)
+
