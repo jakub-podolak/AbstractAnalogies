@@ -23,7 +23,9 @@ df_combined.fillna("E", inplace=True)
 # get the columns except ["relation", "A", "B", "C", "D"]
 columns = df_combined.columns[5:]
 
-model_name = ["mistral7b", "llama3"]
+# model_name = ["starling","llama3", "mistral7b"]
+model_name = ["llama3", "mistral7b"]
+
 
 # if first charatcter is a digit, remove it from of all the columns e.g. remove "1", "2" and "3" 
 # also remove any leading or trailing underscores
@@ -122,7 +124,7 @@ positions = [r + i * bar_width for i in range(n_prompts)]
 
 
 # Create figure and axes
-fig, ax = plt.subplots(figsize=(12, 8))
+fig, ax = plt.subplots(figsize=(8,6))
 
 # Plot each model's data
 for i, prompt in enumerate(prompts):
@@ -134,7 +136,7 @@ for i, prompt in enumerate(prompts):
 
 
 # Add labels
-font_size = 20
+font_size = 14
 font = {'family': 'monospace'}
 ax.set_xlabel('Models', fontweight='bold', fontsize=font_size, **font)
 ax.set_ylabel('Accuracy', fontweight='bold', fontsize=font_size, **font)
@@ -146,7 +148,7 @@ ax.set_yticks(np.arange(0, 1.1, 0.1))
 ax.tick_params(axis='both', which='major', labelsize=12)
 ax.axhline(y=human_accuracy_val, linewidth=2, label='Mean accuracy of human participants', linestyle='dashed')
 # Legend here is about prompts
-ax.legend(title='Prompt Types', loc='lower center', fontsize=12)
+ax.legend(title='Prompt Types', loc='lower center', fontsize=font_size)
 
 # Show plot
 plt.show()

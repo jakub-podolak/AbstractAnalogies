@@ -5,7 +5,7 @@
 #SBATCH --job-name=EvalVerbalAnalogies_starling7b-beta
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=18
-#SBATCH --time=04:00:00
+#SBATCH --time=08:00:00
 #SBATCH --output=eval_verbal_analogies_starling_%A.out
 
 module purge
@@ -29,6 +29,6 @@ for model in "${models[@]}"; do
     find "$directory" -type f -name '*.txt' | while read -r file; do
         # Run the command for each text file with the current model
         echo $file
-        srun python -u eval/eval_story_analogy.py --model "$model" --prompt "$file"
+        srun python -u eval/eval_verbal_analogy.py --model "$model" --prompt "$file"
     done
 done
